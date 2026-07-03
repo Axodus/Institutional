@@ -302,6 +302,44 @@ proceed against the version-locked v0.3.1 package. Controlled external review,
 publication, submission, outreach, grant use, fundraising use, external
 distribution, and authority signaling remain blocked.
 
+## Phase 1.14 internal peer review consolidation status
+
+Phase 1.14 consolidated three supplied internal review inputs in:
+
+- `internal-peer-review-01.md`;
+- `internal-peer-review-02.md`;
+- `internal-peer-review-03.md`; and
+- `internal-peer-review-consolidation.md`.
+
+The consolidation records 19 findings: 10 major, 6 moderate, and 3 minor. No
+critical evidence-boundary breach or sensitive disclosure was confirmed. The
+decisions are 15 accepted, 3 partially accepted, 1 deferred, and 0 rejected.
+
+The main accepted revision requirements are:
+
+- explain theoretical dependency direction, information flow, and control
+  handoffs among the conceptual architecture components;
+- reduce or remove the prominent DeFi dependency example;
+- verify provenance and algorithmic-accountability literature before adding
+  citations;
+- add only controlled, explicitly synthetic illustrations;
+- clarify contestability through independence, recusal, review capacity, and
+  capture-resistance requirements;
+- add simplification and scope-reduction principles;
+- define proposed evaluation measures and a staged future validation path
+  without implying deployment or completed studies; and
+- reduce residual defensive wording while preserving evidence boundaries.
+
+`v0.3.2-patch-plan.md` defines the authorized scope for the next internal
+manuscript-editing phase. It does not open v0.3.2 in Phase 1.14 and does not
+authorize v0.4.
+
+No manuscript source or cited bibliography entry was modified in Phase 1.14.
+The current category is **Ready for v0.3.2 targeted internal revision only**.
+Controlled external review, publication, submission, outreach, grant use,
+fundraising use, external distribution, and authority signaling remain
+blocked.
+
 ## Phase 1.1 review status
 
 Phase 1.1 critical editorial review was completed on 2026-07-03. A skeptical
@@ -362,6 +400,11 @@ security properties, financial performance, or operational maturity.
 - `papers/axodus-architecture-paper/internal-peer-review-instructions.md`
 - `papers/axodus-architecture-paper/internal-peer-review-form.md`
 - `papers/axodus-architecture-paper/README.md`
+- `papers/axodus-architecture-paper/internal-peer-review-01.md`
+- `papers/axodus-architecture-paper/internal-peer-review-02.md`
+- `papers/axodus-architecture-paper/internal-peer-review-03.md`
+- `papers/axodus-architecture-paper/internal-peer-review-consolidation.md`
+- `papers/axodus-architecture-paper/v0.3.2-patch-plan.md`
 - `whitepaper/README.md`
 - `articles/README.md`
 - `outreach/README.md`
@@ -417,6 +460,10 @@ The following research areas remain candidates and are not cited:
 - deliberative and informed participation;
 - automation bias and calibrated reliance;
 - contestable automated decisions;
+- data provenance and provenance standards;
+- algorithmic accountability;
+- governance metrics and institutional review processes;
+- complex-system accidents and socio-technical coupling;
 - empirical DAO voting and delegation;
 - educational assessment validity and equity;
 - maturity-model reliability.
@@ -429,6 +476,10 @@ formatting has not been applied.
 - The verified bibliography is still thin for deliberative competence,
   contestability and appeals, educational assessment validity, DAO
   participation behavior, and Web3 regulatory constraints.
+- The Phase 1.14 review identified additional material gaps in data
+  provenance, provenance standards, algorithmic accountability, governance
+  measures, institutional review processes, complex-system accidents, and
+  socio-technical coupling.
 - Additional candidate work is now explicitly tracked for calibrated reliance,
   appeals, assessment validity, DAO participation behavior, maturity-model
   reliability, and Web3 regulatory constraints.
@@ -436,8 +487,8 @@ formatting has not been applied.
   until primary-source metadata is verified.
 - No additional references should enter `references.bib` until they are both
   verified and actually needed by the manuscript.
-- Related-work adequacy is now sufficient for author review but still below
-  the threshold for controlled external review.
+- Related work supported internal review, but the Phase 1.14 findings confirm
+  that it remains below the threshold for controlled external review.
 - The bibliography hardening plan now distinguishes `must close before
   controlled external review` gaps from later-stage gaps; that prioritization
   should govern any future verification work.
@@ -458,15 +509,14 @@ The current controls block:
 The only historical wording admitted to the manuscript is: “The project
 originates from a multi-year independent research and design effort.”
 
-## Unresolved blockers
+## Unresolved blockers before external use, controlled review, or publication
 
 1. Obtain author approval for name, affiliation, title, abstract, and release
    license.
 2. Resolve whether the paper should remain one broad architecture manuscript
    or be narrowed before any external review.
-3. Complete substantive review by independent readers with relevant expertise
-   in socio-technical systems, governance, human–AI interaction, education,
-   decentralized systems, and risk.
+3. Resolve the Phase 1.14 internal findings and complete any later review
+   required for a controlled external-review decision.
 4. Verify that every Axodus-specific statement conforms to the intended public
    disclosure boundary.
 5. Review the CC BY 4.0 licensing notice and third-party rights before release.
@@ -475,6 +525,11 @@ originates from a multi-year independent research and design effort.”
 
 ## Critical editorial blockers
 
+- The conceptual architecture still needs explicit dependency direction,
+  information flow, and control handoffs among authority, evidence,
+  AI-assistance provenance, rationale, decision, and review.
+- Data-provenance and algorithmic-accountability support must be verified
+  before related manuscript claims are strengthened.
 - Related-work coverage remains insufficient for controlled external review in
   contestability and appeals, assessment validity, deliberative competence,
   calibrated reliance, DAO participation behavior, maturity-model reliability,
@@ -554,14 +609,11 @@ recorded and may be treated as approved for manuscript-editing purposes.
 
 ## Recommended next human review
 
-Assign two to four named internal reviewers using
-`internal-peer-review-package.md`, `internal-peer-review-instructions.md`, and
-`internal-peer-review-form.md`. Reviewers should have complementary expertise
-in socio-technical or institutional governance, human–AI interaction and
-evaluation methods, and systems traceability or auditability. A specialist in
-decentralized governance, contestability, credentialing, or regulation may be
-added for supporting sections. Record and resolve the resulting findings
-before any later circulation decision.
+Execute the targeted internal hardening scope in `v0.3.2-patch-plan.md` in a
+separate phase. Verify candidate provenance and accountability sources before
+adding citations, keep controlled illustrations explicitly synthetic, and
+preserve all evidence and external-use boundaries. Re-review the resulting
+exact manuscript before any later circulation decision.
 
 ## Checklist status
 
@@ -569,18 +621,21 @@ The automated/static portions of the publication checklist were executed.
 Human judgment items remain unchecked in
 `../../governance/publication-review-checklist.md`.
 Checklist applied: yes, for the automated/static checks completed through
-Phase 1.13.
+Phase 1.14.
 
 ## Readiness status
 
-Phase 1.13B readiness category: **Ready for internal peer review.**
+Phase 1.14 readiness category: **Ready for v0.3.2 targeted internal revision
+only.**
 
 Ready for controlled external review: no  
 Ready for public publication: no
 
-Internal peer review authorized: yes
+Internal review inputs consolidated: yes
 
-**Current status: v0.3.1 internal peer review package complete and active
-directory sanitized; ready for internal peer review only; blocked for
-controlled external review, publication, submission, outreach, grant use,
-fundraising use, external distribution, and authority signaling.**
+v0.3.2 targeted internal edits authorized for the next phase: yes
+
+**Current status: v0.3.1 internal review inputs consolidated; targeted v0.3.2
+internal revision authorized for the next phase; blocked for controlled
+external review, publication, submission, outreach, grant use, fundraising
+use, external distribution, and authority signaling.**
