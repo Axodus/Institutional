@@ -241,6 +241,40 @@ The v0.3.1 manuscript is **ready for internal peer review**. Controlled
 external review, publication, submission, outreach, grant use, fundraising
 use, external distribution, and authority signaling remain blocked.
 
+## Phase 1.13 internal peer review package status
+
+Phase 1.13 created a controlled internal peer review package:
+
+- `internal-peer-review-package.md` defines the version-locked file manifest,
+  sharing tiers, reviewer questions, recommended reviewer profile, and package
+  controls;
+- `internal-peer-review-instructions.md` defines confidentiality,
+  non-distribution, review scope, finding severity, evidence discipline, and
+  return procedures; and
+- `internal-peer-review-form.md` provides structured ratings, findings,
+  literature-gap assessment, publication-risk assessment, and a bounded
+  internal outcome.
+
+The core review package is limited to the manuscript, references, review
+documents, pre-review readiness record, evidence boundaries, maturity
+taxonomy, and verified bibliography. Editorial history, candidate
+bibliography, terminology, citation policy, IP policy, and the full readiness
+report are conditional materials supplied only when relevant to an assigned
+review scope. Private implementation, infrastructure, security, financial,
+operational, credential, source-code, prompt, and sensitive-IP materials are
+excluded.
+
+The package records SHA-256 hashes for the exact v0.3.1 manuscript sources and
+requires named reviewers, private transfer, non-distribution, conflict
+disclosure, and controlled return or deletion. It does not authorize reviewers
+to browse the repository or seek external context independently.
+
+No manuscript content, citation, or bibliography entry was modified in Phase
+1.13. The manuscript remains **ready for internal peer review only**.
+Controlled external review, publication, submission, outreach, grant use,
+fundraising use, external distribution, and authority signaling remain
+blocked.
+
 ## Phase 1.1 review status
 
 Phase 1.1 critical editorial review was completed on 2026-07-03. A skeptical
@@ -297,6 +331,9 @@ security properties, financial performance, or operational maturity.
 - `papers/axodus-architecture-paper/v0.3-compression-change-log.md`
 - `papers/axodus-architecture-paper/v0.3.1-pre-review-change-log.md`
 - `papers/axodus-architecture-paper/v0.3.1-pre-review-readiness-record.md`
+- `papers/axodus-architecture-paper/internal-peer-review-package.md`
+- `papers/axodus-architecture-paper/internal-peer-review-instructions.md`
+- `papers/axodus-architecture-paper/internal-peer-review-form.md`
 - `whitepaper/README.md`
 - `articles/README.md`
 - `outreach/README.md`
@@ -489,17 +526,14 @@ recorded and may be treated as approved for manuscript-editing purposes.
 
 ## Recommended next human review
 
-Conduct an author-level editorial review against `reviewer-report.md`,
-`author-review-brief.md`, `v0.2-editorial-plan.md`, and
-`author-decision-record-v0.2.md` before any circulation decision. The v0.3
-rewrite should now be reviewed against `v0.3-editorial-plan.md`,
-`v0.3-author-review-record.md`, `v0.3-change-log.md`,
-`v0.3-author-review-brief.md`, and `v0.3-author-review-checklist.md`, but
-circulation remains blocked. The next internal working documents are now
-`v0.3-minor-edits-plan.md`, `bibliography-hardening-plan.md`, and
-`v0.3-compression-change-log.md`. Internal peer reviewers should additionally
-use `v0.3.1-pre-review-change-log.md` and
-`v0.3.1-pre-review-readiness-record.md`.
+Assign two to four named internal reviewers using
+`internal-peer-review-package.md`, `internal-peer-review-instructions.md`, and
+`internal-peer-review-form.md`. Reviewers should have complementary expertise
+in socio-technical or institutional governance, human–AI interaction and
+evaluation methods, and systems traceability or auditability. A specialist in
+decentralized governance, contestability, credentialing, or regulation may be
+added for supporting sections. Record and resolve the resulting findings
+before any later circulation decision.
 
 ## Checklist status
 
@@ -507,18 +541,18 @@ The automated/static portions of the publication checklist were executed.
 Human judgment items remain unchecked in
 `../../governance/publication-review-checklist.md`.
 Checklist applied: yes, for the automated/static checks completed through
-Phase 1.12.
+Phase 1.13.
 
 ## Readiness status
 
-Phase 1.12 readiness category: **Ready for internal peer review.**
+Phase 1.13 readiness category: **Ready for internal peer review.**
 
 Ready for controlled external review: no  
 Ready for public publication: no
 
 Internal peer review authorized: yes
 
-**Current status: v0.3.1 pre-review patch complete; ready for internal peer
-review only; blocked for controlled external review, publication, submission,
-outreach, grant use, fundraising use, external distribution, and authority
-signaling.**
+**Current status: v0.3.1 internal peer review package complete; ready for
+internal peer review only; blocked for controlled external review,
+publication, submission, outreach, grant use, fundraising use, external
+distribution, and authority signaling.**
