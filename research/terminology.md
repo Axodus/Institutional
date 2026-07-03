@@ -51,6 +51,34 @@ It is **not** the homonymous cryptographic concept in which a prover
 demonstrates knowledge of a secret without revealing it. It is also not
 proof-of-work, proof-of-stake, or an implemented credential protocol.
 
+For the architecture paper v0.2, `Proof of Knowledge` remains internal Axodus
+terminology and should not be the primary public academic term. Preferred
+paper-facing alternatives are `knowledge-gated participation`,
+`educational participation mechanism`, or `governance-readiness mechanism`.
+If the internal label is mentioned in manuscript text, it should be introduced
+once as an Axodus-internal term with a strong disclaimer.
+
+## Academy
+
+An internal Axodus label for an educational or learning-oriented layer. In
+manuscript-facing text for the architecture paper, prefer `educational layer`
+or `learning and credentialing layer` unless the internal Axodus label must be
+named explicitly for clarification.
+
+## Learn to Win
+
+A candidate UX or gamification motto only. It is not approved terminology for
+academic manuscript use, tokenomics terminology, or public brand use before
+trademark and legal review.
+
+## Tokenomics boundary
+
+For the architecture paper, the relationship between educational
+participation, `$Neurons`, token minting, token supply, scarcity, incentives,
+and tokenomics is out of scope. The paper must not describe the educational
+mechanism as a token minting engine, supply-control mechanism, scarcity
+engine, value-accrual mechanism, or financial incentive model.
+
 ## Prototype stage
 
 A stage in which architecture, requirements, and experiments may be developed

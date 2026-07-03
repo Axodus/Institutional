@@ -28,6 +28,30 @@ Phase 1.2 also established a v0.2 editorial direction: narrow the title,
 rewrite the abstract and introduction around a clearer research gap, and keep
 the PoK-tokenomics relationship out of scope for the architecture paper.
 
+## Phase 1.3 author-decision status
+
+Phase 1.3 recorded the approved v0.2 author-direction decisions in
+`author-decision-record-v0.2.md`.
+
+Recorded decisions now include:
+
+- v0.2 title direction must explicitly signal prototype-stage conceptual
+  architecture;
+- `Proof of Knowledge` remains internal Axodus terminology and should not be
+  the primary public academic term;
+- paper-facing terminology should prefer descriptive phrases such as
+  `knowledge-gated participation` or `educational participation mechanism`;
+- `Academy` should be replaced in manuscript-facing text with
+  `educational layer` or `learning and credentialing layer`, except when named
+  explicitly as an internal label;
+- the relationship between educational participation, `$Neurons`, token
+  minting, supply, scarcity, incentives, and tokenomics is out of scope for
+  this paper;
+- `Learn to Win` is not approved for academic or public brand use before legal
+  review;
+- the paper remains blocked from publication, outreach, grants, fundraising,
+  and authority signaling.
+
 ## Phase 1.1 review status
 
 Phase 1.1 critical editorial review was completed on 2026-07-03. A skeptical
@@ -161,17 +185,13 @@ originates from a multi-year independent research and design effort.”
    license.
 3. Resolve whether the paper should remain one broad architecture manuscript
    or be narrowed before any external review.
-4. Decide whether `Proof of Knowledge` remains an acceptable public term or
-   should be replaced before external circulation.
-5. Clarify whether `Academy` is a public generic component label or an
-   Axodus-specific term that should be removed or rephrased.
-6. Complete substantive review by independent readers with relevant expertise
+4. Complete substantive review by independent readers with relevant expertise
    in socio-technical systems, governance, human–AI interaction, education,
    decentralized systems, and risk.
-7. Verify that every Axodus-specific statement conforms to the intended public
+5. Verify that every Axodus-specific statement conforms to the intended public
    disclosure boundary.
-8. Review the CC BY 4.0 licensing notice and third-party rights before release.
-9. Select a venue and apply its authorship, disclosure, formatting, and
+6. Review the CC BY 4.0 licensing notice and third-party rights before release.
+7. Select a venue and apply its authorship, disclosure, formatting, and
    submission requirements in a separate phase.
 
 ## Critical editorial blockers
@@ -182,10 +202,8 @@ originates from a multi-year independent research and design effort.”
 - Related-work coverage is still insufficient for controlled external review in
   educational assessment, deliberative competence, contestability, DAO
   participation behavior, and Web3 regulatory constraints.
-- Key author-facing terminology decisions remain unresolved, especially
-  `Proof of Knowledge` and `Academy`.
-- The author must explicitly approve the no-tokenomics scope boundary for the
-  v0.2 architecture manuscript.
+- The approved terminology and no-tokenomics boundary now need to be applied
+  consistently in the v0.2 manuscript rewrite.
 
 ## Editorial risks
 
@@ -231,23 +249,22 @@ originates from a multi-year independent research and design effort.”
 
 ## Author decisions required
 
-- Keep or replace the term `Proof of Knowledge`.
-- Keep or rephrase the term `Academy`.
 - Keep one broad architecture paper or split into narrower papers.
 - Choose the next review mode: author review only or controlled external
   review after revision.
 - Approve the public correspondence address, affiliation wording, and license
   posture for any later circulation.
-- Approve the v0.2 boundary that defers token-linked educational and supply
-  mechanics to a separate technical note.
+
+The terminology and no-tokenomics boundary decisions for v0.2 have now been
+recorded and may be treated as approved for manuscript-editing purposes.
 
 ## Recommended next human review
 
 Conduct an author-level editorial review against `reviewer-report.md`,
-`author-review-brief.md`, and `v0.2-editorial-plan.md` before any manuscript
-rewrite. Review should first resolve terminology, scope, title, abstract,
-research-gap framing, and the explicit no-tokenomics boundary. Only after
-those issues are resolved should v0.2 drafting begin.
+`author-review-brief.md`, `v0.2-editorial-plan.md`, and
+`author-decision-record-v0.2.md` before any circulation decision. v0.2
+manuscript drafting may now begin under the recorded title, terminology, and
+scope constraints, but circulation remains blocked.
 
 ## Checklist status
 
@@ -258,10 +275,12 @@ Checklist applied: yes, for the automated/static checks completed in Phase 1.
 
 ## Readiness status
 
-Phase 1.2 readiness category: **Ready for author review only.**
+Phase 1.3 readiness category: **Ready for author review only.**
 
 Ready for controlled external review: no  
 Ready for public publication: no
 
-**Current status: author review ready; blocked for controlled external review
-and publication.**
+v0.2 manuscript edits authorized: yes  
+
+**Current status: author review ready; v0.2 editing authorized; blocked for
+controlled external review and publication.**
