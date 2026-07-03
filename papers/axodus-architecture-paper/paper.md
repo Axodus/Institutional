@@ -1,83 +1,79 @@
 ---
-title: "Axodus: A Prototype-Stage Conceptual Architecture for Governance-Oriented Human-AI Coordination"
+title: "Axodus: A Prototype-Stage Conceptual Architecture for Traceability and Accountability in Human-AI-Assisted Digital Institutions"
 author:
   - "Mauricio Z. Filho"
 affiliation: "Independent Researcher, Axodus"
 correspondence: "[public contact to be added]"
-version: "Draft v0.2"
+version: "Draft v0.3"
 status: "Internal author review required; not ready for publication"
 license: "CC BY 4.0"
-document_type: "Prototype-stage conceptual architecture and research-agenda paper"
+document_type: "Prototype-stage conceptual architecture and focused research-agenda paper"
 ---
 
 # Abstract
 
-Digital institutions increasingly combine governance rules, public records,
-automated assistance, and participation requirements, yet the literatures most
-relevant to these concerns are often treated separately. Socio-technical
-systems work, decentralized-governance research, human–AI oversight guidance,
-and credentialing standards each address part of the problem, but they do not
-by themselves specify an inspectable institutional model that connects
-authority, evidence, participation readiness, and bounded automation. This
-paper presents Axodus as a prototype-stage conceptual architecture and
-research agenda for that integrative problem. It makes three bounded
-contributions: a layered model linking governance, evidence, modular
-components, an educational layer, and risk boundaries; a distinction between
-documentation maturity and development maturity; and a sequenced evaluation
-agenda for traceability, participation readiness, human–AI reliance, and
-governance risk. Axodus is described only as a conceptual, prototype-stage
-model. The paper reports no deployed system, users, empirical outcomes,
-security validation, or token-linked mechanism. An internal Axodus term,
-“Proof of Knowledge,” is treated here only as a label for an educational
-participation mechanism, not as a cryptographic protocol or financial design.
+Digital institutions increasingly rely on automated assistance while still
+requiring identifiable authority, reviewable evidence, and accountable human
+oversight. Existing literatures address socio-technical design, decentralized
+governance, human–AI interaction, and credentialing standards, but they do not
+by themselves yield a focused conceptual architecture for traceability and
+accountability in human–AI-assisted institutional decision making. This paper
+presents Axodus as a prototype-stage conceptual architecture and focused
+research agenda for that problem. Its central contribution is a layered model
+for linking decision authority, evidence, bounded AI assistance, rationale,
+and review paths in digital institutions. Supporting components include a
+participation readiness mechanism, risk boundaries, and a distinction between
+documentation maturity and development maturity. Axodus is described only as a
+conceptual, prototype-stage model. The paper reports no deployed system,
+empirical validation, operational readiness, or token-linked mechanism.
 
 **Keywords:** socio-technical systems; digital institutions; human–AI
-coordination; governance; accountability; decentralized organizations;
-educational participation; maturity models
+coordination; traceability; accountability; governance; contestability
 
 # 1. Introduction
 
 Digital institutions can combine distributed governance, public
 documentation, automated assistance, and participation requirements within the
 same decision environment. Those capabilities do not by themselves determine
-who may decide, what evidence is required, how automation should be bounded,
-or how an affected party can challenge a decision. Socio-technical systems
-research therefore treats organizational design and technical design as
-interdependent rather than assuming that one can be derived from the other
-[@baxter2011sociotechnical].
+who may decide, what evidence supports a decision, how an automated analysis
+should be reviewed, or how an affected party can challenge an outcome.
+Socio-technical systems research therefore treats organizational design and
+technical design as interdependent rather than assuming that one can be
+derived from the other [@baxter2011sociotechnical].
 
-Relevant literatures address these concerns from different directions.
-Research on decentralized governance highlights the continuing importance of
-interpretation, change, and coordination around self-executing rules
-[@hassan2021dao; @hsieh2018bitcoin]. Human–AI interaction guidance emphasizes
-expectation setting, correction, and review rather than an undifferentiated
-transfer of authority [@amershi2019guidelines]. Credentialing standards help
-separate machine verification from institutional judgment
-[@w3c2025vcdm]. What remains less clearly specified is an inspectable
-institutional model that brings these concerns together without overstating
-implementation, legitimacy, or operational maturity.
+Relevant literatures clarify parts of this problem but do not yet yield a
+single focused institutional model for traceability and accountability under
+human–AI-assisted decision making. Research on decentralized governance
+highlights the continuing importance of interpretation, change, and social
+coordination around self-executing rules [@hassan2021dao; @hsieh2018bitcoin].
+Human–AI interaction guidance emphasizes expectation setting, correction, and
+review rather than an undifferentiated transfer of authority
+[@amershi2019guidelines]. Credentialing standards help separate machine
+verification from institutional judgment [@w3c2025vcdm]. What remains less
+clearly specified is how authority, evidence, bounded AI assistance,
+contestability, and review paths should be organized together in one
+inspectable conceptual architecture.
 
-This paper introduces Axodus as a prototype-stage conceptual architecture and
-research agenda for that integrative problem. The project originates from a
-multi-year independent research and design effort. The present contribution is
-limited to a model: it does not report a functioning platform, production
-deployment, users, evaluation results, validated controls, or any token-linked
-participation mechanism.
+This paper addresses that gap by introducing Axodus as a prototype-stage
+conceptual architecture and focused research agenda. The project originates
+from a multi-year independent research and design effort. The present
+contribution is limited to a model: it does not report a functioning platform,
+production deployment, users, evaluation results, validated controls, or any
+token-linked participation mechanism.
 
-The paper makes three bounded contributions. First, it presents a layered
-architecture connecting institutional rules, evidence, modular components, an
-educational layer, bounded AI assistance, and risk boundaries. Second, it
-separates documentation maturity from development maturity to reduce the risk
-that extensive documentation is mistaken for operational readiness. Third, it
-defines a sequenced evaluation agenda through which the proposed architecture
-could be tested, rejected, or revised.
+The central contribution is a layered architecture for traceability and
+accountability in human–AI-assisted digital institutions. It links
+institutional authority, evidence, bounded AI assistance, decision rationale,
+and review paths. Participation readiness, maturity separation, and risk
+boundaries remain in the paper only as supporting components needed to frame
+how such an architecture might be inspected and eventually evaluated.
 
 Several matters are outside the paper's scope. The manuscript does not claim
-an implemented system, validated governance outcomes, demonstrated educational
-effects, security guarantees, or operational readiness. It also does not
-address token minting, token supply, value accrual, incentives, or other
-tokenomics questions, which require separate legal, economic, and empirical
-review.
+an implemented system, validated governance outcomes, calibrated human-AI
+reliance, demonstrated educational effects, security guarantees, or
+operational readiness. It also does not address token minting, token supply,
+value accrual, incentives, or other tokenomics questions, which require
+separate legal, economic, and empirical review.
 
 # 2. Background and Related Work
 
@@ -96,7 +92,7 @@ rules, records, and technical capabilities through which participants pursue
 collective activity. It does not require that every rule be executable or that
 every interaction occur on a blockchain.
 
-## 2.2 Decentralized governance and coordination
+## 2.2 Decentralized governance, traceability, and review
 
 Hassan and De Filippi describe a DAO as a blockchain-based system in which
 people coordinate through decentralized governance and self-executing rules
@@ -107,12 +103,11 @@ distribution with accountable governance.
 
 Research on composable digital infrastructures also shows how dependencies can
 propagate across connected components and governance arrangements
-[@schar2021defi]. Axodus does not claim to operate any live financial or
-asset-linked system. The relevance of this literature here is narrower: it
-illustrates how technical composability can intensify governance and
-coordination risk when authority and rationale remain unclear.
+[@schar2021defi]. The relevance of this literature here is limited: it shows
+that technical coordination can amplify the consequences of weak review paths,
+unclear authority, and poor decision traceability.
 
-## 2.3 Human–AI interaction and governance
+## 2.3 Human–AI oversight, calibrated reliance, and governance
 
 Guidelines for human–AI interaction emphasize communicating system
 capabilities, supporting correction, and learning from behavior over time
@@ -120,7 +115,7 @@ capabilities, supporting correction, and learning from behavior over time
 Management Framework treats governance, mapping, measurement, and management
 as connected risk functions [@tabassi2023airmf]. These sources motivate an
 architecture in which AI outputs are attributable inputs to decisions rather
-than sovereign decisions.
+than sovereign decisions and in which human review conditions remain visible.
 
 Constitutional AI uses written principles to guide model behavior through
 supervised learning and AI feedback [@bai2022constitutional]. Axodus uses
@@ -128,12 +123,12 @@ supervised learning and AI feedback [@bai2022constitutional]. Axodus uses
 authority, prohibitions, amendments, review, and appeal. The proposed model
 does not claim to train or align an AI model through Constitutional AI.
 
-## 2.4 Credentials and participation
+## 2.4 Credentials, participation readiness, and institutional judgment
 
 The W3C Verifiable Credentials Data Model separates the cryptographic
 verification of a credential from validation of whether its claims are fit for
-a verifier's purpose [@w3c2025vcdm]. This is central to the educational
-component proposed here. A technically verifiable record would not establish
+a verifier's purpose [@w3c2025vcdm]. This is relevant to the participation
+readiness mechanism discussed later. A technically verifiable record would not establish
 that an assessment is fair, that learning occurred, or that a governance
 restriction is legitimate.
 
@@ -142,9 +137,9 @@ restriction is legitimate.
 The architecture addresses a design problem rather than an established
 empirical effect:
 
-> How can a modular digital institution connect explicit authority,
-> evidence-linked accountability, educational participation, human-supervised
-> AI assistance, and risk boundaries without conflating documentation with
+> How can a digital institution make human–AI-assisted decisions more
+> traceable, contestable, and accountable by linking authority, evidence,
+> rationale, and review paths without conflating documentation with
 > implementation or automation with legitimate governance?
 
 Five tensions structure the problem.
@@ -189,19 +184,22 @@ produces accountability.
 
 ## 4.3 Modular institutional components
 
-Bounded components represent institutional capabilities such as learning,
-proposal review, risk analysis, or record keeping. Each component should
+Bounded components represent institutional capabilities such as proposal
+review, record keeping, or participation support. Each component should
 declare its purpose, inputs, outputs, authority, dependencies, evidence
-requirements, and failure behavior. No definitive inventory or implementation
-status is asserted in this draft.
+requirements, and failure behavior. In this paper, modularity matters chiefly
+because it affects how responsibility, evidence, and failure can be traced
+across decision processes. No definitive inventory or implementation status is
+asserted in this draft.
 
-## 4.4 Educational layer and participation
+## 4.4 Participation readiness support
 
-An educational layer and an educational participation mechanism are proposed
-as interfaces for learning and assessment. Their purpose would be to help
-participants understand domain-specific risks and governance duties before
-performing selected consequential actions. They must not become a general
-social ranking system.
+An educational layer and a participation readiness mechanism are proposed as
+supporting interfaces for learning and assessment. Their purpose would be to
+help participants understand domain-specific risks and governance duties
+before performing selected consequential actions. In this paper, they are
+supporting elements rather than co-equal contributions. They must not become a
+general social ranking system.
 
 ## 4.5 Human–AI assistance
 
@@ -211,21 +209,24 @@ review material. Each use should declare the task, source material, output,
 uncertainty where available, human reviewer, and disposition. Humans retain
 decision authority and responsibility.
 
-## 4.6 Risk and sustainability boundaries
+## 4.6 Risk and review boundaries
 
 The risk layer expresses constraints on authority, exposure, timing,
 conflicts, and escalation. Its purpose is to make consequential decisions
 reviewable in relation to defined boundaries rather than to imply a working
-control system. This is a design requirement only: the paper claims no
-implemented enforcement, security property, or live operational control.
+control system. In v0.3, this layer is included because it supports
+accountability and reviewability, not because it is itself the paper's central
+contribution. The paper claims no implemented enforcement, security property,
+or live operational control.
 
-# 5. Modularity and Maturity
+# 5. Modularity and Maturity as Supporting Controls
 
 Axodus proposes two distinct maturity axes. L0–L5 represents documentation
-maturity; D0–D5 represents development maturity. This paper deliberately does
-not define the individual levels, assign scores, or report component status.
-Those actions require observable criteria and evidence not available in the
-current public repository.
+maturity; D0–D5 represents development maturity. In this paper, the
+distinction matters only because it helps prevent documentation from being
+mistaken for implemented or validated accountability mechanisms. This draft
+does not define the individual levels, assign scores, or report component
+status.
 
 The separation is intended to prevent three category errors:
 
@@ -241,12 +242,13 @@ should be evaluated before the axes are used in public reporting.
 Modularity is similarly a hypothesis rather than an assured property.
 Component boundaries may support bounded change and review, but they can also
 move complexity into interfaces. Evaluation must therefore examine dependency
-visibility, cross-component failure, and governance consistency.
+visibility, cross-component failure, governance consistency, and whether the
+resulting architecture is governable at all.
 
-# 6. Educational Participation and Governance Readiness
+# 6. Participation Readiness as a Supporting Mechanism
 
 **Terminology note.** Axodus notes use the internal label *Proof of Knowledge*
-for the educational participation mechanism discussed here. In this paper, the
+for the participation readiness mechanism discussed here. In this paper, the
 mechanism is described in functional terms to avoid confusion with
 cryptographic proof-of-knowledge protocols, proof-of-work, proof-of-stake, or
 token-linked participation schemes.
@@ -267,8 +269,10 @@ or justify authorization [@w3c2025vcdm]. The governance problem therefore
 includes who defines curricula, who assesses assessors, how accommodations are
 provided, and how a participant can contest an outcome.
 
-The central hypothesis is that knowledge-gated participation may improve the
-quality of participation in selected high-consequence contexts. Competing
+The central hypothesis is that a participation readiness mechanism may improve
+the quality of participation in selected high-consequence contexts. A
+secondary descriptive phrase for this idea is *knowledge-gated participation*.
+Competing
 hypotheses are equally important: the mechanism may reduce participation,
 favor already advantaged groups, encourage test gaming, centralize curriculum
 power, or create privacy risks. The mechanism should be rejected or redesigned
@@ -296,7 +300,7 @@ These requirements align with risk-oriented governance and human–AI
 interaction guidance [@tabassi2023airmf; @amershi2019guidelines], but their
 effectiveness in Axodus remains untested.
 
-# 8. Risk Boundaries
+# 8. Risk Boundaries as Supporting Constraints
 
 Risk boundaries are proposed at four levels:
 
@@ -334,64 +338,64 @@ evaluated states.
 
 # 10. Evaluation Plan
 
-The architecture yields five initial research questions.
+The evaluation program is intentionally prioritized rather than broad.
 
-**RQ1 — Traceability:** Does the proposed evidence model help independent
-reviewers reconstruct decisions more accurately and efficiently than a
-document-only baseline? A study could use matched governance scenarios,
-blinded reviewers, reconstruction accuracy, time, disagreement, and missing-
-evidence detection.
+**Primary initial study — RQ1: Traceability.** Does the proposed evidence
+model help independent reviewers reconstruct decisions more accurately and
+efficiently than a document-only baseline? A study could use matched
+governance scenarios, blinded reviewers, reconstruction accuracy, time,
+disagreement, and missing-evidence detection. This is the paper's primary
+evaluation priority because it most directly tests the central claim about
+traceability and accountability.
 
-**RQ2 — Educational participation:** Does a knowledge-gated participation
-mechanism improve
-domain-relevant understanding without unacceptable exclusion? A staged study
-should measure learning, retention, decision reasoning, completion,
-accessibility, subgroup effects, appeals, and test gaming. Token-linked or
-financial stakes should not be introduced in an initial study.
+**Secondary initial study — RQ3: Human–AI reliance.** For bounded
+proposal-analysis tasks, how do provenance and mandatory human disposition
+affect error detection, calibrated reliance, override behavior, and review
+quality? Experiments should include planted AI errors and ambiguous cases.
+This is a secondary priority because the architecture depends on bounded AI
+assistance being reviewable rather than merely available.
 
-**RQ3 — Human–AI reliance:** For bounded proposal-analysis tasks, how do
-provenance and mandatory human disposition affect error detection, calibrated
-reliance, override behavior, and review quality? Experiments should include
-planted AI errors and ambiguous cases.
+**Future work studies.** Later phases could address three additional questions
+once the core traceability architecture is better specified and evaluated:
 
-**RQ4 — Maturity reliability:** Can independent reviewers apply future L and D
-criteria consistently from the same evidence? Evaluation should measure
-inter-rater agreement, reasons for disagreement, and susceptibility to
-strategic self-rating.
+- **RQ2 — Educational participation:** whether a participation readiness
+  mechanism improves domain-relevant understanding without unacceptable
+  exclusion.
+- **RQ4 — Maturity reliability:** whether independent reviewers can apply
+  future L and D criteria consistently from the same evidence.
+- **RQ5 — Risk governance:** whether explicit action, exposure, process, and
+  escalation boundaries reduce unauthorized or poorly evidenced decisions in
+  tabletop simulations.
 
-**RQ5 — Risk governance:** Do explicit action, exposure, process, and
-escalation boundaries reduce unauthorized or poorly evidenced decisions in
-tabletop simulations? Scenarios should include conflicts of interest, urgent
-actions, incomplete evidence, agent error, and cross-component failure.
-
-The sequence should move from document inspection to tabletop simulation,
-non-financial prototypes, controlled user studies, and only then bounded field
-pilots. Each stage needs preregistered success and stop criteria appropriate to
-its risk.
+The sequence should move from document inspection and bounded human–AI review
+studies to more ambitious participation, maturity, and risk-governance work.
+Each stage needs preregistered success and stop criteria appropriate to its
+risk.
 
 # 11. Limitations and Threats to Validity
 
-This paper is broad and conceptual. It may combine concerns that require
-separate theories, methods, and papers. The architecture can appear coherent
-because it has not yet encountered implementation constraints or institutional
-conflict.
+This paper is conceptual and still broader than a mature external article
+would ideally be. The architecture can appear coherent because it has not yet
+encountered implementation constraints, institutional conflict, or field
+conditions that would test whether its proposed review paths are workable.
 
 The public evidence base for Axodus is currently limited to design
 documentation. There are no results with which to assess feasibility,
-usability, governance legitimacy, security, or social impact. The model is
-also authored from a single-project perspective and may encode unexamined
-assumptions about authority, education, and accountability.
+usability, governance legitimacy, security, calibrated reliance, contestable
+appeals, or social impact. Human oversight can become nominal when reviewers
+lack time, authority, or expertise. AI assistance may be unreliable,
+difficult to calibrate, or difficult to audit under realistic workload and
+time pressure. Weak contestability or poorly designed appeal paths could make
+traceability visible without making accountability meaningful.
 
-Knowledge-gated participation presents particular risks of exclusion, surveillance,
-curriculum capture, and false confidence. Human oversight can become nominal
-when reviewers lack time or expertise. Audit trails can create privacy and
-security harms. Modularity can hide systemic coupling. Explicit rules can
-formalize unjust arrangements rather than correct them.
+Participation readiness mechanisms present particular risks of exclusion,
+surveillance, curriculum capture, and false confidence. Modularity can hide
+systemic coupling. Explicit rules can formalize unjust arrangements rather
+than correct them. The proposed architecture may also be too complex to govern
+in practice without substantial scope reduction.
 
 Web3-facing governance designs may also encounter regulatory uncertainty,
-operational fragility, and jurisdiction-specific compliance burdens. AI
-assistance may be unreliable, difficult to calibrate, or difficult to audit
-under realistic workload and time pressure.
+operational fragility, and jurisdiction-specific compliance burdens.
 
 The paper does not provide legal, financial, security, or investment advice.
 Its terminology may not map cleanly onto every jurisdiction or research
@@ -403,25 +407,26 @@ Near-term work should:
 
 1. formalize observable L and D maturity criteria;
 2. specify the minimal decision and evidence model;
-3. design a non-financial educational participation prototype with
-   accessibility and appeal requirements;
+3. define the minimal participation readiness mechanism needed for supporting
+   studies, with accessibility and appeal requirements;
 4. define bounded AI-assistance tasks and provenance records;
-5. create governance and failure scenarios for tabletop evaluation;
+5. create narrower governance and failure scenarios for tabletop evaluation;
 6. recruit independent reviewers from governance, HCI, education, security,
    and decentralized-systems backgrounds;
 7. publish negative findings and design changes alongside positive results.
 
 Separate papers or technical notes should address educational validity,
-human–AI governance, and any token-linked or financial design questions rather
-than treating the present architecture paper as evidence in those domains.
+broader governance programs, maturity specification, and any token-linked or
+financial design questions rather than treating the present architecture paper
+as evidence in those domains.
 
 # 13. Conclusion
 
-Axodus is proposed as a conceptual architecture for connecting governance,
-evidence, modular institutional components, educational participation,
-human-supervised AI assistance, and risk boundaries. Its immediate value is
-not demonstrated performance but inspectability: the model exposes claims,
-interfaces, tensions, and evaluation questions before operational maturity is
+Axodus is proposed as a conceptual architecture for making human–AI-assisted
+institutional decisions more traceable and accountable through linked
+authority, evidence, rationale, and review paths. Its immediate value is not
+demonstrated performance but inspectability: the model exposes claims,
+interfaces, and accountability assumptions before operational maturity is
 asserted.
 
 The architecture will become a credible contribution only if its constructs

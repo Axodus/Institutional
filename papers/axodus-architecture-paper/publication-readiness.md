@@ -1,7 +1,7 @@
 # Publication Readiness — Axodus Architecture Paper
 
 Review date: 2026-07-03  
-Version reviewed: draft v0.2  
+Version reviewed: draft v0.3  
 Decision: **Ready for author review only; not ready for controlled external
 review, publication, submission, outreach, grant use, or external
 distribution.**
@@ -94,6 +94,34 @@ traceability and accountability in human-AI-assisted digital institutions.
 Participation readiness, maturity separation, risk boundaries, and governance
 should remain as supporting components rather than co-equal contributions.
 
+## Phase 1.7 v0.3 rewrite status
+
+Phase 1.7 completed the internal v0.3 manuscript rewrite in `paper.md` and
+`paper.tex` and recorded the rewrite in `v0.3-change-log.md`.
+
+The v0.3 rewrite:
+
+- retitled the manuscript to foreground traceability and accountability in
+  human-AI-assisted digital institutions;
+- rewrote the abstract and introduction around a narrower traceability and
+  accountability contribution;
+- rebalanced related-work framing toward human-AI oversight, calibrated
+  reliance, contestability, and institutional reviewability;
+- repositioned participation readiness, maturity separation, and risk
+  boundaries as supporting components rather than co-equal contributions;
+- reordered the evaluation plan so RQ1 is the primary initial study and RQ3
+  is the secondary initial study, with RQ2, RQ4, and RQ5 treated as future
+  work;
+- strengthened the limitations section, including the explicit statement that
+  the proposed architecture may be too complex to govern in practice without
+  substantial scope reduction.
+
+The rewritten LaTeX manuscript compiled successfully after the Phase 1.7
+changes, and generated build artifacts were cleaned.
+
+The rewrite did not add new verified references, did not change the evidence
+boundaries, and did not authorize circulation.
+
 ## Phase 1.1 review status
 
 Phase 1.1 critical editorial review was completed on 2026-07-03. A skeptical
@@ -138,6 +166,10 @@ security properties, financial performance, or operational maturity.
 - `papers/axodus-architecture-paper/paper.tex`
 - `papers/axodus-architecture-paper/references.bib`
 - `papers/axodus-architecture-paper/publication-readiness.md`
+- `papers/axodus-architecture-paper/v0.2-change-log.md`
+- `papers/axodus-architecture-paper/v0.3-editorial-plan.md`
+- `papers/axodus-architecture-paper/v0.3-author-review-record.md`
+- `papers/axodus-architecture-paper/v0.3-change-log.md`
 - `whitepaper/README.md`
 - `articles/README.md`
 - `outreach/README.md`
@@ -242,17 +274,19 @@ originates from a multi-year independent research and design effort.”
 
 ## Critical editorial blockers
 
-- The v0.3 contribution must be narrowed further around traceability and
-  accountability in human-AI-assisted digital institutions.
 - Related-work coverage remains insufficient for controlled external review in
   contestability and appeals, assessment validity, deliberative competence,
   calibrated reliance, DAO participation behavior, maturity-model reliability,
   and Web3 regulatory constraints.
-- The evaluation plan still needs stronger prioritization around RQ1 as the
-  primary study and RQ3 as a secondary study.
-- The manuscript still needs a clearer admission that the proposed
-  architecture may be too complex to govern in practice without substantial
-  scope reduction.
+- Even after narrowing, the paper remains broader than a strong external
+  article and still needs sharper contribution discipline before any
+  controlled external review is considered.
+- The evaluation plan is now prioritized, but the paper still lacks empirical
+  evidence, operational evidence, and independently challenged validation of
+  its core constructs.
+- The manuscript now states that the architecture may be too complex to govern
+  in practice without substantial scope reduction; that limitation remains a
+  live blocker rather than a resolved concern.
 
 ## Editorial risks
 
@@ -274,10 +308,12 @@ originates from a multi-year independent research and design effort.”
 ## Non-critical recommendations
 
 - Keep the v0.3 manuscript centered on traceability, accountability, and
-  bounded human-AI assistance.
-- Reframe participation readiness, maturity, and risk boundaries as supporting
-  components rather than co-equal contributions.
-- Move RQ2, RQ4, and RQ5 toward future work unless they can be scoped tightly.
+  bounded human-AI assistance in any subsequent revision.
+- Preserve participation readiness, maturity, and risk boundaries as
+  supporting components rather than expanding them again into co-equal
+  contributions.
+- Keep RQ2, RQ4, and RQ5 in future-work territory unless a later draft
+  narrows them substantially.
 - Expand the candidate bibliography first, then verify and integrate only the
   sources that materially strengthen the narrowed v0.3 argument.
 
@@ -312,9 +348,10 @@ recorded and may be treated as approved for manuscript-editing purposes.
 
 Conduct an author-level editorial review against `reviewer-report.md`,
 `author-review-brief.md`, `v0.2-editorial-plan.md`, and
-`author-decision-record-v0.2.md` before any circulation decision. v0.3
-manuscript drafting may now begin under the narrowed contribution hierarchy
-recorded in `v0.3-editorial-plan.md`, but circulation remains blocked.
+`author-decision-record-v0.2.md` before any circulation decision. The v0.3
+rewrite should now be reviewed against `v0.3-editorial-plan.md`,
+`v0.3-author-review-record.md`, and `v0.3-change-log.md`, but circulation
+remains blocked.
 
 ## Checklist status
 
@@ -325,12 +362,12 @@ Checklist applied: yes, for the automated/static checks completed in Phase 1.
 
 ## Readiness status
 
-Phase 1.6 readiness category: **Ready for author review only.**
+Phase 1.7 readiness category: **Ready for author review only.**
 
 Ready for controlled external review: no  
 Ready for public publication: no
 
 v0.3 manuscript edits authorized: yes  
 
-**Current status: v0.2 internal draft reviewed; v0.3 planning complete;
-blocked for controlled external review and publication.**
+**Current status: v0.3 internal rewrite complete; ready for author review
+only; blocked for controlled external review and publication.**
