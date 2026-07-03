@@ -142,7 +142,7 @@ Five tensions structure the problem.
 
 1. **Modularity versus coherence.** Independent components can limit coupling,
    but shared decisions require common identity, evidence, and review rules.
-2. **Participation versus readiness.** Open participation supports legitimacy,
+2. **Participation versus readiness.** Open participation may support legitimacy,
    while consequential decisions may require demonstrated understanding.
 3. **Automation versus accountability.** AI assistance can reduce analytical
    load, but responsibility can become unclear when its outputs influence
@@ -374,6 +374,11 @@ curriculum capture, and false confidence. Human oversight can become nominal
 when reviewers lack time or expertise. Audit trails can create privacy and
 security harms. Modularity can hide systemic coupling. Explicit rules can
 formalize unjust arrangements rather than correct them.
+
+Web3-facing governance designs may also encounter regulatory uncertainty,
+operational fragility, and jurisdiction-specific compliance burdens. AI
+assistance may be unreliable, difficult to calibrate, or difficult to audit
+under realistic workload and time pressure.
 
 The paper does not provide legal, financial, security, or investment advice.
 Its terminology may not map cleanly onto every jurisdiction or research

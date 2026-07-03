@@ -12,6 +12,7 @@ The entries below identify research directions, not approved citations.
 | Contestability | Human-centered and legal research on appeal and contestable algorithmic decisions | Identify primary studies and jurisdiction-neutral framing |
 | DAO participation | Empirical studies of voter concentration, participation, and delegation | Check datasets, methods, dates, and generalizability |
 | DeFi governance | Empirical studies of protocol governance and risk incidents | Separate technical risk evidence from market commentary |
+| Web3 regulation | Cross-jurisdictional research on regulatory, compliance, and operational constraints for decentralized governance arrangements | Prefer legal scholarship or institutional analyses that can be cited without market or advocacy framing |
 | Educational credentials | Assessment validity, recognition of prior learning, and digital credential equity | Avoid treating credential verification as learning validation |
 | Maturity models | Empirical validation and reliability of capability or maturity models | Identify studies applicable to two-axis status reporting |
 

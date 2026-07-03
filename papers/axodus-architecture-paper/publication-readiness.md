@@ -2,13 +2,29 @@
 
 Review date: 2026-07-03  
 Version reviewed: draft v0.1  
-Decision: **Ready for structured human review; not ready for publication,
-submission, outreach, grant use, or external distribution.**
+Decision: **Ready for author review only; not ready for controlled external
+review, publication, submission, outreach, grant use, or external
+distribution.**
 
 ## Publication status
 
 Ready for human review: yes  
 Ready for public publication: no
+
+## Phase 1.1 review status
+
+Phase 1.1 critical editorial review was completed on 2026-07-03. A skeptical
+reviewer pass was recorded in `reviewer-report.md`.
+
+Small manuscript hardening edits were applied in both manuscript forms:
+
+- the participation/legitimacy wording was qualified from `supports` to
+  `may support`;
+- the limitations section now explicitly names Web3 regulatory uncertainty,
+  operational fragility, and AI reliability/auditability risks.
+
+These edits did not alter the manuscript's controlled evidence boundaries or
+publication blockers.
 
 ## Implementation summary
 
@@ -65,6 +81,10 @@ request, submission, publication, or external contact was performed.
   detail was found.
 - Proof of Knowledge is explicitly distinguished from cryptographic proofs of
   knowledge in the terminology file and both manuscript forms.
+- A skeptical academic review was completed and documented in
+  `reviewer-report.md`.
+- A LaTeX compile check was completed successfully and documented in
+  `latex-compile-check.md`.
 
 ## Bibliographic status
 
@@ -90,6 +110,16 @@ The following research areas remain candidates and are not cited:
 All bibliographic metadata must be rechecked before submission. Venue-specific
 formatting has not been applied.
 
+## Remaining citation risks
+
+- The verified bibliography is still thin for deliberative competence,
+  contestability and appeals, educational assessment validity, DAO
+  participation behavior, and Web3 regulatory constraints.
+- Those literatures should remain in `research/bibliography-candidates.md`
+  until primary-source metadata is verified.
+- No additional references should enter `references.bib` until they are both
+  verified and actually needed by the manuscript.
+
 ## Claims blocked
 
 The current controls block:
@@ -112,19 +142,31 @@ originates from a multi-year independent research and design effort.”
    correspondence address.
 2. Obtain author approval for name, affiliation, title, abstract, and release
    license.
-3. Complete substantive review by independent readers with relevant expertise
+3. Resolve whether the paper should remain one broad architecture manuscript
+   or be narrowed before any external review.
+4. Decide whether `Proof of Knowledge` remains an acceptable public term or
+   should be replaced before external circulation.
+5. Clarify whether `Academy` is a public generic component label or an
+   Axodus-specific term that should be removed or rephrased.
+6. Complete substantive review by independent readers with relevant expertise
    in socio-technical systems, governance, human–AI interaction, education,
    decentralized systems, and risk.
-4. Decide whether the broad architecture should remain one paper or be narrowed
-   before venue selection.
-5. Verify that every Axodus-specific statement conforms to the intended public
+7. Verify that every Axodus-specific statement conforms to the intended public
    disclosure boundary.
-6. Review the CC BY 4.0 licensing notice and third-party rights before release.
-7. Compile the LaTeX source and inspect its log and rendered output. No LaTeX
-   engine is installed in the current environment, so compilation was not
-   performed.
-8. Select a venue and apply its authorship, disclosure, formatting, and
+8. Review the CC BY 4.0 licensing notice and third-party rights before release.
+9. Select a venue and apply its authorship, disclosure, formatting, and
    submission requirements in a separate phase.
+
+## Critical editorial blockers
+
+- The introduction and abstract still need a sharper statement of research gap
+  and narrower contribution framing.
+- The current title remains broader than the paper's present evidentiary base.
+- Related-work coverage is still insufficient for controlled external review in
+  educational assessment, deliberative competence, contestability, DAO
+  participation behavior, and Web3 regulatory constraints.
+- Key author-facing terminology decisions remain unresolved, especially
+  `Proof of Knowledge` and `Academy`.
 
 ## Editorial risks
 
@@ -143,6 +185,15 @@ originates from a multi-year independent research and design effort.”
 - **Single-author perspective:** the model may encode institutional assumptions
   that have not been independently challenged.
 
+## Non-critical recommendations
+
+- Make the research gap explicit in the introduction in 2-4 sentences.
+- Prioritize one near-term evaluation path instead of presenting all five
+  research questions as equally immediate.
+- Consider narrowing the title before any controlled external review.
+- Expand the candidate bibliography first, then verify and integrate only the
+  sources that materially strengthen the paper.
+
 ## IP/licensing risks
 
 - The placeholder correspondence field must be replaced with an approved public
@@ -152,13 +203,30 @@ originates from a multi-year independent research and design effort.”
 - Third-party rights must be rechecked for any future figures, excerpts, or
   formatting assets added after Phase 1.
 
+## Remaining IP/licensing risks
+
+- External review circulation still requires a deliberate decision on what
+  affiliation, contact, and release terms are appropriate.
+- If the manuscript is narrowed or re-titled, any future venue-specific
+  metadata and rights language must be rechecked separately.
+
+## Author decisions required
+
+- Keep or replace the term `Proof of Knowledge`.
+- Keep or rephrase the term `Academy`.
+- Keep one broad architecture paper or split into narrower papers.
+- Choose the next review mode: author review only or controlled external
+  review after revision.
+- Approve the public correspondence address, affiliation wording, and license
+  posture for any later circulation.
+
 ## Recommended next human review
 
-Conduct a claim-by-claim editorial review before expanding the manuscript.
-Reviewers should first challenge the problem statement, architecture
-boundaries, Proof of Knowledge terminology, and evaluation feasibility. Only
-after those issues are resolved should the draft be lengthened, formatted for
-a venue, compiled to PDF, or considered for external circulation.
+Conduct an author-level editorial review against `reviewer-report.md` before
+any controlled external circulation. Review should first resolve terminology,
+scope, title, abstract, research-gap framing, and related-work sufficiency.
+Only after those issues are resolved should invited external academic review be
+considered.
 
 ## Checklist status
 
@@ -167,4 +235,12 @@ Human judgment items remain unchecked in
 `../../governance/publication-review-checklist.md`.
 Checklist applied: yes, for the automated/static checks completed in Phase 1.
 
-**Final Phase 1 status: complete for preparation; blocked for publication.**
+## Readiness status
+
+Phase 1.1 readiness category: **Ready for author review only.**
+
+Ready for controlled external review: no  
+Ready for public publication: no
+
+**Current status: author review ready; blocked for controlled external review
+and publication.**
