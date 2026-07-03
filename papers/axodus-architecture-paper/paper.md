@@ -23,8 +23,8 @@ accountability in human–AI-assisted institutional decision making. This paper
 presents Axodus as a prototype-stage conceptual architecture and focused
 research agenda for that problem. Its central contribution is a layered model
 for linking decision authority, evidence, bounded AI assistance, rationale,
-and review paths in digital institutions. Supporting components include a
-participation readiness mechanism, risk boundaries, and a distinction between
+and review paths in digital institutions. Supporting discussion addresses
+participation readiness, bounded risk constraints, and the distinction between
 documentation maturity and development maturity. Axodus is described only as a
 conceptual, prototype-stage model. The paper reports no deployed system,
 empirical validation, operational readiness, or token-linked mechanism.
@@ -129,10 +129,9 @@ does not claim to train or align an AI model through Constitutional AI.
 
 The W3C Verifiable Credentials Data Model separates the cryptographic
 verification of a credential from validation of whether its claims are fit for
-a verifier's purpose [@w3c2025vcdm]. This is relevant to the participation
-readiness mechanism discussed later. A technically verifiable record would not establish
-that an assessment is fair, that learning occurred, or that a governance
-restriction is legitimate.
+a verifier's purpose [@w3c2025vcdm]. This matters here because a technically
+verifiable record would not by itself establish fair assessment, learning, or
+legitimate governance restriction.
 
 # 3. Problem Statement
 
@@ -230,22 +229,15 @@ mistaken for implemented or validated accountability mechanisms. This draft
 does not define the individual levels, assign scores, or report component
 status.
 
-The separation is intended to prevent three category errors:
+The separation is meant to avoid three category errors: treating a
+specification as implemented behavior, treating a prototype as validated
+institutional performance, and averaging unlike forms of maturity into one
+reassuring score. If these axes remain in future work, they would require
+explicit evidence criteria and independent review rather than self-assertion.
 
-- treating a comprehensive specification as implemented behavior;
-- treating an implemented prototype as validated institutional performance;
-- averaging unlike forms of maturity into one reassuring score.
-
-A future maturity specification should define required artifacts, admissible
-evidence, reviewers, expiration rules, and disagreement handling for every
-level. Inter-rater reliability and resistance to self-assessment inflation
-should be evaluated before the axes are used in public reporting.
-
-Modularity is similarly a hypothesis rather than an assured property.
-Component boundaries may support bounded change and review, but they can also
-move complexity into interfaces. Evaluation must therefore examine dependency
-visibility, cross-component failure, governance consistency, and whether the
-resulting architecture is governable at all.
+Modularity is likewise a supporting hypothesis rather than an assured
+property. Component boundaries may aid review, but they can also move
+complexity into interfaces and make governability harder to assess.
 
 # 6. Participation Readiness as a Supporting Mechanism
 
@@ -255,30 +247,23 @@ mechanism is described in functional terms to avoid confusion with
 cryptographic proof-of-knowledge protocols, proof-of-work, proof-of-stake, or
 token-linked participation schemes.
 
-The mechanism would connect a defined learning objective, an assessment, a
-reviewable result, and eligibility for a bounded activity. A possible flow is:
-
-1. publish the knowledge and risk objectives for an activity;
-2. provide accessible learning paths;
-3. assess understanding using methods appropriate to the objective;
-4. issue a time-bounded result with an appeal path;
-5. apply the result only to the specified activity;
-6. reassess validity, disparate effects, and continued necessity.
+At most, the mechanism would link defined learning objectives, assessment,
+reviewable results, bounded eligibility, and an appeal path for selected
+activities.
 
 The W3C credential model could inform portable representations, but
 verification of an issuer and credential does not validate educational quality
 or justify authorization [@w3c2025vcdm]. The governance problem therefore
-includes who defines curricula, who assesses assessors, how accommodations are
-provided, and how a participant can contest an outcome.
+includes who defines the criteria, how accommodations are provided, and how a
+participant can contest an outcome.
 
 The central hypothesis is that a participation readiness mechanism may improve
 the quality of participation in selected high-consequence contexts. A
 secondary descriptive phrase for this idea is *knowledge-gated participation*.
-Competing
-hypotheses are equally important: the mechanism may reduce participation,
-favor already advantaged groups, encourage test gaming, centralize curriculum
-power, or create privacy risks. The mechanism should be rejected or redesigned
-if those harms cannot be controlled.
+Competing hypotheses remain equally important: the mechanism may exclude
+participants, centralize curriculum power, encourage test gaming, or create
+privacy risks. It should be rejected or redesigned if those harms cannot be
+controlled.
 
 # 7. Governance, Accountability, and Human Oversight
 
@@ -304,19 +289,12 @@ effectiveness in Axodus remains untested.
 
 # 8. Risk Boundaries as Supporting Constraints
 
-Risk boundaries are proposed at four levels:
-
-- **action boundaries:** what an actor or agent may do;
-- **exposure boundaries:** resources or values that may be placed at risk;
-- **process boundaries:** evidence, approvals, waiting periods, and conflicts;
-- **escalation boundaries:** conditions requiring suspension or review.
-
-Visible transactions or records do not by themselves make assumptions,
-conflicts, and rationales inspectable. Research on composable digital
-infrastructures likewise shows that dependencies can propagate across connected
-components [@schar2021defi]. The proposed model therefore treats decision
-context as part of risk governance rather than as a by-product of technical
-execution.
+Risk boundaries are included here only as supporting constraints on action,
+exposure, process, and escalation. Their role is to make consequential
+decisions reviewable in context rather than to introduce a parallel governance
+program. Visible records alone do not make assumptions or rationales
+inspectable, and dependencies can still propagate across connected components
+[@schar2021defi].
 
 Questions about live asset policies, token-linked participation, supply
 mechanisms, or financial incentives are outside the scope of this paper.
@@ -357,22 +335,10 @@ quality? Experiments should include planted AI errors and ambiguous cases.
 This is a secondary priority because the architecture depends on bounded AI
 assistance being reviewable rather than merely available.
 
-**Future work studies.** Later phases could address three additional questions
-once the core traceability architecture is better specified and evaluated:
-
-- **RQ2 — Educational participation:** whether a participation readiness
-  mechanism improves domain-relevant understanding without unacceptable
-  exclusion.
-- **RQ4 — Maturity reliability:** whether independent reviewers can apply
-  future L and D criteria consistently from the same evidence.
-- **RQ5 — Risk governance:** whether explicit action, exposure, process, and
-  escalation boundaries reduce unauthorized or poorly evidenced decisions in
-  tabletop simulations.
-
-The sequence should move from document inspection and bounded human–AI review
-studies to more ambitious participation, maturity, and risk-governance work.
-Each stage needs preregistered success and stop criteria appropriate to its
-risk.
+**Future work studies.** Later phases may address educational participation,
+maturity reliability, and risk governance after the core traceability
+architecture is tested through document inspection and bounded human–AI review
+studies.
 
 # 11. Limitations and Threats to Validity
 
@@ -405,22 +371,11 @@ community.
 
 # 12. Research Agenda
 
-Near-term work should:
-
-1. formalize observable L and D maturity criteria;
-2. specify the minimal decision and evidence model;
-3. define the minimal participation readiness mechanism needed for supporting
-   studies, with accessibility and appeal requirements;
-4. define bounded AI-assistance tasks and provenance records;
-5. create narrower governance and failure scenarios for tabletop evaluation;
-6. recruit independent reviewers from governance, HCI, education, security,
-   and decentralized-systems backgrounds;
-7. publish negative findings and design changes alongside positive results.
-
-Separate papers or technical notes should address educational validity,
-broader governance programs, maturity specification, and any token-linked or
-financial design questions rather than treating the present architecture paper
-as evidence in those domains.
+Near-term work should prioritize a minimal decision-and-evidence model and
+bounded AI-assistance tasks suitable for initial traceability studies.
+Participation-readiness design, maturity specification, and broader governance
+scenarios belong to later papers or technical notes, alongside educational
+validity questions and any token-linked or financial design issues.
 
 # 13. Conclusion
 

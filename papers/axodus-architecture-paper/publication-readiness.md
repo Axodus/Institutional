@@ -183,6 +183,26 @@ Adding contact metadata does not authorize publication, controlled external
 review, outreach, grants, fundraising, or authority signaling. The readiness
 category and all publication blockers remain unchanged.
 
+## Phase 1.10 compression status
+
+Phase 1.10 completed the authorized internal compression pass in `paper.md`
+and `paper.tex` and recorded the result in `v0.3-compression-change-log.md`.
+
+The compression pass:
+
+- reduced the weight of supporting material in the abstract;
+- shortened the credential-to-legitimacy bridge;
+- compressed the maturity, participation-readiness, risk-boundary, and
+  research-agenda sections;
+- shortened the future-work tail in the evaluation plan;
+- preserved the paper's central contribution around traceability and
+  accountability in human-AI-assisted digital institutions.
+
+Author review had been intentionally deferred until this compression pass was
+complete. That deferral condition is now satisfied. The manuscript remains
+classified as ready for author review only, while controlled external review
+and publication remain blocked.
+
 ## Phase 1.1 review status
 
 Phase 1.1 critical editorial review was completed on 2026-07-03. A skeptical
@@ -235,6 +255,7 @@ security properties, financial performance, or operational maturity.
 - `papers/axodus-architecture-paper/v0.3-author-review-checklist.md`
 - `papers/axodus-architecture-paper/v0.3-minor-edits-plan.md`
 - `papers/axodus-architecture-paper/bibliography-hardening-plan.md`
+- `papers/axodus-architecture-paper/v0.3-compression-change-log.md`
 - `whitepaper/README.md`
 - `articles/README.md`
 - `outreach/README.md`
@@ -391,6 +412,8 @@ originates from a multi-year independent research and design effort.”
   sources that materially strengthen the narrowed v0.3 argument.
 - Follow the minor-edits plan before making any new structural manuscript
   change so the next pass remains compressive rather than expansive.
+- Keep any post-compression revision focused on bibliography hardening and
+  author-level review rather than opening new conceptual fronts.
 
 ## IP/licensing risks
 
@@ -426,7 +449,8 @@ rewrite should now be reviewed against `v0.3-editorial-plan.md`,
 `v0.3-author-review-record.md`, `v0.3-change-log.md`,
 `v0.3-author-review-brief.md`, and `v0.3-author-review-checklist.md`, but
 circulation remains blocked. The next internal working documents are now
-`v0.3-minor-edits-plan.md` and `bibliography-hardening-plan.md`.
+`v0.3-minor-edits-plan.md`, `bibliography-hardening-plan.md`, and
+`v0.3-compression-change-log.md`.
 
 ## Checklist status
 
@@ -437,13 +461,13 @@ Checklist applied: yes, for the automated/static checks completed in Phase 1.
 
 ## Readiness status
 
-Phase 1.9 readiness category: **Ready for author review only.**
+Phase 1.10 readiness category: **Ready for author review only.**
 
 Ready for controlled external review: no  
 Ready for public publication: no
 
 v0.3 manuscript edits authorized: yes  
 
-**Current status: v0.3 internal rewrite complete; author-review support and
-minor-edit/bibliography planning complete; ready for author review only;
-blocked for controlled external review and publication.**
+**Current status: v0.3 internal rewrite, planning, metadata update, and
+compression pass complete; ready for author review only; blocked for
+controlled external review and publication.**
