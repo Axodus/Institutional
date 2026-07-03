@@ -3,7 +3,9 @@ title: "Axodus: A Prototype-Stage Conceptual Architecture for Traceability and A
 author:
   - "Mauricio Z. Filho"
 affiliation: "Independent Researcher, Axodus"
-correspondence: "[public contact to be added]"
+correspondence: "mzfshark@gmail.com"
+project_discussion_forum: "Telegram @thinkincoin"
+author_social_handle: "@mzfshark"
 version: "Draft v0.3"
 status: "Internal author review required; not ready for publication"
 license: "CC BY 4.0"

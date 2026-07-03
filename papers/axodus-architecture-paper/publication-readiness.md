@@ -145,6 +145,44 @@ The Phase 1.8 recommendation is: **ready for author approval after minor
 edits**, while remaining internal and blocked from controlled external review
 and publication.
 
+## Phase 1.9 planning status
+
+Phase 1.9 completed a pre-edit planning pass in `v0.3-minor-edits-plan.md`
+and `bibliography-hardening-plan.md`.
+
+The planning pass concluded that:
+
+- the next manuscript step should be a minor internal compression pass rather
+  than another broad rewrite;
+- the heaviest remaining supporting sections are `Modularity and Maturity as
+  Supporting Controls`, `Participation Readiness as a Supporting Mechanism`,
+  `Risk Boundaries as Supporting Constraints`, and `Research Agenda`;
+- bibliography hardening should be prioritized around contestability and
+  appeals, calibrated reliance, assessment validity, DAO governance
+  participation, and Web3 regulatory constraints before any controlled
+  external review is considered;
+- deliberative competence and maturity-model reliability remain important, but
+  their urgency depends on how much supporting material remains visible after
+  the next minor-edit pass.
+
+Phase 1.9 does not authorize circulation. It authorizes only a controlled
+internal minor-edit pass and parallel candidate-source verification.
+
+## Metadata update status
+
+The author-approved correspondence placeholder has been replaced with limited
+contact metadata in `paper.md` and `paper.tex`:
+
+- correspondence email: `mzfshark@gmail.com`
+- project discussion forum: `Telegram @thinkincoin`
+- author social handle: `@mzfshark`
+
+This resolves the earlier placeholder-correspondence blocker.
+
+Adding contact metadata does not authorize publication, controlled external
+review, outreach, grants, fundraising, or authority signaling. The readiness
+category and all publication blockers remain unchanged.
+
 ## Phase 1.1 review status
 
 Phase 1.1 critical editorial review was completed on 2026-07-03. A skeptical
@@ -195,6 +233,8 @@ security properties, financial performance, or operational maturity.
 - `papers/axodus-architecture-paper/v0.3-change-log.md`
 - `papers/axodus-architecture-paper/v0.3-author-review-brief.md`
 - `papers/axodus-architecture-paper/v0.3-author-review-checklist.md`
+- `papers/axodus-architecture-paper/v0.3-minor-edits-plan.md`
+- `papers/axodus-architecture-paper/bibliography-hardening-plan.md`
 - `whitepaper/README.md`
 - `articles/README.md`
 - `outreach/README.md`
@@ -265,6 +305,9 @@ formatting has not been applied.
   verified and actually needed by the manuscript.
 - Related-work adequacy is now sufficient for author review but still below
   the threshold for controlled external review.
+- The bibliography hardening plan now distinguishes `must close before
+  controlled external review` gaps from later-stage gaps; that prioritization
+  should govern any future verification work.
 
 ## Claims blocked
 
@@ -284,19 +327,17 @@ originates from a multi-year independent research and design effort.”
 
 ## Unresolved blockers
 
-1. Replace `[public contact to be added]` with a reviewed public
-   correspondence address.
-2. Obtain author approval for name, affiliation, title, abstract, and release
+1. Obtain author approval for name, affiliation, title, abstract, and release
    license.
-3. Resolve whether the paper should remain one broad architecture manuscript
+2. Resolve whether the paper should remain one broad architecture manuscript
    or be narrowed before any external review.
-4. Complete substantive review by independent readers with relevant expertise
+3. Complete substantive review by independent readers with relevant expertise
    in socio-technical systems, governance, human–AI interaction, education,
    decentralized systems, and risk.
-5. Verify that every Axodus-specific statement conforms to the intended public
+4. Verify that every Axodus-specific statement conforms to the intended public
    disclosure boundary.
-6. Review the CC BY 4.0 licensing notice and third-party rights before release.
-7. Select a venue and apply its authorship, disclosure, formatting, and
+5. Review the CC BY 4.0 licensing notice and third-party rights before release.
+6. Select a venue and apply its authorship, disclosure, formatting, and
    submission requirements in a separate phase.
 
 ## Critical editorial blockers
@@ -348,11 +389,11 @@ originates from a multi-year independent research and design effort.”
   a single-article contribution rather than a broader program statement.
 - Expand the candidate bibliography first, then verify and integrate only the
   sources that materially strengthen the narrowed v0.3 argument.
+- Follow the minor-edits plan before making any new structural manuscript
+  change so the next pass remains compressive rather than expansive.
 
 ## IP/licensing risks
 
-- The placeholder correspondence field must be replaced with an approved public
-  contact before release.
 - The CC BY 4.0 notice and any venue-specific licensing constraints require
   human approval before publication.
 - Third-party rights must be rechecked for any future figures, excerpts, or
@@ -370,8 +411,8 @@ originates from a multi-year independent research and design effort.”
 - Keep one broad architecture paper or split into narrower papers.
 - Choose the next review mode: author review only or controlled external
   review after revision.
-- Approve the public correspondence address, affiliation wording, and license
-  posture for any later circulation.
+- Approve the affiliation wording and license posture for any later
+  circulation.
 
 The terminology and no-tokenomics boundary decisions for v0.2 have now been
 recorded and may be treated as approved for manuscript-editing purposes.
@@ -384,7 +425,8 @@ Conduct an author-level editorial review against `reviewer-report.md`,
 rewrite should now be reviewed against `v0.3-editorial-plan.md`,
 `v0.3-author-review-record.md`, `v0.3-change-log.md`,
 `v0.3-author-review-brief.md`, and `v0.3-author-review-checklist.md`, but
-circulation remains blocked.
+circulation remains blocked. The next internal working documents are now
+`v0.3-minor-edits-plan.md` and `bibliography-hardening-plan.md`.
 
 ## Checklist status
 
@@ -395,13 +437,13 @@ Checklist applied: yes, for the automated/static checks completed in Phase 1.
 
 ## Readiness status
 
-Phase 1.8 readiness category: **Ready for author review only.**
+Phase 1.9 readiness category: **Ready for author review only.**
 
 Ready for controlled external review: no  
 Ready for public publication: no
 
 v0.3 manuscript edits authorized: yes  
 
-**Current status: v0.3 internal rewrite complete; author-review support
-complete; ready for author review only; blocked for controlled external
-review and publication.**
+**Current status: v0.3 internal rewrite complete; author-review support and
+minor-edit/bibliography planning complete; ready for author review only;
+blocked for controlled external review and publication.**
