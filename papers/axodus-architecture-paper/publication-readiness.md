@@ -11,6 +11,23 @@ distribution.**
 Ready for human review: yes  
 Ready for public publication: no
 
+## Phase 1.2 author-gate status
+
+Phase 1.2 recorded the human internal review verdict and converted it into an
+author gate rather than a circulation step.
+
+Human internal review verdict:
+
+- category: internal working paper;
+- suitable for serious author review;
+- not ready for external academic review;
+- do not publish or use for institutional/public authority signaling;
+- publication risk if released now: moderate to high.
+
+Phase 1.2 also established a v0.2 editorial direction: narrow the title,
+rewrite the abstract and introduction around a clearer research gap, and keep
+the PoK-tokenomics relationship out of scope for the architecture paper.
+
 ## Phase 1.1 review status
 
 Phase 1.1 critical editorial review was completed on 2026-07-03. A skeptical
@@ -167,6 +184,8 @@ originates from a multi-year independent research and design effort.”
   participation behavior, and Web3 regulatory constraints.
 - Key author-facing terminology decisions remain unresolved, especially
   `Proof of Knowledge` and `Academy`.
+- The author must explicitly approve the no-tokenomics scope boundary for the
+  v0.2 architecture manuscript.
 
 ## Editorial risks
 
@@ -219,14 +238,16 @@ originates from a multi-year independent research and design effort.”
   review after revision.
 - Approve the public correspondence address, affiliation wording, and license
   posture for any later circulation.
+- Approve the v0.2 boundary that defers token-linked educational and supply
+  mechanics to a separate technical note.
 
 ## Recommended next human review
 
-Conduct an author-level editorial review against `reviewer-report.md` before
-any controlled external circulation. Review should first resolve terminology,
-scope, title, abstract, research-gap framing, and related-work sufficiency.
-Only after those issues are resolved should invited external academic review be
-considered.
+Conduct an author-level editorial review against `reviewer-report.md`,
+`author-review-brief.md`, and `v0.2-editorial-plan.md` before any manuscript
+rewrite. Review should first resolve terminology, scope, title, abstract,
+research-gap framing, and the explicit no-tokenomics boundary. Only after
+those issues are resolved should v0.2 drafting begin.
 
 ## Checklist status
 
@@ -237,7 +258,7 @@ Checklist applied: yes, for the automated/static checks completed in Phase 1.
 
 ## Readiness status
 
-Phase 1.1 readiness category: **Ready for author review only.**
+Phase 1.2 readiness category: **Ready for author review only.**
 
 Ready for controlled external review: no  
 Ready for public publication: no
