@@ -122,6 +122,29 @@ changes, and generated build artifacts were cleaned.
 The rewrite did not add new verified references, did not change the evidence
 boundaries, and did not authorize circulation.
 
+## Phase 1.8 v0.3 author-review support status
+
+Phase 1.8 completed internal author-review support for the v0.3 manuscript in
+`v0.3-author-review-brief.md` and `v0.3-author-review-checklist.md`.
+
+The support review concluded that:
+
+- v0.3 is materially more unified than v0.2 around traceability and
+  accountability;
+- the manuscript is suitable for serious author review;
+- related work is sufficient for author review but not yet sufficient for
+  controlled external review;
+- the evaluation plan is now narrow enough for author review, though still
+  broader than an externally reviewable article would ideally be;
+- the limitations section is strong enough for author review;
+- residual editorial drift remains in the relative weight of the supporting
+  sections on participation readiness, maturity, risk boundaries, and the
+  broader research agenda.
+
+The Phase 1.8 recommendation is: **ready for author approval after minor
+edits**, while remaining internal and blocked from controlled external review
+and publication.
+
 ## Phase 1.1 review status
 
 Phase 1.1 critical editorial review was completed on 2026-07-03. A skeptical
@@ -170,6 +193,8 @@ security properties, financial performance, or operational maturity.
 - `papers/axodus-architecture-paper/v0.3-editorial-plan.md`
 - `papers/axodus-architecture-paper/v0.3-author-review-record.md`
 - `papers/axodus-architecture-paper/v0.3-change-log.md`
+- `papers/axodus-architecture-paper/v0.3-author-review-brief.md`
+- `papers/axodus-architecture-paper/v0.3-author-review-checklist.md`
 - `whitepaper/README.md`
 - `articles/README.md`
 - `outreach/README.md`
@@ -238,6 +263,8 @@ formatting has not been applied.
   until primary-source metadata is verified.
 - No additional references should enter `references.bib` until they are both
   verified and actually needed by the manuscript.
+- Related-work adequacy is now sufficient for author review but still below
+  the threshold for controlled external review.
 
 ## Claims blocked
 
@@ -287,6 +314,9 @@ originates from a multi-year independent research and design effort.”
 - The manuscript now states that the architecture may be too complex to govern
   in practice without substantial scope reduction; that limitation remains a
   live blocker rather than a resolved concern.
+- Residual interpretive risk remains around the internal `Proof of Knowledge`
+  note and visible out-of-scope token terminology, even though both are now
+  properly bounded.
 
 ## Editorial risks
 
@@ -314,6 +344,8 @@ originates from a multi-year independent research and design effort.”
   contributions.
 - Keep RQ2, RQ4, and RQ5 in future-work territory unless a later draft
   narrows them substantially.
+- Compress supporting sections further if a later draft is intended to read as
+  a single-article contribution rather than a broader program statement.
 - Expand the candidate bibliography first, then verify and integrate only the
   sources that materially strengthen the narrowed v0.3 argument.
 
@@ -350,8 +382,9 @@ Conduct an author-level editorial review against `reviewer-report.md`,
 `author-review-brief.md`, `v0.2-editorial-plan.md`, and
 `author-decision-record-v0.2.md` before any circulation decision. The v0.3
 rewrite should now be reviewed against `v0.3-editorial-plan.md`,
-`v0.3-author-review-record.md`, and `v0.3-change-log.md`, but circulation
-remains blocked.
+`v0.3-author-review-record.md`, `v0.3-change-log.md`,
+`v0.3-author-review-brief.md`, and `v0.3-author-review-checklist.md`, but
+circulation remains blocked.
 
 ## Checklist status
 
@@ -362,12 +395,13 @@ Checklist applied: yes, for the automated/static checks completed in Phase 1.
 
 ## Readiness status
 
-Phase 1.7 readiness category: **Ready for author review only.**
+Phase 1.8 readiness category: **Ready for author review only.**
 
 Ready for controlled external review: no  
 Ready for public publication: no
 
 v0.3 manuscript edits authorized: yes  
 
-**Current status: v0.3 internal rewrite complete; ready for author review
-only; blocked for controlled external review and publication.**
+**Current status: v0.3 internal rewrite complete; author-review support
+complete; ready for author review only; blocked for controlled external
+review and publication.**
