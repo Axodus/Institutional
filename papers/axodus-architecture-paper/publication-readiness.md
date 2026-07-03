@@ -5,6 +5,11 @@ Version reviewed: draft v0.1
 Decision: **Ready for structured human review; not ready for publication,
 submission, outreach, grant use, or external distribution.**
 
+## Publication status
+
+Ready for human review: yes  
+Ready for public publication: no
+
 ## Implementation summary
 
 Phase 1 created a documentation-only editorial foundation, evidence controls,
@@ -66,6 +71,12 @@ request, submission, publication, or external contact was performed.
 Eight cited sources have verification records. Metadata was checked against
 publisher, journal, institutional, standards-body, or canonical preprint
 records.
+
+## References needing verification
+
+All cited sources require a final metadata recheck before any submission or
+public release because preferred citation formats and canonical records can
+change.
 
 The following research areas remain candidates and are not cited:
 
@@ -132,6 +143,15 @@ originates from a multi-year independent research and design effort.”
 - **Single-author perspective:** the model may encode institutional assumptions
   that have not been independently challenged.
 
+## IP/licensing risks
+
+- The placeholder correspondence field must be replaced with an approved public
+  contact before release.
+- The CC BY 4.0 notice and any venue-specific licensing constraints require
+  human approval before publication.
+- Third-party rights must be rechecked for any future figures, excerpts, or
+  formatting assets added after Phase 1.
+
 ## Recommended next human review
 
 Conduct a claim-by-claim editorial review before expanding the manuscript.
@@ -145,5 +165,6 @@ a venue, compiled to PDF, or considered for external circulation.
 The automated/static portions of the publication checklist were executed.
 Human judgment items remain unchecked in
 `../../governance/publication-review-checklist.md`.
+Checklist applied: yes, for the automated/static checks completed in Phase 1.
 
 **Final Phase 1 status: complete for preparation; blocked for publication.**
