@@ -75,6 +75,25 @@ changes, and generated build artifacts were cleaned.
 The rewrite did not add new references, did not change the publication
 blockers, and did not authorize circulation.
 
+## Phase 1.6 v0.3 planning status
+
+Phase 1.6 recorded the internal review verdict on v0.2 and defined a v0.3
+editorial direction in `v0.3-editorial-plan.md` and
+`v0.3-author-review-record.md`.
+
+The v0.2 internal review verdict is:
+
+- v0.2 is a good internal working paper;
+- v0.2 is substantially improved over v0.1;
+- v0.2 is not ready for controlled external review or publication;
+- v0.2 still has weaknesses in bibliography, contribution unity,
+  methodological prioritization, and external validation.
+
+The approved v0.3 direction is to narrow the dominant contribution axis to
+traceability and accountability in human-AI-assisted digital institutions.
+Participation readiness, maturity separation, risk boundaries, and governance
+should remain as supporting components rather than co-equal contributions.
+
 ## Phase 1.1 review status
 
 Phase 1.1 critical editorial review was completed on 2026-07-03. A skeptical
@@ -180,6 +199,9 @@ formatting has not been applied.
 - The verified bibliography is still thin for deliberative competence,
   contestability and appeals, educational assessment validity, DAO
   participation behavior, and Web3 regulatory constraints.
+- Additional candidate work is now explicitly tracked for calibrated reliance,
+  appeals, assessment validity, DAO participation behavior, maturity-model
+  reliability, and Web3 regulatory constraints.
 - Those literatures should remain in `research/bibliography-candidates.md`
   until primary-source metadata is verified.
 - No additional references should enter `references.bib` until they are both
@@ -220,14 +242,17 @@ originates from a multi-year independent research and design effort.”
 
 ## Critical editorial blockers
 
-- The introduction and abstract still need a sharper statement of research gap
-  and narrower contribution framing.
-- The current title remains broader than the paper's present evidentiary base.
-- Related-work coverage is still insufficient for controlled external review in
-  educational assessment, deliberative competence, contestability, DAO
-  participation behavior, and Web3 regulatory constraints.
-- The approved terminology and no-tokenomics boundary now need to be applied
-  consistently in the v0.2 manuscript rewrite.
+- The v0.3 contribution must be narrowed further around traceability and
+  accountability in human-AI-assisted digital institutions.
+- Related-work coverage remains insufficient for controlled external review in
+  contestability and appeals, assessment validity, deliberative competence,
+  calibrated reliance, DAO participation behavior, maturity-model reliability,
+  and Web3 regulatory constraints.
+- The evaluation plan still needs stronger prioritization around RQ1 as the
+  primary study and RQ3 as a secondary study.
+- The manuscript still needs a clearer admission that the proposed
+  architecture may be too complex to govern in practice without substantial
+  scope reduction.
 
 ## Editorial risks
 
@@ -248,12 +273,13 @@ originates from a multi-year independent research and design effort.”
 
 ## Non-critical recommendations
 
-- Make the research gap explicit in the introduction in 2-4 sentences.
-- Prioritize one near-term evaluation path instead of presenting all five
-  research questions as equally immediate.
-- Consider narrowing the title before any controlled external review.
+- Keep the v0.3 manuscript centered on traceability, accountability, and
+  bounded human-AI assistance.
+- Reframe participation readiness, maturity, and risk boundaries as supporting
+  components rather than co-equal contributions.
+- Move RQ2, RQ4, and RQ5 toward future work unless they can be scoped tightly.
 - Expand the candidate bibliography first, then verify and integrate only the
-  sources that materially strengthen the paper.
+  sources that materially strengthen the narrowed v0.3 argument.
 
 ## IP/licensing risks
 
@@ -286,9 +312,9 @@ recorded and may be treated as approved for manuscript-editing purposes.
 
 Conduct an author-level editorial review against `reviewer-report.md`,
 `author-review-brief.md`, `v0.2-editorial-plan.md`, and
-`author-decision-record-v0.2.md` before any circulation decision. v0.2
-manuscript drafting may now begin under the recorded title, terminology, and
-scope constraints, but circulation remains blocked.
+`author-decision-record-v0.2.md` before any circulation decision. v0.3
+manuscript drafting may now begin under the narrowed contribution hierarchy
+recorded in `v0.3-editorial-plan.md`, but circulation remains blocked.
 
 ## Checklist status
 
@@ -299,12 +325,12 @@ Checklist applied: yes, for the automated/static checks completed in Phase 1.
 
 ## Readiness status
 
-Phase 1.4 readiness category: **Ready for author review only.**
+Phase 1.6 readiness category: **Ready for author review only.**
 
 Ready for controlled external review: no  
 Ready for public publication: no
 
-v0.2 manuscript edits authorized: yes  
+v0.3 manuscript edits authorized: yes  
 
-**Current status: v0.2 internal draft prepared for author review; blocked for
-controlled external review and publication.**
+**Current status: v0.2 internal draft reviewed; v0.3 planning complete;
+blocked for controlled external review and publication.**
