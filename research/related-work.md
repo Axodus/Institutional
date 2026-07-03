@@ -10,6 +10,11 @@ directly relevant because Axodus is presented as an institutional model rather
 than a purely technical stack. The paper uses this literature to justify
 jointly analyzing roles, rules, processes, and technical assistance.
 
+Leveson applies systems thinking to safety in complex socio-technical systems,
+emphasizing interactions and control relationships rather than isolated
+component failure. The architecture paper uses this framing only to avoid
+generalizing dependency propagation from the DeFi example.
+
 ## Human–AI interaction and risk governance
 
 Amershi et al. provide design guidelines for human interaction with AI
@@ -19,6 +24,12 @@ for governing AI risks. Together they motivate bounded assistance, visible
 uncertainty, monitoring, and human responsibility. They do not validate any
 Axodus mechanism.
 
+Alfrink et al. synthesize contestability-by-design features and practices,
+including safeguards, interactive control, human review and intervention,
+third-party scrutiny, and oversight. Their framework supports the manuscript's
+conceptual contestability requirements but does not validate Axodus-specific
+review mechanisms.
+
 ## Data provenance and accountable reconstruction
 
 The W3C PROV Data Model distinguishes entities, activities, agents,
@@ -26,6 +37,12 @@ derivations, attribution, and responsibility relationships. These concepts can
 support a vocabulary for reconstructing how evidence and AI-assisted outputs
 enter a decision record. A provenance description does not by itself establish
 institutional accountability, valid judgment, or effective review.
+
+Kroll et al. examine mechanisms for assessing algorithmic decision processes
+against legal and policy standards and argue that transparency alone is
+insufficient for accountability. The architecture paper uses this distinction
+to position provenance as an input to accountability rather than its
+substitute.
 
 ## Decentralized organizations and governance
 
@@ -61,6 +78,6 @@ their shared interest in explicit principles and their different mechanisms.
 ## Unresolved areas
 
 The verified set does not yet adequately cover education-gated participation,
-deliberative competence, contestable automated decision support, institutional
-appeals, or empirical measures of governance quality. Candidate literature for
-these areas remains outside the paper until verified.
+deliberative competence, empirical institutional appeals, reviewer capture
+resistance, or empirical measures of governance quality. Candidate literature
+for these areas remains outside the paper until verified.

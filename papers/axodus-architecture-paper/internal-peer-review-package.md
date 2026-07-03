@@ -24,9 +24,9 @@ files:
 
 | File | SHA-256 |
 |---|---|
-| `paper.md` | `4979e187ffea34e48b809d5ea64b798033a7f06f481c9a9982a1dbdd1ad701c2` |
-| `paper.tex` | `905ad8f8ca70102c7d6623a4cb494ca063b5d516fce875fd21019f91d4658542` |
-| `references.bib` | `9a29faddd4188fcbb87ebbc39e213806eadefecc420fb60d66cef048bf93b5c5` |
+| `paper.md` | `b3d6d4277b0bb71e4800f3218de1da12c77ae85073ae08d461365426342a6aac` |
+| `paper.tex` | `d1c8d4692e0578514130448d3079d4d021399ea6efe6e78858c41fd7988b6648` |
+| `references.bib` | `9277dfd584601757bc27eb8d064dc0bc50ac5baadb76dbdcd1194efbc7a652f0` |
 
 If a hash differs, the reviewer should stop and request a confirmed review
 copy. Review findings must identify the manuscript version reviewed.

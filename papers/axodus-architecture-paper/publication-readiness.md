@@ -2,9 +2,9 @@
 
 Review date: 2026-07-03  
 Version reviewed: draft v0.3.2
-Decision: **Ready for internal peer review after targeted revision; not ready
-for controlled external review, publication, submission, outreach, grant use,
-fundraising use, authority signaling, or external distribution.**
+Decision: **Ready for internal peer review after v0.3.2 reference-gap closure;
+not ready for controlled external review, publication, submission, outreach,
+grant use, fundraising use, authority signaling, or external distribution.**
 
 ## Publication status
 
@@ -378,6 +378,37 @@ targeted revision**. Controlled external review, publication, submission,
 outreach, grant use, fundraising use, external distribution, and authority
 signaling remain blocked.
 
+## Phase 1.15B v0.3.2 reference-gap closure status
+
+Phase 1.15B closed all three `[REFERENCE NEEDED]` markers in `paper.md` and
+`paper.tex`.
+
+The closure:
+
+- uses Leveson's systems-theoretic safety work for the bounded claim that
+  failures in complex socio-technical systems can emerge from interactions
+  and inadequate system control;
+- uses Kroll et al. for the bounded distinction between process accountability
+  and transparency alone; and
+- uses Alfrink et al. for contestability-by-design features including
+  safeguards, human review and intervention, and third-party scrutiny.
+
+Metadata was verified against MIT Press, the University of Pennsylvania Law
+Review with an institutional pagination cross-check, and Springer. The three
+sources were added to `references.bib` and
+`research/bibliography-verified.md`. Corresponding candidate gaps were marked
+resolved for the current manuscript while broader empirical research needs
+remain candidates.
+
+No `[REFERENCE NEEDED]` marker remains. Both manuscript forms cite the same
+twelve verified BibTeX keys. LaTeX compilation passed and all generated
+artifacts were cleaned.
+
+The manuscript is **ready for internal peer review after v0.3.2 reference-gap
+closure**. Controlled external review, publication, submission, outreach,
+grant use, fundraising use, external distribution, and authority signaling
+remain blocked.
+
 ## Phase 1.1 review status
 
 Phase 1.1 critical editorial review was completed on 2026-07-03. A skeptical
@@ -473,11 +504,10 @@ request, submission, publication, or external contact was performed.
 ## Verification performed
 
 - Markdown and LaTeX headings were compared and are structurally equivalent.
-- Both manuscript forms cite the same nine BibTeX keys.
+- Both manuscript forms cite the same twelve BibTeX keys.
 - Every BibTeX entry is cited; no duplicate keys or unused entries were found.
 - `git diff --check` found no whitespace errors in the Phase 1 changes.
-- The v0.3.2 manuscript contains three synchronized `[REFERENCE NEEDED]`
-  markers; each remains a publication blocker.
+- The v0.3.2 manuscript contains no `[REFERENCE NEEDED]` marker.
 - Searches were run for promotional superlatives, investment-return language,
   operational claims, common credential patterns, private keys, and repository
   URLs.
@@ -494,9 +524,11 @@ request, submission, publication, or external contact was performed.
 
 ## Bibliographic status
 
-Nine cited sources have verification records. Metadata was checked against
+Twelve cited sources have verification records. Metadata was checked against
 publisher, journal, institutional, standards-body, or canonical preprint
-records. W3C PROV-DM was verified against the official W3C Recommendation.
+records. The Phase 1.15B additions were checked against MIT Press, the
+University of Pennsylvania Law Review and Princeton University research
+record, and Springer.
 
 ## References needing verification
 
@@ -508,11 +540,8 @@ The following research areas remain candidates and are not cited:
 
 - deliberative and informed participation;
 - automation bias and calibrated reliance;
-- contestable automated decisions;
 - provenance standards beyond the verified W3C PROV-DM record;
-- algorithmic accountability;
 - governance metrics and institutional review processes;
-- complex-system accidents and socio-technical coupling;
 - empirical DAO voting and delegation;
 - educational assessment validity and equity;
 - maturity-model reliability.
@@ -525,10 +554,11 @@ formatting has not been applied.
 - The verified bibliography is still thin for deliberative competence,
   contestability and appeals, educational assessment validity, DAO
   participation behavior, and Web3 regulatory constraints.
-- The Phase 1.14 review identified additional material gaps in data
-  provenance, provenance standards, algorithmic accountability, governance
-  measures, institutional review processes, complex-system accidents, and
-  socio-technical coupling.
+- Phase 1.15B closed the current manuscript gaps for socio-technical failure,
+  algorithmic accountability, and contestability by design. Broader empirical
+  work on institutional appeals, reviewer independence, capture resistance,
+  system accidents, and governance metrics remains desirable before external
+  review.
 - Additional candidate work is now explicitly tracked for calibrated reliance,
   appeals, assessment validity, DAO participation behavior, maturity-model
   reliability, and Web3 regulatory constraints.
@@ -576,10 +606,6 @@ originates from a multi-year independent research and design effort.”
 
 - The new dependency direction, information flow, and control handoffs require
   internal peer review against the exact v0.3.2 manuscript.
-- Three `[REFERENCE NEEDED]` markers remain unresolved. W3C PROV-DM now
-  supports the provenance vocabulary, but broader coupling, algorithmic
-  accountability, institutional audit, contestability, and appeals still need
-  verified support or bounded text revision.
 - Related-work coverage remains insufficient for controlled external review in
   contestability and appeals, assessment validity, deliberative competence,
   calibrated reliance, DAO participation behavior, maturity-model reliability,
@@ -663,8 +689,9 @@ Conduct internal peer review against the exact v0.3.2 hashes recorded in
 `internal-peer-review-package.md` and `v0.3.2-readiness-record.md`. Reviewers
 should test the new architecture flow, synthetic scenario, provenance
 boundary, contestability model, simplification heuristics, and proposed
-evaluation measures. Resolve the three literature markers before considering
-any later external-review gate.
+evaluation measures, including whether the three newly added sources support
+their bounded propositions. Complete that review before considering any later
+external-review gate.
 
 ## Checklist status
 
@@ -672,21 +699,21 @@ The automated/static portions of the publication checklist were executed.
 Human judgment items remain unchecked in
 `../../governance/publication-review-checklist.md`.
 Checklist applied: yes, for the automated/static checks completed through
-Phase 1.15.
+Phase 1.15B.
 
 ## Readiness status
 
-Phase 1.15 readiness category: **Ready for internal peer review after v0.3.2
-targeted revision.**
+Phase 1.15B readiness category: **Ready for internal peer review after v0.3.2
+reference-gap closure.**
 
 Ready for controlled external review: no  
 Ready for public publication: no
 
-v0.3.2 targeted internal revision complete: yes
+v0.3.2 reference-gap closure complete: yes
 
 Internal peer review authorized: yes
 
-**Current status: v0.3.2 targeted revision complete; ready for internal peer
-review only; blocked for controlled external review, publication, submission,
-outreach, grant use, fundraising use, external distribution, and authority
-signaling.**
+**Current status: v0.3.2 targeted revision and reference-gap closure complete;
+ready for internal peer review only; blocked for controlled external review,
+publication, submission, outreach, grant use, fundraising use, external
+distribution, and authority signaling.**

@@ -104,10 +104,11 @@ distribution with accountable governance.
 
 Decentralized finance provides one domain-specific example in which
 composability can propagate dependencies across connected protocols
-[@schar2021defi]. Broader claims about coupling and failure propagation require
-evidence from complex-systems and socio-technical failure research rather than
-generalization from that domain. **[REFERENCE NEEDED: complex-system coupling
-and socio-technical failure]**
+[@schar2021defi]. Systems-theoretic safety research treats accidents in
+complex socio-technical systems as products of interactions and inadequate
+control across the system, rather than only isolated component failures
+[@leveson2012engineering]. This broader framing prevents the domain-specific
+DeFi example from carrying the general architectural claim.
 
 ## 2.3 Human–AI oversight, calibrated reliance, and governance
 
@@ -141,8 +142,10 @@ agents, derivations, attribution, and responsibility relationships
 artifacts, transformations, automated assistance, and responsible roles in a
 decision record. It supports reconstruction of how an output was produced, but
 does not by itself establish that the decision was legitimate, contestable, or
-accountable. **[REFERENCE NEEDED: algorithmic accountability and institutional
-audit]**
+accountable. Work on accountable algorithms similarly argues that automated
+decision processes must be assessable against external legal or policy
+standards and that transparency alone is insufficient [@kroll2017accountable].
+Provenance is therefore one input to accountability, not its substitute.
 
 # 3. Problem Statement
 
@@ -354,20 +357,21 @@ need a way to identify applicable rules, challenge evidence, correct records,
 and request review by an appropriately independent role. Immutable records,
 where used, must not be treated as immutable interpretations.
 
-Reviewer independence requires separation from the original decision,
-disclosure of conflicts, and recusal when a reviewer has participated in the
-contested analysis. Escalation paths should identify where a review moves when
-authority, expertise, or capacity is insufficient. Process scalability can be
-examined through queue size, review time, unresolved-case rate, and sampling
-for secondary review. Role rotation and multi-role review are candidate
-capture-resistance mechanisms whose effects require testing.
+Within this proposal, reviewer independence means separation from the original
+decision, disclosure of conflicts, and recusal when a reviewer has
+participated in the contested analysis. Escalation paths should identify where
+a review moves when authority, expertise, or capacity is insufficient. Process
+scalability can be examined through queue size, review time,
+unresolved-case rate, and sampling for secondary review.
 
 Human oversight becomes nominal when a reviewer lacks authority, time, access
 to evidence, or a practical ability to change the outcome. These requirements
 align with risk-oriented governance and human–AI interaction guidance
-[@tabassi2023airmf; @amershi2019guidelines], while the design of independent
-appeals and capture resistance requires additional support. **[REFERENCE
-NEEDED: contestability and institutional appeals]**
+[@tabassi2023airmf; @amershi2019guidelines]. Contestability-by-design
+literature likewise identifies safeguards, human review and intervention, and
+third-party scrutiny as design features [@alfrink2023contestable]. Role
+rotation and multi-role review remain candidate capture-resistance hypotheses
+whose effects require testing.
 
 # 8. Risk Boundaries as Supporting Constraints
 

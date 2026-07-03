@@ -16,6 +16,9 @@ metadata. Inclusion does not mean that every source must be cited.
 | `w3c2025vcdm` | W3C (2025). *Verifiable Credentials Data Model v2.0*. W3C Recommendation, 15 May 2025. | W3C technical recommendation | Cited |
 | `w3c2013provdm` | W3C (2013). *PROV-DM: The PROV Data Model*. W3C Recommendation, 30 April 2013. Editors: Luc Moreau and Paolo Missier. | W3C technical recommendation | Cited |
 | `bai2022constitutional` | Bai, Y. et al. (2022). “Constitutional AI: Harmlessness from AI Feedback.” arXiv:2212.08073. | Canonical arXiv record and author publication page | Cited |
+| `leveson2012engineering` | Leveson, N. G. (2012). *Engineering a Safer World: Systems Thinking Applied to Safety*. The MIT Press. ISBN: 9780262016629. | MIT Press book record | Cited |
+| `kroll2017accountable` | Kroll, J. A.; Huey, J.; Barocas, S.; Felten, E. W.; Reidenberg, J. R.; Robinson, D. G.; Yu, H. (2017). “Accountable Algorithms.” *University of Pennsylvania Law Review*, 165(3), 633–705. | University of Pennsylvania Law Review article record; pagination cross-checked against Princeton University research record | Cited |
+| `alfrink2023contestable` | Alfrink, K.; Keller, I.; Kortuem, G.; Doorn, N. (2023). “Contestable AI by Design: Towards a Framework.” *Minds and Machines*, 33, 613–639. DOI: 10.1007/s11023-022-09611-z. | Springer journal record | Cited |
 
 Metadata should be rechecked before submission because records and recommended
 citation formats can change.

@@ -1,7 +1,8 @@
 # Axodus Architecture Paper
 
 Active version: draft v0.3.2
-Readiness: **Ready for internal peer review after v0.3.2 targeted revision**
+Readiness: **Ready for internal peer review after v0.3.2 reference-gap
+closure**
 
 Controlled external review, publication, submission, outreach, grant use,
 fundraising use, external distribution, and authority signaling remain
@@ -45,8 +46,9 @@ The standard internal peer review set is:
 `publication-readiness.md` and `v0.3.2-change-log.md` are
 conditional review context as defined in `internal-peer-review-package.md`.
 
-The v0.3.2 targeted patch is complete. The next authorized action is internal
-peer review against the version-locked v0.3.2 package.
+The v0.3.2 targeted patch and reference-gap closure are complete. The next
+authorized action is internal peer review against the version-locked v0.3.2
+package.
 
 ## Historical artifacts
 
