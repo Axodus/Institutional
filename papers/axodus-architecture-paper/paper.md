@@ -1,36 +1,35 @@
 ---
-title: "Axodus: A Governance-Oriented Infrastructure Model for Human-AI Coordination, Proof-of-Knowledge Participation, and Modular Digital Institutions"
+title: "Axodus: A Prototype-Stage Conceptual Architecture for Governance-Oriented Human-AI Coordination"
 author:
   - "Mauricio Z. Filho"
 affiliation: "Independent Researcher, Axodus"
 correspondence: "[public contact to be added]"
-version: "Draft v0.1"
-status: "Human review required; not ready for publication"
+version: "Draft v0.2"
+status: "Internal author review required; not ready for publication"
 license: "CC BY 4.0"
-document_type: "Conceptual architecture and research-agenda paper"
+document_type: "Prototype-stage conceptual architecture and research-agenda paper"
 ---
 
 # Abstract
 
-Digital institutions increasingly combine human decision makers, automated
-services, decentralized infrastructure, financial mechanisms, and public
-documentation. Their technical components may be composable while their
-authority, accountability, learning requirements, and risk controls remain
-fragmented. This paper presents Axodus as a conceptual, prototype-stage
-socio-technical architecture for examining that coordination problem. The
-model organizes explicit governance rules, modular institutional components,
-evidence-linked decisions, human-supervised AI assistance, educational
-participation, and risk boundaries within a common research frame. It also
-proposes separate L0–L5 and D0–D5 axes for documentation and development
-maturity, without defining or assigning individual levels in this draft.
-“Proof of Knowledge” denotes a proposed educational participation mechanism,
-not a cryptographic proof protocol. The contribution is architectural and
-methodological: no operational deployment, user adoption, empirical outcome,
-security property, or financial performance is claimed. The paper derives
-research questions and an evaluation program covering traceability,
-participation, human–AI reliance, maturity assessment, and risk governance.
-Its purpose is to make a broad institutional design inspectable and
-falsifiable before implementation claims are made.
+Digital institutions increasingly combine governance rules, public records,
+automated assistance, and participation requirements, yet the literatures most
+relevant to these concerns are often treated separately. Socio-technical
+systems work, decentralized-governance research, human–AI oversight guidance,
+and credentialing standards each address part of the problem, but they do not
+by themselves specify an inspectable institutional model that connects
+authority, evidence, participation readiness, and bounded automation. This
+paper presents Axodus as a prototype-stage conceptual architecture and
+research agenda for that integrative problem. It makes three bounded
+contributions: a layered model linking governance, evidence, modular
+components, an educational layer, and risk boundaries; a distinction between
+documentation maturity and development maturity; and a sequenced evaluation
+agenda for traceability, participation readiness, human–AI reliance, and
+governance risk. Axodus is described only as a conceptual, prototype-stage
+model. The paper reports no deployed system, users, empirical outcomes,
+security validation, or token-linked mechanism. An internal Axodus term,
+“Proof of Knowledge,” is treated here only as a label for an educational
+participation mechanism, not as a cryptographic protocol or financial design.
 
 **Keywords:** socio-technical systems; digital institutions; human–AI
 coordination; governance; accountability; decentralized organizations;
@@ -38,37 +37,47 @@ educational participation; maturity models
 
 # 1. Introduction
 
-Digital ecosystems can execute transactions, coordinate distributed
-contributors, and produce large volumes of documentation. These capabilities
-do not by themselves determine who may decide, what evidence a decision
-requires, how an affected party can challenge it, or who remains accountable
-when automation contributes to an outcome. Socio-technical systems research
-therefore treats organizational and technical design as interdependent rather
-than assuming that one can be derived from the other
+Digital institutions can combine distributed governance, public
+documentation, automated assistance, and participation requirements within the
+same decision environment. Those capabilities do not by themselves determine
+who may decide, what evidence is required, how automation should be bounded,
+or how an affected party can challenge a decision. Socio-technical systems
+research therefore treats organizational design and technical design as
+interdependent rather than assuming that one can be derived from the other
 [@baxter2011sociotechnical].
 
-The problem becomes sharper when an institution combines decentralized
-governance and AI assistance. Research on decentralized autonomous
-organizations shows that self-executing rules remain embedded in social
-processes for interpretation, change, and coordination
-[@hassan2021dao; @hsieh2018bitcoin]. Human–AI interaction research likewise
-shows that useful automation requires expectation setting, correction, and
-feedback mechanisms rather than an undifferentiated transfer of authority
-[@amershi2019guidelines].
+Relevant literatures address these concerns from different directions.
+Research on decentralized governance highlights the continuing importance of
+interpretation, change, and coordination around self-executing rules
+[@hassan2021dao; @hsieh2018bitcoin]. Human–AI interaction guidance emphasizes
+expectation setting, correction, and review rather than an undifferentiated
+transfer of authority [@amershi2019guidelines]. Credentialing standards help
+separate machine verification from institutional judgment
+[@w3c2025vcdm]. What remains less clearly specified is an inspectable
+institutional model that brings these concerns together without overstating
+implementation, legitimacy, or operational maturity.
 
-This paper introduces Axodus as a conceptual architecture and research agenda
-for these intersecting concerns. The project originates from a multi-year
-independent research and design effort. The present contribution is limited to
-a model: it does not report a functioning platform, production deployment,
-users, evaluation results, or validated controls.
+This paper introduces Axodus as a prototype-stage conceptual architecture and
+research agenda for that integrative problem. The project originates from a
+multi-year independent research and design effort. The present contribution is
+limited to a model: it does not report a functioning platform, production
+deployment, users, evaluation results, validated controls, or any token-linked
+participation mechanism.
 
 The paper makes three bounded contributions. First, it presents a layered
-architecture connecting institutional rules, evidence, modular components,
-educational participation, AI assistance, and risk boundaries. Second, it
+architecture connecting institutional rules, evidence, modular components, an
+educational layer, bounded AI assistance, and risk boundaries. Second, it
 separates documentation maturity from development maturity to reduce the risk
 that extensive documentation is mistaken for operational readiness. Third, it
-defines an evaluation agenda through which the proposed architecture could be
-tested, rejected, or revised.
+defines a sequenced evaluation agenda through which the proposed architecture
+could be tested, rejected, or revised.
+
+Several matters are outside the paper's scope. The manuscript does not claim
+an implemented system, validated governance outcomes, demonstrated educational
+effects, security guarantees, or operational readiness. It also does not
+address token minting, token supply, value accrual, incentives, or other
+tokenomics questions, which require separate legal, economic, and empirical
+review.
 
 # 2. Background and Related Work
 
@@ -87,7 +96,7 @@ rules, records, and technical capabilities through which participants pursue
 collective activity. It does not require that every rule be executable or that
 every interaction occur on a blockchain.
 
-## 2.2 Decentralized governance and finance
+## 2.2 Decentralized governance and coordination
 
 Hassan and De Filippi describe a DAO as a blockchain-based system in which
 people coordinate through decentralized governance and self-executing rules
@@ -96,12 +105,12 @@ consensus required to alter protocols and organizational arrangements
 [@hsieh2018bitcoin]. These distinctions caution against equating technical
 distribution with accountable governance.
 
-DeFi demonstrates how composable smart contracts can create open financial
-services while introducing dependencies and technical, economic, and
-governance risks [@schar2021defi]. Axodus does not claim to operate financial
-services. DeFi is instead a motivating domain in which unclear authority,
-uninformed participation, and weakly explained risk boundaries can have
-consequential effects.
+Research on composable digital infrastructures also shows how dependencies can
+propagate across connected components and governance arrangements
+[@schar2021defi]. Axodus does not claim to operate any live financial or
+asset-linked system. The relevance of this literature here is narrower: it
+illustrates how technical composability can intensify governance and
+coordination risk when authority and rationale remain unclear.
 
 ## 2.3 Human–AI interaction and governance
 
@@ -186,10 +195,10 @@ declare its purpose, inputs, outputs, authority, dependencies, evidence
 requirements, and failure behavior. No definitive inventory or implementation
 status is asserted in this draft.
 
-## 4.4 Participation and learning
+## 4.4 Educational layer and participation
 
-An Academy component and Proof of Knowledge mechanism are proposed as
-interfaces for learning and assessment. Their purpose would be to help
+An educational layer and an educational participation mechanism are proposed
+as interfaces for learning and assessment. Their purpose would be to help
 participants understand domain-specific risks and governance duties before
 performing selected consequential actions. They must not become a general
 social ranking system.
@@ -205,10 +214,10 @@ decision authority and responsibility.
 ## 4.6 Risk and sustainability boundaries
 
 The risk layer expresses constraints on authority, exposure, timing,
-conflicts, and escalation. In a future treasury context, the same layer could
-require auditable rationales and approvals. This is a design requirement only:
-the paper claims no working treasury, enforced limit, security property, or
-financial outcome.
+conflicts, and escalation. Its purpose is to make consequential decisions
+reviewable in relation to defined boundaries rather than to imply a working
+control system. This is a design requirement only: the paper claims no
+implemented enforcement, security property, or live operational control.
 
 # 5. Modularity and Maturity
 
@@ -234,11 +243,13 @@ Component boundaries may support bounded change and review, but they can also
 move complexity into interfaces. Evaluation must therefore examine dependency
 visibility, cross-component failure, and governance consistency.
 
-# 6. Proof of Knowledge and Educational Participation
+# 6. Educational Participation and Governance Readiness
 
-**Terminology note.** *Proof of Knowledge* in this paper means a proposed
-educational participation mechanism. It is not a cryptographic proof of
-knowledge, proof-of-work, proof-of-stake, or a deployed credential protocol.
+**Terminology note.** Axodus notes use the internal label *Proof of Knowledge*
+for the educational participation mechanism discussed here. In this paper, the
+mechanism is described in functional terms to avoid confusion with
+cryptographic proof-of-knowledge protocols, proof-of-work, proof-of-stake, or
+token-linked participation schemes.
 
 The mechanism would connect a defined learning objective, an assessment, a
 reviewable result, and eligibility for a bounded activity. A possible flow is:
@@ -256,12 +267,12 @@ or justify authorization [@w3c2025vcdm]. The governance problem therefore
 includes who defines curricula, who assesses assessors, how accommodations are
 provided, and how a participant can contest an outcome.
 
-The central hypothesis is that education-linked readiness may improve the
+The central hypothesis is that knowledge-gated participation may improve the
 quality of participation in selected high-consequence contexts. Competing
 hypotheses are equally important: the mechanism may reduce participation,
 favor already advantaged groups, encourage test gaming, centralize curriculum
-power, or create privacy risks. Proof of Knowledge should be rejected or
-redesigned if those harms cannot be controlled.
+power, or create privacy risks. The mechanism should be rejected or redesigned
+if those harms cannot be controlled.
 
 # 7. Governance, Accountability, and Human Oversight
 
@@ -285,7 +296,7 @@ These requirements align with risk-oriented governance and human–AI
 interaction guidance [@tabassi2023airmf; @amershi2019guidelines], but their
 effectiveness in Axodus remains untested.
 
-# 8. Risk Boundaries and Treasury Transparency
+# 8. Risk Boundaries
 
 Risk boundaries are proposed at four levels:
 
@@ -294,17 +305,18 @@ Risk boundaries are proposed at four levels:
 - **process boundaries:** evidence, approvals, waiting periods, and conflicts;
 - **escalation boundaries:** conditions requiring suspension or review.
 
-In financial settings, on-chain visibility can reveal transactions while
-leaving assumptions, conflicts, and rationales opaque. DeFi research also
-shows that composability can transmit dependencies across protocols
-[@schar2021defi]. A future Axodus treasury model would therefore need both
-transaction records and decision context.
+Visible transactions or records do not by themselves make assumptions,
+conflicts, and rationales inspectable. Research on composable digital
+infrastructures likewise shows that dependencies can propagate across connected
+components [@schar2021defi]. The proposed model therefore treats decision
+context as part of risk governance rather than as a by-product of technical
+execution.
 
-No treasury architecture, threshold, asset policy, token mechanism, or
-financial projection is disclosed or claimed here. Before any live-value
-experiment, the model would require threat modeling, simulation, independent
-security review, legal analysis, incident procedures, and explicit human
-authorization.
+Questions about live asset policies, token-linked participation, supply
+mechanisms, or financial incentives are outside the scope of this paper.
+Before any such design were documented publicly, it would require separate
+legal, economic, and empirical review in addition to threat modeling and
+simulation.
 
 # 9. Prototype Status
 
@@ -330,11 +342,12 @@ document-only baseline? A study could use matched governance scenarios,
 blinded reviewers, reconstruction accuracy, time, disagreement, and missing-
 evidence detection.
 
-**RQ2 — Educational participation:** Does Proof of Knowledge improve
+**RQ2 — Educational participation:** Does a knowledge-gated participation
+mechanism improve
 domain-relevant understanding without unacceptable exclusion? A staged study
 should measure learning, retention, decision reasoning, completion,
-accessibility, subgroup effects, appeals, and test gaming. Token or financial
-stakes should not be introduced in an initial study.
+accessibility, subgroup effects, appeals, and test gaming. Token-linked or
+financial stakes should not be introduced in an initial study.
 
 **RQ3 — Human–AI reliance:** For bounded proposal-analysis tasks, how do
 provenance and mandatory human disposition affect error detection, calibrated
@@ -369,7 +382,7 @@ usability, governance legitimacy, security, or social impact. The model is
 also authored from a single-project perspective and may encode unexamined
 assumptions about authority, education, and accountability.
 
-Proof of Knowledge presents particular risks of exclusion, surveillance,
+Knowledge-gated participation presents particular risks of exclusion, surveillance,
 curriculum capture, and false confidence. Human oversight can become nominal
 when reviewers lack time or expertise. Audit trails can create privacy and
 security harms. Modularity can hide systemic coupling. Explicit rules can
@@ -390,17 +403,17 @@ Near-term work should:
 
 1. formalize observable L and D maturity criteria;
 2. specify the minimal decision and evidence model;
-3. design a non-financial Proof of Knowledge prototype with accessibility and
-   appeal requirements;
+3. design a non-financial educational participation prototype with
+   accessibility and appeal requirements;
 4. define bounded AI-assistance tasks and provenance records;
 5. create governance and failure scenarios for tabletop evaluation;
 6. recruit independent reviewers from governance, HCI, education, security,
    and decentralized-systems backgrounds;
 7. publish negative findings and design changes alongside positive results.
 
-Separate papers should address educational validity, human–AI governance, and
-financial risk rather than treating the present architecture paper as
-evidence in those domains.
+Separate papers or technical notes should address educational validity,
+human–AI governance, and any token-linked or financial design questions rather
+than treating the present architecture paper as evidence in those domains.
 
 # 13. Conclusion
 

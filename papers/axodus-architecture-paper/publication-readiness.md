@@ -1,7 +1,7 @@
 # Publication Readiness — Axodus Architecture Paper
 
 Review date: 2026-07-03  
-Version reviewed: draft v0.1  
+Version reviewed: draft v0.2  
 Decision: **Ready for author review only; not ready for controlled external
 review, publication, submission, outreach, grant use, or external
 distribution.**
@@ -51,6 +51,29 @@ Recorded decisions now include:
   review;
 - the paper remains blocked from publication, outreach, grants, fundraising,
   and authority signaling.
+
+## Phase 1.4 v0.2 rewrite status
+
+Phase 1.4 completed an internal v0.2 manuscript rewrite in `paper.md` and
+`paper.tex` under the approved author-decision constraints.
+
+The rewrite:
+
+- narrowed the title to explicitly signal prototype-stage conceptual
+  architecture;
+- rewrote the abstract and introduction around a clearer integrative research
+  gap;
+- replaced most public-facing `Proof of Knowledge` language with descriptive
+  functional terminology while retaining one internal-label note;
+- replaced manuscript-facing `Academy` language with `educational layer`;
+- removed treasury-centered framing and made token-linked or financial design
+  questions explicitly out of scope.
+
+The rewritten LaTeX manuscript compiled successfully after the Phase 1.4
+changes, and generated build artifacts were cleaned.
+
+The rewrite did not add new references, did not change the publication
+blockers, and did not authorize circulation.
 
 ## Phase 1.1 review status
 
@@ -126,6 +149,7 @@ request, submission, publication, or external contact was performed.
   `reviewer-report.md`.
 - A LaTeX compile check was completed successfully and documented in
   `latex-compile-check.md`.
+- The v0.2 rewrite was summarized in `v0.2-change-log.md`.
 
 ## Bibliographic status
 
@@ -275,12 +299,12 @@ Checklist applied: yes, for the automated/static checks completed in Phase 1.
 
 ## Readiness status
 
-Phase 1.3 readiness category: **Ready for author review only.**
+Phase 1.4 readiness category: **Ready for author review only.**
 
 Ready for controlled external review: no  
 Ready for public publication: no
 
 v0.2 manuscript edits authorized: yes  
 
-**Current status: author review ready; v0.2 editing authorized; blocked for
+**Current status: v0.2 internal draft prepared for author review; blocked for
 controlled external review and publication.**
