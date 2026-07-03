@@ -29,13 +29,30 @@ state for Axodus cores.
 
 ## D0–D5
 
-A proposed development-maturity axis. Phase 1 does not assign meanings to the
-individual levels and does not score components.
+The Axodus internal operational dimension for development, implementation,
+technical validation, and operational maturity. D-Level does not measure
+governance and does not automatically establish production status or authorize
+sensitive action. The complete internal rubric is maintained in
+`governance/maturity-taxonomy.md`.
 
 ## L0–L5
 
-A proposed documentation-maturity axis. Phase 1 does not assign meanings to
-the individual levels and does not score components.
+The Axodus internal operational dimension for organizational, documentation,
+governance, and authority maturity. L-Level does not measure code and does not
+automatically establish production status or authorize sensitive action. The
+complete internal rubric is maintained in
+`governance/maturity-taxonomy.md`.
+
+## Maturity, production, and authority
+
+L-Level measures whether a unit is governable. D-Level measures whether a unit
+is implemented. Production status determines whether a unit may operate in a
+real environment, and authority status determines whether it may perform
+sensitive actions. These are separate determinations.
+
+The L0–L5 and D0–D5 rubric is an internal operational taxonomy, not an
+empirically validated measurement instrument. Manuscripts must not infer
+production readiness or sensitive authority from an L-Level or D-Level.
 
 ## Human–AI coordination
 
@@ -51,12 +68,11 @@ It is **not** the homonymous cryptographic concept in which a prover
 demonstrates knowledge of a secret without revealing it. It is also not
 proof-of-work, proof-of-stake, or an implemented credential protocol.
 
-For the architecture paper v0.2, `Proof of Knowledge` remains internal Axodus
-terminology and should not be the primary public academic term. Preferred
-paper-facing alternatives are `knowledge-gated participation`,
-`educational participation mechanism`, or `governance-readiness mechanism`.
-If the internal label is mentioned in manuscript text, it should be introduced
-once as an Axodus-internal term with a strong disclaimer.
+For the architecture paper, `Proof of Knowledge` remains internal Axodus
+terminology and must not appear as the primary public academic term or as a
+terminology note in the manuscript body. Preferred paper-facing alternatives
+are `participation-readiness mechanism`, `educational readiness`, `bounded
+participation`, or `educational participation mechanism`.
 
 ## Academy
 

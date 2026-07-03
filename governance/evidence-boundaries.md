@@ -8,7 +8,11 @@ Status: Phase 1 editorial control
 - The project originates from a multi-year independent research and design
   effort.
 - Proof of Knowledge is proposed as an educational participation mechanism.
-- L0–L5 and D0–D5 are proposed documentation and development maturity axes.
+- L0–L5 and D0–D5 are internal operational maturity dimensions for,
+  respectively, organizational/governance maturity and
+  development/implementation maturity. They are not empirically validated
+  measurement instruments and do not confer production status or sensitive
+  authority.
 - Governance, human oversight, accountability, risk boundaries, and modularity
   are design objectives and research topics.
 - Proposed evaluation methods and falsifiable research questions may be

@@ -1,10 +1,10 @@
 # Publication Readiness — Axodus Architecture Paper
 
 Review date: 2026-07-03  
-Version reviewed: draft v0.3  
-Decision: **Ready for author review only; not ready for controlled external
-review, publication, submission, outreach, grant use, or external
-distribution.**
+Version reviewed: draft v0.3.1
+Decision: **Ready for internal peer review; not ready for controlled external
+review, publication, submission, outreach, grant use, fundraising use,
+authority signaling, or external distribution.**
 
 ## Publication status
 
@@ -183,6 +183,11 @@ Adding contact metadata does not authorize publication, controlled external
 review, outreach, grants, fundraising, or authority signaling. The readiness
 category and all publication blockers remain unchanged.
 
+The author explicitly approved this contact exposure. The decision carries
+recognized risks of unsolicited contact, spam, impersonation, and
+cross-platform identity linkage. Recording acceptance of those risks does not
+authorize release or circulation.
+
 ## Phase 1.10 compression status
 
 Phase 1.10 completed the authorized internal compression pass in `paper.md`
@@ -202,6 +207,39 @@ Author review had been intentionally deferred until this compression pass was
 complete. That deferral condition is now satisfied. The manuscript remains
 classified as ready for author review only, while controlled external review
 and publication remain blocked.
+
+## Phase 1.12 v0.3.1 pre-review patch status
+
+Phase 1.12 completed the v0.3.1 pre-review patch in `paper.md` and `paper.tex`
+and recorded it in `v0.3.1-pre-review-change-log.md` and
+`v0.3.1-pre-review-readiness-record.md`.
+
+The patch:
+
+- corrected the references statement to distinguish existing internal
+  verification records from the mandatory final metadata recheck before any
+  external use;
+- recorded the author-approved contact-exposure decision and its recognized
+  privacy, spam, impersonation, and identity-linkage risks;
+- reduced repeated defensive wording while retaining prototype-stage and
+  non-publication boundaries in the status metadata, abstract, introduction,
+  Prototype Status, and Limitations;
+- added a minimal conceptual taxonomy of functional component types without
+  asserting a definitive Axodus module inventory or implementation;
+- repositioned L-Level and D-Level as orthogonal internal operational maturity
+  dimensions that do not confer production status or sensitive authority;
+- moved the complete, non-validated internal rubric to
+  `../../governance/maturity-taxonomy.md`;
+- removed the internal `Proof of Knowledge` terminology note from the
+  manuscript body and retained only descriptive academic terminology;
+- clarified that RQ1 and RQ3 require a controlled simulated evaluation
+  environment before reviewer studies;
+- limited the Schär citation to a domain-specific DeFi example rather than a
+  general claim about digital infrastructure.
+
+The v0.3.1 manuscript is **ready for internal peer review**. Controlled
+external review, publication, submission, outreach, grant use, fundraising
+use, external distribution, and authority signaling remain blocked.
 
 ## Phase 1.1 review status
 
@@ -236,6 +274,7 @@ security properties, financial performance, or operational maturity.
 - `governance/citation-policy.md`
 - `governance/evidence-boundaries.md`
 - `governance/ip-boundaries.md`
+- `governance/maturity-taxonomy.md`
 - `governance/publication-review-checklist.md`
 - `research/claims-register.md`
 - `research/gaps.md`
@@ -256,6 +295,8 @@ security properties, financial performance, or operational maturity.
 - `papers/axodus-architecture-paper/v0.3-minor-edits-plan.md`
 - `papers/axodus-architecture-paper/bibliography-hardening-plan.md`
 - `papers/axodus-architecture-paper/v0.3-compression-change-log.md`
+- `papers/axodus-architecture-paper/v0.3.1-pre-review-change-log.md`
+- `papers/axodus-architecture-paper/v0.3.1-pre-review-readiness-record.md`
 - `whitepaper/README.md`
 - `articles/README.md`
 - `outreach/README.md`
@@ -263,6 +304,12 @@ security properties, financial performance, or operational maturity.
 ## Files modified
 
 - `README.md`
+- `governance/evidence-boundaries.md`
+- `research/claims-register.md`
+- `research/terminology.md`
+- `papers/axodus-architecture-paper/paper.md`
+- `papers/axodus-architecture-paper/paper.tex`
+- `papers/axodus-architecture-paper/publication-readiness.md`
 
 The existing software `LICENSE` was not modified. No commit, push, pull
 request, submission, publication, or external contact was performed.
@@ -281,7 +328,7 @@ request, submission, publication, or external contact was performed.
   lists, or blocked claims; no apparent secret or sensitive implementation
   detail was found.
 - Proof of Knowledge is explicitly distinguished from cryptographic proofs of
-  knowledge in the terminology file and both manuscript forms.
+  knowledge in the terminology file and is absent from both manuscript forms.
 - A skeptical academic review was completed and documented in
   `reviewer-report.md`.
 - A LaTeX compile check was completed successfully and documented in
@@ -376,9 +423,8 @@ originates from a multi-year independent research and design effort.”
 - The manuscript now states that the architecture may be too complex to govern
   in practice without substantial scope reduction; that limitation remains a
   live blocker rather than a resolved concern.
-- Residual interpretive risk remains around the internal `Proof of Knowledge`
-  note and visible out-of-scope token terminology, even though both are now
-  properly bounded.
+- The maturity rubric remains an unvalidated internal operational taxonomy and
+  must not be treated as a scientific measurement instrument.
 
 ## Editorial risks
 
@@ -386,14 +432,15 @@ originates from a multi-year independent research and design effort.”
   finance; reviewers may find its contribution insufficiently narrow.
 - **Evidence:** the architecture has no empirical evaluation or public
   implementation evidence.
-- **Terminology:** “Proof of Knowledge” may still be confused with the
-  cryptographic term despite the explicit disclaimer.
+- **Terminology:** internal Axodus terms may still be confused with established
+  academic or technical terms if reintroduced into later manuscript revisions.
 - **Legitimacy:** educational gating can create exclusion, curriculum capture,
   and privacy harms.
 - **Oversight:** “human in the loop” can become nominal without authority,
   competence, time, and accountability.
-- **Maturity:** L0–L5 and D0–D5 remain labels without validated level
-  definitions.
+- **Maturity:** L0–L5 and D0–D5 now have internal operational definitions, but
+  the rubric has not been empirically validated for reliability or external
+  use.
 - **Single-author perspective:** the model may encode institutional assumptions
   that have not been independently challenged.
 
@@ -432,8 +479,8 @@ originates from a multi-year independent research and design effort.”
 ## Author decisions required
 
 - Keep one broad architecture paper or split into narrower papers.
-- Choose the next review mode: author review only or controlled external
-  review after revision.
+- Review and resolve the findings from the authorized internal peer review
+  before choosing any later circulation mode.
 - Approve the affiliation wording and license posture for any later
   circulation.
 
@@ -450,24 +497,28 @@ rewrite should now be reviewed against `v0.3-editorial-plan.md`,
 `v0.3-author-review-brief.md`, and `v0.3-author-review-checklist.md`, but
 circulation remains blocked. The next internal working documents are now
 `v0.3-minor-edits-plan.md`, `bibliography-hardening-plan.md`, and
-`v0.3-compression-change-log.md`.
+`v0.3-compression-change-log.md`. Internal peer reviewers should additionally
+use `v0.3.1-pre-review-change-log.md` and
+`v0.3.1-pre-review-readiness-record.md`.
 
 ## Checklist status
 
 The automated/static portions of the publication checklist were executed.
 Human judgment items remain unchecked in
 `../../governance/publication-review-checklist.md`.
-Checklist applied: yes, for the automated/static checks completed in Phase 1.
+Checklist applied: yes, for the automated/static checks completed through
+Phase 1.12.
 
 ## Readiness status
 
-Phase 1.10 readiness category: **Ready for author review only.**
+Phase 1.12 readiness category: **Ready for internal peer review.**
 
 Ready for controlled external review: no  
 Ready for public publication: no
 
-v0.3 manuscript edits authorized: yes  
+Internal peer review authorized: yes
 
-**Current status: v0.3 internal rewrite, planning, metadata update, and
-compression pass complete; ready for author review only; blocked for
-controlled external review and publication.**
+**Current status: v0.3.1 pre-review patch complete; ready for internal peer
+review only; blocked for controlled external review, publication, submission,
+outreach, grant use, fundraising use, external distribution, and authority
+signaling.**
