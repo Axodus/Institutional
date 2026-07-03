@@ -1,7 +1,7 @@
 # Internal Peer Review Instructions
 
 Document status: confidential internal review instructions  
-Manuscript: Axodus architecture paper, draft v0.3.1  
+Manuscript: Axodus architecture paper, draft v0.3.2
 Distribution: named internal reviewers only
 
 ## Confidentiality and non-distribution

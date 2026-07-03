@@ -100,6 +100,14 @@ engine, value-accrual mechanism, or financial incentive model.
 A stage in which architecture, requirements, and experiments may be developed
 without establishing production readiness, adoption, safety, or effectiveness.
 
+## Provenance
+
+Information about the entities, activities, agents, derivations, and
+attribution relationships involved in producing or transforming an artifact or
+decision input. In the architecture paper, provenance is a conceptual
+requirement for reconstruction. It does not imply an implemented logging
+system, integrity guarantee, or accountability outcome.
+
 ## Risk boundary
 
 A proposed constraint on permitted actions, exposure, authority, or escalation.

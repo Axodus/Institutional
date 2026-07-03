@@ -1,7 +1,7 @@
 # Axodus Architecture Paper — Internal Peer Review Package
 
 Package date: 2026-07-03  
-Manuscript version: draft v0.3.1  
+Manuscript version: draft v0.3.2
 Review classification: confidential internal peer review only  
 External distribution: prohibited
 
@@ -24,9 +24,9 @@ files:
 
 | File | SHA-256 |
 |---|---|
-| `paper.md` | `6c8784d9799a085626346c82747b4e2f94c5538ca757351df5e317947823a126` |
-| `paper.tex` | `a68270349b40bf77b0a00fa252a67cb094563e384d430d9a8aaea8af210eb3ef` |
-| `references.bib` | `2bfdc9f012c83c8dc825906e3fad0faf9e2d68dc5836982d599737ed648e5c4a` |
+| `paper.md` | `4979e187ffea34e48b809d5ea64b798033a7f06f481c9a9982a1dbdd1ad701c2` |
+| `paper.tex` | `905ad8f8ca70102c7d6623a4cb494ca063b5d516fce875fd21019f91d4658542` |
+| `references.bib` | `9a29faddd4188fcbb87ebbc39e213806eadefecc420fb60d66cef048bf93b5c5` |
 
 If a hash differs, the reviewer should stop and request a confirmed review
 copy. Review findings must identify the manuscript version reviewed.
@@ -35,14 +35,15 @@ copy. Review findings must identify the manuscript version reviewed.
 
 The controlled core package consists of:
 
-1. `paper.md` as the primary review manuscript;
-2. `references.bib` for citation inspection;
-3. `internal-peer-review-instructions.md`;
-4. `internal-peer-review-form.md`;
-5. `v0.3.1-pre-review-readiness-record.md`;
-6. `governance/evidence-boundaries.md`;
-7. `governance/maturity-taxonomy.md`; and
-8. `research/bibliography-verified.md`.
+1. `internal-peer-review-package.md` as the package manifest;
+2. `paper.md` as the primary review manuscript;
+3. `references.bib` for citation inspection;
+4. `internal-peer-review-instructions.md`;
+5. `internal-peer-review-form.md`;
+6. `v0.3.2-readiness-record.md`;
+7. `governance/evidence-boundaries.md`;
+8. `governance/maturity-taxonomy.md`; and
+9. `research/bibliography-verified.md`.
 
 `paper.tex` may be shared instead of, or alongside, `paper.md` when the
 reviewer needs the typeset-source form. It is substantively synchronized with
@@ -56,7 +57,7 @@ for every reviewer:
 | File | Share when needed for |
 |---|---|
 | `publication-readiness.md` | blocker history, release-risk review, or readiness audit |
-| `v0.3.1-pre-review-change-log.md` | focused comparison with v0.3 or review of the pre-review patch |
+| `v0.3.2-change-log.md` | focused comparison with v0.3.1 or review of the targeted patch |
 | `governance/citation-policy.md` | citation-governance or metadata review |
 | `governance/ip-boundaries.md` | IP, disclosure, or sensitive-detail review |
 | `research/terminology.md` | terminology consistency or internal/public vocabulary review |

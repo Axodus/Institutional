@@ -1,7 +1,7 @@
 # Axodus Architecture Paper
 
-Active version: draft v0.3.1  
-Readiness: **Ready for v0.3.2 targeted internal revision only**
+Active version: draft v0.3.2
+Readiness: **Ready for internal peer review after v0.3.2 targeted revision**
 
 Controlled external review, publication, submission, outreach, grant use,
 fundraising use, external distribution, and authority signaling remain
@@ -22,10 +22,8 @@ blocked.
 - `internal-peer-review-03.md` — consolidated record of review input 03;
 - `internal-peer-review-consolidation.md` — Phase 1.14 decision and severity
   record;
-- `v0.3.2-patch-plan.md` — authorized scope for the next internal editing
-  phase;
-- `v0.3.1-pre-review-change-log.md` — current-version change record;
-- `v0.3.1-pre-review-readiness-record.md` — current pre-review gate record;
+- `v0.3.2-change-log.md` — current-version change record;
+- `v0.3.2-readiness-record.md` — current internal-review gate record;
   and
 - `README.md` — this directory index.
 
@@ -38,18 +36,17 @@ The standard internal peer review set is:
 - `internal-peer-review-package.md`;
 - `internal-peer-review-instructions.md`;
 - `internal-peer-review-form.md`;
-- `v0.3.1-pre-review-readiness-record.md`;
+- `v0.3.2-readiness-record.md`;
 - `../../governance/evidence-boundaries.md`;
 - `../../governance/maturity-taxonomy.md`; and
 - `../../research/bibliography-verified.md`.
 
 `paper.tex` may be supplied when a reviewer needs the LaTeX source.
-`publication-readiness.md` and `v0.3.1-pre-review-change-log.md` are
+`publication-readiness.md` and `v0.3.2-change-log.md` are
 conditional review context as defined in `internal-peer-review-package.md`.
 
-The initial v0.3.1 internal review inputs have been consolidated. The next
-authorized action is the targeted v0.3.2 internal patch described in
-`v0.3.2-patch-plan.md`; manuscript edits have not begun.
+The v0.3.2 targeted patch is complete. The next authorized action is internal
+peer review against the version-locked v0.3.2 package.
 
 ## Historical artifacts
 

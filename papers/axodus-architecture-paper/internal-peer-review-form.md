@@ -1,7 +1,7 @@
 # Axodus Architecture Paper — Internal Peer Review Form
 
 Classification: confidential internal peer review only  
-Manuscript version: draft v0.3.1
+Manuscript version: draft v0.3.2
 
 ## Reviewer record
 
@@ -240,7 +240,7 @@ Non-blocking recommendations:
 
 ## Reviewer attestation
 
-I reviewed the identified v0.3.1 manuscript under the internal confidentiality
+I reviewed the identified v0.3.2 manuscript under the internal confidentiality
 and non-distribution terms. My assessment does not authorize external review,
 publication, submission, outreach, grant use, fundraising use, distribution,
 or authority signaling.

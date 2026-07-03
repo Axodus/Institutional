@@ -6,8 +6,8 @@ affiliation: "Independent Researcher, Axodus"
 correspondence: "mzfshark@gmail.com"
 project_discussion_forum: "Telegram @thinkincoin"
 author_social_handle: "@mzfshark"
-version: "Draft v0.3.1"
-status: "Ready for internal peer review; not ready for external circulation or publication"
+version: "Draft v0.3.2"
+status: "Ready for internal peer review after targeted revision; not ready for external circulation or publication"
 license: "CC BY 4.0"
 document_type: "Prototype-stage conceptual architecture and focused research-agenda paper"
 ---
@@ -24,10 +24,9 @@ presents Axodus as a prototype-stage conceptual architecture and focused
 research agenda for that problem. Its central contribution is a layered model
 for linking decision authority, evidence, bounded AI assistance, rationale,
 and review paths in digital institutions. Supporting discussion addresses
-participation readiness, bounded risk constraints, and separate organizational
-and development maturity dimensions. Axodus is described only as a
-conceptual, prototype-stage model; the paper reports no deployed system,
-empirical validation, or operational readiness.
+participation readiness, bounded risk constraints, and complexity reduction.
+Axodus is described only as a conceptual, prototype-stage model; the paper
+reports no deployed system, empirical validation, or operational readiness.
 
 **Keywords:** socio-technical systems; digital institutions; human–AI
 coordination; traceability; accountability; governance; contestability
@@ -66,9 +65,11 @@ operational authority.
 The central contribution is a layered architecture for traceability and
 accountability in human–AI-assisted digital institutions. It links
 institutional authority, evidence, bounded AI assistance, decision rationale,
-and review paths. Participation readiness, maturity separation, and risk
-boundaries remain in the paper only as supporting components needed to frame
-how such an architecture might be inspected and eventually evaluated.
+contestability, and review paths. The contribution lies in this specific
+arrangement rather than in any layer considered alone. Participation
+readiness, maturity separation, and risk boundaries remain supporting
+components needed to frame how the arrangement might be inspected and
+eventually evaluated.
 
 Implementation, deployment, institutional adoption, and empirical validation
 are outside the paper's scope. The manuscript also does not evaluate
@@ -101,10 +102,12 @@ consensus required to alter protocols and organizational arrangements
 [@hsieh2018bitcoin]. These distinctions caution against equating technical
 distribution with accountable governance.
 
-In decentralized finance specifically, composability can propagate
-dependencies across connected protocols [@schar2021defi]. This
-domain-specific example motivates explicit dependency and escalation records;
-it is not evidence that every digital institution exhibits the same behavior.
+Decentralized finance provides one domain-specific example in which
+composability can propagate dependencies across connected protocols
+[@schar2021defi]. Broader claims about coupling and failure propagation require
+evidence from complex-systems and socio-technical failure research rather than
+generalization from that domain. **[REFERENCE NEEDED: complex-system coupling
+and socio-technical failure]**
 
 ## 2.3 Human–AI oversight, calibrated reliance, and governance
 
@@ -129,6 +132,17 @@ verification of a credential from validation of whether its claims are fit for
 a verifier's purpose [@w3c2025vcdm]. This matters here because a technically
 verifiable record would not by itself establish fair assessment, learning, or
 legitimate governance restriction.
+
+## 2.5 Data provenance and accountable reconstruction
+
+The W3C PROV Data Model describes provenance through entities, activities,
+agents, derivations, attribution, and responsibility relationships
+[@w3c2013provdm]. This vocabulary is useful for distinguishing source
+artifacts, transformations, automated assistance, and responsible roles in a
+decision record. It supports reconstruction of how an output was produced, but
+does not by itself establish that the decision was legitimate, contestable, or
+accountable. **[REFERENCE NEEDED: algorithmic accountability and institutional
+audit]**
 
 # 3. Problem Statement
 
@@ -163,6 +177,37 @@ is not presented as their solution.
 The model comprises six logical layers. They describe responsibilities and
 interfaces, not an implementation topology.
 
+Conceptually, the layers form a directional decision path:
+
+1. constitutional governance defines the applicable roles, decision rights,
+   prohibitions, and appeal rules;
+2. a bounded institutional component receives a decision request and, where
+   justified, checks participation-readiness conditions;
+3. the evidence layer assembles source material, declared conflicts, and the
+   authority basis for the request;
+4. human–AI assistance may transform or analyze that material, with its task,
+   inputs, output, and responsible reviewer recorded as provenance;
+5. risk boundaries constrain the actions available to the authorized human
+   decision-maker; and
+6. the resulting decision and rationale enter a review path through which an
+   independent role can inspect, correct, escalate, or hear an appeal.
+
+Information therefore moves from rules, requests, and evidence through any
+assistance into a decision record. Control remains with authorized human roles
+constrained by governance and risk boundaries. Review flow can return disputed
+evidence or rationale for correction without treating the original record as
+an unchangeable interpretation.
+
+**Illustrative synthetic scenario — policy exception review.** A mock policy
+exception request includes an authority statement, the applicable rule, and a
+controlled evidence package. A simulated AI summary omits one cited source.
+The responsible reviewer records the omission, withholds disposition pending
+correction, and escalates the request because a risk boundary is triggered. An
+independent appeal role can then reconstruct which evidence was supplied, what
+the simulated assistance changed, and why escalation occurred. This scenario
+is an analytical illustration, not evidence of an Axodus implementation or
+institutional process.
+
 ## 4.1 Constitutional governance
 
 The governance layer states roles, decision rights, prohibitions, amendment
@@ -179,6 +224,13 @@ The design objective is reconstructability: a reviewer should be able to ask
 what was known, who was authorized, what assistance was used, and why an
 outcome followed. The proposal does not assume that more data automatically
 produces accountability.
+
+At the conceptual level, source documents and outputs can be treated as
+entities, analysis and review steps as activities, and human or automated
+participants as agents. Derivation and attribution relations can then connect
+an output to its inputs and responsible roles [@w3c2013provdm]. These concepts
+specify what a reviewable record should express; they do not prescribe a
+storage system or integrity mechanism.
 
 ## 4.3 Modular institutional components
 
@@ -226,7 +278,7 @@ triggering condition, required evidence, permitted exception, and escalation
 path. This connects bounded action to the decision and review records used for
 accountability.
 
-# 5. Modularity and Maturity as Supporting Controls
+# 5. Modularity, Maturity, and Scope Reduction
 
 The Axodus internal governance process distinguishes two orthogonal maturity
 dimensions. **L-Level** refers to organizational, documentation, governance,
@@ -248,11 +300,21 @@ Modularity is likewise a supporting hypothesis rather than an assured
 property. Component boundaries may aid review, but they can also move
 complexity into interfaces and make governability harder to assess.
 
+The architecture should therefore be reduced before it is expanded. Initial
+prototypes should:
+
+- start with decisions for which reconstruction and appeal are material;
+- use a minimum sufficient evidence-and-rationale record;
+- separate advisory AI outputs from authoritative human decisions;
+- require an evidence package before introducing automated assistance;
+- scale review requirements to decision consequence; and
+- remove a component when evaluation does not show that it improves
+  reconstructability or contestability.
+
 # 6. Participation Readiness Mechanism
 
-At most, the mechanism would link defined learning objectives, assessment,
-reviewable results, bounded eligibility, and an appeal path for selected
-activities.
+The mechanism would link defined learning objectives, assessment, reviewable
+results, bounded eligibility, and an appeal path for selected activities.
 
 The W3C credential model could inform portable representations, but
 verification of an issuer and credential does not validate educational quality
@@ -266,12 +328,20 @@ hypotheses remain equally important: the mechanism may exclude participants,
 centralize curriculum power, encourage test gaming, or create privacy risks.
 It should be rejected or redesigned if those harms cannot be controlled.
 
+Proposed evaluation criteria include false exclusion and false inclusion,
+accessibility and accommodation, appeal availability and completion,
+curriculum concentration, privacy burden, and evidence of improvement in the
+specific decision context. Candidate safeguards include separating curriculum
+design from authorization decisions, disclosing assessment conflicts, and
+subjecting criteria to independent review. Participation-readiness gates should
+be limited to contexts in which their necessity and proportionality can be
+tested.
+
 # 7. Governance, Accountability, and Human Oversight
 
-The proposed decision record has seven conceptual fields: decision scope,
+The conceptual minimum decision record has seven fields: decision scope,
 authorized roles, evidence considered, conflicts disclosed, automated
-assistance used, decision and rationale, and review or appeal path. This is a
-minimum accountability model, not a database schema.
+assistance used, decision and rationale, and review or appeal path.
 
 AI assistance is governed by task-specific boundaries. Low-consequence
 drafting may permit lightweight review; risk classification or proposal
@@ -284,9 +354,20 @@ need a way to identify applicable rules, challenge evidence, correct records,
 and request review by an appropriately independent role. Immutable records,
 where used, must not be treated as immutable interpretations.
 
-These requirements align with risk-oriented governance and human–AI
-interaction guidance [@tabassi2023airmf; @amershi2019guidelines], but their
-effectiveness in Axodus remains untested.
+Reviewer independence requires separation from the original decision,
+disclosure of conflicts, and recusal when a reviewer has participated in the
+contested analysis. Escalation paths should identify where a review moves when
+authority, expertise, or capacity is insufficient. Process scalability can be
+examined through queue size, review time, unresolved-case rate, and sampling
+for secondary review. Role rotation and multi-role review are candidate
+capture-resistance mechanisms whose effects require testing.
+
+Human oversight becomes nominal when a reviewer lacks authority, time, access
+to evidence, or a practical ability to change the outcome. These requirements
+align with risk-oriented governance and human–AI interaction guidance
+[@tabassi2023airmf; @amershi2019guidelines], while the design of independent
+appeals and capture resistance requires additional support. **[REFERENCE
+NEEDED: contestability and institutional appeals]**
 
 # 8. Risk Boundaries as Supporting Constraints
 
@@ -294,10 +375,10 @@ Risk boundaries constrain action, exposure, process, and escalation. For each
 consequential decision, the architecture links the applicable boundary to its
 authority basis, supporting evidence, exception record, and review path.
 Visible records are insufficient when assumptions or rationales remain
-implicit. The DeFi literature provides one domain-specific example of how
-composable dependencies can propagate across connected protocols
-[@schar2021defi]; whether comparable propagation occurs in other institutional
-settings remains an empirical question.
+implicit. Cross-component dependencies should therefore be declared at the
+interface where evidence, authority, or escalation crosses a component
+boundary. If the dependency cannot be reviewed or bounded proportionately, the
+design should reduce scope rather than add another control layer.
 
 # 9. Prototype Status
 
@@ -317,34 +398,40 @@ evaluated states.
 
 The evaluation program is intentionally prioritized rather than broad.
 
-Before either initial study, Phase 2 requires a controlled experimental
+Before either initial study, the initial empirical stage requires a controlled
 environment rather than a deployed institutional system. The environment
 should combine synthetic decision scenarios, controlled evidence packages,
 simulated AI-assistance records, planted errors, and a high-fidelity mock-up or
 wizard-of-oz review interface. A preregistered protocol should define reviewer
-tasks and measurement criteria for reconstruction accuracy, completion time,
-reviewer disagreement, missing-evidence detection, error detection, and
-override behavior.
+tasks and proposed measurement criteria. These criteria are study designs, not
+reported results.
 
 **Primary initial study — RQ1: Traceability.** Does the proposed evidence
 model help independent reviewers reconstruct decisions more accurately and
 efficiently than a document-only baseline? The controlled environment would
-support matched governance scenarios and blinded review against the predefined
-reconstruction measures. This is the paper's primary evaluation priority
-because it most directly tests the central claim about traceability and
-accountability.
+support matched governance scenarios and blinded review. Proposed measures are
+reconstruction completeness, missing-evidence detection, time to reconstruct
+rationale, reviewer disagreement, authority-conflict detection, provenance
+error detection, and correct classification of whether an appeal can proceed.
+This is the paper's primary evaluation priority because it most directly tests
+the central claim about traceability and accountability.
 
 **Secondary initial study — RQ3: Human–AI reliance.** For bounded
 proposal-analysis tasks, how do provenance and mandatory human disposition
 affect error detection, calibrated reliance, override behavior, and review
 quality? The simulated AI records should include planted errors and ambiguous
-cases. This is a secondary priority because the architecture depends on
-bounded AI assistance being reviewable rather than merely available.
+cases. Proposed measures are planted-error detection, unsupported-output
+detection, override or acceptance behavior by condition, rationale quality,
+reviewer disagreement, and correction after provenance information is shown.
+This is a secondary priority because the architecture depends on bounded AI
+assistance being reviewable rather than merely available.
 
-**Future work studies.** Later phases may address educational participation,
-maturity reliability, and risk governance after the core traceability
-architecture is tested through document inspection and bounded human–AI review
-studies.
+**Staged future evaluation.** Evaluation should progress from controlled
+artifact inspection to bounded reviewer studies using synthetic scenarios,
+then to controlled prototype evaluation under a separately approved protocol.
+Any later institutionally situated study would require additional governance,
+ethics, legal, privacy, and evidence gates. Educational participation, maturity
+reliability, and broader risk governance remain later research topics.
 
 # 11. Limitations and Threats to Validity
 
@@ -368,6 +455,12 @@ systemic coupling. Explicit rules can formalize unjust arrangements rather
 than correct them. The proposed architecture may also be too complex to govern
 in practice without substantial scope reduction.
 
+The synthetic scenario is explanatory rather than empirical. Provenance
+vocabulary does not establish record integrity or accountability, and the
+proposed measures do not demonstrate performance. Institutionally situated
+evaluation may also expose conflicts, incentives, and workload effects that a
+controlled artifact cannot reproduce.
+
 Web3-facing governance designs may also encounter regulatory uncertainty,
 operational fragility, and jurisdiction-specific compliance burdens.
 
@@ -378,7 +471,9 @@ community.
 # 12. Research Agenda
 
 Near-term work should prioritize a minimal decision-and-evidence model and
-bounded AI-assistance tasks suitable for initial traceability studies.
+bounded AI-assistance tasks suitable for initial traceability studies, together
+with verification of provenance, algorithmic-accountability, contestability,
+and socio-technical coupling literature.
 Participation-readiness design, maturity specification, and broader governance
 scenarios belong to later papers or technical notes, alongside educational
 validity questions.
@@ -387,9 +482,10 @@ validity questions.
 
 Axodus is proposed as a conceptual architecture for making human–AI-assisted
 institutional decisions more traceable and accountable through linked
-authority, evidence, rationale, and review paths. The model's immediate
-contribution is an inspectable arrangement of functional responsibilities and
-interfaces through which accountability assumptions can be examined.
+authority, evidence, attributable assistance, rationale, contestability, and
+review paths. The model's immediate contribution is an inspectable arrangement
+of functional responsibilities and interfaces through which accountability
+assumptions can be examined.
 
 The next research step is to instantiate the minimum decision-and-evidence
 model in a controlled experimental environment and test whether independent

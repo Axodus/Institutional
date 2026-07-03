@@ -14,6 +14,7 @@ metadata. Inclusion does not mean that every source must be cited.
 | `schar2021defi` | Schär, F. (2021). “Decentralized Finance: On Blockchain- and Smart Contract-Based Financial Markets.” *Federal Reserve Bank of St. Louis Review*, 103(2), 153–174. DOI: 10.20955/r.103.153-74. | Federal Reserve Bank of St. Louis article record/PDF | Cited |
 | `tabassi2023airmf` | Tabassi, E. (2023). *Artificial Intelligence Risk Management Framework (AI RMF 1.0)*. NIST AI 100-1. DOI: 10.6028/NIST.AI.100-1. | NIST publication record | Cited |
 | `w3c2025vcdm` | W3C (2025). *Verifiable Credentials Data Model v2.0*. W3C Recommendation, 15 May 2025. | W3C technical recommendation | Cited |
+| `w3c2013provdm` | W3C (2013). *PROV-DM: The PROV Data Model*. W3C Recommendation, 30 April 2013. Editors: Luc Moreau and Paolo Missier. | W3C technical recommendation | Cited |
 | `bai2022constitutional` | Bai, Y. et al. (2022). “Constitutional AI: Harmlessness from AI Feedback.” arXiv:2212.08073. | Canonical arXiv record and author publication page | Cited |
 
 Metadata should be rechecked before submission because records and recommended

@@ -19,6 +19,14 @@ for governing AI risks. Together they motivate bounded assistance, visible
 uncertainty, monitoring, and human responsibility. They do not validate any
 Axodus mechanism.
 
+## Data provenance and accountable reconstruction
+
+The W3C PROV Data Model distinguishes entities, activities, agents,
+derivations, attribution, and responsibility relationships. These concepts can
+support a vocabulary for reconstructing how evidence and AI-assisted outputs
+enter a decision record. A provenance description does not by itself establish
+institutional accountability, valid judgment, or effective review.
+
 ## Decentralized organizations and governance
 
 Hassan and De Filippi define DAOs as blockchain-mediated systems with
@@ -39,8 +47,9 @@ Axodus operates financial services.
 The W3C Verifiable Credentials Data Model specifies a machine-verifiable
 credential representation and explicitly separates credential verification
 from the authorization decisions a verifier may make. This distinction is
-important for Proof of Knowledge: a credential format would not establish
-assessment validity, fair access, or legitimate governance authority.
+important for a participation-readiness mechanism: a credential format would
+not establish assessment validity, fair access, or legitimate governance
+authority.
 
 ## Constitutional AI
 

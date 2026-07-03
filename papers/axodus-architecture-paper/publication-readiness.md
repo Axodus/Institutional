@@ -1,10 +1,10 @@
 # Publication Readiness — Axodus Architecture Paper
 
 Review date: 2026-07-03  
-Version reviewed: draft v0.3.1
-Decision: **Ready for internal peer review; not ready for controlled external
-review, publication, submission, outreach, grant use, fundraising use,
-authority signaling, or external distribution.**
+Version reviewed: draft v0.3.2
+Decision: **Ready for internal peer review after targeted revision; not ready
+for controlled external review, publication, submission, outreach, grant use,
+fundraising use, authority signaling, or external distribution.**
 
 ## Publication status
 
@@ -340,6 +340,44 @@ Controlled external review, publication, submission, outreach, grant use,
 fundraising use, external distribution, and authority signaling remain
 blocked.
 
+## Phase 1.15 v0.3.2 targeted revision status
+
+Phase 1.15 completed the authorized v0.3.2 targeted academic-hardening patch
+and recorded it in `v0.3.2-change-log.md` and
+`v0.3.2-readiness-record.md`.
+
+The patch:
+
+- defines a directional conceptual flow among constitutional authority,
+  evidence, participation readiness, AI-assistance provenance, risk
+  boundaries, human disposition, and independent review or appeal;
+- adds one explicitly synthetic, non-empirical policy-exception scenario;
+- anchors provenance vocabulary in the verified W3C PROV-DM concepts of
+  entities, activities, agents, derivation, attribution, and responsibility;
+- limits Schär/DeFi to one domain-specific related-work example;
+- adds proposed participation-readiness evaluation criteria and safeguards;
+- strengthens contestability through independence, recusal, escalation,
+  capacity, secondary review, and capture-resistance hypotheses;
+- adds scope-reduction heuristics;
+- defines proposed RQ1 and RQ3 measures and a separately gated future
+  evaluation path; and
+- preserves L/D as an internal, non-validated operational taxonomy that does
+  not authorize production or sensitive action.
+
+W3C PROV-DM was verified against the official W3C Recommendation and added to
+the verified and cited bibliography. No other candidate source was promoted.
+
+Three `[REFERENCE NEEDED]` markers remain for complex-system coupling and
+socio-technical failure, algorithmic accountability and institutional audit,
+and contestability and institutional appeals. These markers remain publication
+blockers.
+
+The LaTeX manuscript compiled successfully and generated artifacts were
+cleaned. The v0.3.2 manuscript is **ready for internal peer review after
+targeted revision**. Controlled external review, publication, submission,
+outreach, grant use, fundraising use, external distribution, and authority
+signaling remain blocked.
+
 ## Phase 1.1 review status
 
 Phase 1.1 critical editorial review was completed on 2026-07-03. A skeptical
@@ -405,6 +443,8 @@ security properties, financial performance, or operational maturity.
 - `papers/axodus-architecture-paper/internal-peer-review-03.md`
 - `papers/axodus-architecture-paper/internal-peer-review-consolidation.md`
 - `papers/axodus-architecture-paper/v0.3.2-patch-plan.md`
+- `papers/axodus-architecture-paper/v0.3.2-change-log.md`
+- `papers/axodus-architecture-paper/v0.3.2-readiness-record.md`
 - `whitepaper/README.md`
 - `articles/README.md`
 - `outreach/README.md`
@@ -415,8 +455,16 @@ security properties, financial performance, or operational maturity.
 - `governance/evidence-boundaries.md`
 - `research/claims-register.md`
 - `research/terminology.md`
+- `research/related-work.md`
+- `research/bibliography-candidates.md`
+- `research/bibliography-verified.md`
 - `papers/axodus-architecture-paper/paper.md`
 - `papers/axodus-architecture-paper/paper.tex`
+- `papers/axodus-architecture-paper/references.bib`
+- `papers/axodus-architecture-paper/README.md`
+- `papers/axodus-architecture-paper/internal-peer-review-package.md`
+- `papers/axodus-architecture-paper/internal-peer-review-instructions.md`
+- `papers/axodus-architecture-paper/internal-peer-review-form.md`
 - `papers/axodus-architecture-paper/publication-readiness.md`
 
 The existing software `LICENSE` was not modified. No commit, push, pull
@@ -425,10 +473,11 @@ request, submission, publication, or external contact was performed.
 ## Verification performed
 
 - Markdown and LaTeX headings were compared and are structurally equivalent.
-- Both manuscript forms cite the same eight BibTeX keys.
+- Both manuscript forms cite the same nine BibTeX keys.
 - Every BibTeX entry is cited; no duplicate keys or unused entries were found.
 - `git diff --check` found no whitespace errors in the Phase 1 changes.
-- The manuscript contains no `[REFERENCE NEEDED]` marker.
+- The v0.3.2 manuscript contains three synchronized `[REFERENCE NEEDED]`
+  markers; each remains a publication blocker.
 - Searches were run for promotional superlatives, investment-return language,
   operational claims, common credential patterns, private keys, and repository
   URLs.
@@ -445,9 +494,9 @@ request, submission, publication, or external contact was performed.
 
 ## Bibliographic status
 
-Eight cited sources have verification records. Metadata was checked against
+Nine cited sources have verification records. Metadata was checked against
 publisher, journal, institutional, standards-body, or canonical preprint
-records.
+records. W3C PROV-DM was verified against the official W3C Recommendation.
 
 ## References needing verification
 
@@ -460,7 +509,7 @@ The following research areas remain candidates and are not cited:
 - deliberative and informed participation;
 - automation bias and calibrated reliance;
 - contestable automated decisions;
-- data provenance and provenance standards;
+- provenance standards beyond the verified W3C PROV-DM record;
 - algorithmic accountability;
 - governance metrics and institutional review processes;
 - complex-system accidents and socio-technical coupling;
@@ -515,8 +564,8 @@ originates from a multi-year independent research and design effort.”
    license.
 2. Resolve whether the paper should remain one broad architecture manuscript
    or be narrowed before any external review.
-3. Resolve the Phase 1.14 internal findings and complete any later review
-   required for a controlled external-review decision.
+3. Complete internal peer review of the exact v0.3.2 revision and resolve its
+   resulting findings before any controlled external-review decision.
 4. Verify that every Axodus-specific statement conforms to the intended public
    disclosure boundary.
 5. Review the CC BY 4.0 licensing notice and third-party rights before release.
@@ -525,11 +574,12 @@ originates from a multi-year independent research and design effort.”
 
 ## Critical editorial blockers
 
-- The conceptual architecture still needs explicit dependency direction,
-  information flow, and control handoffs among authority, evidence,
-  AI-assistance provenance, rationale, decision, and review.
-- Data-provenance and algorithmic-accountability support must be verified
-  before related manuscript claims are strengthened.
+- The new dependency direction, information flow, and control handoffs require
+  internal peer review against the exact v0.3.2 manuscript.
+- Three `[REFERENCE NEEDED]` markers remain unresolved. W3C PROV-DM now
+  supports the provenance vocabulary, but broader coupling, algorithmic
+  accountability, institutional audit, contestability, and appeals still need
+  verified support or bounded text revision.
 - Related-work coverage remains insufficient for controlled external review in
   contestability and appeals, assessment validity, deliberative competence,
   calibrated reliance, DAO participation behavior, maturity-model reliability,
@@ -609,11 +659,12 @@ recorded and may be treated as approved for manuscript-editing purposes.
 
 ## Recommended next human review
 
-Execute the targeted internal hardening scope in `v0.3.2-patch-plan.md` in a
-separate phase. Verify candidate provenance and accountability sources before
-adding citations, keep controlled illustrations explicitly synthetic, and
-preserve all evidence and external-use boundaries. Re-review the resulting
-exact manuscript before any later circulation decision.
+Conduct internal peer review against the exact v0.3.2 hashes recorded in
+`internal-peer-review-package.md` and `v0.3.2-readiness-record.md`. Reviewers
+should test the new architecture flow, synthetic scenario, provenance
+boundary, contestability model, simplification heuristics, and proposed
+evaluation measures. Resolve the three literature markers before considering
+any later external-review gate.
 
 ## Checklist status
 
@@ -621,21 +672,21 @@ The automated/static portions of the publication checklist were executed.
 Human judgment items remain unchecked in
 `../../governance/publication-review-checklist.md`.
 Checklist applied: yes, for the automated/static checks completed through
-Phase 1.14.
+Phase 1.15.
 
 ## Readiness status
 
-Phase 1.14 readiness category: **Ready for v0.3.2 targeted internal revision
-only.**
+Phase 1.15 readiness category: **Ready for internal peer review after v0.3.2
+targeted revision.**
 
 Ready for controlled external review: no  
 Ready for public publication: no
 
-Internal review inputs consolidated: yes
+v0.3.2 targeted internal revision complete: yes
 
-v0.3.2 targeted internal edits authorized for the next phase: yes
+Internal peer review authorized: yes
 
-**Current status: v0.3.1 internal review inputs consolidated; targeted v0.3.2
-internal revision authorized for the next phase; blocked for controlled
-external review, publication, submission, outreach, grant use, fundraising
-use, external distribution, and authority signaling.**
+**Current status: v0.3.2 targeted revision complete; ready for internal peer
+review only; blocked for controlled external review, publication, submission,
+outreach, grant use, fundraising use, external distribution, and authority
+signaling.**
