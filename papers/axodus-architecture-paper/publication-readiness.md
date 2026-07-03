@@ -275,6 +275,33 @@ Controlled external review, publication, submission, outreach, grant use,
 fundraising use, external distribution, and authority signaling remain
 blocked.
 
+## Phase 1.13B directory sanitization status
+
+Phase 1.13B sanitized the manuscript directory without deleting files or
+changing manuscript content.
+
+The directory root now contains only:
+
+- the synchronized Markdown and LaTeX manuscript sources;
+- `references.bib`;
+- this current readiness report;
+- the internal peer review package, instructions, and form;
+- the v0.3.1 pre-review change log and readiness record; and
+- `README.md`, which identifies the active version, active files, review set,
+  archive purpose, and external blockers.
+
+Superseded Phase 1, v0.2, v0.3, review, planning, and technical-check artifacts
+were moved to categorized subdirectories under `.archive/`. Earlier sections
+of this report preserve their historical filenames; those artifacts now
+reside in the corresponding archive category and are not current review
+instructions.
+
+No file was deleted. The SHA-256 hashes of `paper.md`, `paper.tex`, and
+`references.bib` remained unchanged after the move. Internal peer review may
+proceed against the version-locked v0.3.1 package. Controlled external review,
+publication, submission, outreach, grant use, fundraising use, external
+distribution, and authority signaling remain blocked.
+
 ## Phase 1.1 review status
 
 Phase 1.1 critical editorial review was completed on 2026-07-03. A skeptical
@@ -334,6 +361,7 @@ security properties, financial performance, or operational maturity.
 - `papers/axodus-architecture-paper/internal-peer-review-package.md`
 - `papers/axodus-architecture-paper/internal-peer-review-instructions.md`
 - `papers/axodus-architecture-paper/internal-peer-review-form.md`
+- `papers/axodus-architecture-paper/README.md`
 - `whitepaper/README.md`
 - `articles/README.md`
 - `outreach/README.md`
@@ -545,14 +573,14 @@ Phase 1.13.
 
 ## Readiness status
 
-Phase 1.13 readiness category: **Ready for internal peer review.**
+Phase 1.13B readiness category: **Ready for internal peer review.**
 
 Ready for controlled external review: no  
 Ready for public publication: no
 
 Internal peer review authorized: yes
 
-**Current status: v0.3.1 internal peer review package complete; ready for
-internal peer review only; blocked for controlled external review,
-publication, submission, outreach, grant use, fundraising use, external
-distribution, and authority signaling.**
+**Current status: v0.3.1 internal peer review package complete and active
+directory sanitized; ready for internal peer review only; blocked for
+controlled external review, publication, submission, outreach, grant use,
+fundraising use, external distribution, and authority signaling.**
