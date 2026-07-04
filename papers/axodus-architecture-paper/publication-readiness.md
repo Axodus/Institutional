@@ -2,14 +2,43 @@
 
 Review date: 2026-07-04
 Version reviewed: draft v0.3.2
-Decision: **Internal peer review paused after an author clarification changed
-the manuscript's underlying ecosystem premise; ready for author decision on a
-v0.4 conceptual reframing only.**
+Decision: **Internal peer review remains paused after an author clarification
+changed the manuscript's underlying ecosystem premise; ready for author
+approval to begin v0.4 conceptual reframing only.**
 
 ## Publication status
 
 Ready for human review: yes  
 Ready for public publication: no
+
+## Phase 1.17 v0.4 conceptual reframing authorization status
+
+Phase 1.17 prepares the author decision gate for v0.4 without opening
+manuscript editing.
+
+This phase creates:
+
+- `v0.4-author-decision-record.md`; and
+- `v0.4-reframing-plan.md`.
+
+The proposed thesis is:
+
+> Axodus is proposed as a prototype-stage conceptual architecture for
+> traceability and accountability in federated modular digital institutions,
+> where constitutionally constrained Tenant entities may configure and govern
+> service nuclei through human-AI-assisted decision processes.
+
+The proposed v0.4 scope centers the manuscript on federation, constitutional
+governance, bounded Tenant autonomy, abstract service nuclei, evidence and
+provenance, contestability, human oversight, and participation readiness as a
+supporting mechanism. It preserves v0.3.2's reusable theoretical anchors and
+evaluation structure while excluding tokenomics, module cataloging, named
+agents, and regulated or financial module detail from the paper body.
+
+Phase 1.17 does not open v0.4 manuscript editing, does not modify
+`paper.md`, `paper.tex`, or `references.bib`, and does not authorize any form
+of circulation. It prepares acceptance criteria for a separate author
+approval.
 
 ## Phase 1.16A author ecosystem alignment status
 
@@ -617,8 +646,8 @@ originates from a multi-year independent research and design effort.”
 
 1. Obtain author approval for name, affiliation, title, abstract, and release
    license.
-2. Obtain an author decision on whether to open a v0.4 conceptual reframing
-   around federated modular digital institutions.
+2. Obtain author approval to begin v0.4 conceptual reframing under the
+   Phase 1.17 thesis, scope, and exclusions.
 3. Do not restart internal peer review until an author-approved manuscript
    reflects the corrected ecosystem premise and receives a new version lock.
 4. Verify that every Axodus-specific statement conforms to the intended public
@@ -629,8 +658,8 @@ originates from a multi-year independent research and design effort.”
 
 ## Critical editorial blockers
 
-- The new dependency direction, information flow, and control handoffs require
-  internal peer review against the exact v0.3.2 manuscript.
+- The corrected ecosystem premise still requires an author-approved v0.4
+  manuscript track before any new peer-review cycle can begin.
 - Related-work coverage remains insufficient for controlled external review in
   contestability and appeals, assessment validity, deliberative competence,
   calibrated reliance, DAO participation behavior, maturity-model reliability,
@@ -703,9 +732,9 @@ originates from a multi-year independent research and design effort.”
 
 ## Author decisions required
 
-- Approve or reject opening a v0.4 conceptual reframing.
+- Approve or reject the Phase 1.17 v0.4 conceptual reframing gate.
 - Approve the exact future title, contribution statement, Tenant definition,
-  and constitutional/Tenant/service-nucleus architecture.
+  constitutional/Tenant/service-nucleus architecture, and revised outline.
 - Decide whether the paper remains one architecture manuscript or is later
   split into narrower papers.
 - Approve the affiliation wording and license posture for any later
@@ -717,10 +746,11 @@ recorded and may be treated as approved for manuscript-editing purposes.
 ## Recommended next human review
 
 Review `author-ecosystem-clarification.md`,
-`paper-scope-impact-analysis.md`, and `v0.4-reframing-options.md`. Decide
-whether to authorize a separately scoped v0.4 planning or manuscript phase.
-Do not distribute v0.3.2 as the active representation of the author-defined
-Axodus ecosystem.
+`paper-scope-impact-analysis.md`, `v0.4-reframing-options.md`,
+`v0.4-author-decision-record.md`, and `v0.4-reframing-plan.md`. Decide
+whether to authorize a separate v0.4 manuscript-editing phase. Do not
+distribute v0.3.2 as the active representation of the author-defined Axodus
+ecosystem.
 
 ## Checklist status
 
@@ -735,18 +765,19 @@ Markdown/LaTeX checks were not rerun because `paper.md`, `paper.tex`, and
 
 ## Readiness status
 
-Phase 1.16A readiness category: **Ready for author decision on v0.4
-conceptual reframing only.**
+Phase 1.17 readiness category: **Ready for author approval to begin v0.4
+manuscript reframing.**
 
 Ready for controlled external review: no  
 Ready for public publication: no
 
 v0.3.2 reference-gap closure complete: yes
 
-Internal peer review authorized: no; paused pending conceptual realignment
+Internal peer review authorized: no; paused pending author approval of the
+v0.4 reframing gate
 
 **Current status: v0.3.2 retained as a historical conceptual baseline;
-internal peer review paused; ready for author decision on v0.4 conceptual
-reframing only; blocked for controlled external review, manuscript
+internal peer review paused; ready for author approval to begin v0.4
+manuscript reframing; blocked for controlled external review, manuscript
 publication, submission, outreach, grant use, fundraising use, manuscript
 distribution, and authority signaling.**

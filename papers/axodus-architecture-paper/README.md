@@ -1,8 +1,8 @@
 # Axodus Architecture Paper
 
 Active version: draft v0.3.2
-Readiness: **Internal peer review paused; ready for author decision on v0.4
-conceptual reframing only**
+Readiness: **Internal peer review paused; ready for author approval to begin
+v0.4 conceptual reframing**
 
 Controlled external review, publication, submission, outreach, grant use,
 fundraising use, external distribution, and authority signaling remain
@@ -19,6 +19,10 @@ blocked.
 - `paper-scope-impact-analysis.md` — analysis of the premise change's effect
   on the manuscript;
 - `v0.4-reframing-options.md` — recommendation record; it does not open v0.4;
+- `v0.4-author-decision-record.md` — author-gate record for possible v0.4
+  opening;
+- `v0.4-reframing-plan.md` — proposed thesis, scope, outline, and acceptance
+  criteria for a future v0.4 phase;
 - `internal-peer-review-package.md` — suspended v0.3.2 review manifest;
 - `internal-peer-review-instructions.md` — reviewer conduct and review method;
 - `internal-peer-review-form.md` — structured reviewer response form;
@@ -54,8 +58,8 @@ conditional review context as defined in `internal-peer-review-package.md`.
 
 The v0.3.2 targeted patch and reference-gap closure remain complete as
 historical work. The next authorized action is author review of the Phase
-1.16A alignment records. Opening v0.4 or editing the manuscript requires a
-separate authorization.
+1.17 v0.4 gate records. Opening v0.4 or editing the manuscript still
+requires a separate authorization.
 
 ## Historical artifacts
 
