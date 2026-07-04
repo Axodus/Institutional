@@ -1,8 +1,7 @@
 # Axodus Architecture Paper
 
-Active version: draft v0.3.2
-Readiness: **Internal peer review paused; ready for author approval to begin
-v0.4 conceptual reframing**
+Active version: draft v0.4
+Readiness: **Ready for author review of internal v0.4 draft only**
 
 Controlled external review, publication, submission, outreach, grant use,
 fundraising use, external distribution, and authority signaling remain
@@ -23,6 +22,9 @@ blocked.
   opening;
 - `v0.4-reframing-plan.md` — proposed thesis, scope, outline, and acceptance
   criteria for a future v0.4 phase;
+- `v0.4-change-log.md` — manuscript reframing record for the active v0.4
+  draft;
+- `v0.4-readiness-record.md` — current author-review gate record for v0.4;
 - `internal-peer-review-package.md` — suspended v0.3.2 review manifest;
 - `internal-peer-review-instructions.md` — reviewer conduct and review method;
 - `internal-peer-review-form.md` — structured reviewer response form;
@@ -36,30 +38,20 @@ blocked.
   and
 - `README.md` — this directory index.
 
-## Internal peer review status
+## Author review status
 
-Internal peer review of v0.3.2 is paused. The package below is retained for
-traceability and must not be distributed as the active representation of the
-author-defined ecosystem:
+The active manuscript is the v0.4 internal draft. The next authorized action
+is author review of:
 
 - `paper.md`;
-- `references.bib`;
-- `internal-peer-review-package.md`;
-- `internal-peer-review-instructions.md`;
-- `internal-peer-review-form.md`;
-- `v0.3.2-readiness-record.md`;
-- `../../governance/evidence-boundaries.md`;
-- `../../governance/maturity-taxonomy.md`; and
-- `../../research/bibliography-verified.md`.
+- `paper.tex`;
+- `v0.4-change-log.md`;
+- `v0.4-readiness-record.md`; and
+- `publication-readiness.md`.
 
-`paper.tex` may be supplied when a reviewer needs the LaTeX source.
-`publication-readiness.md` and `v0.3.2-change-log.md` are
-conditional review context as defined in `internal-peer-review-package.md`.
-
-The v0.3.2 targeted patch and reference-gap closure remain complete as
-historical work. The next authorized action is author review of the Phase
-1.17 v0.4 gate records. Opening v0.4 or editing the manuscript still
-requires a separate authorization.
+Internal peer review is not yet authorized for v0.4. The earlier v0.3.2
+targeted patch, reference-gap closure, and peer-review package remain
+historical records and must not be treated as the current review baseline.
 
 ## Historical artifacts
 

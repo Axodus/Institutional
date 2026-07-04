@@ -1,15 +1,56 @@
 # Publication Readiness — Axodus Architecture Paper
 
 Review date: 2026-07-04
-Version reviewed: draft v0.3.2
-Decision: **Internal peer review remains paused after an author clarification
-changed the manuscript's underlying ecosystem premise; ready for author
-approval to begin v0.4 conceptual reframing only.**
+Version reviewed: draft v0.4
+Decision: **The v0.4 internal reframing draft is complete and ready for
+author review only; internal peer review, controlled external review, and
+publication remain blocked.**
 
 ## Publication status
 
 Ready for human review: yes  
 Ready for public publication: no
+
+## Phase 1.18 v0.4 manuscript reframing status
+
+Phase 1.18 completes the authorized v0.4 manuscript reframing in `paper.md`
+and `paper.tex`.
+
+This phase creates:
+
+- `v0.4-change-log.md`; and
+- `v0.4-readiness-record.md`.
+
+The manuscript has been reframed around Axodus as a prototype-stage
+conceptual architecture for traceability and accountability in federated
+modular digital institutions, where constitutionally constrained Tenant
+entities may configure and govern service nuclei through human-AI-assisted
+decision processes.
+
+The v0.4 draft:
+
+- rewrites the title, abstract, and introduction around federation,
+  constitutional governance, bounded Tenant autonomy, and abstract service
+  nuclei;
+- reorganizes the architecture around six logical layers:
+  constitutional governance, Tenant governance, service nuclei, evidence and
+  provenance, AI assistance, and risk-boundary or contestability controls;
+- preserves participation readiness as a supporting mechanism only;
+- reduces L/D maturity exposure to a bounded internal distinction;
+- adapts RQ1 and RQ3 to Tenant-level governance reconstruction and advisory
+  human-AI review; and
+- preserves all evidence, publication, and disclosure blockers.
+
+Verification in this phase confirmed that `paper.md` and `paper.tex` remain
+synchronized, both manuscript forms cite the same 12 verified BibTeX keys,
+all cited keys map to `references.bib`, and no duplicate BibTeX keys were
+found. `latexmk -pdf paper.tex` completed successfully. Two non-fatal
+overfull-box warnings remain. Generated PDF and LaTeX build artifacts were
+cleaned after compilation.
+
+Phase 1.18 does not authorize internal peer review, controlled external
+review, public release, submission, outreach, grants, fundraising use, or
+authority signaling.
 
 ## Phase 1.17 v0.4 conceptual reframing authorization status
 
@@ -732,9 +773,10 @@ originates from a multi-year independent research and design effort.”
 
 ## Author decisions required
 
-- Approve or reject the Phase 1.17 v0.4 conceptual reframing gate.
-- Approve the exact future title, contribution statement, Tenant definition,
-  constitutional/Tenant/service-nucleus architecture, and revised outline.
+- Review the v0.4 internal draft and approve or reject it as the new working
+  manuscript baseline.
+- Decide whether the v0.4 draft should receive another internal author-editing
+  pass before any later peer-review gate is considered.
 - Decide whether the paper remains one architecture manuscript or is later
   split into narrower papers.
 - Approve the affiliation wording and license posture for any later
@@ -745,39 +787,35 @@ recorded and may be treated as approved for manuscript-editing purposes.
 
 ## Recommended next human review
 
-Review `author-ecosystem-clarification.md`,
-`paper-scope-impact-analysis.md`, `v0.4-reframing-options.md`,
-`v0.4-author-decision-record.md`, and `v0.4-reframing-plan.md`. Decide
-whether to authorize a separate v0.4 manuscript-editing phase. Do not
-distribute v0.3.2 as the active representation of the author-defined Axodus
-ecosystem.
+Review `paper.md`, `paper.tex`, `v0.4-change-log.md`, and
+`v0.4-readiness-record.md`. Decide whether the v0.4 draft is the correct new
+internal baseline or requires another author-only revision before any later
+peer-review gate is considered.
 
 ## Checklist status
 
 The automated/static portions of the publication checklist were applied to the
-Phase 1.16A public Institutional documentation. Material ecosystem claims were
-classified, prototype and evidence boundaries were checked, promotional
-language was scanned, and sensitive implementation disclosure was reviewed.
-Human judgment items remain unchecked in
-`../../governance/publication-review-checklist.md`. Manuscript citation and
-Markdown/LaTeX checks were not rerun because `paper.md`, `paper.tex`, and
-`references.bib` were unchanged.
+Phase 1.18 manuscript draft. Material claims were checked against the
+evidence boundaries, prototype and publication blockers were reviewed,
+Markdown and LaTeX structures were compared, citation and BibTeX consistency
+checks were rerun, promotional and forbidden-term scans were rerun, and a
+LaTeX compile check was completed. Human judgment items remain unchecked in
+`../../governance/publication-review-checklist.md`.
 
 ## Readiness status
 
-Phase 1.17 readiness category: **Ready for author approval to begin v0.4
-manuscript reframing.**
+Phase 1.18 readiness category: **Ready for author review of v0.4 internal
+draft.**
 
 Ready for controlled external review: no  
 Ready for public publication: no
 
-v0.3.2 reference-gap closure complete: yes
+v0.4 manuscript reframing complete: yes
 
-Internal peer review authorized: no; paused pending author approval of the
-v0.4 reframing gate
+Internal peer review authorized: no; blocked pending author review of the
+v0.4 internal draft
 
-**Current status: v0.3.2 retained as a historical conceptual baseline;
-internal peer review paused; ready for author approval to begin v0.4
-manuscript reframing; blocked for controlled external review, manuscript
-publication, submission, outreach, grant use, fundraising use, manuscript
-distribution, and authority signaling.**
+**Current status: v0.4 is the active internal draft; ready for author review
+only; blocked for internal peer review, controlled external review,
+manuscript publication, submission, outreach, grant use, fundraising use,
+manuscript distribution, and authority signaling.**
