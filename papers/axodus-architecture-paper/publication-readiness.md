@@ -2,14 +2,56 @@
 
 Review date: 2026-07-04
 Version reviewed: draft v0.4
-Decision: **The v0.4 internal reframing draft is complete and ready for
-author review only; internal peer review, controlled external review, and
-publication remain blocked.**
+Decision: **The v0.4 draft remains an author-review manuscript and is now
+ready for v0.4.1 targeted internal revision only; internal peer review,
+controlled external review, and publication remain blocked.**
 
 ## Publication status
 
 Ready for human review: yes  
 Ready for public publication: no
+
+## Phase 1.19 v0.4 author review consolidation status
+
+Phase 1.19 consolidates the four v0.4 review outcomes and converts them into
+an author-decision and patch-authorization gate.
+
+This phase creates:
+
+- `v0.4-author-review-consolidation.md`; and
+- `v0.4.1-patch-plan.md`.
+
+This phase also updates:
+
+- `v0.4-author-decision-record.md`;
+- `research/terminology.md`;
+- `research/claims-register.md`; and
+- `research/bibliography-candidates.md`.
+
+The consolidated decision is:
+
+- `v0.4` is strategically closer to the Axodus design than `v0.3.2`;
+- `v0.4` is not ready for internal peer review;
+- `v0.4` must not automatically replace `v0.3.2` as a peer-review package;
+- `v0.4.1` is authorized as a targeted internal revision; and
+- `v0.5` is not authorized.
+
+Phase 1.19 records the following author decisions:
+
+- Tenant governance is an author-approved Axodus architectural concept;
+- the manuscript should prefer `bounded local governance domain` as the
+  paper-facing term, while `Tenant` remains an Axodus institutional term used
+  only in a clarifying conceptual note;
+- the manuscript should prefer `functional service modules` as the paper-
+  facing term, while `nuclei` remains institutional or product documentation
+  terminology;
+- `Proof of Knowledge` remains intentionally excluded from the manuscript
+  body; and
+- the v0.4 title remains unstable until a v0.4.1 patch resolves terminology
+  and architecture-layering issues.
+
+Phase 1.19 does not modify `paper.md`, `paper.tex`, or `references.bib`, does
+not authorize peer review, and does not authorize any external use.
 
 ## Phase 1.18 v0.4 manuscript reframing status
 
@@ -773,10 +815,8 @@ originates from a multi-year independent research and design effort.”
 
 ## Author decisions required
 
-- Review the v0.4 internal draft and approve or reject it as the new working
-  manuscript baseline.
-- Decide whether the v0.4 draft should receive another internal author-editing
-  pass before any later peer-review gate is considered.
+- Review the future v0.4.1 draft and decide whether it is ready for a new
+  internal peer-review gate or requires another author-only revision.
 - Decide whether the paper remains one architecture manuscript or is later
   split into narrower papers.
 - Approve the affiliation wording and license posture for any later
@@ -787,10 +827,10 @@ recorded and may be treated as approved for manuscript-editing purposes.
 
 ## Recommended next human review
 
-Review `paper.md`, `paper.tex`, `v0.4-change-log.md`, and
-`v0.4-readiness-record.md`. Decide whether the v0.4 draft is the correct new
-internal baseline or requires another author-only revision before any later
-peer-review gate is considered.
+Review `v0.4-author-review-consolidation.md`,
+`v0.4.1-patch-plan.md`, and the updated terminology and claims records.
+Proceed to a targeted v0.4.1 internal revision. Do not prepare a new peer-
+review package until the patch and a fresh readiness record are complete.
 
 ## Checklist status
 
@@ -804,18 +844,19 @@ LaTeX compile check was completed. Human judgment items remain unchecked in
 
 ## Readiness status
 
-Phase 1.18 readiness category: **Ready for author review of v0.4 internal
-draft.**
+Phase 1.19 readiness category: **Ready for v0.4.1 targeted internal revision
+only.**
 
 Ready for controlled external review: no  
 Ready for public publication: no
 
 v0.4 manuscript reframing complete: yes
 
-Internal peer review authorized: no; blocked pending author review of the
-v0.4 internal draft
+Internal peer review authorized: no; blocked pending v0.4.1 targeted
+internal revision
 
-**Current status: v0.4 is the active internal draft; ready for author review
-only; blocked for internal peer review, controlled external review,
-manuscript publication, submission, outreach, grant use, fundraising use,
-manuscript distribution, and authority signaling.**
+**Current status: v0.4 remains an author-review draft; v0.4.1 targeted
+internal revision is authorized; internal peer review, controlled external
+review, manuscript publication, submission, outreach, grant use,
+fundraising use, manuscript distribution, and authority signaling remain
+blocked.**

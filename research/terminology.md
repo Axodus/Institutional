@@ -24,7 +24,8 @@ this repository, the term does not mean Anthropic's Constitutional AI training
 method.
 
 Within the Axodus conceptual model, central constitutional governance defines
-constraints that Tenant-level decisions and service-nucleus configurations
+constraints that bounded local governance domain decisions and functional
+service-module configurations
 must respect. This is a design proposal, not evidence of implemented
 enforcement.
 
@@ -33,15 +34,30 @@ enforcement.
 A proposed institutional arrangement in which a central constitutional layer
 defines shared constraints while federated governance domains exercise
 bounded local authority and select modular products or services. `Federated`
-does not imply legal federation, deployed infrastructure, or independently
-validated governance.
+does not imply legal federation, deployed infrastructure, protocol
+federation, or independently validated governance.
+
+In the architecture paper, `federated` should be read as an institutional and
+conceptual governance descriptor rather than as a claim about a distributed
+technical protocol.
+
+## Bounded local governance domain
+
+The preferred paper-facing term for a locally scoped governance unit operating
+under central constitutional constraints. It describes bounded local decision
+authority without implying deployed SaaS tenancy, real customers, or
+operating communities.
 
 ## Tenant
 
 A federated governance domain with a bounded community, delegated decision
-authority, and optional service-nucleus selection under central constitutional
-constraints. In this repository, `Tenant` is not merely a software-isolation
-or SaaS-tenancy term.
+authority, and optional service-module selection under central constitutional
+constraints. In this repository, `Tenant` is an Axodus institutional term and
+is not merely a software-isolation or SaaS-tenancy term.
+
+For the architecture paper, prefer `bounded local governance domain` as the
+default manuscript-facing expression. `Tenant` may appear only in a
+clarifying conceptual note.
 
 ## Tenant-level governance
 
@@ -58,12 +74,25 @@ author-approved inventory and bounded conceptual functions. A listed nucleus
 must not be inferred to be implemented, integrated, operational, mature,
 adopted, secure, or production-ready.
 
+## Functional service module
+
+The preferred paper-facing term for an abstract bounded institutional
+capability configured by a bounded local governance domain under explicit
+authority, evidence, dependency, escalation, and review boundaries.
+
+In manuscript-facing text, the term should be used instead of `service
+nucleus` when describing architecture layers or bounded institutional
+capabilities.
+
 ## Service nucleus
 
 A modular product or service concept that a Tenant may select under explicit
-authority, evidence, dependency, escalation, and review boundaries. Academic
-paper usage should describe functional classes rather than reproduce the
-Institutional product catalog.
+authority, evidence, dependency, escalation, and review boundaries.
+
+`Service nucleus` remains valid for Axodus institutional and product
+documentation. In the architecture paper, prefer `functional service module`
+for paper-facing architectural description and avoid treating nuclei as a
+horizontal layer term.
 
 ## D0–D5
 
@@ -108,7 +137,8 @@ proof-of-work, proof-of-stake, or an implemented credential protocol.
 
 For the architecture paper, `Proof of Knowledge` remains internal Axodus
 terminology and must not appear as the primary public academic term or as a
-terminology note in the manuscript body. Preferred paper-facing alternatives
+terminology note in the manuscript body. This is an intentional manuscript
+policy, not a temporary omission. Preferred paper-facing alternatives
 are `participation-readiness mechanism`, `educational readiness`, `bounded
 participation`, or `educational participation mechanism`.
 

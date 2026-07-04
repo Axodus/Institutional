@@ -1,7 +1,7 @@
 # Axodus Architecture Paper
 
 Active version: draft v0.4
-Readiness: **Ready for author review of internal v0.4 draft only**
+Readiness: **Ready for v0.4.1 targeted internal revision only**
 
 Controlled external review, publication, submission, outreach, grant use,
 fundraising use, external distribution, and authority signaling remain
@@ -25,6 +25,10 @@ blocked.
 - `v0.4-change-log.md` — manuscript reframing record for the active v0.4
   draft;
 - `v0.4-readiness-record.md` — current author-review gate record for v0.4;
+- `v0.4-author-review-consolidation.md` — consolidated author-review finding
+  and decision record for v0.4;
+- `v0.4.1-patch-plan.md` — authorized scope for the next targeted internal
+  revision;
 - `internal-peer-review-package.md` — suspended v0.3.2 review manifest;
 - `internal-peer-review-instructions.md` — reviewer conduct and review method;
 - `internal-peer-review-form.md` — structured reviewer response form;
@@ -38,20 +42,20 @@ blocked.
   and
 - `README.md` — this directory index.
 
-## Author review status
+## Current review status
 
-The active manuscript is the v0.4 internal draft. The next authorized action
-is author review of:
+The active manuscript line is v0.4, but it is not yet a peer-review package.
+The next authorized action is targeted internal revision based on:
 
-- `paper.md`;
-- `paper.tex`;
-- `v0.4-change-log.md`;
-- `v0.4-readiness-record.md`; and
+- `v0.4-author-review-consolidation.md`;
+- `v0.4.1-patch-plan.md`;
+- `v0.4-author-decision-record.md`; and
 - `publication-readiness.md`.
 
-Internal peer review is not yet authorized for v0.4. The earlier v0.3.2
-targeted patch, reference-gap closure, and peer-review package remain
-historical records and must not be treated as the current review baseline.
+Internal peer review is not authorized for v0.4. The earlier v0.3.2 targeted
+patch, reference-gap closure, and peer-review package remain historical
+records and must not be treated as the current review baseline if the v0.4
+direction is maintained.
 
 ## Historical artifacts
 
