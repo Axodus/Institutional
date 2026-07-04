@@ -4,9 +4,11 @@ Status: Phase 1 controlled vocabulary
 
 ## Axodus
 
-A conceptual, prototype-stage socio-technical infrastructure model. The term
-does not imply an implemented platform, operating institution, or validated
-system.
+A proposed federated modular socio-technical ecosystem governed through a
+central constitutional layer, bounded Tenant-level authority, and optional
+product or service nuclei. It remains a conceptual, prototype-stage model; the
+term does not imply an implemented platform, operating institution, or
+validated system.
 
 ## Accountability
 
@@ -21,11 +23,47 @@ decision rights, prohibitions, amendment procedures, review, and appeal. In
 this repository, the term does not mean Anthropic's Constitutional AI training
 method.
 
+Within the Axodus conceptual model, central constitutional governance defines
+constraints that Tenant-level decisions and service-nucleus configurations
+must respect. This is a design proposal, not evidence of implemented
+enforcement.
+
+## Federated modular ecosystem
+
+A proposed institutional arrangement in which a central constitutional layer
+defines shared constraints while federated governance domains exercise
+bounded local authority and select modular products or services. `Federated`
+does not imply legal federation, deployed infrastructure, or independently
+validated governance.
+
+## Tenant
+
+A federated governance domain with a bounded community, delegated decision
+authority, and optional service-nucleus selection under central constitutional
+constraints. In this repository, `Tenant` is not merely a software-isolation
+or SaaS-tenancy term.
+
+## Tenant-level governance
+
+The proposed exercise of bounded local decision authority by a Tenant
+community. It may include module selection and configuration within central
+constitutional, evidence, risk, review, and appeal boundaries. Economic or
+regulated parameters require separate review.
+
 ## Core
 
-A proposed bounded institutional or operational module. The repository does
-not currently publish a definitive inventory, implementation, or maturity
-state for Axodus cores.
+A bounded product, service, institutional, or operational nucleus within the
+proposed ecosystem. The Institutional repository may publish an
+author-approved inventory and bounded conceptual functions. A listed nucleus
+must not be inferred to be implemented, integrated, operational, mature,
+adopted, secure, or production-ready.
+
+## Service nucleus
+
+A modular product or service concept that a Tenant may select under explicit
+authority, evidence, dependency, escalation, and review boundaries. Academic
+paper usage should describe functional classes rather than reproduce the
+Institutional product catalog.
 
 ## D0–D5
 

@@ -214,13 +214,3 @@ O próximo passo de pesquisa é instanciar o modelo mínimo de decisão-e-evidê
 # Referências
  
 As referências são mantidas em `references.bib`. Todas as entradas citadas neste rascunho possuem registros de verificação internos correspondentes em `../../research/bibliography-verified.md`; a rechecagem final de metadados é necessária antes de qualquer submissão, divulgação pública ou circulação externa.
- 
-
-
-
-
-
-
-
-
-

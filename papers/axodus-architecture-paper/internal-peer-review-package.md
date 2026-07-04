@@ -2,16 +2,27 @@
 
 Package date: 2026-07-03  
 Manuscript version: draft v0.3.2
-Review classification: confidential internal peer review only  
+Review classification: suspended historical internal-review package
 External distribution: prohibited
+
+## Suspension notice
+
+Internal peer review against this package is paused as of Phase 1.16A. An
+author ecosystem clarification changed the manuscript's underlying premise
+from a generic human--AI-assisted digital institution to a federated modular
+ecosystem with central constitutional constraints, Tenant governance, and
+optional service nuclei.
+
+Retain this package for traceability only. Do not issue it to new reviewers or
+treat a review of v0.3.2 as approval of the corrected ecosystem framing.
+Restarting review requires a separately authorized manuscript revision, a new
+version lock, and an updated review package.
 
 ## Purpose
 
-This package supports a controlled internal peer review of the Axodus
-architecture paper. The review should test whether the manuscript presents a
-clear, coherent, and defensible prototype-stage conceptual architecture
-centered on traceability and accountability in human–AI-assisted digital
-institutions.
+This package was prepared to support a controlled internal peer review of the
+v0.3.2 Axodus architecture paper. Its review instructions are preserved as a
+historical record but are not currently active.
 
 This package is not a publication package. It does not authorize controlled
 external review, publication, submission, outreach, grant use, fundraising
@@ -189,6 +200,9 @@ for the passages they primarily assess. Conflicts of interest, prior project
 involvement, and limits of expertise must be disclosed in the review form.
 
 ## Package control
+
+While the suspension remains active, the package owner must not assign or
+distribute new review copies.
 
 The package owner should:
 

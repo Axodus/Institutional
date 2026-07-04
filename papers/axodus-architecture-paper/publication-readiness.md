@@ -1,15 +1,40 @@
 # Publication Readiness — Axodus Architecture Paper
 
-Review date: 2026-07-03  
+Review date: 2026-07-04
 Version reviewed: draft v0.3.2
-Decision: **Ready for internal peer review after v0.3.2 reference-gap closure;
-not ready for controlled external review, publication, submission, outreach,
-grant use, fundraising use, authority signaling, or external distribution.**
+Decision: **Internal peer review paused after an author clarification changed
+the manuscript's underlying ecosystem premise; ready for author decision on a
+v0.4 conceptual reframing only.**
 
 ## Publication status
 
 Ready for human review: yes  
 Ready for public publication: no
+
+## Phase 1.16A author ecosystem alignment status
+
+Phase 1.16A records a premise-level author clarification: Axodus is intended
+as a federated modular ecosystem governed through a central constitutional
+layer, constitutionally constrained Tenant governance, optional product or
+service nuclei, and bounded human--AI-assisted decision processes.
+
+The clarification changes the editorial diagnosis. The v0.3.2 manuscript
+contains reusable traceability, accountability, provenance, contestability,
+and evaluation material, but it describes its institutional object too
+generically. Internal peer review of v0.3.2 is therefore paused. The manuscript
+and bibliography were not modified in this phase.
+
+The Institutional repository is intentionally public. Under
+`../../governance/public-disclosure-boundary.md`, it may publish the
+author-approved module inventory and bounded conceptual functions. This
+permission does not establish implementation, integration, maturity,
+operation, users, adoption, revenue, security, regulatory approval, or
+production readiness. The academic paper should continue to abstract the
+inventory.
+
+Phase 1.16A recommends a v0.4 conceptual reframing around federated modular
+digital institutions. It does not open v0.4, authorize manuscript edits, or
+authorize any form of circulation.
 
 ## Phase 1.2 author-gate status
 
@@ -592,10 +617,10 @@ originates from a multi-year independent research and design effort.”
 
 1. Obtain author approval for name, affiliation, title, abstract, and release
    license.
-2. Resolve whether the paper should remain one broad architecture manuscript
-   or be narrowed before any external review.
-3. Complete internal peer review of the exact v0.3.2 revision and resolve its
-   resulting findings before any controlled external-review decision.
+2. Obtain an author decision on whether to open a v0.4 conceptual reframing
+   around federated modular digital institutions.
+3. Do not restart internal peer review until an author-approved manuscript
+   reflects the corrected ecosystem premise and receives a new version lock.
 4. Verify that every Axodus-specific statement conforms to the intended public
    disclosure boundary.
 5. Review the CC BY 4.0 licensing notice and third-party rights before release.
@@ -642,8 +667,12 @@ originates from a multi-year independent research and design effort.”
 
 ## Non-critical recommendations
 
-- Keep the v0.3 manuscript centered on traceability, accountability, and
-  bounded human-AI assistance in any subsequent revision.
+- Preserve the v0.3.2 traceability, accountability, provenance,
+  contestability, and bounded human-AI material as reusable foundations for
+  an author-approved reframing.
+- Recast traceability and accountability as cross-cutting requirements across
+  constitutional delegation, Tenant decisions, service-nucleus selection,
+  AI assistance, evidence records, and review paths.
 - Preserve participation readiness, maturity, and risk boundaries as
   supporting components rather than expanding them again into co-equal
   contributions.
@@ -674,9 +703,11 @@ originates from a multi-year independent research and design effort.”
 
 ## Author decisions required
 
-- Keep one broad architecture paper or split into narrower papers.
-- Review and resolve the findings from the authorized internal peer review
-  before choosing any later circulation mode.
+- Approve or reject opening a v0.4 conceptual reframing.
+- Approve the exact future title, contribution statement, Tenant definition,
+  and constitutional/Tenant/service-nucleus architecture.
+- Decide whether the paper remains one architecture manuscript or is later
+  split into narrower papers.
 - Approve the affiliation wording and license posture for any later
   circulation.
 
@@ -685,35 +716,37 @@ recorded and may be treated as approved for manuscript-editing purposes.
 
 ## Recommended next human review
 
-Conduct internal peer review against the exact v0.3.2 hashes recorded in
-`internal-peer-review-package.md` and `v0.3.2-readiness-record.md`. Reviewers
-should test the new architecture flow, synthetic scenario, provenance
-boundary, contestability model, simplification heuristics, and proposed
-evaluation measures, including whether the three newly added sources support
-their bounded propositions. Complete that review before considering any later
-external-review gate.
+Review `author-ecosystem-clarification.md`,
+`paper-scope-impact-analysis.md`, and `v0.4-reframing-options.md`. Decide
+whether to authorize a separately scoped v0.4 planning or manuscript phase.
+Do not distribute v0.3.2 as the active representation of the author-defined
+Axodus ecosystem.
 
 ## Checklist status
 
-The automated/static portions of the publication checklist were executed.
+The automated/static portions of the publication checklist were applied to the
+Phase 1.16A public Institutional documentation. Material ecosystem claims were
+classified, prototype and evidence boundaries were checked, promotional
+language was scanned, and sensitive implementation disclosure was reviewed.
 Human judgment items remain unchecked in
-`../../governance/publication-review-checklist.md`.
-Checklist applied: yes, for the automated/static checks completed through
-Phase 1.15B.
+`../../governance/publication-review-checklist.md`. Manuscript citation and
+Markdown/LaTeX checks were not rerun because `paper.md`, `paper.tex`, and
+`references.bib` were unchanged.
 
 ## Readiness status
 
-Phase 1.15B readiness category: **Ready for internal peer review after v0.3.2
-reference-gap closure.**
+Phase 1.16A readiness category: **Ready for author decision on v0.4
+conceptual reframing only.**
 
 Ready for controlled external review: no  
 Ready for public publication: no
 
 v0.3.2 reference-gap closure complete: yes
 
-Internal peer review authorized: yes
+Internal peer review authorized: no; paused pending conceptual realignment
 
-**Current status: v0.3.2 targeted revision and reference-gap closure complete;
-ready for internal peer review only; blocked for controlled external review,
-publication, submission, outreach, grant use, fundraising use, external
+**Current status: v0.3.2 retained as a historical conceptual baseline;
+internal peer review paused; ready for author decision on v0.4 conceptual
+reframing only; blocked for controlled external review, manuscript
+publication, submission, outreach, grant use, fundraising use, manuscript
 distribution, and authority signaling.**

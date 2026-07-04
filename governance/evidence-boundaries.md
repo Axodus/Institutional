@@ -5,6 +5,13 @@ Status: Phase 1 editorial control
 ## Publicly allowed
 
 - Axodus is presented as a conceptual, prototype-stage infrastructure model.
+- The Institutional repository is intentionally public and may describe the
+  names, bounded conceptual functions, and architectural relationships of
+  private product or service nuclei under
+  `governance/public-disclosure-boundary.md`.
+- Axodus may be described as a proposed federated modular ecosystem with a
+  central constitutional layer, constitutionally constrained Tenant
+  governance, and optional service nuclei.
 - The project originates from a multi-year independent research and design
   effort.
 - Proof of Knowledge is proposed as an educational participation mechanism.
@@ -21,7 +28,9 @@ Status: Phase 1 editorial control
 ## Blocked until evidence or explicit human approval
 
 - a precise project duration;
-- a precise number, identity, or completion state of cores;
+- a precise number or completion state of cores;
+- module implementation, integration, or readiness inferred from a public
+  module name or conceptual description;
 - operational readiness or production use;
 - implementation completeness;
 - adoption, users, partners, traction, or impact;
@@ -29,6 +38,25 @@ Status: Phase 1 editorial control
 - treasury, token, financial-performance, or valuation claims;
 - affiliations, endorsements, grants, or institutional relationships;
 - comparative superiority or novelty claims.
+
+## Controlled institutional disclosures
+
+The author has approved the module inventory as public Institutional context.
+This permits module names and bounded conceptual functions; it does not permit
+claims that a module is implemented, integrated, operational, secure, adopted,
+revenue-generating, compliant, or production-ready.
+
+Broad labels such as `planned`, `prototype`, or `under development` may appear
+only as attributed author-reported planning context. They are not verified
+maturity assessments and must not be mapped to L-Level, D-Level, production,
+or sensitive-action authority.
+
+Operational, financial, tokenomic, production, adoption, user, revenue,
+treasury, trading, mining, lottery, decentralized-finance,
+decentralized-exchange, governance-token, or performance claims remain
+excluded from the academic architecture paper unless separately reviewed and
+approved. Regulated-domain descriptions also require legal and regulatory
+review before any use beyond bounded institutional context.
 
 ## Required distinctions
 
@@ -40,3 +68,8 @@ Status: Phase 1 editorial control
 
 Blocked claims stay in `research/claims-register.md` and do not enter a public
 manuscript. Editorial convenience is not grounds to relax this boundary.
+
+Public repository disclosure and academic-paper publication are separate
+gates. A statement permitted in an Institutional overview is not
+automatically suitable for a manuscript, whitepaper, outreach material, or
+regulated disclosure.

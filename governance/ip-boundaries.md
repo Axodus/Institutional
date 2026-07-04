@@ -5,6 +5,10 @@ Status: Phase 1 editorial control
 ## Allowed
 
 - high-level conceptual components and relationships;
+- names and bounded conceptual functions of private product or service nuclei
+  under `governance/public-disclosure-boundary.md`;
+- conceptual federation, Tenant, and module-contract relationships that do
+  not reveal implementation topology;
 - research questions and evaluation proposals;
 - public literature synthesis;
 - non-sensitive governance principles;
@@ -28,3 +32,8 @@ Status: Phase 1 editorial control
 When uncertain, replace implementation detail with an interface-level or
 research-level description and record the omission in the readiness report.
 Absence of a confidentiality label does not make information public.
+
+The Institutional repository is intentionally public, but product nuclei and
+their implementation repositories remain private. Public disclosure
+authorization is governed by `governance/public-disclosure-boundary.md` and
+does not override the prohibited categories above.
