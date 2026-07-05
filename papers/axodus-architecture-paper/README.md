@@ -39,6 +39,8 @@ blocked.
   v0.5 drafting;
 - `v0.5-drafting-scope.md` — controlling scope map for any later v0.5
   manuscript intervention;
+- `v0.5-manuscript-patch-plan.md` — section-by-section patch-planning record
+  for the next manuscript-edit phase;
 - `internal-peer-review-package.md` — suspended v0.3.2 review manifest;
 - `internal-peer-review-instructions.md` — reviewer conduct and review method;
 - `internal-peer-review-form.md` — structured reviewer response form;
@@ -62,8 +64,9 @@ is:
 - `v0.5-planning-record.md`;
 - `v0.5-governance-scope-plan.md`;
 - `author-decision-record-v0.5.md`;
-- `v0.5-drafting-entry.md`; and
-- `v0.5-drafting-scope.md`; and
+- `v0.5-drafting-entry.md`;
+- `v0.5-drafting-scope.md`;
+- `v0.5-manuscript-patch-plan.md`; and
 - `publication-readiness.md`.
 
 Internal peer review is not authorized. The earlier v0.4 and v0.4.1 records

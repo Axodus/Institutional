@@ -33,6 +33,27 @@ authorize external circulation. Its purpose is to identify eligible
 manuscript intervention areas, high-risk sections, boundary conditions, and
 author-approval gates for any later v0.5 drafting step.
 
+## Phase 1.22 v0.5 manuscript patch-plan status
+
+Phase 1.22 converts the approved v0.5 drafting scope into a controlled
+section-by-section patch plan for `paper.md` and `paper.tex` before any
+manuscript edits begin.
+
+This phase creates:
+
+- `v0.5-manuscript-patch-plan.md`.
+
+This phase may also update:
+
+- `v0.5-drafting-entry.md`; and
+- `README.md`.
+
+Phase 1.22 does not modify `paper.md`, `paper.tex`, or `references.bib`. It
+does not open peer review, does not open a publication package, and does not
+authorize external circulation. Its purpose is to define eligible manuscript
+sections, modification types, high-risk terminology gates, synchronization
+requirements, and verification criteria for any later v0.5 patch phase.
+
 ## Phase 1.20 v0.5 governance planning and track-separation status
 
 Phase 1.20 is accepted as the documentary separation point between the
