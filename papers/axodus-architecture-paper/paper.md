@@ -353,22 +353,23 @@ systems rather than as guarantees that harmful outcomes are prevented
 # 5. Participation Readiness as a Supporting Mechanism
 
 A participation-readiness mechanism is proposed only as a supporting
-institutional interface for learning, assessment, bounded eligibility, and
-appeal in selected consequential contexts. It is not the paper's central
-contribution and must not be treated as a general social ranking system.
+institutional interface for bounded preparation, assessment, accommodations,
+and challenge conditions in selected consequential contexts. It is not the
+paper's central contribution and must not be treated as a standalone
+educational product or a general social ranking system.
 
-The W3C credential model could inform portable representations, but
-verification of an issuer and credential does not validate educational
-quality or justify authorization [@w3c2025vcdm]. The governance problem
-therefore includes who defines the criteria, how accommodations are provided,
-how a participant can contest an outcome, and whether the requirement is
-proportionate to the decision context.
+In this proposal, any readiness artifact functions only as a reviewable input
+to a broader decision context. It does not by itself establish legitimacy,
+fairness, or authority. The governance problem therefore includes who defines
+the criteria, how accommodations are provided, whether the requirement is
+proportionate to the decision context, and how a participant can challenge an
+outcome.
 
-The central hypothesis is that educational readiness may improve bounded
-participation in selected high-consequence contexts. Competing hypotheses
-remain equally important: the mechanism may exclude participants, centralize
-curriculum power, encourage test gaming, or create privacy risks. It should be
-rejected or redesigned if those harms cannot be controlled.
+The working hypothesis is that bounded preparation may improve participation
+quality in selected high-consequence contexts. Competing hypotheses remain
+equally important: the mechanism may exclude participants, centralize
+interpretive power, encourage test gaming, or create privacy risks. It should
+be narrowed, redesigned, or rejected if those harms cannot be controlled.
 
 # 6. Internal Maturity Distinction and Scope Reduction
 
