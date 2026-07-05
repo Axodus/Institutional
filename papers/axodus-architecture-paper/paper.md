@@ -244,12 +244,18 @@ process.
 
 ## 4.1 Constitutional governance layer
 
-The constitutional governance layer defines higher-order rules: roles,
-decision rights, prohibitions, amendment procedures, escalation paths, and
-appeal conditions. Its purpose is to make non-delegable constraints visible
-before local configuration begins. In this model, a valid action requires both
-institutional justification and whatever technical authorization a future
-implementation might use; neither alone would establish legitimacy.
+The constitutional governance layer is a conceptual constraint surface that
+defines higher-order rules: roles, decision rights, prohibitions, amendment
+procedures, escalation paths, and appeal conditions. Its purpose is to make
+non-delegable institutional constraints visible before local configuration
+begins and to frame how later review can distinguish a permitted action from
+an out-of-scope one.
+
+In this proposal, the layer structures accountability boundaries rather than
+serving as a deployed constitution, legal instrument, active authority, or
+enforcement body. A reviewable action therefore depends on both institutional
+justification and whatever technical authorization a future implementation
+might use; neither alone would establish legitimacy.
 
 ## 4.2 Tenant governance layer
 
@@ -287,21 +293,31 @@ At the conceptual level, source documents and outputs can be treated as
 entities, analysis and review steps as activities, and human or automated
 participants as agents. Derivation and attribution relations can then connect
 an output to its inputs and responsible roles [@w3c2013provdm]. These concepts
-specify what a reviewable record should express; they do not prescribe a
-storage system, cryptographic proof, or integrity guarantee.
+specify what a reviewable record should express so that a later reviewer can
+reconstruct the path from source material to disposition. They do not by
+themselves prove that a record is true, complete, tamper-resistant, or
+accountable in the stronger normative sense.
+
+Accordingly, the layer supports later inspection rather than automatic
+validation. It does not prescribe a storage system, cryptographic proof,
+implemented evidence infrastructure, or integrity guarantee, and it does not
+convert record linkage into a full judgment about whether the decision was
+substantively justified.
 
 ## 4.5 AI-assistance layer
 
 AI assistance remains advisory. It may support bounded tasks such as document
 comparison, proposal summarization, inconsistency detection, constitutional
-analysis support, adversarial checking, and operational planning support. Each
-use should declare the task, source material, output, uncertainty where
-available, human reviewer, and disposition. Humans retain decision authority
-and responsibility.
+analysis support, adversarial checking, and planning-oriented review support.
+Each use should declare the task, source material, output, uncertainty where
+available, human reviewer, and disposition so that later reviewers can inspect
+how advisory analysis entered the record. Humans retain decision authority and
+responsibility.
 
 This layer is intentionally role-abstract. The paper does not use named agent
 labels, does not claim autonomous execution authority, and does not claim that
-AI assistance itself enforces governance or security.
+AI assistance itself enforces governance, issues binding judgments, or
+replaces human institutional review.
 
 ## 4.6 Risk-boundary and contestability layer
 
