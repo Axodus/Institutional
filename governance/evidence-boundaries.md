@@ -58,6 +58,12 @@ excluded from the academic architecture paper unless separately reviewed and
 approved. Regulated-domain descriptions also require legal and regulatory
 review before any use beyond bounded institutional context.
 
+Public governance-mechanics documentation may describe governance structure,
+review flow, and unresolved procedural concepts at a conceptual level, but it
+must not disclose token issuance, valuation, supply, price targets, liquidity
+plans, detailed economic allocation, or other tokenomics mechanics without a
+separate review and approval process.
+
 ## Required distinctions
 
 - **Externally supported fact**: supported by an appropriate public source.

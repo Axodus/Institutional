@@ -1,7 +1,7 @@
 # Axodus Architecture Paper
 
 Active version: draft v0.4
-Readiness: **Ready for v0.4.1 targeted internal revision only**
+Readiness: **Ready for governance-track separation and v0.5 planning only; v0.4 remains the current internal draft baseline and v0.4.1 remains planned but not opened**
 
 Controlled external review, publication, submission, outreach, grant use,
 fundraising use, external distribution, and authority signaling remain
@@ -29,6 +29,12 @@ blocked.
   and decision record for v0.4;
 - `v0.4.1-patch-plan.md` — authorized scope for the next targeted internal
   revision;
+- `v0.5-planning-record.md` — paper-track planning record for the next
+  governance-alignment cycle;
+- `v0.5-governance-scope-plan.md` — paper-safe governance scope extraction
+  rules for any future v0.5;
+- `author-decision-record-v0.5.md` — author planning decisions for a future
+  v0.5 paper line;
 - `internal-peer-review-package.md` — suspended v0.3.2 review manifest;
 - `internal-peer-review-instructions.md` — reviewer conduct and review method;
 - `internal-peer-review-form.md` — structured reviewer response form;
@@ -42,14 +48,19 @@ blocked.
   and
 - `README.md` — this directory index.
 
-## Current review status
+## Current paper-track status
 
-The active manuscript line is v0.4, but it is not yet a peer-review package.
-The next authorized action is targeted internal revision based on:
+The active manuscript line remains v0.4, and it is not yet a peer-review
+package. v0.4.1 remains planned but not opened. v0.5 manuscript drafting is
+not open. The current authorized action is governance-track separation plus
+paper-track planning based on:
 
 - `v0.4-author-review-consolidation.md`;
 - `v0.4.1-patch-plan.md`;
-- `v0.4-author-decision-record.md`; and
+- `v0.4-author-decision-record.md`;
+- `v0.5-planning-record.md`;
+- `v0.5-governance-scope-plan.md`;
+- `author-decision-record-v0.5.md`; and
 - `publication-readiness.md`.
 
 Internal peer review is not authorized for v0.4. The earlier v0.3.2 targeted

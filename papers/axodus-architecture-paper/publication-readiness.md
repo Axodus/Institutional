@@ -1,15 +1,47 @@
 # Publication Readiness — Axodus Architecture Paper
 
-Review date: 2026-07-04
+Review date: 2026-07-05
 Version reviewed: draft v0.4
-Decision: **The v0.4 draft remains an author-review manuscript and is now
-ready for v0.4.1 targeted internal revision only; internal peer review,
-controlled external review, and publication remain blocked.**
+Decision: **The v0.4 draft remains an author-review manuscript and current
+internal baseline; v0.4.1 remains planned but not opened, v0.5 manuscript
+drafting remains closed, and internal peer review, controlled external
+review, and publication remain blocked.**
 
 ## Publication status
 
 Ready for human review: yes  
 Ready for public publication: no
+
+## Phase 1.20 v0.5 governance planning and track-separation status
+
+Phase 1.20 does not open v0.5 manuscript drafting. It separates governance
+content into the correct public and paper-track planning paths before any new
+paper writing begins.
+
+This phase creates:
+
+- `../../governance/governance-mechanics-v0.1.md`;
+- `v0.5-planning-record.md`;
+- `v0.5-governance-scope-plan.md`; and
+- `author-decision-record-v0.5.md`.
+
+Phase 1.20 confirms three documentary tracks:
+
+- the current internal draft baseline remains v0.4;
+- v0.4.1 remains planned but not opened pending governance-track separation;
+- a public Institutional governance-mechanics stub may exist in controlled
+  abstract form; and
+- a tokenomics workstream is conceptually acknowledged but remains blocked
+  from the public repo pending legal-review and disclosure decisions.
+
+The paper-safe governance abstractions for any future v0.5 are now defined as
+constitutional center, bounded local governance domains, stakeholder proposal
+and refinement, community ratification and contestation, rapid risk-response
+and procedural review, and role-abstract AI supervision.
+
+Phase 1.20 does not modify `paper.md`, `paper.tex`, or `references.bib`, does
+not authorize v0.5 manuscript drafting, and does not relax any publication or
+external-use blocker.
 
 ## Phase 1.19 v0.4 author review consolidation status
 
@@ -827,10 +859,12 @@ recorded and may be treated as approved for manuscript-editing purposes.
 
 ## Recommended next human review
 
-Review `v0.4-author-review-consolidation.md`,
-`v0.4.1-patch-plan.md`, and the updated terminology and claims records.
-Proceed to a targeted v0.4.1 internal revision. Do not prepare a new peer-
-review package until the patch and a fresh readiness record are complete.
+Review `../../governance/governance-mechanics-v0.1.md`,
+`v0.5-planning-record.md`, `v0.5-governance-scope-plan.md`,
+`author-decision-record-v0.5.md`, and the updated boundary and terminology
+records. Keep v0.4 as the current internal draft baseline. Do not open
+v0.4.1 or v0.5 drafting until the governance abstractions and documentary
+split are accepted.
 
 ## Checklist status
 
@@ -844,19 +878,24 @@ LaTeX compile check was completed. Human judgment items remain unchecked in
 
 ## Readiness status
 
-Phase 1.19 readiness category: **Ready for v0.4.1 targeted internal revision
-only.**
+Phase 1.20 readiness category: **Ready for governance-track separation and
+v0.5 planning only; v0.4 remains the current internal draft baseline and
+v0.4.1 remains planned but not opened.**
 
 Ready for controlled external review: no  
 Ready for public publication: no
 
 v0.4 manuscript reframing complete: yes
 
-Internal peer review authorized: no; blocked pending v0.4.1 targeted
-internal revision
+v0.5 manuscript drafting opened: no
 
-**Current status: v0.4 remains an author-review draft; v0.4.1 targeted
-internal revision is authorized; internal peer review, controlled external
+Internal peer review authorized: no; blocked pending v0.4.1 targeted
+internal revision and any later fresh readiness package
+
+**Current status: v0.4 remains an author-review draft and current internal
+baseline; v0.4.1 remains planned but not opened pending governance-track
+separation; Phase 1.20 planning and governance-track separation are complete;
+v0.5 drafting is not opened; internal peer review, controlled external
 review, manuscript publication, submission, outreach, grant use,
 fundraising use, manuscript distribution, and authority signaling remain
 blocked.**

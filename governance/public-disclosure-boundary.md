@@ -50,6 +50,12 @@ regulatory, economic, and evidence review. Public institutional descriptions
 must not disclose strategies, parameters, performance, returns, capital
 positions, counterparties, or execution details.
 
+Public governance-mechanics documents may describe governance structure,
+checks and balances, review paths, and unresolved procedural concepts in
+abstract form. They must not disclose tokenomics, issuance mechanics,
+valuation hypotheses, price targets, liquidity strategy, or other sensitive
+economic design without a separate approved disclosure path.
+
 ## Prohibited disclosure
 
 The public Institutional repository must not expose:

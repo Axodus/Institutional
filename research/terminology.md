@@ -66,6 +66,26 @@ community. It may include module selection and configuration within central
 constitutional, evidence, risk, review, and appeal boundaries. Economic or
 regulated parameters require separate review.
 
+## Stakeholder proposal and refinement layer
+
+The preferred paper-facing abstraction for a governance function that receives
+proposals, supports structured refinement, surfaces review issues, and
+prepares items for broader ratification or escalation. It is safer for the
+paper than direct institutional naming.
+
+## Community ratification and contestation layer
+
+The preferred paper-facing abstraction for a governance function that supports
+broader visibility, bounded participation, ratification, challenge, and
+contestation under future approved rules.
+
+## Rapid risk-response and procedural review function
+
+The preferred paper-facing abstraction for a governance function that handles
+urgent review, procedural stabilization, exception handling, and escalation
+when a proposed action appears to conflict with constitutional or risk
+constraints.
+
 ## Core
 
 A bounded product, service, institutional, or operational nucleus within the
@@ -126,6 +146,13 @@ production readiness or sensitive authority from an L-Level or D-Level.
 Work in which AI systems support bounded analytical or administrative tasks
 while humans retain defined decision authority and responsibility. It does not
 mean sovereign or unaccountable AI governance.
+
+## Meta-supervision role
+
+A paper-facing abstraction for a higher-order review role that evaluates AI-
+assisted or human-prepared analysis, checks adherence to constraints, and can
+escalate concerns without implying autonomous authority or implemented
+security controls.
 
 ## Proof of Knowledge
 
