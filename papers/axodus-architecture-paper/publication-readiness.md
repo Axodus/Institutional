@@ -13,6 +13,27 @@ circulation, and publication remain blocked.**
 Ready for human review: yes  
 Ready for public publication: no
 
+## Phase 1.30 v0.5 participation-readiness patch-plan status
+
+Phase 1.30 defines the controlled participation-readiness treatment for
+Section `5` before any manuscript patch is opened.
+
+This phase creates:
+
+- `v0.5-participation-readiness-patch-plan.md`.
+
+This phase may also update:
+
+- `v0.5-drafting-entry.md`;
+- `README.md`; and
+- `v0.5-manuscript-patch-plan.md`.
+
+Phase 1.30 does not modify `paper.md`, `paper.tex`, or `references.bib`. It
+keeps `8` deferred. It records that Section `5` must remain a supporting
+mechanism rather than a product-facing educational layer and must stay clear
+of Academy, Learn to Win, tokenomics, strong credentialism, and unsupported
+legitimacy claims.
+
 ## Phase 1.28 v0.5 terminology-risk plan status
 
 Phase 1.28 defines the controlled terminology-risk treatment for Sections
