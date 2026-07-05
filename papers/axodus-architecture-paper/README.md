@@ -1,7 +1,7 @@
 # Axodus Architecture Paper
 
 Active version: draft v0.4
-Readiness: **Ready for governance-track separation and v0.5 planning only; v0.4 remains the current internal draft baseline and v0.4.1 remains planned but not opened**
+Readiness: **Phase 1.20 accepted; v0.4 remains the historical internal baseline, v0.4.1 is canceled as a forward path, and v0.5 is the active internal drafting track only**
 
 Controlled external review, publication, submission, outreach, grant use,
 fundraising use, external distribution, and authority signaling remain
@@ -23,18 +23,20 @@ blocked.
 - `v0.4-reframing-plan.md` — proposed thesis, scope, outline, and acceptance
   criteria for a future v0.4 phase;
 - `v0.4-change-log.md` — manuscript reframing record for the active v0.4
-  draft;
+  draft baseline;
 - `v0.4-readiness-record.md` — current author-review gate record for v0.4;
 - `v0.4-author-review-consolidation.md` — consolidated author-review finding
-  and decision record for v0.4;
-- `v0.4.1-patch-plan.md` — authorized scope for the next targeted internal
-  revision;
-- `v0.5-planning-record.md` — paper-track planning record for the next
-  governance-alignment cycle;
+  and decision record for the historical v0.4 line;
+- `v0.4.1-patch-plan.md` — historical superseded patch path retained for
+  traceability;
+- `v0.5-planning-record.md` — accepted paper-track transition record for the
+  active v0.5 line;
 - `v0.5-governance-scope-plan.md` — paper-safe governance scope extraction
-  rules for any future v0.5;
-- `author-decision-record-v0.5.md` — author planning decisions for a future
-  v0.5 paper line;
+  rules for the active v0.5 line;
+- `author-decision-record-v0.5.md` — accepted author transition decision for
+  the v0.5 line;
+- `v0.5-drafting-entry.md` — controlled entry point for active internal
+  v0.5 drafting;
 - `internal-peer-review-package.md` — suspended v0.3.2 review manifest;
 - `internal-peer-review-instructions.md` — reviewer conduct and review method;
 - `internal-peer-review-form.md` — structured reviewer response form;
@@ -50,23 +52,20 @@ blocked.
 
 ## Current paper-track status
 
-The active manuscript line remains v0.4, and it is not yet a peer-review
-package. v0.4.1 remains planned but not opened. v0.5 manuscript drafting is
-not open. The current authorized action is governance-track separation plus
-paper-track planning based on:
+The active next writing line is v0.5 as an internal drafting track only.
+v0.4 remains the historical internal manuscript baseline. v0.4.1 is
+canceled as a forward path. The current authorized basis for the v0.5 line
+is:
 
-- `v0.4-author-review-consolidation.md`;
-- `v0.4.1-patch-plan.md`;
-- `v0.4-author-decision-record.md`;
 - `v0.5-planning-record.md`;
 - `v0.5-governance-scope-plan.md`;
-- `author-decision-record-v0.5.md`; and
+- `author-decision-record-v0.5.md`;
+- `v0.5-drafting-entry.md`; and
 - `publication-readiness.md`.
 
-Internal peer review is not authorized for v0.4. The earlier v0.3.2 targeted
-patch, reference-gap closure, and peer-review package remain historical
-records and must not be treated as the current review baseline if the v0.4
-direction is maintained.
+Internal peer review is not authorized. The earlier v0.4 and v0.4.1 records
+remain for traceability only and must not be treated as the active manuscript
+path or review package.
 
 ## Historical artifacts
 

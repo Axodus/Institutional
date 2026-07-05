@@ -1,13 +1,17 @@
 # Author Decision Record v0.5
 
-Status: Phase 1.20 author planning record  
+Status: Phase 1.20 accepted author transition record
 Date: 2026-07-05  
-v0.5 drafting authorized: no
+v0.5 track opened: yes, active internal drafting track only
+v0.5 manuscript publication package: not opened
+Peer review package: not opened
+External circulation: not authorized
 
 ## Purpose
 
-This record captures the author-level scope decisions required before any
-future v0.5 paper drafting begins.
+This record captures the accepted author decision that closes the v0.4.x line
+as a forward path and opens v0.5 as the active internal drafting track within
+existing repository boundaries.
 
 ## Confirmed paper-track decisions
 
@@ -21,10 +25,18 @@ future v0.5 paper drafting begins.
 6. `Executive`, `Boardroom`, and `Community` may appear in public
    Institutional governance documentation with caution, but not as primary
    academic-paper structure labels.
-7. A future v0.5 paper may use abstract governance functions derived from
+7. The active v0.5 track may use abstract governance functions derived from
    those layers, not the raw institutional naming.
-8. The current paper baseline remains v0.4. A possible v0.4.1 remains planned
-   but not opened until governance-track separation is accepted.
+8. Phase 1.20 governance-track separation is accepted.
+9. The v0.4.x line is closed as a forward path. `v0.4` remains the historical
+   internal manuscript baseline.
+10. `v0.4.1` is canceled as a forward path and must not be treated as an
+    active manuscript gate.
+11. v0.5 is authorized as the active next writing line, but only as an
+    internal drafting track subject to Phase 1 evidence boundaries,
+    public-disclosure limits, and unresolved publication blockers.
+12. No tokenomics, operational expansion, peer-review authorization, or
+    external circulation is approved through this transition.
 
 ## Tokenomics decision
 
@@ -34,6 +46,6 @@ disclosure decisions before public-repo creation is reconsidered.
 
 ## Current outcome
 
-The next paper-track action is planning and scope control only. v0.5
-manuscript drafting remains closed, and v0.4.1 remains planned but not
-opened.
+The next paper-track action is active internal v0.5 drafting within the
+approved abstraction boundary. No manuscript publication package, peer-review
+package, or external circulation path is opened by this record.

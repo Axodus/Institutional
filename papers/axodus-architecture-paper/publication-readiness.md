@@ -2,10 +2,11 @@
 
 Review date: 2026-07-05
 Version reviewed: draft v0.4
-Decision: **The v0.4 draft remains an author-review manuscript and current
-internal baseline; v0.4.1 remains planned but not opened, v0.5 manuscript
-drafting remains closed, and internal peer review, controlled external
-review, and publication remain blocked.**
+Decision: **Phase 1.20 governance-track separation has been accepted. The
+v0.4.x line is closed as a forward path, v0.4 remains the historical
+internal baseline, v0.5 track is opened as the active internal drafting
+track only, and internal peer review, controlled external review, external
+circulation, and publication remain blocked.**
 
 ## Publication status
 
@@ -14,9 +15,10 @@ Ready for public publication: no
 
 ## Phase 1.20 v0.5 governance planning and track-separation status
 
-Phase 1.20 does not open v0.5 manuscript drafting. It separates governance
-content into the correct public and paper-track planning paths before any new
-paper writing begins.
+Phase 1.20 is accepted as the documentary separation point between the
+historical v0.4.x line and the active v0.5 internal drafting track. It keeps
+governance content in the correct public and paper-track paths before any new
+manuscript package is prepared.
 
 This phase creates:
 
@@ -25,25 +27,39 @@ This phase creates:
 - `v0.5-governance-scope-plan.md`; and
 - `author-decision-record-v0.5.md`.
 
-Phase 1.20 confirms three documentary tracks:
+This transition also creates:
 
-- the current internal draft baseline remains v0.4;
-- v0.4.1 remains planned but not opened pending governance-track separation;
+- `v0.5-drafting-entry.md`.
+
+Phase 1.20 confirms and accepts three documentary tracks:
+
+- v0.4 remains the historical internal manuscript baseline;
+- v0.4.1 is canceled as a forward manuscript path;
+- v0.5 is now the active next writing line under current evidence and
+  disclosure boundaries;
 - a public Institutional governance-mechanics stub may exist in controlled
   abstract form; and
 - a tokenomics workstream is conceptually acknowledged but remains blocked
   from the public repo pending legal-review and disclosure decisions.
 
-The paper-safe governance abstractions for any future v0.5 are now defined as
+The paper-safe governance abstractions for the active v0.5 track are
 constitutional center, bounded local governance domains, stakeholder proposal
 and refinement, community ratification and contestation, rapid risk-response
 and procedural review, and role-abstract AI supervision.
 
 Phase 1.20 does not modify `paper.md`, `paper.tex`, or `references.bib`, does
-not authorize v0.5 manuscript drafting, and does not relax any publication or
-external-use blocker.
+not create a publication-ready v0.5 manuscript package, and does not relax
+any publication or external-use blocker.
+
+v0.5 track opened: yes, active internal drafting track only
+v0.5 manuscript publication package: not opened
+Peer review package: not opened
+External circulation: not authorized
 
 ## Phase 1.19 v0.4 author review consolidation status
+
+This phase remains a historical record. Its v0.4.1 forward-path recommendation
+has been superseded by the accepted Phase 1.20 transition to v0.5.
 
 Phase 1.19 consolidates the four v0.4 review outcomes and converts them into
 an author-decision and patch-authorization gate.
@@ -127,6 +143,9 @@ review, public release, submission, outreach, grants, fundraising use, or
 authority signaling.
 
 ## Phase 1.17 v0.4 conceptual reframing authorization status
+
+This phase remains a historical record. Its authorization path was completed
+by the later v0.4 draft and is no longer an active blocker.
 
 Phase 1.17 prepares the author decision gate for v0.4 without opening
 manuscript editing.
@@ -761,10 +780,10 @@ originates from a multi-year independent research and design effort.”
 
 1. Obtain author approval for name, affiliation, title, abstract, and release
    license.
-2. Obtain author approval to begin v0.4 conceptual reframing under the
-   Phase 1.17 thesis, scope, and exclusions.
-3. Do not restart internal peer review until an author-approved manuscript
-   reflects the corrected ecosystem premise and receives a new version lock.
+2. Keep the active v0.5 drafting track within Phase 1 evidence boundaries,
+   public-disclosure limits, and the approved governance abstraction scope.
+3. Do not open a peer-review package until a fresh v0.5 readiness record
+   confirms metadata, claims, references, and disclosure compliance.
 4. Verify that every Axodus-specific statement conforms to the intended public
    disclosure boundary.
 5. Review the CC BY 4.0 licensing notice and third-party rights before release.
@@ -773,8 +792,8 @@ originates from a multi-year independent research and design effort.”
 
 ## Critical editorial blockers
 
-- The corrected ecosystem premise still requires an author-approved v0.4
-  manuscript track before any new peer-review cycle can begin.
+- The active v0.5 track remains internal-only and must not be treated as a
+  peer-review package until a fresh readiness package is completed.
 - Related-work coverage remains insufficient for controlled external review in
   contestability and appeals, assessment validity, deliberative competence,
   calibrated reliance, DAO participation behavior, maturity-model reliability,
@@ -847,8 +866,8 @@ originates from a multi-year independent research and design effort.”
 
 ## Author decisions required
 
-- Review the future v0.4.1 draft and decide whether it is ready for a new
-  internal peer-review gate or requires another author-only revision.
+- Review the active v0.5 track and decide when a future v0.5 manuscript
+  package is sufficiently boundary-clean for a new internal readiness gate.
 - Decide whether the paper remains one architecture manuscript or is later
   split into narrower papers.
 - Approve the affiliation wording and license posture for any later
@@ -861,10 +880,11 @@ recorded and may be treated as approved for manuscript-editing purposes.
 
 Review `../../governance/governance-mechanics-v0.1.md`,
 `v0.5-planning-record.md`, `v0.5-governance-scope-plan.md`,
-`author-decision-record-v0.5.md`, and the updated boundary and terminology
-records. Keep v0.4 as the current internal draft baseline. Do not open
-v0.4.1 or v0.5 drafting until the governance abstractions and documentary
-split are accepted.
+`author-decision-record-v0.5.md`, `v0.5-drafting-entry.md`, and the updated
+boundary and terminology records. Treat v0.4 as the historical internal
+baseline. Use v0.5 as the active internal drafting track only. Do not open
+peer review, controlled external review, or publication until a new v0.5
+readiness package is completed.
 
 ## Checklist status
 
@@ -878,24 +898,28 @@ LaTeX compile check was completed. Human judgment items remain unchecked in
 
 ## Readiness status
 
-Phase 1.20 readiness category: **Ready for governance-track separation and
-v0.5 planning only; v0.4 remains the current internal draft baseline and
-v0.4.1 remains planned but not opened.**
+Phase 1.20 readiness category: **Ready for active internal v0.5 drafting
+only; v0.4 remains the historical internal draft baseline, v0.4.1 is
+canceled as a forward path, and peer review plus external circulation remain
+blocked.**
 
 Ready for controlled external review: no  
 Ready for public publication: no
 
 v0.4 manuscript reframing complete: yes
 
-v0.5 manuscript drafting opened: no
+v0.5 track opened: yes, active internal drafting track only
 
-Internal peer review authorized: no; blocked pending v0.4.1 targeted
-internal revision and any later fresh readiness package
+v0.5 manuscript publication package: not opened
 
-**Current status: v0.4 remains an author-review draft and current internal
-baseline; v0.4.1 remains planned but not opened pending governance-track
-separation; Phase 1.20 planning and governance-track separation are complete;
-v0.5 drafting is not opened; internal peer review, controlled external
-review, manuscript publication, submission, outreach, grant use,
-fundraising use, manuscript distribution, and authority signaling remain
-blocked.**
+Peer review package opened: no
+
+Internal peer review authorized: no; blocked pending a future v0.5 readiness
+package and explicit author approval for any review gate
+
+**Current status: Phase 1.20 governance-track separation is accepted; v0.4.x
+is closed as a forward path; v0.4 remains the historical internal baseline;
+v0.5 is the active next writing line as an internal drafting track only; no
+peer-review package is opened; controlled external review, manuscript
+publication, submission, outreach, grant use, fundraising use, manuscript
+distribution, and authority signaling remain blocked.**
