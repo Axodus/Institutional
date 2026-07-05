@@ -13,6 +13,29 @@ circulation, and publication remain blocked.**
 Ready for human review: yes  
 Ready for public publication: no
 
+## Phase 1.24 v0.5 architecture-layer patch-plan status
+
+Phase 1.24 narrows the approved `v0.5` manuscript patch plan into a
+controlled architecture-layer patch plan for Sections `4.1`, `4.4`, `4.5`,
+and `4.6` only.
+
+This phase creates:
+
+- `v0.5-architecture-layer-patch-plan.md`.
+
+This phase may also update:
+
+- `v0.5-drafting-entry.md`;
+- `README.md`; and
+- `v0.5-manuscript-patch-plan.md`.
+
+Phase 1.24 does not modify `paper.md`, `paper.tex`, or `references.bib`. It
+does not open peer review, does not open a publication package, and does not
+authorize external circulation. It explicitly keeps `4.2`, `4.3`, `5`, and
+`8` deferred. It also records that `4.6` may be planned in this phase but
+must not be edited in Phase 1.25 unless explicit author confirmation is
+given after review of the plan.
+
 ## Phase 1.21 v0.5 drafting-scope initialization status
 
 Phase 1.21 defines the controlled drafting scope for the active v0.5 internal
