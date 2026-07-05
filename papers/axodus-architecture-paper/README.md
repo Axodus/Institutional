@@ -45,6 +45,8 @@ blocked.
   the future Section 4 architecture-layer patch;
 - `v0.5-contestability-layer-patch-plan.md` — controlled subsection plan for
   the future Section 4.6 contestability-layer patch;
+- `v0.5-terminology-risk-plan.md` — controlled subsection plan for the future
+  terminology patch in Sections 4.2 and 4.3;
 - `internal-peer-review-package.md` — suspended v0.3.2 review manifest;
 - `internal-peer-review-instructions.md` — reviewer conduct and review method;
 - `internal-peer-review-form.md` — structured reviewer response form;
@@ -72,6 +74,7 @@ is:
 - `v0.5-drafting-scope.md`;
 - `v0.5-manuscript-patch-plan.md`;
 - `v0.5-architecture-layer-patch-plan.md`;
+- `v0.5-terminology-risk-plan.md`;
 - `v0.5-contestability-layer-patch-plan.md`; and
 - `publication-readiness.md`.
 

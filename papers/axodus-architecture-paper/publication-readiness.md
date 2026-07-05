@@ -13,6 +13,28 @@ circulation, and publication remain blocked.**
 Ready for human review: yes  
 Ready for public publication: no
 
+## Phase 1.28 v0.5 terminology-risk plan status
+
+Phase 1.28 defines the controlled terminology-risk treatment for Sections
+`4.2` and `4.3` before any manuscript patch is opened.
+
+This phase creates:
+
+- `v0.5-terminology-risk-plan.md`.
+
+This phase may also update:
+
+- `v0.5-drafting-entry.md`;
+- `README.md`;
+- `v0.5-manuscript-patch-plan.md`; and
+- `v0.5-architecture-layer-patch-plan.md`.
+
+Phase 1.28 does not modify `paper.md`, `paper.tex`, or `references.bib`. It
+keeps `5` and `8` deferred. It records that the manuscript should prefer
+`bounded local governance domain` and `functional service module` as the
+paper-facing abstractions for future Section `4.2` and `4.3` terminology
+treatment.
+
 ## Phase 1.26 v0.5 contestability-layer patch-plan status
 
 Phase 1.26 narrows the approved `v0.5` architecture-layer patch planning
