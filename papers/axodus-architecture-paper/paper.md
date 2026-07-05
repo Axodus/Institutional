@@ -257,23 +257,30 @@ enforcement body. A reviewable action therefore depends on both institutional
 justification and whatever technical authorization a future implementation
 might use; neither alone would establish legitimacy.
 
-## 4.2 Tenant governance layer
+## 4.2 Bounded local governance domain layer
 
-The Tenant governance layer represents a bounded local governance domain
-operating under constitutional constraints. A Tenant may configure local
-processes, select service nuclei, and allocate decision tasks only within the
-scope permitted by the constitutional layer. The model treats Tenants as a
-conceptual governance construct rather than as evidence of deployed multi-
-tenant infrastructure, real communities, or operating customer entities.
+The bounded local governance domain layer represents a locally scoped decision
+context operating under constitutional constraints. A bounded local
+governance domain may configure local processes, select functional service
+modules, and allocate decision tasks only within the scope permitted by the
+constitutional layer. Axodus institutional documentation may use the term
+Tenant for such bounded local governance domains; this paper uses the
+governance-domain phrasing to avoid implying deployed SaaS tenancy, active
+customer entities, operating communities, or production infrastructure.
 
-## 4.3 Service nuclei layer
+## 4.3 Functional service module layer
 
-Service nuclei are abstract functional modules through which institutional
-capabilities can be selected, bounded, and governed. The paper does not
-present a product catalog. Instead, it treats a service nucleus as a
-conceptual unit that should declare its purpose, inputs, outputs, delegated
-authority, evidence requirements, dependencies, escalation conditions, and
-failure behavior.
+Functional service modules are abstract bounded institutional capabilities
+through which selected functions can be configured, limited, and governed.
+The paper does not present a product catalog. Instead, it treats a functional
+service module as a conceptual unit that should declare its purpose, inputs,
+outputs, delegated authority, evidence requirements, dependencies,
+escalation conditions, and failure behavior.
+
+Axodus institutional documentation may use the term service nuclei in broader
+institutional contexts; this paper uses functional service modules as the
+architecture-facing abstraction to avoid implying a product catalog,
+implementation inventory, or deployed system decomposition.
 
 A minimal functional taxonomy includes authority and role registries, evidence
 registries, decision-rationale records, conflict and disclosure registers,
