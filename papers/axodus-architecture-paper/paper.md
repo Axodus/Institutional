@@ -321,22 +321,26 @@ replaces human institutional review.
 
 ## 4.6 Risk-boundary and contestability layer
 
-The risk-boundary and contestability layer constrains permissible actions and
-keeps review paths available after a decision is proposed or made. A boundary
-should identify the responsible role, triggering condition, required
-evidence, permitted exception, and escalation path. Contestability requires a
-participant or reviewer to identify the applicable rule, challenge evidence,
-correct records, disclose conflicts, and request review by an appropriately
-independent role.
+The risk-boundary and contestability layer is a conceptual surface for making
+it visible when further review, refusal, documentation, or a challenge path
+may be needed. In this model, a boundary should identify the relevant role,
+the review trigger, the evidence required for inspection, and the condition
+under which a proposed action exceeds its permitted scope. Contestability
+therefore concerns whether a decision can be reconstructed, questioned, and
+re-examined in principle, not whether the architecture already operates a
+standing challenge mechanism.
 
-Within this proposal, reviewer independence means separation from the original
-decision, disclosure of conflicts, and recusal when a reviewer participated in
-the contested analysis. Escalation paths should identify where a review moves
-when authority, expertise, or capacity is insufficient. Human oversight
-becomes nominal when a reviewer lacks authority, time, access to evidence, or
-a practical ability to change the outcome [@tabassi2023airmf;
-@amershi2019guidelines]. Contestability-by-design literature identifies human
-review, intervention, and third-party scrutiny as relevant design features
+Within that framing, reviewer independence is a design concern rather than a
+claim about a standing body or named role. The architecture should make it
+possible to distinguish the original decision context from later challenge or
+re-examination conditions, including disclosed conflicts and situations in
+which the same actor should not be the sole judge of a contested record.
+Human oversight becomes nominal when a reviewer lacks the time, authority
+context, evidence access, or practical capacity to change an outcome
+[@tabassi2023airmf; @amershi2019guidelines]. Contestability-by-design
+literature is relevant here because it treats review visibility,
+intervention, and external scrutiny as design requirements for challengeable
+systems rather than as guarantees that harmful outcomes are prevented
 [@alfrink2023contestable].
 
 # 5. Participation Readiness as a Supporting Mechanism
