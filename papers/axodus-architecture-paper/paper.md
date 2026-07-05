@@ -413,35 +413,36 @@ evaluated states.
 
 The evaluation program is intentionally prioritized rather than broad.
 
-Before either initial study, the first empirical stage requires a controlled
-environment rather than a deployed institutional system. The environment
-should combine synthetic Tenant-governance scenarios, controlled evidence
-packages, simulated AI-assistance records, planted errors, and a high-fidelity
-mock-up or wizard-of-oz review interface. A preregistered protocol should
-define reviewer tasks and proposed measurement criteria. These criteria are
-study designs, not reported results.
+Before either initial study, the first study stage would require a controlled
+environment rather than any active institutional setting. That environment
+could combine synthetic bounded-local-governance scenarios, controlled
+evidence packages, simulated AI-assistance records, planted errors, and a
+high-fidelity mock-up or wizard-of-oz review interface. A preregistered
+protocol would define reviewer tasks and illustrative study criteria. These
+criteria are proposed study designs, not reported results.
 
 **Primary initial study — RQ1: Traceability and reconstruction.** Does the
-proposed evidence model help independent reviewers reconstruct Tenant-level
-service-nucleus governance decisions more accurately and efficiently than a
-document-only baseline? The controlled environment would support matched
-governance scenarios and blinded review. Proposed measures are reconstruction
-completeness, authority-conflict detection, missing-evidence detection, time
-to reconstruct rationale, provenance error detection, reviewer disagreement,
-and correct classification of whether an appeal can proceed. This is the
-paper's primary evaluation priority because it most directly tests the central
-claim about traceability and accountability in federated modular governance.
+proposed evidence model help independent reviewers reconstruct bounded local
+governance decisions involving functional service modules more accurately and
+efficiently than a document-only baseline? The controlled environment would
+support matched governance scenarios and blinded review. Illustrative study
+criteria could include reconstruction completeness, authority-conflict
+detection, missing-evidence detection, time to reconstruct rationale,
+provenance error detection, reviewer disagreement, and correct classification
+of whether a challenge path can proceed. This is the paper's primary
+evaluation priority because it most directly tests the central claim about
+traceability and accountability in federated modular governance.
 
 **Secondary initial study — RQ3: Human-AI reliance in advisory review.** For
 bounded proposal-analysis tasks, how do provenance and mandatory human
 disposition affect error detection, calibrated reliance, override behavior,
-and review quality? The simulated AI records should include planted errors,
-ambiguous cases, and contested recommendations. Proposed measures are planted-
-error detection, unsupported-output detection, override or acceptance behavior
-by condition, rationale quality, reviewer disagreement, and correction after
-provenance information is shown. This is a secondary priority because the
-architecture depends on bounded AI assistance being reviewable rather than
-merely available.
+and review quality? The simulated AI records would include planted errors,
+ambiguous cases, and contested recommendations. Illustrative study criteria
+could include planted-error detection, unsupported-output detection, override
+or acceptance behavior by condition, rationale quality, reviewer
+disagreement, and correction after provenance information is shown. This is a
+secondary priority because the architecture depends on bounded AI assistance
+being reviewable rather than merely available.
 
 **Staged future evaluation.** Evaluation should progress from controlled
 artifact inspection to bounded reviewer studies using synthetic scenarios,
