@@ -13,6 +13,26 @@ circulation, and publication remain blocked.**
 Ready for human review: yes  
 Ready for public publication: no
 
+## Phase 1.21 v0.5 drafting-scope initialization status
+
+Phase 1.21 defines the controlled drafting scope for the active v0.5 internal
+track before any manuscript editing begins.
+
+This phase creates:
+
+- `v0.5-drafting-scope.md`.
+
+This phase also updates:
+
+- `v0.5-drafting-entry.md`; and
+- `README.md`.
+
+Phase 1.21 does not modify `paper.md`, `paper.tex`, or `references.bib`. It
+does not open peer review, does not open a publication package, and does not
+authorize external circulation. Its purpose is to identify eligible
+manuscript intervention areas, high-risk sections, boundary conditions, and
+author-approval gates for any later v0.5 drafting step.
+
 ## Phase 1.20 v0.5 governance planning and track-separation status
 
 Phase 1.20 is accepted as the documentary separation point between the
