@@ -13,6 +13,27 @@ circulation, and publication remain blocked.**
 Ready for human review: yes  
 Ready for public publication: no
 
+## Phase 1.34 v0.5 final consistency-review plan status
+
+Phase 1.34 defines the controlled final consistency-review plan for the
+current `v0.5` manuscript state before any broader cleanup phase is opened.
+
+This phase creates:
+
+- `v0.5-final-consistency-review-plan.md`.
+
+This phase may also update:
+
+- `v0.5-drafting-entry.md`;
+- `README.md`; and
+- `v0.5-manuscript-patch-plan.md`.
+
+Phase 1.34 does not modify `paper.md`, `paper.tex`, or `references.bib`. It
+records residual old-term drift still present in later sections, confirms
+that the currently cited BibTeX keys remain aligned across both manuscript
+formats, and defers any bibliography cleanup to a separate bibliography or
+readiness-cleanup phase.
+
 ## Phase 1.32 v0.5 evaluation-plan patch-plan status
 
 Phase 1.32 defines the controlled evaluation-plan treatment for Section `8`
