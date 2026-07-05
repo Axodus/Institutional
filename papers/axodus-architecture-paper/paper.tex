@@ -28,22 +28,24 @@
 \end{center}
 
 \begin{abstract}
-Federated digital institutions can combine central constitutional rules, local
-governance domains, modular service selection, and human-AI-assisted decision
-support within the same institutional environment. Existing literatures on
-socio-technical systems, decentralized governance, provenance, accountable
-algorithms, contestability, and human-AI interaction clarify parts of this
-problem, but they do not by themselves yield a focused conceptual architecture
-for traceability and accountability across constitutionally constrained
-federated modular ecosystems. This paper presents Axodus as a prototype-stage
-conceptual architecture for that setting. Its central contribution is a six-
-layer model linking constitutional governance, Tenant governance, service
-nuclei, evidence and provenance, bounded AI assistance, and risk or
-contestability controls. Participation readiness and internal maturity
-distinctions are treated as supporting mechanisms rather than co-equal
-contributions. Axodus is described only as a conceptual, prototype-stage
-model; the paper reports no deployment, empirical validation, institutional
-adoption, or operational readiness.
+Human-AI-assisted digital institutions become difficult to govern when
+constitutional constraints, bounded local governance domains, modular
+capabilities, and review obligations must be coordinated within the same
+decision environment. Existing literatures on socio-technical systems,
+decentralized governance, provenance, accountable algorithms, contestability,
+and human-AI interaction clarify parts of this problem, but they do not by
+themselves provide a compact conceptual architecture for traceability,
+accountability, contestability, and reconstructability across
+constitutionally constrained modular institutions. This paper presents Axodus
+as a prototype-stage conceptual architecture for that setting. Its central
+contribution is a six-layer governance-oriented model relating a
+constitutional center, bounded local governance domains, modular
+institutional capabilities, evidence and provenance, bounded AI assistance,
+and risk or contestability controls. Participation readiness and internal
+maturity distinctions are treated as supporting mechanisms rather than
+co-equal contributions. Axodus is described only as a conceptual,
+prototype-stage model; the paper reports no deployment, empirical validation,
+observed institutional use, or operational readiness.
 \end{abstract}
 
 \noindent\textbf{Keywords:} socio-technical systems; federated digital
@@ -53,48 +55,50 @@ governance; contestability
 \section{Introduction}
 
 Digital institutions increasingly combine distributed authority, modular
-capabilities, public records, and automated assistance. The design problem
-becomes harder when these elements are not located in one unified authority
-chain but instead operate across a constitutional center and semi-autonomous
-local governance domains. In that setting, the institutional challenge is not
-only whether a decision can be documented, but whether reviewers can identify
-which authority applied, which module was configured, what evidence was used,
-how AI assistance shaped the record, and how an affected party could request
-correction or appeal. Socio-technical systems research treats those questions
-as jointly organizational and technical rather than reducible to one domain
-alone \citep{baxter2011sociotechnical}.
+capabilities, public records, and automated assistance. Governance becomes
+harder when these elements must remain reviewable across a constitutional
+center and bounded local governance domains rather than inside a single
+authority chain. In that setting, the institutional challenge is not only
+whether a decision can be documented, but whether later reviewers can
+reconstruct which authority applied, which bounded capability was invoked,
+what evidence was considered, how AI assistance shaped the record, and how
+correction, challenge, or appeal could proceed. Socio-technical systems
+research treats those questions as jointly organizational and technical rather
+than reducible to one domain alone \citep{baxter2011sociotechnical}.
 
 Relevant literatures address parts of this problem without yet yielding a
 single architecture for accountable governance across constitutionally
 constrained modular ecosystems. Research on decentralized governance shows
 that self-executing rules do not remove interpretation, amendment, or social
 coordination \citep{hassan2021dao,hsieh2018bitcoin}. Human-AI interaction
-guidance emphasizes review, correction, and expectation setting rather than
-an undifferentiated transfer of authority \citep{amershi2019guidelines}.
+guidance emphasizes review, correction, and expectation setting rather than an
+undifferentiated transfer of authority \citep{amershi2019guidelines}.
 Provenance and credentialing standards help distinguish evidence lineage and
 machine verification from institutional judgment
-\citep{w3c2013provdm,w3c2025vcdm}. What remains less clearly specified is
-how traceability, accountability, contestability, and evidence boundaries
-should be preserved when bounded local entities configure modular
-institutional functions under higher-order constitutional constraints.
+\citep{w3c2013provdm,w3c2025vcdm}. Yet those literatures do not by themselves
+provide a compact architecture for traceability, accountability,
+contestability, and reconstructability in constitutionally constrained,
+modular, human-AI-assisted institutions.
 
 This paper addresses that gap by introducing Axodus as a prototype-stage
-conceptual architecture and focused research agenda. The project originates
-from a multi-year independent research and design effort. The present
-contribution is limited to a conceptual model: it does not report a deployed
-platform, functioning multi-tenant infrastructure, users, evaluation
-results, validated controls, or operational authority.
+conceptual architecture for human-AI-assisted digital institutions under
+bounded governance constraints. The project originates from a multi-year
+independent research and design effort. The present contribution remains
+conceptual: it does not report a platform in real institutional use, a
+functioning institutional environment, evaluation results, or independently
+tested controls.
 
-The central contribution is a layered architecture for traceability and
-accountability in federated modular digital institutions. It defines how
-constitutional governance, bounded Tenant autonomy, service nuclei, evidence
-packages, attributable AI assistance, and review paths can be organized into
-one inspectable decision structure. Participation readiness, internal
-maturity distinctions, and risk boundaries remain supporting components that
-frame how this structure might later be evaluated, reduced, or rejected.
+The contribution is architecture-level design reasoning rather than an
+implementation claim. The paper proposes a layered model for how a
+constitutional center, bounded local governance domains, modular
+institutional capabilities, evidence packages, attributable AI assistance,
+and review paths may be arranged into one inspectable decision structure.
+Participation readiness, internal maturity distinctions, and risk boundaries
+remain supporting components that frame how this structure might later be
+evaluated, narrowed, or rejected.
 
-Implementation, deployment, institutional adoption, and empirical validation
-are outside the paper's scope. The manuscript also excludes token design,
+Implementation, deployment, institutional use, and empirical validation are
+outside the paper's scope. The manuscript also excludes token design,
 financial operations, educational-distribution mechanics, security
 guarantees, and legal conclusions.
 
@@ -192,69 +196,71 @@ empirical effect:
 
 \begin{quote}
 How can a constitutionally constrained federated modular digital institution
-preserve traceability, accountability, contestability, and evidence
-boundaries when semi-autonomous Tenant entities configure and govern service
-nuclei through human-AI-assisted decision processes?
+preserve traceability, accountability, contestability, and
+reconstructability when bounded local governance domains configure modular
+institutional capabilities through human-AI-assisted decision processes?
 \end{quote}
 
 Five tensions structure the problem.
 
 \begin{enumerate}[leftmargin=*]
 \item \textbf{Central constraints versus local autonomy.} A constitutional
-layer may preserve coherence, while Tenant-level governance still requires
-bounded discretion over local decisions and configurations.
-\item \textbf{Modularity versus governability.} Service separation may limit
-direct coupling, while modular selection can create hidden dependency chains,
-ambiguous authority, and fragmented review paths.
+layer may preserve coherence, while bounded local governance domains still
+require meaningful discretion over local decisions and configurations.
+\item \textbf{Modular capabilities versus governability.} Service separation
+may limit direct coupling, while modular selection can create hidden
+dependency chains, ambiguous authority, and fragmented review paths.
 \item \textbf{Automation versus accountable disposition.} AI assistance can
 reduce analytical load, but responsibility can become unclear when its
 outputs influence authorization, escalation, or review.
 \item \textbf{Participation versus bounded readiness.} Open participation may
 support legitimacy, while consequential governance actions may require
 reviewable preparation, accommodations, and appeal.
-\item \textbf{Documentation versus operational truth.} A detailed
-specification can improve review while creating a misleading impression of
-completion.
+\item \textbf{Documentation versus institutional reality.} A detailed
+specification can improve inspection while also creating a misleading
+impression of implementation completeness or legitimate authority.
 \end{enumerate}
 
-Axodus is proposed as one architecture for making these tensions explicit. It
-is not presented as their solution.
+Axodus is proposed as one architecture for making these tensions inspectable
+and reviewable. It is not presented as a complete or empirically tested
+solution.
 
 \section{Conceptual Architecture}
 
-The model comprises six logical layers. They describe conceptual
-responsibilities and interfaces, not an implementation topology.
+The model comprises six logical layers. They are presented as conceptual
+design surfaces for allocating authority, structuring records, and preserving
+reviewability, not as an implementation topology.
 
 Information and control move through the architecture in different ways.
-Control begins with constitutional constraints that define what a Tenant may
-delegate, configure, or escalate. A Tenant decision can then select or govern
-a service nucleus only within those constraints. Information moves through
-evidence packages, provenance records, advisory analysis, rationale, and
-review records so that later reviewers can reconstruct what happened and why.
-Risk boundaries constrain which state transitions are permitted, while
-contestability paths allow challenge, correction, escalation, and appeal.
+Control begins with constitutional constraints that define what local
+decisions, capability selections, and escalation paths are in scope.
+Evidence packages, provenance records, advisory analysis, rationale, and
+review records then make those decisions reconstructable for later review.
+Risk boundaries constrain permissible state transitions, while contestability
+paths preserve challenge, correction, escalation, and appeal.
 
-\noindent\textbf{Illustrative synthetic scenario - Tenant module exception
-review.} A mock Tenant governance body requests a temporary exception
-affecting one service nucleus. The request includes the applicable
-constitutional rule, local authority basis, declared conflicts, and a
-controlled evidence package. A simulated AI review flags one conflict but
-omits a dependency between the requested configuration and a review
-requirement. The designated human reviewer withholds disposition, records the
-omission, and escalates the matter because a risk boundary is triggered. An
-independent appeal role can then reconstruct which constitutional constraint
-applied, which local choice was proposed, what the simulated AI review
-changed, and why escalation occurred. This scenario is an analytical
-illustration, not evidence of an Axodus implementation or institutional
-process.
+\noindent\textbf{Illustrative synthetic scenario - bounded-governance
+exception review.} A mock bounded local governance domain requests a
+temporary exception affecting one modular institutional capability. The
+request includes the applicable constitutional rule, local authority basis,
+declared conflicts, and a controlled evidence package. A simulated AI review
+flags one conflict but omits a dependency between the requested
+configuration and a review requirement. The designated human reviewer
+withholds disposition, records the omission, and escalates the matter because
+a risk boundary is triggered. An independent appeal role can then reconstruct
+which constitutional constraint applied, what local choice was proposed, what
+the simulated AI review changed, and why escalation occurred. This scenario
+is an analytical illustration, not evidence of an Axodus implementation or
+institutional process.
 
 \begin{enumerate}[leftmargin=*]
 \item constitutional governance defines the applicable roles, decision
 rights, prohibitions, amendment rules, and appeal conditions;
-\item Tenant governance interprets that scope for a bounded local decision
-context and proposes a service-nucleus configuration or exception;
-\item service nuclei express the bounded institutional capability being
-selected, reviewed, or changed;
+\item bounded local governance domains interpret that scope for a local
+decision context and may propose a configuration or exception within
+constitutional limits;
+\item modular institutional capabilities express what is being selected,
+reviewed, or changed;
 \item the evidence and provenance layer links source materials, authority
 statements, conflicts, transformations, and responsible roles;
 \item human-AI assistance may analyze that material, but only as attributable
