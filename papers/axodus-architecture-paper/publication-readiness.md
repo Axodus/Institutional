@@ -13,6 +13,27 @@ circulation, and publication remain blocked.**
 Ready for human review: yes  
 Ready for public publication: no
 
+## Phase 1.32 v0.5 evaluation-plan patch-plan status
+
+Phase 1.32 defines the controlled evaluation-plan treatment for Section `8`
+before any manuscript patch is opened.
+
+This phase creates:
+
+- `v0.5-evaluation-plan-patch-plan.md`.
+
+This phase may also update:
+
+- `v0.5-drafting-entry.md`;
+- `README.md`; and
+- `v0.5-manuscript-patch-plan.md`.
+
+Phase 1.32 does not modify `paper.md`, `paper.tex`, or `references.bib`. It
+records that Section `8` must remain proposed, synthetic, and conceptual,
+must avoid real metrics or completed-study implications, and must defer any
+possible citation or bibliography cleanup to a separate bibliography or
+readiness phase.
+
 ## Phase 1.30 v0.5 participation-readiness patch-plan status
 
 Phase 1.30 defines the controlled participation-readiness treatment for
