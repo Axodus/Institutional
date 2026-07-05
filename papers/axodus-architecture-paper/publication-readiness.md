@@ -13,6 +13,29 @@ circulation, and publication remain blocked.**
 Ready for human review: yes  
 Ready for public publication: no
 
+## Phase 1.26 v0.5 contestability-layer patch-plan status
+
+Phase 1.26 narrows the approved `v0.5` architecture-layer patch planning
+into a controlled contestability-layer patch plan for Section `4.6` only.
+
+This phase creates:
+
+- `v0.5-contestability-layer-patch-plan.md`.
+
+This phase may also update:
+
+- `v0.5-drafting-entry.md`;
+- `README.md`;
+- `v0.5-manuscript-patch-plan.md`; and
+- `v0.5-architecture-layer-patch-plan.md`.
+
+Phase 1.26 does not modify `paper.md`, `paper.tex`, or `references.bib`. It
+does not open peer review, does not open a publication package, and does not
+authorize external circulation. It explicitly keeps `4.2`, `4.3`, `5`, and
+`8` deferred. It also records that Section `4.6` remains a high-risk
+contestability layer that must stay conceptually framed and must not be
+patched until a later explicit authorization opens Phase 1.27.
+
 ## Phase 1.24 v0.5 architecture-layer patch-plan status
 
 Phase 1.24 narrows the approved `v0.5` manuscript patch plan into a

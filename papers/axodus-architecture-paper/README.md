@@ -43,6 +43,8 @@ blocked.
   for the next manuscript-edit phase;
 - `v0.5-architecture-layer-patch-plan.md` — controlled subsection plan for
   the future Section 4 architecture-layer patch;
+- `v0.5-contestability-layer-patch-plan.md` — controlled subsection plan for
+  the future Section 4.6 contestability-layer patch;
 - `internal-peer-review-package.md` — suspended v0.3.2 review manifest;
 - `internal-peer-review-instructions.md` — reviewer conduct and review method;
 - `internal-peer-review-form.md` — structured reviewer response form;
@@ -68,8 +70,9 @@ is:
 - `author-decision-record-v0.5.md`;
 - `v0.5-drafting-entry.md`;
 - `v0.5-drafting-scope.md`;
-- `v0.5-manuscript-patch-plan.md`; and
-- `v0.5-architecture-layer-patch-plan.md`; and
+- `v0.5-manuscript-patch-plan.md`;
+- `v0.5-architecture-layer-patch-plan.md`;
+- `v0.5-contestability-layer-patch-plan.md`; and
 - `publication-readiness.md`.
 
 Internal peer review is not authorized. The earlier v0.4 and v0.4.1 records
