@@ -13,6 +13,27 @@ circulation, and publication remain blocked.**
 Ready for human review: yes  
 Ready for public publication: no
 
+## Phase 1.36 v0.5 readiness-and-citation audit-plan status
+
+Phase 1.36 defines the controlled readiness-and-citation audit plan for the
+current `v0.5` manuscript state before any bibliography or readiness-cleanup
+phase is opened.
+
+This phase creates:
+
+- `v0.5-readiness-citation-audit-plan.md`.
+
+This phase may also update:
+
+- `v0.5-drafting-entry.md`; and
+- `README.md`.
+
+Phase 1.36 does not modify `paper.md`, `paper.tex`, or `references.bib`. It
+records that the effective scholarly citation keys remain aligned across both
+manuscript formats and `references.bib`, that no orphan bibliography entries
+have been identified at this stage, and that any bibliography edit remains
+deferred to a separate bibliography or readiness-cleanup phase.
+
 ## Phase 1.34 v0.5 final consistency-review plan status
 
 Phase 1.34 defines the controlled final consistency-review plan for the

@@ -53,6 +53,8 @@ blocked.
   future Section 8 evaluation-plan patch;
 - `v0.5-final-consistency-review-plan.md` — controlled review plan for a
   future cross-section cleanup and consistency phase;
+- `v0.5-readiness-citation-audit-plan.md` — controlled audit plan for a
+  future readiness and citation review phase;
 - `internal-peer-review-package.md` — suspended v0.3.2 review manifest;
 - `internal-peer-review-instructions.md` — reviewer conduct and review method;
 - `internal-peer-review-form.md` — structured reviewer response form;
@@ -84,6 +86,7 @@ is:
 - `v0.5-participation-readiness-patch-plan.md`;
 - `v0.5-evaluation-plan-patch-plan.md`;
 - `v0.5-final-consistency-review-plan.md`;
+- `v0.5-readiness-citation-audit-plan.md`;
 - `v0.5-contestability-layer-patch-plan.md`; and
 - `publication-readiness.md`.
 
