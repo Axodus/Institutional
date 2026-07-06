@@ -13,6 +13,27 @@ circulation, and publication remain blocked.**
 Ready for human review: yes  
 Ready for public publication: no
 
+## Phase 1.38 v0.5 internal-review-package plan status
+
+Phase 1.38 defines the controlled plan for a future `v0.5` internal-review
+package without opening peer review.
+
+This phase creates:
+
+- `v0.5-internal-review-package-plan.md`.
+
+This phase may also update:
+
+- `publication-readiness.md`;
+- `README.md`; and
+- `v0.5-drafting-entry.md`.
+
+Phase 1.38 does not modify `paper.md`, `paper.tex`, or `references.bib`. It
+defines the author-side pre-review checklist, identifies remaining
+sensitive-claim and consistency checks, and prepares a later package-opening
+phase while preserving all peer-review, publication, and
+external-circulation blockers.
+
 ## Phase 1.37 v0.5 readiness-cleanup status
 
 Phase 1.37 performs a small readiness-and-status cleanup after the main
