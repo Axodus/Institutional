@@ -41,6 +41,26 @@ Phase 1.46R does not modify `paper.md`, `paper.tex`, or `references.bib`. It
 does not consolidate content findings and does not authorize controlled
 external review, publication, submission, or external circulation.
 
+## Phase 1.46 v0.5 internal-review consolidation status
+
+Phase 1.46 consolidates the returned confidential `v0.5` internal review
+findings after the Phase `1.46R` review-state reconciliation.
+
+This phase creates:
+
+- `v0.5-internal-review-consolidation.md`.
+
+This phase may also update:
+
+- `publication-readiness.md`;
+- `README.md`; and
+- `v0.5-drafting-entry.md`.
+
+Phase 1.46 does not modify `paper.md`, `paper.tex`, or `references.bib`. It
+does not apply manuscript patches, does not apply bibliography patches, does
+not make author decisions, and does not authorize controlled external
+review, publication, submission, or external circulation.
+
 ## Phase 1.45 v0.5 internal-review execution status
 
 Phase 1.45 executed the four confidential internal tool-assisted reviews
