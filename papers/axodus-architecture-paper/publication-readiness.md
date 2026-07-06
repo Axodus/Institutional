@@ -13,6 +13,30 @@ circulation, and publication remain blocked.**
 Ready for human review: yes  
 Ready for public publication: no
 
+## Phase 1.41 v0.5 role-specific internal-review forms status
+
+Phase 1.41 adds role-specific internal-review finding forms for the active
+`v0.5` package.
+
+This phase creates:
+
+- `v0.5-internal-review-form-architecture-governance.md`;
+- `v0.5-internal-review-form-evidence-citation.md`;
+- `v0.5-internal-review-form-human-ai-evaluation.md`; and
+- `v0.5-internal-review-form-consistency-editorial.md`.
+
+This phase may also update:
+
+- `v0.5-internal-review-package.md`;
+- `v0.5-internal-review-instructions.md`;
+- `v0.5-internal-review-execution-plan.md`;
+- `v0.5-drafting-entry.md`;
+- `README.md`; and
+- `publication-readiness.md`.
+
+Phase 1.41 does not modify `paper.md`, `paper.tex`, or `references.bib`. It
+does not authorize controlled external review, publication, submission, or
+external circulation.
 ## Phase 1.40 v0.5 internal-review execution-plan status
 
 Phase 1.40 defines how the active `v0.5` internal review package should be

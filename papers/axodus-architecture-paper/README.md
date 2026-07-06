@@ -62,6 +62,14 @@ blocked.
 - `v0.5-internal-review-instructions.md` — active internal-only v0.5 reviewer
   instructions;
 - `v0.5-internal-review-form.md` — active internal-only v0.5 reviewer form;
+- `v0.5-internal-review-form-architecture-governance.md` — role-specific
+  architecture/governance reviewer form;
+- `v0.5-internal-review-form-evidence-citation.md` — role-specific
+  evidence/citation reviewer form;
+- `v0.5-internal-review-form-human-ai-evaluation.md` — role-specific
+  human--AI/evaluation reviewer form;
+- `v0.5-internal-review-form-consistency-editorial.md` — role-specific
+  consistency/editorial reviewer form;
 - `v0.5-internal-review-execution-plan.md` — execution, sequencing, and
   consolidation plan for the active internal-only review package;
 - `internal-peer-review-package.md` — suspended v0.3.2 review manifest;
@@ -99,6 +107,10 @@ path. The current authorized basis for the v0.5 line is:
 - `v0.5-internal-review-package.md`;
 - `v0.5-internal-review-instructions.md`;
 - `v0.5-internal-review-form.md`;
+- `v0.5-internal-review-form-architecture-governance.md`;
+- `v0.5-internal-review-form-evidence-citation.md`;
+- `v0.5-internal-review-form-human-ai-evaluation.md`;
+- `v0.5-internal-review-form-consistency-editorial.md`;
 - `v0.5-internal-review-execution-plan.md`;
 - `v0.5-contestability-layer-patch-plan.md`; and
 - `publication-readiness.md`.
