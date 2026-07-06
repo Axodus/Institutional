@@ -13,6 +13,26 @@ circulation, and publication remain blocked.**
 Ready for human review: yes  
 Ready for public publication: no
 
+## Phase 1.42 v0.5 internal-review assignment-record status
+
+Phase 1.42 creates the confidential assignment-preparation record for the
+active `v0.5` internal-only review package.
+
+This phase creates:
+
+- `v0.5-internal-review-assignment-record.md`.
+
+This phase may also update:
+
+- `v0.5-drafting-entry.md`;
+- `README.md`; and
+- `publication-readiness.md`.
+
+Phase 1.42 does not modify `paper.md`, `paper.tex`, or `references.bib`. It
+defines role-by-role assignment status tracking using `unassigned`,
+`assigned`, and `returned`, while avoiding public reviewer identification and
+preserving all confidentiality and external-use blockers.
+
 ## Phase 1.41 v0.5 role-specific internal-review forms status
 
 Phase 1.41 adds role-specific internal-review finding forms for the active
