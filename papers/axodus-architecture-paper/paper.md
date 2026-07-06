@@ -6,8 +6,8 @@ affiliation: "Independent Researcher, Axodus"
 correspondence: "mzfshark@gmail.com"
 project_discussion_forum: "Telegram @thinkincoin"
 author_social_handle: "@mzfshark"
-version: "Draft v0.4"
-status: "Ready for author review of internal v0.4 draft; not ready for peer review, external circulation, or publication"
+version: "Draft v0.5"
+status: "Internal v0.5 draft after confidential internal review; not ready for controlled external review, external circulation, or publication"
 license: "CC BY 4.0"
 document_type: "Prototype-stage conceptual architecture and focused research-agenda paper"
 ---
@@ -47,7 +47,7 @@ authority chain. In that setting, the institutional challenge is not only
 whether a decision can be documented, but whether later reviewers can
 reconstruct which authority applied, which bounded capability was invoked,
 what evidence was considered, how AI assistance shaped the record, and how
-correction, challenge, or appeal could proceed. Socio-technical systems
+correction or challenge could proceed. Socio-technical systems
 research treats those questions as jointly organizational and technical rather
 than reducible to one domain alone [@baxter2011sociotechnical].
 
@@ -135,7 +135,7 @@ human decisions rather than sovereign decisions in themselves.
 Constitutional AI uses written principles to guide model behavior through
 supervised learning and AI feedback [@bai2022constitutional]. Axodus uses
 *constitutional* differently: it refers to institutional rules about
-authority, prohibitions, amendments, review, and appeal. The proposed model
+authority, prohibitions, amendments, review, and challenge. The proposed model
 does not claim to train or align an AI model through Constitutional AI.
 
 ## 2.4 Provenance, credentials, and institutional judgment
@@ -191,7 +191,7 @@ Five tensions structure the problem.
    influence authorization, escalation, or review.
 4. **Participation versus bounded readiness.** Open participation may support
    legitimacy, while consequential governance actions may require reviewable
-   preparation, accommodations, and appeal.
+   preparation, accommodations, and challenge.
 5. **Documentation versus institutional reality.** A detailed specification
    can improve inspection while also creating a misleading impression of
    implementation completeness or legitimate authority.
@@ -212,7 +212,7 @@ decisions, capability selections, and escalation paths are in scope. Evidence
 packages, provenance records, advisory analysis, rationale, and review
 records then make those decisions reconstructable for later review. Risk
 boundaries constrain permissible state transitions, while contestability
-paths preserve challenge, correction, escalation, and appeal.
+paths preserve challenge, correction, escalation, and review conditions.
 
 **Illustrative synthetic scenario - bounded-governance exception review.** A
 mock bounded local governance domain requests a temporary exception affecting
@@ -222,14 +222,14 @@ controlled evidence package. A simulated AI review flags one conflict but
 omits a dependency between the requested configuration and a review
 requirement. The designated human reviewer withholds disposition, records the
 omission, and escalates the matter because a risk boundary is triggered. An
-independent appeal role can then reconstruct which constitutional constraint
+independent review role can then reconstruct which constitutional constraint
 applied, what local choice was proposed, what the simulated AI review
 changed, and why escalation occurred. This scenario is an analytical
 illustration, not evidence of an Axodus implementation or institutional
 process.
 
 1. constitutional governance defines the applicable roles, decision rights,
-   prohibitions, amendment rules, and appeal conditions;
+   prohibitions, amendment rules, and challenge conditions;
 2. bounded local governance domains interpret that scope for a local decision
    context and may propose a configuration or exception within constitutional
    limits;
@@ -240,13 +240,13 @@ process.
 5. human-AI assistance may analyze that material, but only as attributable
    advisory input to human disposition; and
 6. risk-boundary and contestability controls keep challenge, correction,
-   escalation, and appeal available.
+   escalation, and review conditions available.
 
 ## 4.1 Constitutional governance layer
 
 The constitutional governance layer is a conceptual constraint surface that
 defines higher-order rules: roles, decision rights, prohibitions, amendment
-procedures, escalation paths, and appeal conditions. Its purpose is to make
+procedures, escalation paths, and challenge conditions. Its purpose is to make
 non-delegable institutional constraints visible before local configuration
 begins and to frame how later review can distinguish a permitted action from
 an out-of-scope one.
@@ -256,6 +256,11 @@ serving as a deployed constitution, legal instrument, active authority, or
 enforcement body. A reviewable action therefore depends on both institutional
 justification and whatever technical authorization a future implementation
 might use; neither alone would establish legitimacy.
+
+Because constitutional constraints can themselves be incomplete, ambiguous, or
+overbroad, they must remain inspectable design objects with bounded review,
+amendment, and challenge conditions. The model therefore does not treat the
+constitutional layer as infallible or beyond contestation.
 
 ## 4.2 Bounded local governance domain layer
 
@@ -268,25 +273,37 @@ Tenant for such bounded local governance domains; this paper uses the
 governance-domain phrasing to avoid implying deployed SaaS tenancy, active
 customer entities, operating communities, or production infrastructure.
 
+A bounded local governance domain cannot expand or override non-delegable
+constitutional constraints. When the local interpretation of a proposed action
+conflicts with a constitutional boundary, the architecture treats that
+ambiguity as a review condition requiring documentation and, where necessary,
+escalation before final disposition.
+
 ## 4.3 Functional service module layer
 
 Functional service modules are abstract bounded institutional capabilities
 through which selected functions can be configured, limited, and governed.
 The paper does not present a product catalog. Instead, it treats a functional
 service module as a conceptual unit that should declare its purpose, inputs,
-outputs, delegated authority, evidence requirements, dependencies,
-escalation conditions, and failure behavior.
+outputs, authorized scope and decision dependencies, evidence requirements,
+dependencies, escalation conditions, and failure behavior.
+
+A functional service module is therefore a bounded capability surface, not the
+owner of constitutional authority, evidence provenance, AI assistance, or
+contestability. Those remain separate cross-cutting layers that constrain,
+inspect, and reconstruct module-specific decisions.
 
 Axodus institutional documentation may use the term service nuclei in broader
 institutional contexts; this paper uses functional service modules as the
 architecture-facing abstraction to avoid implying a product catalog,
 implementation inventory, or deployed system decomposition.
 
-A minimal functional taxonomy includes authority and role registries, evidence
-registries, decision-rationale records, conflict and disclosure registers,
-review and appeal paths, risk-boundary controllers, and participation-
-readiness support. These are component types rather than claims about a
-definitive Axodus module inventory or implementation state.
+A minimal functional taxonomy may include authority and role registries,
+evidence registries, decision-rationale records, conflict and disclosure
+registers, review and challenge paths, risk-boundary controllers, and
+participation-readiness support as component types associated with
+module-governed capabilities. These are component types rather than claims
+about a definitive Axodus module inventory or implementation state.
 
 ## 4.4 Evidence and provenance layer
 
@@ -336,6 +353,13 @@ under which a proposed action exceeds its permitted scope. Contestability
 therefore concerns whether a decision can be reconstructed, questioned, and
 re-examined in principle, not whether the architecture already operates a
 standing challenge mechanism.
+
+A minimally challengeable record should identify the contested decision or
+record, the applicable rule or boundary, the disputed evidence or rationale,
+the review-independence condition expected for re-examination, and the
+possible disposition category, such as correction, escalation condition,
+refusal, reversal, or no change. These are conceptual fields for
+reconstructability and challengeability, not a standing challenge procedure.
 
 Within that framing, reviewer independence is a design concern rather than a
 claim about a standing body or named role. The architecture should make it
@@ -390,10 +414,10 @@ instrument.
 
 Scope reduction is therefore a design requirement rather than a late-stage
 optimization. Initial prototypes should start with decisions for which
-reconstruction and appeal are materially important, use a minimum sufficient
-decision-and-evidence record, separate advisory AI outputs from authoritative
-human dispositions, and remove components that do not improve reconstructability
-or contestability.
+reconstruction and challenge are materially important, use a minimum
+sufficient decision-and-evidence record, separate advisory AI outputs from
+authoritative human dispositions, and remove components that do not improve
+reconstructability or contestability.
 
 # 7. Prototype Status
 
@@ -432,6 +456,15 @@ provenance error detection, reviewer disagreement, and correct classification
 of whether a challenge path can proceed. This is the paper's primary
 evaluation priority because it most directly tests the central claim about
 traceability and accountability in federated modular governance.
+
+For this paper, a document-only baseline means a comparison condition using
+static policy and record documentation without the proposed layered review
+architecture, explicit provenance structure, or bounded challenge-path
+framing. Negative findings would matter as much as positive ones: reviewers
+may fail to reconstruct decisions better than the baseline, provenance may
+increase workload without improving error detection, challenge paths may be
+inconsistently classified, or simulated AI records may not improve calibrated
+reliance.
 
 **Secondary initial study — RQ3: Human-AI reliance in advisory review.** For
 bounded proposal-analysis tasks, how do provenance and mandatory human

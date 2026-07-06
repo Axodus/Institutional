@@ -82,6 +82,21 @@ does not apply manuscript patches, does not apply bibliography patches, does
 not add citations, does not modify external-use blockers, and does not make
 an author acceptance decision.
 
+## Phase 1.48 v0.5 internal-review correction-patch authorization status
+
+Phase 1.48 applies the minimal `v0.5` correction patch authorized from the
+internal-review consolidation and correction-patch plan.
+
+This phase updates:
+
+- `paper.md`;
+- `paper.tex`; and
+- `publication-readiness.md`.
+
+Phase 1.48 preserves `references.bib`, does not add citations, does not
+modify Section `5`, and keeps controlled external review, publication,
+submission, and external circulation blocked.
+
 ## Phase 1.45 v0.5 internal-review execution status
 
 Phase 1.45 executed the four confidential internal tool-assisted reviews
