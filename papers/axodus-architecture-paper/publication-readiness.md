@@ -13,6 +13,29 @@ circulation, and publication remain blocked.**
 Ready for human review: yes  
 Ready for public publication: no
 
+## Phase 1.39 v0.5 internal-review-package authorization status
+
+Phase 1.39 creates the controlled `v0.5` internal-review package and
+associated reviewer materials.
+
+This phase creates:
+
+- `v0.5-internal-review-package.md`;
+- `v0.5-internal-review-instructions.md`; and
+- `v0.5-internal-review-form.md`.
+
+This phase may also update:
+
+- `publication-readiness.md`;
+- `README.md`; and
+- `v0.5-drafting-entry.md`.
+
+Phase 1.39 does not modify `paper.md`, `paper.tex`, or `references.bib`. It
+creates an internal-only review package, includes the author pre-distribution
+checklist, includes review criteria for claims, consistency, citations, and
+Markdown/LaTeX synchronization, and keeps publication, submission, and
+external-circulation blockers active.
+
 ## Phase 1.38 v0.5 internal-review-package plan status
 
 Phase 1.38 defines the controlled plan for a future `v0.5` internal-review
@@ -1148,8 +1171,11 @@ v0.5 manuscript publication package: not opened
 
 Peer review package opened: no
 
-Internal peer review authorized: no; blocked pending a future v0.5 readiness
-package and explicit author approval for any review gate
+Internal peer review package opened: yes, confidential internal-only package
+for the current `v0.5` draft
+
+Internal peer review authorized: yes, under the controlled `v0.5`
+package-only gate; controlled external review remains blocked
 
 **Current status: Phase 1.20 governance-track separation is accepted;
 Phase 1.37 readiness cleanup is complete; v0.4.x is closed as a forward

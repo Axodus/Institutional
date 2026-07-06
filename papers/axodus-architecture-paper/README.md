@@ -57,6 +57,11 @@ blocked.
   future readiness and citation review phase;
 - `v0.5-internal-review-package-plan.md` — controlled plan for a future
   internal-review package opening;
+- `v0.5-internal-review-package.md` — active internal-only v0.5 review
+  manifest;
+- `v0.5-internal-review-instructions.md` — active internal-only v0.5 reviewer
+  instructions;
+- `v0.5-internal-review-form.md` — active internal-only v0.5 reviewer form;
 - `internal-peer-review-package.md` — suspended v0.3.2 review manifest;
 - `internal-peer-review-instructions.md` — reviewer conduct and review method;
 - `internal-peer-review-form.md` — structured reviewer response form;
@@ -89,13 +94,17 @@ path. The current authorized basis for the v0.5 line is:
 - `v0.5-final-consistency-review-plan.md`;
 - `v0.5-readiness-citation-audit-plan.md`;
 - `v0.5-internal-review-package-plan.md`;
+- `v0.5-internal-review-package.md`;
+- `v0.5-internal-review-instructions.md`;
+- `v0.5-internal-review-form.md`;
 - `v0.5-contestability-layer-patch-plan.md`; and
 - `publication-readiness.md`.
 
-The main internal v0.5 manuscript patches are complete, but internal peer
-review is not authorized. The earlier v0.4 and v0.4.1 records remain for
-traceability only and must not be treated as the active manuscript path or
-review package.
+The main internal v0.5 manuscript patches are complete. A confidential
+internal-only v0.5 review package now exists, but external review,
+publication, submission, and external circulation remain blocked. The earlier
+v0.4 and v0.4.1 records remain for traceability only and must not be treated
+as the active manuscript path or review package.
 
 ## Historical artifacts
 
