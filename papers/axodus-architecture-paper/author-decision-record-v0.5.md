@@ -1,7 +1,7 @@
 # Author Decision Record v0.5
 
-Status: Phase 1.20 accepted author transition record
-Date: 2026-07-05  
+Status: Phase 1.20 transition accepted; Phase 1.50 baseline closure recorded
+Date: 2026-07-06
 v0.5 track opened: yes, active internal drafting track only
 v0.5 manuscript publication package: not opened
 Peer review package: not opened
@@ -46,6 +46,9 @@ disclosure decisions before public-repo creation is reconsidered.
 
 ## Current outcome
 
-The next paper-track action is active internal v0.5 drafting within the
-approved abstraction boundary. No manuscript publication package, peer-review
-package, or external circulation path is opened by this record.
+The transition decision opened `v0.5` as the active internal drafting track.
+That drafting line has now been closed as a complete internal baseline in
+`v0.5-baseline-closure-record.md`.
+
+No manuscript publication package, controlled external review path,
+submission path, or external circulation path is opened by this record.

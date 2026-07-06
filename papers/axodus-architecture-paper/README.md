@@ -1,7 +1,7 @@
 # Axodus Architecture Paper
 
-Active version: v0.5 internal draft
-Readiness: **Phase 1.37 cleanup complete; v0.5 is the active internal drafting track, the main internal manuscript patches are complete, and v0.4 remains the historical internal baseline**
+Active version: v0.5 closed internal baseline
+Readiness: **Phase 1.50 baseline closure complete; v0.5 is the closed internal baseline, v0.4 remains the historical internal baseline, and all external-use gates remain blocked**
 
 Controlled external review, publication, submission, outreach, grant use,
 fundraising use, external distribution, and authority signaling remain
@@ -35,8 +35,8 @@ blocked.
   rules for the active v0.5 line;
 - `author-decision-record-v0.5.md` — accepted author transition decision for
   the v0.5 line;
-- `v0.5-drafting-entry.md` — controlled entry point for active internal
-  v0.5 drafting;
+- `v0.5-drafting-entry.md` — controlled entry record for the closed internal
+  v0.5 baseline;
 - `v0.5-drafting-scope.md` — controlling scope map for any later v0.5
   manuscript intervention;
 - `v0.5-manuscript-patch-plan.md` — section-by-section patch-planning record
@@ -55,13 +55,17 @@ blocked.
   future cross-section cleanup and consistency phase;
 - `v0.5-readiness-citation-audit-plan.md` — controlled audit plan for a
   future readiness and citation review phase;
+- `v0.5-closure-readiness-audit.md` — post-correction closure-readiness audit
+  for the internal v0.5 baseline candidate;
+- `v0.5-baseline-closure-record.md` — author-side closure record marking
+  `v0.5` as the closed internal baseline;
 - `v0.5-internal-review-package-plan.md` — controlled plan for a future
   internal-review package opening;
-- `v0.5-internal-review-package.md` — active internal-only v0.5 review
-  manifest;
-- `v0.5-internal-review-instructions.md` — active internal-only v0.5 reviewer
+- `v0.5-internal-review-package.md` — version-locked internal-only v0.5
+  review manifest;
+- `v0.5-internal-review-instructions.md` — internal-only v0.5 reviewer
   instructions;
-- `v0.5-internal-review-form.md` — active internal-only v0.5 reviewer form;
+- `v0.5-internal-review-form.md` — internal-only v0.5 reviewer form;
 - `v0.5-internal-review-form-architecture-governance.md` — role-specific
   architecture/governance reviewer form;
 - `v0.5-internal-review-form-evidence-citation.md` — role-specific
@@ -71,9 +75,9 @@ blocked.
 - `v0.5-internal-review-form-consistency-editorial.md` — role-specific
   consistency/editorial reviewer form;
 - `v0.5-internal-review-execution-plan.md` — execution, sequencing, and
-  consolidation plan for the active internal-only review package;
+  consolidation plan for the internal-only review package;
 - `v0.5-internal-review-assignment-record.md` — confidential role-assignment
-  status record for the active internal-only review package;
+  status record for the internal-only review package;
 - `v0.5-internal-review-prompt-set.md` — controlled role-specific review
   prompt templates for executing the internal package;
 - `v0.5-review-state-reconciliation.md` — reconciliation record for the
@@ -93,9 +97,9 @@ blocked.
 
 ## Current paper-track status
 
-The active manuscript line is the current v0.5 internal draft. v0.4 remains
-the historical internal manuscript baseline. v0.4.1 is canceled as a forward
-path. The current authorized basis for the v0.5 line is:
+The active manuscript line is the closed `v0.5` internal baseline. `v0.4`
+remains the historical internal manuscript baseline. `v0.4.1` is canceled as
+a forward path. The current authorized basis for the `v0.5` line is:
 
 - `v0.5-planning-record.md`;
 - `v0.5-governance-scope-plan.md`;
@@ -109,6 +113,8 @@ path. The current authorized basis for the v0.5 line is:
 - `v0.5-evaluation-plan-patch-plan.md`;
 - `v0.5-final-consistency-review-plan.md`;
 - `v0.5-readiness-citation-audit-plan.md`;
+- `v0.5-closure-readiness-audit.md`;
+- `v0.5-baseline-closure-record.md`;
 - `v0.5-internal-review-package-plan.md`;
 - `v0.5-internal-review-package.md`;
 - `v0.5-internal-review-instructions.md`;
@@ -124,11 +130,12 @@ path. The current authorized basis for the v0.5 line is:
 - `v0.5-contestability-layer-patch-plan.md`; and
 - `publication-readiness.md`.
 
-The main internal v0.5 manuscript patches are complete. A confidential
-internal-only v0.5 review package now exists, but external review,
-publication, submission, and external circulation remain blocked. The earlier
-v0.4 and v0.4.1 records remain for traceability only and must not be treated
-as the active manuscript path or review package.
+The main internal `v0.5` manuscript patches are complete and the line is now
+closed as the internal baseline. A confidential version-locked internal-only
+package exists for traceability, but external review, publication,
+submission, and external circulation remain blocked. The earlier `v0.4` and
+`v0.4.1` records remain for traceability only and must not be treated as the
+active manuscript path or review package.
 
 The current working-version location for the active internal review cycle is
 tracked in `v0.5-review-state-reconciliation.md` and `v0.5-internal-review-package.md`.

@@ -1,12 +1,11 @@
 # Publication Readiness — Axodus Architecture Paper
 
-Review date: 2026-07-05
-Version reviewed: v0.5 internal draft
-Decision: **Phase 1.20 governance-track separation has been accepted. The
-v0.4.x line is closed as a forward path, v0.4 remains the historical
-internal baseline, v0.5 track is opened as the active internal drafting
-track only, and internal peer review, controlled external review, external
-circulation, and publication remain blocked.**
+Review date: 2026-07-06
+Version reviewed: v0.5 closed internal baseline
+Decision: **v0.5 is now a closed internal baseline. The main internal
+manuscript patches, post-review correction patch, closure-readiness audit,
+and baseline-closure record are complete. Controlled external review,
+publication, submission, and external circulation remain blocked.**
 
 ## Publication status
 
@@ -15,9 +14,49 @@ Ready for public publication: no
 
 Current working version location for the active confidential internal review
 cycle: local repository `main` at commit
-`4d5381297aacd1fcb5fb573d0a7f9649bd468d76`, as version-locked in
+`dcae29ba3346a9c797798b6d84221462f40676dc`, as version-locked in
 `v0.5-internal-review-package.md`. Any remote/main alignment uncertainty
 remains a blocker before readiness advancement for external use.
+
+## Phase 1.49 v0.5 closure-readiness-audit status
+
+Phase 1.49 audits whether the current post-correction `v0.5` manuscript
+state is stable enough to serve as a closed internal baseline candidate.
+
+This phase creates:
+
+- `v0.5-closure-readiness-audit.md`.
+
+This phase updates:
+
+- `v0.5-internal-review-package.md`; and
+- `publication-readiness.md`.
+
+Phase 1.49 does not modify `paper.md`, `paper.tex`, or `references.bib`. It
+does not close the baseline by itself, does not make an author decision, and
+does not authorize controlled external review, publication, submission, or
+external circulation.
+
+## Phase 1.50 v0.5 author decision and baseline closure status
+
+Phase 1.50 closes `v0.5` as a complete internal baseline after the
+closure-readiness audit.
+
+This phase creates:
+
+- `v0.5-baseline-closure-record.md`.
+
+This phase updates:
+
+- `author-decision-record-v0.5.md`;
+- `v0.5-drafting-entry.md`;
+- `v0.5-internal-review-package.md`;
+- `publication-readiness.md`; and
+- `README.md`.
+
+Phase 1.50 does not modify `paper.md`, `paper.tex`, or `references.bib`. It
+does not open controlled external review, publication, submission, or
+external circulation.
 
 ## Phase 1.46R v0.5 review-state reconciliation status
 
@@ -1337,17 +1376,17 @@ LaTeX compile check was completed. Human judgment items remain unchecked in
 
 ## Readiness status
 
-Phase 1.37 readiness category: **Main internal v0.5 manuscript patches are
-complete; the paper remains in active internal drafting and readiness-cleanup
-status only; v0.4 remains the historical internal draft baseline; and peer
-review plus external circulation remain blocked.**
+Phase 1.50 readiness category: **v0.5 is the closed internal baseline; v0.4
+remains the historical internal baseline; and controlled external review,
+publication, submission, and external circulation remain blocked.**
 
 Ready for controlled external review: no  
 Ready for public publication: no
 
 v0.4 manuscript reframing complete: yes, historical baseline only
 
-v0.5 track opened: yes, active internal drafting track only
+v0.5 track opened: yes, historical drafting track now closed as internal
+baseline
 
 v0.5 main internal manuscript patches applied: yes
 
@@ -1358,15 +1397,15 @@ v0.5 manuscript publication package: not opened
 Peer review package opened: no
 
 Internal peer review package opened: yes, confidential internal-only package
-for the current `v0.5` draft
+for the closed `v0.5` baseline
 
 Internal peer review authorized: yes, under the controlled `v0.5`
 package-only gate; controlled external review remains blocked
 
 **Current status: Phase 1.20 governance-track separation is accepted;
-Phase 1.37 readiness cleanup is complete; v0.4.x is closed as a forward
+Phase 1.50 baseline closure is complete; v0.4.x is closed as a forward
 path; v0.4 remains the historical internal baseline; the current manuscript
-state is a patched v0.5 internal draft; no peer-review package is opened;
-controlled external review, manuscript publication, submission, outreach,
-grant use, fundraising use, manuscript distribution, and authority signaling
-remain blocked.**
+state is the closed `v0.5` internal baseline; no external peer-review
+package is opened; controlled external review, manuscript publication,
+submission, outreach, grant use, fundraising use, manuscript distribution,
+and authority signaling remain blocked.**
