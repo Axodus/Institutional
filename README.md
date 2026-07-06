@@ -1,5 +1,7 @@
 # Axodus Institutional Publications
 
+For canonical navigation and reading order, start with [index.md](index.md).
+
 This repository contains public-facing research and institutional documentation
 for Axodus, a prototype-stage conceptual infrastructure model for accountable
 human--AI coordination, educational participation, governance, and modular
@@ -35,6 +37,7 @@ are deferred.
 
 ## Repository map
 
+- `index.md`: canonical navigation map for agents and humans.
 - `governance/`: citation, disclosure, evidence, intellectual-property, and
   review controls.
 - `research/`: claims, terminology, gaps, related work, and bibliography
@@ -71,5 +74,5 @@ controls its review and publication status.
 
 ## Contributing
 
-Read [AGENTS.md](AGENTS.md) and [CONTRIBUTING.md](CONTRIBUTING.md) before
-proposing changes.
+Read [index.md](index.md), [AGENTS.md](AGENTS.md), and
+[CONTRIBUTING.md](CONTRIBUTING.md) before proposing changes.

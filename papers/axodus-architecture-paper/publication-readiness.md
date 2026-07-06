@@ -49,7 +49,7 @@ This phase creates:
 This phase updates:
 
 - `author-decision-record-v0.5.md`;
-- `v0.5-drafting-entry.md`;
+- `history/v0.5-worklog/v0.5-drafting-entry.md`;
 - `v0.5-internal-review-package.md`;
 - `publication-readiness.md`; and
 - `README.md`.
@@ -67,12 +67,12 @@ package refers to a newer internal draft.
 
 This phase creates:
 
-- `v0.5-review-state-reconciliation.md`.
+- `history/v0.5-worklog/v0.5-review-state-reconciliation.md`.
 
 This phase may also update:
 
 - `v0.5-internal-review-package.md`;
-- `v0.5-drafting-entry.md`;
+- `history/v0.5-worklog/v0.5-drafting-entry.md`;
 - `README.md`; and
 - `publication-readiness.md`.
 
@@ -87,13 +87,13 @@ findings after the Phase `1.46R` review-state reconciliation.
 
 This phase creates:
 
-- `v0.5-internal-review-consolidation.md`.
+- `history/v0.5-worklog/v0.5-internal-review-consolidation.md`.
 
 This phase may also update:
 
 - `publication-readiness.md`;
 - `README.md`; and
-- `v0.5-drafting-entry.md`.
+- `history/v0.5-worklog/v0.5-drafting-entry.md`.
 
 Phase 1.46 does not modify `paper.md`, `paper.tex`, or `references.bib`. It
 does not apply manuscript patches, does not apply bibliography patches, does
@@ -107,14 +107,14 @@ minimal future correction patch plan for `paper.md` and `paper.tex`.
 
 This phase creates:
 
-- `v0.5-internal-review-correction-patch-plan.md`.
+- `history/v0.5-worklog/v0.5-internal-review-correction-patch-plan.md`.
 
 This phase may also update:
 
 - `publication-readiness.md`;
 - `README.md`;
-- `v0.5-drafting-entry.md`; and
-- `v0.5-internal-review-consolidation.md`.
+- `history/v0.5-worklog/v0.5-drafting-entry.md`; and
+- `history/v0.5-worklog/v0.5-internal-review-consolidation.md`.
 
 Phase 1.47 does not modify `paper.md`, `paper.tex`, or `references.bib`. It
 does not apply manuscript patches, does not apply bibliography patches, does
@@ -140,15 +140,15 @@ submission, and external circulation blocked.
 
 Phase 1.45 executed the four confidential internal tool-assisted reviews
 using the role-specific forms and recorded returned review forms in
-`v0.5-internal-review-assignment-record.md`.
+`history/v0.5-worklog/v0.5-internal-review-assignment-record.md`.
 
 This phase updates:
 
-- `v0.5-internal-review-form-architecture-governance.md`;
-- `v0.5-internal-review-form-evidence-citation.md`;
-- `v0.5-internal-review-form-human-ai-evaluation.md`;
-- `v0.5-internal-review-form-consistency-editorial.md`; and
-- `v0.5-internal-review-assignment-record.md`.
+- `history/v0.5-worklog/v0.5-internal-review-form-architecture-governance.md`;
+- `history/v0.5-worklog/v0.5-internal-review-form-evidence-citation.md`;
+- `history/v0.5-worklog/v0.5-internal-review-form-human-ai-evaluation.md`;
+- `history/v0.5-worklog/v0.5-internal-review-form-consistency-editorial.md`; and
+- `history/v0.5-worklog/v0.5-internal-review-assignment-record.md`.
 
 This phase does not modify `paper.md`, `paper.tex`, or `references.bib`. It
 does not consolidate author decisions, does not advance readiness, and does
@@ -162,11 +162,11 @@ executing the active `v0.5` internal review package.
 
 This phase creates:
 
-- `v0.5-internal-review-prompt-set.md`.
+- `history/v0.5-worklog/v0.5-internal-review-prompt-set.md`.
 
 This phase may also update:
 
-- `v0.5-drafting-entry.md`;
+- `history/v0.5-worklog/v0.5-drafting-entry.md`;
 - `README.md`; and
 - `publication-readiness.md`.
 
@@ -181,11 +181,11 @@ active `v0.5` internal-only review package.
 
 This phase creates:
 
-- `v0.5-internal-review-assignment-record.md`.
+- `history/v0.5-worklog/v0.5-internal-review-assignment-record.md`.
 
 This phase may also update:
 
-- `v0.5-drafting-entry.md`;
+- `history/v0.5-worklog/v0.5-drafting-entry.md`;
 - `README.md`; and
 - `publication-readiness.md`.
 
@@ -201,17 +201,17 @@ Phase 1.41 adds role-specific internal-review finding forms for the active
 
 This phase creates:
 
-- `v0.5-internal-review-form-architecture-governance.md`;
-- `v0.5-internal-review-form-evidence-citation.md`;
-- `v0.5-internal-review-form-human-ai-evaluation.md`; and
-- `v0.5-internal-review-form-consistency-editorial.md`.
+- `history/v0.5-worklog/v0.5-internal-review-form-architecture-governance.md`;
+- `history/v0.5-worklog/v0.5-internal-review-form-evidence-citation.md`;
+- `history/v0.5-worklog/v0.5-internal-review-form-human-ai-evaluation.md`; and
+- `history/v0.5-worklog/v0.5-internal-review-form-consistency-editorial.md`.
 
 This phase may also update:
 
 - `v0.5-internal-review-package.md`;
-- `v0.5-internal-review-instructions.md`;
-- `v0.5-internal-review-execution-plan.md`;
-- `v0.5-drafting-entry.md`;
+- `history/v0.5-worklog/v0.5-internal-review-instructions.md`;
+- `history/v0.5-worklog/v0.5-internal-review-execution-plan.md`;
+- `history/v0.5-worklog/v0.5-drafting-entry.md`;
 - `README.md`; and
 - `publication-readiness.md`.
 
@@ -226,13 +226,13 @@ logging, and confidentiality handling.
 
 This phase creates:
 
-- `v0.5-internal-review-execution-plan.md`.
+- `history/v0.5-worklog/v0.5-internal-review-execution-plan.md`.
 
 This phase may also update:
 
 - `publication-readiness.md`;
 - `README.md`; and
-- `v0.5-drafting-entry.md`.
+- `history/v0.5-worklog/v0.5-drafting-entry.md`.
 
 Phase 1.40 does not modify `paper.md`, `paper.tex`, or `references.bib`. It
 does not authorize controlled external review, publication, submission, or
@@ -246,14 +246,14 @@ associated reviewer materials.
 This phase creates:
 
 - `v0.5-internal-review-package.md`;
-- `v0.5-internal-review-instructions.md`; and
-- `v0.5-internal-review-form.md`.
+- `history/v0.5-worklog/v0.5-internal-review-instructions.md`; and
+- `history/v0.5-worklog/v0.5-internal-review-form.md`.
 
 This phase may also update:
 
 - `publication-readiness.md`;
 - `README.md`; and
-- `v0.5-drafting-entry.md`.
+- `history/v0.5-worklog/v0.5-drafting-entry.md`.
 
 Phase 1.39 does not modify `paper.md`, `paper.tex`, or `references.bib`. It
 creates an internal-only review package, includes the author pre-distribution
@@ -268,13 +268,13 @@ package without opening peer review.
 
 This phase creates:
 
-- `v0.5-internal-review-package-plan.md`.
+- `history/v0.5-worklog/v0.5-internal-review-package-plan.md`.
 
 This phase may also update:
 
 - `publication-readiness.md`;
 - `README.md`; and
-- `v0.5-drafting-entry.md`.
+- `history/v0.5-worklog/v0.5-drafting-entry.md`.
 
 Phase 1.38 does not modify `paper.md`, `paper.tex`, or `references.bib`. It
 defines the author-side pre-review checklist, identifies remaining
@@ -291,7 +291,7 @@ This phase may update:
 
 - `publication-readiness.md`;
 - `README.md`; and
-- `v0.5-drafting-entry.md`.
+- `history/v0.5-worklog/v0.5-drafting-entry.md`.
 
 This phase does not modify `paper.md`, `paper.tex`, or `references.bib`. It
 aligns top-level `v0.5` naming, records that the main internal manuscript
@@ -306,11 +306,11 @@ phase is opened.
 
 This phase creates:
 
-- `v0.5-readiness-citation-audit-plan.md`.
+- `history/v0.5-worklog/v0.5-readiness-citation-audit-plan.md`.
 
 This phase may also update:
 
-- `v0.5-drafting-entry.md`; and
+- `history/v0.5-worklog/v0.5-drafting-entry.md`; and
 - `README.md`.
 
 Phase 1.36 does not modify `paper.md`, `paper.tex`, or `references.bib`. It
@@ -326,13 +326,13 @@ current `v0.5` manuscript state before any broader cleanup phase is opened.
 
 This phase creates:
 
-- `v0.5-final-consistency-review-plan.md`.
+- `history/v0.5-worklog/v0.5-final-consistency-review-plan.md`.
 
 This phase may also update:
 
-- `v0.5-drafting-entry.md`;
+- `history/v0.5-worklog/v0.5-drafting-entry.md`;
 - `README.md`; and
-- `v0.5-manuscript-patch-plan.md`.
+- `history/v0.5-worklog/v0.5-manuscript-patch-plan.md`.
 
 Phase 1.34 does not modify `paper.md`, `paper.tex`, or `references.bib`. It
 records residual old-term drift still present in later sections, confirms
@@ -347,13 +347,13 @@ before any manuscript patch is opened.
 
 This phase creates:
 
-- `v0.5-evaluation-plan-patch-plan.md`.
+- `history/v0.5-worklog/v0.5-evaluation-plan-patch-plan.md`.
 
 This phase may also update:
 
-- `v0.5-drafting-entry.md`;
+- `history/v0.5-worklog/v0.5-drafting-entry.md`;
 - `README.md`; and
-- `v0.5-manuscript-patch-plan.md`.
+- `history/v0.5-worklog/v0.5-manuscript-patch-plan.md`.
 
 Phase 1.32 does not modify `paper.md`, `paper.tex`, or `references.bib`. It
 records that Section `8` must remain proposed, synthetic, and conceptual,
@@ -368,13 +368,13 @@ Section `5` before any manuscript patch is opened.
 
 This phase creates:
 
-- `v0.5-participation-readiness-patch-plan.md`.
+- `history/v0.5-worklog/v0.5-participation-readiness-patch-plan.md`.
 
 This phase may also update:
 
-- `v0.5-drafting-entry.md`;
+- `history/v0.5-worklog/v0.5-drafting-entry.md`;
 - `README.md`; and
-- `v0.5-manuscript-patch-plan.md`.
+- `history/v0.5-worklog/v0.5-manuscript-patch-plan.md`.
 
 Phase 1.30 does not modify `paper.md`, `paper.tex`, or `references.bib`. It
 keeps `8` deferred. It records that Section `5` must remain a supporting
@@ -389,14 +389,14 @@ Phase 1.28 defines the controlled terminology-risk treatment for Sections
 
 This phase creates:
 
-- `v0.5-terminology-risk-plan.md`.
+- `history/v0.5-worklog/v0.5-terminology-risk-plan.md`.
 
 This phase may also update:
 
-- `v0.5-drafting-entry.md`;
+- `history/v0.5-worklog/v0.5-drafting-entry.md`;
 - `README.md`;
-- `v0.5-manuscript-patch-plan.md`; and
-- `v0.5-architecture-layer-patch-plan.md`.
+- `history/v0.5-worklog/v0.5-manuscript-patch-plan.md`; and
+- `history/v0.5-worklog/v0.5-architecture-layer-patch-plan.md`.
 
 Phase 1.28 does not modify `paper.md`, `paper.tex`, or `references.bib`. It
 keeps `5` and `8` deferred. It records that the manuscript should prefer
@@ -411,14 +411,14 @@ into a controlled contestability-layer patch plan for Section `4.6` only.
 
 This phase creates:
 
-- `v0.5-contestability-layer-patch-plan.md`.
+- `history/v0.5-worklog/v0.5-contestability-layer-patch-plan.md`.
 
 This phase may also update:
 
-- `v0.5-drafting-entry.md`;
+- `history/v0.5-worklog/v0.5-drafting-entry.md`;
 - `README.md`;
-- `v0.5-manuscript-patch-plan.md`; and
-- `v0.5-architecture-layer-patch-plan.md`.
+- `history/v0.5-worklog/v0.5-manuscript-patch-plan.md`; and
+- `history/v0.5-worklog/v0.5-architecture-layer-patch-plan.md`.
 
 Phase 1.26 does not modify `paper.md`, `paper.tex`, or `references.bib`. It
 does not open peer review, does not open a publication package, and does not
@@ -435,13 +435,13 @@ and `4.6` only.
 
 This phase creates:
 
-- `v0.5-architecture-layer-patch-plan.md`.
+- `history/v0.5-worklog/v0.5-architecture-layer-patch-plan.md`.
 
 This phase may also update:
 
-- `v0.5-drafting-entry.md`;
+- `history/v0.5-worklog/v0.5-drafting-entry.md`;
 - `README.md`; and
-- `v0.5-manuscript-patch-plan.md`.
+- `history/v0.5-worklog/v0.5-manuscript-patch-plan.md`.
 
 Phase 1.24 does not modify `paper.md`, `paper.tex`, or `references.bib`. It
 does not open peer review, does not open a publication package, and does not
@@ -457,11 +457,11 @@ track before any manuscript editing begins.
 
 This phase creates:
 
-- `v0.5-drafting-scope.md`.
+- `history/v0.5-worklog/v0.5-drafting-scope.md`.
 
 This phase also updates:
 
-- `v0.5-drafting-entry.md`; and
+- `history/v0.5-worklog/v0.5-drafting-entry.md`; and
 - `README.md`.
 
 Phase 1.21 does not modify `paper.md`, `paper.tex`, or `references.bib`. It
@@ -478,11 +478,11 @@ manuscript edits begin.
 
 This phase creates:
 
-- `v0.5-manuscript-patch-plan.md`.
+- `history/v0.5-worklog/v0.5-manuscript-patch-plan.md`.
 
 This phase may also update:
 
-- `v0.5-drafting-entry.md`; and
+- `history/v0.5-worklog/v0.5-drafting-entry.md`; and
 - `README.md`.
 
 Phase 1.22 does not modify `paper.md`, `paper.tex`, or `references.bib`. It
@@ -501,13 +501,13 @@ manuscript package is prepared.
 This phase creates:
 
 - `../../governance/governance-mechanics-v0.1.md`;
-- `v0.5-planning-record.md`;
-- `v0.5-governance-scope-plan.md`; and
+- `history/v0.5-worklog/v0.5-planning-record.md`;
+- `history/v0.5-worklog/v0.5-governance-scope-plan.md`; and
 - `author-decision-record-v0.5.md`.
 
 This transition also creates:
 
-- `v0.5-drafting-entry.md`.
+- `history/v0.5-worklog/v0.5-drafting-entry.md`.
 
 Phase 1.20 confirms and accepts three documentary tracks:
 
@@ -544,12 +544,12 @@ an author-decision and patch-authorization gate.
 
 This phase creates:
 
-- `v0.4-author-review-consolidation.md`; and
-- `v0.4.1-patch-plan.md`.
+- `history/v0.4/v0.4-author-review-consolidation.md`; and
+- `history/v0.4/v0.4.1-patch-plan.md`.
 
 This phase also updates:
 
-- `v0.4-author-decision-record.md`;
+- `history/v0.4/v0.4-author-decision-record.md`;
 - `research/terminology.md`;
 - `research/claims-register.md`; and
 - `research/bibliography-candidates.md`.
@@ -586,8 +586,8 @@ and `paper.tex`.
 
 This phase creates:
 
-- `v0.4-change-log.md`; and
-- `v0.4-readiness-record.md`.
+- `history/v0.4/v0.4-change-log.md`; and
+- `history/v0.4/v0.4-readiness-record.md`.
 
 The manuscript has been reframed around Axodus as a prototype-stage
 conceptual architecture for traceability and accountability in federated
@@ -630,8 +630,8 @@ manuscript editing.
 
 This phase creates:
 
-- `v0.4-author-decision-record.md`; and
-- `v0.4-reframing-plan.md`.
+- `history/v0.4/v0.4-author-decision-record.md`; and
+- `history/v0.4/v0.4-reframing-plan.md`.
 
 The proposed thesis is:
 
@@ -911,13 +911,13 @@ use, external distribution, and authority signaling remain blocked.
 
 Phase 1.13 created a controlled internal peer review package:
 
-- `internal-peer-review-package.md` defines the version-locked file manifest,
+- `history/v0.3.2/internal-peer-review-package.md` defines the version-locked file manifest,
   sharing tiers, reviewer questions, recommended reviewer profile, and package
   controls;
-- `internal-peer-review-instructions.md` defines confidentiality,
+- `history/v0.3.2/internal-peer-review-instructions.md` defines confidentiality,
   non-distribution, review scope, finding severity, evidence discipline, and
   return procedures; and
-- `internal-peer-review-form.md` provides structured ratings, findings,
+- `history/v0.3.2/internal-peer-review-form.md` provides structured ratings, findings,
   literature-gap assessment, publication-risk assessment, and a bounded
   internal outcome.
 
@@ -972,10 +972,10 @@ distribution, and authority signaling remain blocked.
 
 Phase 1.14 consolidated three supplied internal review inputs in:
 
-- `internal-peer-review-01.md`;
-- `internal-peer-review-02.md`;
-- `internal-peer-review-03.md`; and
-- `internal-peer-review-consolidation.md`.
+- `.archive/reviews/internal-peer-review-01.md`;
+- `.archive/reviews/internal-peer-review-02.md`;
+- `.archive/reviews/internal-peer-review-03.md`; and
+- `.archive/reviews/internal-peer-review-consolidation.md`.
 
 The consolidation records 19 findings: 10 major, 6 moderate, and 3 minor. No
 critical evidence-boundary breach or sensitive disclosure was confirmed. The
@@ -996,7 +996,7 @@ The main accepted revision requirements are:
   without implying deployment or completed studies; and
 - reduce residual defensive wording while preserving evidence boundaries.
 
-`v0.3.2-patch-plan.md` defines the authorized scope for the next internal
+`history/v0.3.2/v0.3.2-patch-plan.md` defines the authorized scope for the next internal
 manuscript-editing phase. It does not open v0.3.2 in Phase 1.14 and does not
 authorize v0.4.
 
@@ -1009,8 +1009,8 @@ blocked.
 ## Phase 1.15 v0.3.2 targeted revision status
 
 Phase 1.15 completed the authorized v0.3.2 targeted academic-hardening patch
-and recorded it in `v0.3.2-change-log.md` and
-`v0.3.2-readiness-record.md`.
+and recorded it in `history/v0.3.2/v0.3.2-change-log.md` and
+`history/v0.3.2/v0.3.2-readiness-record.md`.
 
 The patch:
 
@@ -1139,9 +1139,9 @@ security properties, financial performance, or operational maturity.
 - `papers/axodus-architecture-paper/internal-peer-review-02.md`
 - `papers/axodus-architecture-paper/internal-peer-review-03.md`
 - `papers/axodus-architecture-paper/internal-peer-review-consolidation.md`
-- `papers/axodus-architecture-paper/v0.3.2-patch-plan.md`
-- `papers/axodus-architecture-paper/v0.3.2-change-log.md`
-- `papers/axodus-architecture-paper/v0.3.2-readiness-record.md`
+- `papers/axodus-architecture-paper/history/v0.3.2/v0.3.2-patch-plan.md`
+- `papers/axodus-architecture-paper/history/v0.3.2/v0.3.2-change-log.md`
+- `papers/axodus-architecture-paper/history/v0.3.2/v0.3.2-readiness-record.md`
 - `whitepaper/README.md`
 - `articles/README.md`
 - `outreach/README.md`
@@ -1357,8 +1357,8 @@ recorded and may be treated as approved for manuscript-editing purposes.
 ## Recommended next human review
 
 Review `../../governance/governance-mechanics-v0.1.md`,
-`v0.5-planning-record.md`, `v0.5-governance-scope-plan.md`,
-`author-decision-record-v0.5.md`, `v0.5-drafting-entry.md`, and the updated
+`history/v0.5-worklog/v0.5-planning-record.md`, `history/v0.5-worklog/v0.5-governance-scope-plan.md`,
+`author-decision-record-v0.5.md`, `history/v0.5-worklog/v0.5-drafting-entry.md`, and the updated
 boundary and terminology records. Treat v0.4 as the historical internal
 baseline. Use v0.5 as the active internal drafting track only. Do not open
 peer review, controlled external review, or publication until a new v0.5
