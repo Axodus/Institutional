@@ -1,7 +1,7 @@
 # Axodus Architecture Paper
 
-Active version: draft v0.4
-Readiness: **Phase 1.20 accepted; v0.4 remains the historical internal baseline, v0.4.1 is canceled as a forward path, and v0.5 is the active internal drafting track only**
+Active version: v0.5 internal draft
+Readiness: **Phase 1.37 cleanup complete; v0.5 is the active internal drafting track, the main internal manuscript patches are complete, and v0.4 remains the historical internal baseline**
 
 Controlled external review, publication, submission, outreach, grant use,
 fundraising use, external distribution, and authority signaling remain
@@ -70,10 +70,9 @@ blocked.
 
 ## Current paper-track status
 
-The active next writing line is v0.5 as an internal drafting track only.
-v0.4 remains the historical internal manuscript baseline. v0.4.1 is
-canceled as a forward path. The current authorized basis for the v0.5 line
-is:
+The active manuscript line is the current v0.5 internal draft. v0.4 remains
+the historical internal manuscript baseline. v0.4.1 is canceled as a forward
+path. The current authorized basis for the v0.5 line is:
 
 - `v0.5-planning-record.md`;
 - `v0.5-governance-scope-plan.md`;
@@ -90,9 +89,10 @@ is:
 - `v0.5-contestability-layer-patch-plan.md`; and
 - `publication-readiness.md`.
 
-Internal peer review is not authorized. The earlier v0.4 and v0.4.1 records
-remain for traceability only and must not be treated as the active manuscript
-path or review package.
+The main internal v0.5 manuscript patches are complete, but internal peer
+review is not authorized. The earlier v0.4 and v0.4.1 records remain for
+traceability only and must not be treated as the active manuscript path or
+review package.
 
 ## Historical artifacts
 

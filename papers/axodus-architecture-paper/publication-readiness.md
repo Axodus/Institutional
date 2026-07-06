@@ -1,7 +1,7 @@
 # Publication Readiness — Axodus Architecture Paper
 
 Review date: 2026-07-05
-Version reviewed: draft v0.4
+Version reviewed: v0.5 internal draft
 Decision: **Phase 1.20 governance-track separation has been accepted. The
 v0.4.x line is closed as a forward path, v0.4 remains the historical
 internal baseline, v0.5 track is opened as the active internal drafting
@@ -12,6 +12,22 @@ circulation, and publication remain blocked.**
 
 Ready for human review: yes  
 Ready for public publication: no
+
+## Phase 1.37 v0.5 readiness-cleanup status
+
+Phase 1.37 performs a small readiness-and-status cleanup after the main
+internal `v0.5` manuscript patches have been applied.
+
+This phase may update:
+
+- `publication-readiness.md`;
+- `README.md`; and
+- `v0.5-drafting-entry.md`.
+
+This phase does not modify `paper.md`, `paper.tex`, or `references.bib`. It
+aligns top-level `v0.5` naming, records that the main internal manuscript
+patches have been completed in the current drafting line, and preserves all
+peer-review, publication, and external-circulation blockers.
 
 ## Phase 1.36 v0.5 readiness-and-citation audit-plan status
 
@@ -1091,17 +1107,21 @@ LaTeX compile check was completed. Human judgment items remain unchecked in
 
 ## Readiness status
 
-Phase 1.20 readiness category: **Ready for active internal v0.5 drafting
-only; v0.4 remains the historical internal draft baseline, v0.4.1 is
-canceled as a forward path, and peer review plus external circulation remain
-blocked.**
+Phase 1.37 readiness category: **Main internal v0.5 manuscript patches are
+complete; the paper remains in active internal drafting and readiness-cleanup
+status only; v0.4 remains the historical internal draft baseline; and peer
+review plus external circulation remain blocked.**
 
 Ready for controlled external review: no  
 Ready for public publication: no
 
-v0.4 manuscript reframing complete: yes
+v0.4 manuscript reframing complete: yes, historical baseline only
 
 v0.5 track opened: yes, active internal drafting track only
+
+v0.5 main internal manuscript patches applied: yes
+
+v0.5 readiness cleanup complete: yes
 
 v0.5 manuscript publication package: not opened
 
@@ -1110,9 +1130,10 @@ Peer review package opened: no
 Internal peer review authorized: no; blocked pending a future v0.5 readiness
 package and explicit author approval for any review gate
 
-**Current status: Phase 1.20 governance-track separation is accepted; v0.4.x
-is closed as a forward path; v0.4 remains the historical internal baseline;
-v0.5 is the active next writing line as an internal drafting track only; no
-peer-review package is opened; controlled external review, manuscript
-publication, submission, outreach, grant use, fundraising use, manuscript
-distribution, and authority signaling remain blocked.**
+**Current status: Phase 1.20 governance-track separation is accepted;
+Phase 1.37 readiness cleanup is complete; v0.4.x is closed as a forward
+path; v0.4 remains the historical internal baseline; the current manuscript
+state is a patched v0.5 internal draft; no peer-review package is opened;
+controlled external review, manuscript publication, submission, outreach,
+grant use, fundraising use, manuscript distribution, and authority signaling
+remain blocked.**
