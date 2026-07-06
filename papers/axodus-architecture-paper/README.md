@@ -76,6 +76,8 @@ blocked.
   status record for the active internal-only review package;
 - `v0.5-internal-review-prompt-set.md` — controlled role-specific review
   prompt templates for executing the internal package;
+- `v0.5-review-state-reconciliation.md` — reconciliation record for the
+  current working manuscript location and version-traceability blocker;
 - `internal-peer-review-package.md` — suspended v0.3.2 review manifest;
 - `internal-peer-review-instructions.md` — reviewer conduct and review method;
 - `internal-peer-review-form.md` — structured reviewer response form;
@@ -118,6 +120,7 @@ path. The current authorized basis for the v0.5 line is:
 - `v0.5-internal-review-execution-plan.md`;
 - `v0.5-internal-review-assignment-record.md`;
 - `v0.5-internal-review-prompt-set.md`;
+- `v0.5-review-state-reconciliation.md`;
 - `v0.5-contestability-layer-patch-plan.md`; and
 - `publication-readiness.md`.
 
@@ -126,6 +129,9 @@ internal-only v0.5 review package now exists, but external review,
 publication, submission, and external circulation remain blocked. The earlier
 v0.4 and v0.4.1 records remain for traceability only and must not be treated
 as the active manuscript path or review package.
+
+The current working-version location for the active internal review cycle is
+tracked in `v0.5-review-state-reconciliation.md` and `v0.5-internal-review-package.md`.
 
 ## Historical artifacts
 

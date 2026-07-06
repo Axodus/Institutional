@@ -13,6 +13,34 @@ circulation, and publication remain blocked.**
 Ready for human review: yes  
 Ready for public publication: no
 
+Current working version location for the active confidential internal review
+cycle: local repository `main` at commit
+`4d5381297aacd1fcb5fb573d0a7f9649bd468d76`, as version-locked in
+`v0.5-internal-review-package.md`. Any remote/main alignment uncertainty
+remains a blocker before readiness advancement for external use.
+
+## Phase 1.46R v0.5 review-state reconciliation status
+
+Phase 1.46R records and addresses a version-traceability concern raised
+during the internal `v0.5` review cycle: an external or public branch view
+may appear to show an older paper state while the active internal review
+package refers to a newer internal draft.
+
+This phase creates:
+
+- `v0.5-review-state-reconciliation.md`.
+
+This phase may also update:
+
+- `v0.5-internal-review-package.md`;
+- `v0.5-drafting-entry.md`;
+- `README.md`; and
+- `publication-readiness.md`.
+
+Phase 1.46R does not modify `paper.md`, `paper.tex`, or `references.bib`. It
+does not consolidate content findings and does not authorize controlled
+external review, publication, submission, or external circulation.
+
 ## Phase 1.45 v0.5 internal-review execution status
 
 Phase 1.45 executed the four confidential internal tool-assisted reviews
