@@ -62,6 +62,8 @@ blocked.
 - `v0.5-internal-review-instructions.md` — active internal-only v0.5 reviewer
   instructions;
 - `v0.5-internal-review-form.md` — active internal-only v0.5 reviewer form;
+- `v0.5-internal-review-execution-plan.md` — execution, sequencing, and
+  consolidation plan for the active internal-only review package;
 - `internal-peer-review-package.md` — suspended v0.3.2 review manifest;
 - `internal-peer-review-instructions.md` — reviewer conduct and review method;
 - `internal-peer-review-form.md` — structured reviewer response form;
@@ -97,6 +99,7 @@ path. The current authorized basis for the v0.5 line is:
 - `v0.5-internal-review-package.md`;
 - `v0.5-internal-review-instructions.md`;
 - `v0.5-internal-review-form.md`;
+- `v0.5-internal-review-execution-plan.md`;
 - `v0.5-contestability-layer-patch-plan.md`; and
 - `publication-readiness.md`.
 

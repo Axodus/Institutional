@@ -13,6 +13,26 @@ circulation, and publication remain blocked.**
 Ready for human review: yes  
 Ready for public publication: no
 
+## Phase 1.40 v0.5 internal-review execution-plan status
+
+Phase 1.40 defines how the active `v0.5` internal review package should be
+executed, including reviewer roles, review order, finding handling, decision
+logging, and confidentiality handling.
+
+This phase creates:
+
+- `v0.5-internal-review-execution-plan.md`.
+
+This phase may also update:
+
+- `publication-readiness.md`;
+- `README.md`; and
+- `v0.5-drafting-entry.md`.
+
+Phase 1.40 does not modify `paper.md`, `paper.tex`, or `references.bib`. It
+does not authorize controlled external review, publication, submission, or
+external circulation.
+
 ## Phase 1.39 v0.5 internal-review-package authorization status
 
 Phase 1.39 creates the controlled `v0.5` internal-review package and
