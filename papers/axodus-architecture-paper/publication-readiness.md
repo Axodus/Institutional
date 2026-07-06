@@ -61,6 +61,27 @@ does not apply manuscript patches, does not apply bibliography patches, does
 not make author decisions, and does not authorize controlled external
 review, publication, submission, or external circulation.
 
+## Phase 1.47 v0.5 internal-review correction-patch-plan status
+
+Phase 1.47 transforms the consolidated internal-review blockers into a
+minimal future correction patch plan for `paper.md` and `paper.tex`.
+
+This phase creates:
+
+- `v0.5-internal-review-correction-patch-plan.md`.
+
+This phase may also update:
+
+- `publication-readiness.md`;
+- `README.md`;
+- `v0.5-drafting-entry.md`; and
+- `v0.5-internal-review-consolidation.md`.
+
+Phase 1.47 does not modify `paper.md`, `paper.tex`, or `references.bib`. It
+does not apply manuscript patches, does not apply bibliography patches, does
+not add citations, does not modify external-use blockers, and does not make
+an author acceptance decision.
+
 ## Phase 1.45 v0.5 internal-review execution status
 
 Phase 1.45 executed the four confidential internal tool-assisted reviews
