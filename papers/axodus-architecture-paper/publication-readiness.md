@@ -1,22 +1,44 @@
 # Publication Readiness — Axodus Architecture Paper
 
-Review date: 2026-07-06
-Version reviewed: v0.5 closed internal baseline
-Decision: **v0.5 is now a closed internal baseline. The main internal
-manuscript patches, post-review correction patch, closure-readiness audit,
-and baseline-closure record are complete. Controlled external review,
-publication, submission, and external circulation remain blocked.**
+Review date: 2026-07-07
+Version reviewed: v0.5 closed internal baseline; v0.6 planning track
+Decision: **`v0.5` remains the closed internal baseline. Phase 2.0 opens
+`v0.6` only as an academic/public-paper planning track after the separate
+private documentation sprint. Controlled external review, publication,
+submission, and external circulation remain blocked.**
 
 ## Publication status
 
 Ready for human review: yes  
 Ready for public publication: no
 
-Current working version location for the active confidential internal review
-cycle: local repository `main` at commit
+Current working version location for the closed `v0.5` internal baseline and
+its version-locked package records: local repository `main` at commit
 `dcae29ba3346a9c797798b6d84221462f40676dc`, as version-locked in
 `v0.5-internal-review-package.md`. Any remote/main alignment uncertainty
 remains a blocker before readiness advancement for external use.
+
+## Phase 2.0 post-documentation reopen boundary-check status
+
+Phase 2.0 reopens paper-line work in the public Institutional repository only
+as a documentation and boundary-control planning track after completion of a
+separate private documentation sprint.
+
+This phase creates:
+
+- `v0.6-planning-entry.md`.
+
+This phase may also update:
+
+- `README.md`; and
+- `publication-readiness.md`.
+
+Phase 2.0 does not modify `paper.md`, `paper.tex`, or `references.bib`. It
+does not import, summarize, reference, mirror, link, or expose private
+documentation content. It does not introduce tokenomics, operational
+governance detail, Academy operational or financial mechanics, or external-use
+authorization. It does not authorize controlled external review, publication,
+submission, or external circulation.
 
 ## Phase 1.49 v0.5 closure-readiness-audit status
 
@@ -1376,7 +1398,8 @@ LaTeX compile check was completed. Human judgment items remain unchecked in
 
 ## Readiness status
 
-Phase 1.50 readiness category: **v0.5 is the closed internal baseline; v0.4
+Phase 2.0 readiness category: **`v0.5` remains the closed internal baseline;
+`v0.6` is open only as an academic/public-paper planning track; `v0.4`
 remains the historical internal baseline; and controlled external review,
 publication, submission, and external circulation remain blocked.**
 
@@ -1392,6 +1415,9 @@ v0.5 main internal manuscript patches applied: yes
 
 v0.5 readiness cleanup complete: yes
 
+v0.6 planning track opened: yes, documentation-only boundary and planning
+track; manuscript baseline unchanged
+
 v0.5 manuscript publication package: not opened
 
 Peer review package opened: no
@@ -1403,9 +1429,10 @@ Internal peer review authorized: yes, under the controlled `v0.5`
 package-only gate; controlled external review remains blocked
 
 **Current status: Phase 1.20 governance-track separation is accepted;
-Phase 1.50 baseline closure is complete; v0.4.x is closed as a forward
-path; v0.4 remains the historical internal baseline; the current manuscript
-state is the closed `v0.5` internal baseline; no external peer-review
-package is opened; controlled external review, manuscript publication,
-submission, outreach, grant use, fundraising use, manuscript distribution,
-and authority signaling remain blocked.**
+Phase 1.50 baseline closure is complete; Phase 2.0 opens `v0.6` only as a
+documentation/planning track; v0.4.x is closed as a forward path; v0.4
+remains the historical internal baseline; the manuscript baseline remains
+the closed `v0.5` internal baseline; no external peer-review package is
+opened; controlled external review, manuscript publication, submission,
+outreach, grant use, fundraising use, manuscript distribution, and
+authority signaling remain blocked.**
