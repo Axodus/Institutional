@@ -1,11 +1,11 @@
 # Publication Readiness — Axodus Architecture Paper
 
-Review date: 2026-07-07
+Review date: 2026-07-08
 Version reviewed: v0.5 closed internal baseline; v0.6 planning track
-Decision: **`v0.5` remains the closed internal baseline. Phase 2.0 opens
-`v0.6` only as an academic/public-paper planning track after the separate
-private documentation sprint. Controlled external review, publication,
-submission, and external circulation remain blocked.**
+Decision: **`v0.5` remains the closed internal baseline. Phase 2.0 opened
+`v0.6` as an academic/public-paper planning track, and Phase 2.1 adds a
+documentation-only roadmap and scope plan. Controlled external review,
+publication, submission, and external circulation remain blocked.**
 
 ## Publication status
 
@@ -39,6 +39,28 @@ documentation content. It does not introduce tokenomics, operational
 governance detail, Academy operational or financial mechanics, or external-use
 authorization. It does not authorize controlled external review, publication,
 submission, or external circulation.
+
+## Phase 2.1 v0.6 roadmap-and-scope-plan status
+
+Phase 2.1 defines the controlling roadmap and scope plan for later `v0.6`
+documentation-only work.
+
+This phase creates:
+
+- `v0.6-roadmap-and-scope-plan.md`.
+
+This phase updates:
+
+- `README.md`;
+- `v0.6-planning-entry.md`; and
+- `publication-readiness.md`.
+
+Phase 2.1 does not modify `paper.md`, `paper.tex`, or `references.bib`. It
+does not update `research/claims-register.md`. It does not approve or add
+citations, does not authorize controlled external review, publication,
+submission, or external circulation, and does not introduce private content,
+tokenomics content, operational governance content, or Academy operational or
+financial mechanics.
 
 ## Phase 1.49 v0.5 closure-readiness-audit status
 
@@ -1398,10 +1420,11 @@ LaTeX compile check was completed. Human judgment items remain unchecked in
 
 ## Readiness status
 
-Phase 2.0 readiness category: **`v0.5` remains the closed internal baseline;
-`v0.6` is open only as an academic/public-paper planning track; `v0.4`
-remains the historical internal baseline; and controlled external review,
-publication, submission, and external circulation remain blocked.**
+Phase 2.1 readiness category: **`v0.5` remains the closed internal baseline;
+`v0.6` is open only as an academic/public-paper planning track with a
+documentation-only roadmap and scope plan; `v0.4` remains the historical
+internal baseline; and controlled external review, publication, submission,
+and external circulation remain blocked.**
 
 Ready for controlled external review: no  
 Ready for public publication: no
@@ -1418,6 +1441,9 @@ v0.5 readiness cleanup complete: yes
 v0.6 planning track opened: yes, documentation-only boundary and planning
 track; manuscript baseline unchanged
 
+v0.6 roadmap and scope plan opened: yes, documentation-only control record;
+manuscript and bibliography unchanged
+
 v0.5 manuscript publication package: not opened
 
 Peer review package opened: no
@@ -1430,9 +1456,10 @@ package-only gate; controlled external review remains blocked
 
 **Current status: Phase 1.20 governance-track separation is accepted;
 Phase 1.50 baseline closure is complete; Phase 2.0 opens `v0.6` only as a
-documentation/planning track; v0.4.x is closed as a forward path; v0.4
-remains the historical internal baseline; the manuscript baseline remains
-the closed `v0.5` internal baseline; no external peer-review package is
-opened; controlled external review, manuscript publication, submission,
+documentation/planning track; Phase 2.1 adds the `v0.6` roadmap and scope
+plan as a documentation-only control record; v0.4.x is closed as a forward
+path; v0.4 remains the historical internal baseline; the manuscript baseline
+remains the closed `v0.5` internal baseline; no external peer-review package
+is opened; controlled external review, manuscript publication, submission,
 outreach, grant use, fundraising use, manuscript distribution, and
 authority signaling remain blocked.**
