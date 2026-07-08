@@ -14,10 +14,11 @@ blocked.
 1. `publication-readiness.md`
 2. `v0.6-planning-entry.md`
 3. `v0.6-roadmap-and-scope-plan.md`
-4. `paper.md`
-5. `paper.tex`
-6. `references.bib`
-7. `author-decision-record-v0.5.md`
+4. `v0.6-bibliography-candidate-evaluation-plan.md`
+5. `paper.md`
+6. `paper.tex`
+7. `references.bib`
+8. `author-decision-record-v0.5.md`
 
 Use `history/` only when you need traceability. Use `.archive/` only when a
 current file points there or when the task is explicitly historical.
@@ -28,6 +29,8 @@ current file points there or when the task is explicitly historical.
   record for the open `v0.6` track
 - `v0.6-roadmap-and-scope-plan.md` — current Phase 2.1 scope and roadmap
   control record for the open `v0.6` track
+- `v0.6-bibliography-candidate-evaluation-plan.md` — current Phase 2.2
+  bibliography-candidate planning record for the open `v0.6` track
 - `publication-readiness.md` — authoritative readiness status and blockers
 - `paper.md` — primary manuscript source
 - `paper.tex` — synchronized LaTeX manuscript source

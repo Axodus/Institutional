@@ -4,8 +4,10 @@ Review date: 2026-07-08
 Version reviewed: v0.5 closed internal baseline; v0.6 planning track
 Decision: **`v0.5` remains the closed internal baseline. Phase 2.0 opened
 `v0.6` as an academic/public-paper planning track, and Phase 2.1 adds a
-documentation-only roadmap and scope plan. Controlled external review,
-publication, submission, and external circulation remain blocked.**
+documentation-only roadmap and scope plan. Phase 2.2 adds a
+documentation-only bibliography candidate evaluation plan. Controlled
+external review, publication, submission, and external circulation remain
+blocked.**
 
 ## Publication status
 
@@ -61,6 +63,20 @@ citations, does not authorize controlled external review, publication,
 submission, or external circulation, and does not introduce private content,
 tokenomics content, operational governance content, or Academy operational or
 financial mechanics.
+
+## Phase 2.2 v0.6 bibliography-candidate-evaluation-plan status
+
+Phase 2.2 defines the documentation-only control plan for evaluating selected
+`v0.6` bibliography candidates.
+
+This phase creates only:
+
+- `v0.6-bibliography-candidate-evaluation-plan.md`.
+
+Phase 2.2 does not modify `paper.md`, `paper.tex`, or `references.bib`. It
+does not authorize controlled external review, publication, submission, or
+external circulation. It does not add citations, does not claim metadata
+verification, and does not promote any candidate citation for manuscript use.
 
 ## Phase 1.49 v0.5 closure-readiness-audit status
 
@@ -1420,11 +1436,12 @@ LaTeX compile check was completed. Human judgment items remain unchecked in
 
 ## Readiness status
 
-Phase 2.1 readiness category: **`v0.5` remains the closed internal baseline;
+Phase 2.2 readiness category: **`v0.5` remains the closed internal baseline;
 `v0.6` is open only as an academic/public-paper planning track with a
-documentation-only roadmap and scope plan; `v0.4` remains the historical
-internal baseline; and controlled external review, publication, submission,
-and external circulation remain blocked.**
+documentation-only roadmap, scope, and bibliography candidate evaluation
+plan; `v0.4` remains the historical internal baseline; and controlled
+external review, publication, submission, and external circulation remain
+blocked.**
 
 Ready for controlled external review: no  
 Ready for public publication: no
@@ -1444,6 +1461,9 @@ track; manuscript baseline unchanged
 v0.6 roadmap and scope plan opened: yes, documentation-only control record;
 manuscript and bibliography unchanged
 
+v0.6 bibliography candidate evaluation plan opened: yes, documentation-only
+control record; manuscript and bibliography unchanged
+
 v0.5 manuscript publication package: not opened
 
 Peer review package opened: no
@@ -1457,9 +1477,11 @@ package-only gate; controlled external review remains blocked
 **Current status: Phase 1.20 governance-track separation is accepted;
 Phase 1.50 baseline closure is complete; Phase 2.0 opens `v0.6` only as a
 documentation/planning track; Phase 2.1 adds the `v0.6` roadmap and scope
-plan as a documentation-only control record; v0.4.x is closed as a forward
-path; v0.4 remains the historical internal baseline; the manuscript baseline
-remains the closed `v0.5` internal baseline; no external peer-review package
-is opened; controlled external review, manuscript publication, submission,
-outreach, grant use, fundraising use, manuscript distribution, and
-authority signaling remain blocked.**
+plan as a documentation-only control record; Phase 2.2 adds the `v0.6`
+bibliography candidate evaluation plan as a documentation-only control
+record; v0.4.x is closed as a forward path; v0.4 remains the historical
+internal baseline; the manuscript baseline remains the closed `v0.5`
+internal baseline; no external peer-review package is opened; controlled
+external review, manuscript publication, submission, outreach, grant use,
+fundraising use, manuscript distribution, and authority signaling remain
+blocked.**
