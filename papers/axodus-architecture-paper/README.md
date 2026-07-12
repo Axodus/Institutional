@@ -21,6 +21,10 @@ Phase 2.11 status: external-readiness gates, blocker criteria, package
 inventory, and a controlled-review protocol draft are defined with
 `PREPARATION_INCOMPLETE`; no reviewer, package, outreach, distribution, or
 external-use action is authorized.
+Phase 2.12 status: second-round scientific review intake records
+`SCIENTIFIC_REVIEW_CONDITIONAL`; scientific revision triage and planning are
+opened for author consideration, while manuscript, bibliography, claims,
+closed workstreams, and all external-use blockers remain unchanged.
 
 Controlled external review, publication, submission, outreach, grant use,
 fundraising use, external distribution, and authority signaling remain
@@ -45,10 +49,12 @@ blocked.
 15. `v0.6-external-readiness-gate-matrix.md`
 16. `v0.6-reviewer-package-inventory.md`
 17. `v0.6-controlled-review-protocol-draft.md`
-18. `paper.md`
-19. `paper.tex`
-20. `references.bib`
-21. `author-decision-record-v0.5.md`
+18. `v0.6-scientific-review-intake-and-triage.md`
+19. `v0.6-scientific-revision-plan.md`
+20. `paper.md`
+21. `paper.tex`
+22. `references.bib`
+23. `author-decision-record-v0.5.md`
 
 Use `history/` only when you need traceability. Use `.archive/` only when a
 current file points there or when the task is explicitly historical.
@@ -92,6 +98,11 @@ current file points there or when the task is explicitly historical.
   excluded artifact classifications; no distribution approval
 - `v0.6-controlled-review-protocol-draft.md` — internal protocol draft marked
   not authorized for external use
+- `v0.6-scientific-review-intake-and-triage.md` — Phase 2.12 triage of the
+  second-round scientific reviews, recording `SCIENTIFIC_REVIEW_CONDITIONAL`
+  and required author decisions
+- `v0.6-scientific-revision-plan.md` — bounded future scientific revision plan
+  for author consideration; no patch authorization
 - `publication-readiness.md` — authoritative readiness status and blockers
 - `paper.md` — primary manuscript source
 - `paper.tex` — synchronized LaTeX manuscript source

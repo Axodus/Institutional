@@ -25,8 +25,11 @@ corrections, resolves EC-01 through EC-06, and closes only the editorial-
 consistency workstream with `PASS_CLOSED`. Phase 2.11 defines external-
 readiness gates, blockers, reviewer governance, package controls, and human
 authorization boundaries with `PREPARATION_INCOMPLETE`; it authorizes no
-external action. Controlled external review, publication, submission, and
-external circulation remain blocked.**
+external action. Phase 2.12 registers second-round scientific reviews and
+sets the consolidated scientific status to `SCIENTIFIC_REVIEW_CONDITIONAL`,
+with required author decisions and a bounded revision plan before any
+manuscript revision or external-readiness advancement. Controlled external
+review, publication, submission, and external circulation remain blocked.**
 
 ## Publication status
 
@@ -298,6 +301,40 @@ Phase 2.11 does not modify the manuscript, bibliography, citations, Section
 `5`, or claims register. It does not reopen a closed workstream, complete
 `v0.6`, or authorize controlled external review, publication, submission, or
 external circulation.
+
+## Phase 2.12 v0.6 scientific review intake and revision triage status
+
+Phase 2.12 creates:
+
+- `v0.6-scientific-review-intake-and-triage.md`; and
+- `v0.6-scientific-revision-plan.md`.
+
+The phase registers three second-round internal scientific review inputs and
+consolidates the working scientific status as `SCIENTIFIC_REVIEW_CONDITIONAL`.
+The main blockers are the insufficiently reconstructable derivation of the
+six-layer architecture, the need to narrow or substantiate the literature-gap
+and novelty claim, the mismatch between the integrated contribution and the
+current evaluation constructs, the scope role of Participation Readiness and
+Internal Maturity, the author decision on `conceptual architecture` versus
+`conceptual framework`, and the disclosure boundary between internal
+AI-assisted review and independent human academic peer review.
+
+Reviewer 02 is recorded as a positive evidence, claims, and citation
+assessment. That assessment does not override the argument-level findings from
+Reviewers 01 and 03.
+
+Phase 2.12 does not modify `paper.md`, `paper.tex`, `references.bib`, or
+`../../research/claims-register.md`. It does not add citations, reopen
+bibliography expansion, reopen Brennan or epistocracy, initiate
+external-review preparation, contact reviewers, circulate the manuscript, or
+authorize publication, submission, public disclosure, partnership use, or
+investor use.
+
+Before any manuscript revision begins, a later author decision record must
+resolve the contribution identity, novelty strategy, accountability and
+contestability status, role of supporting sections, retention or modification
+of `architecture`, and minimum structural artifact required for inspectable
+derivation.
 
 ## Phase 1.49 v0.5 closure-readiness-audit status
 
