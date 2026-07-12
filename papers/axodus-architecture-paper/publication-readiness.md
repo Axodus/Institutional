@@ -16,8 +16,10 @@ those two bibliography entries and their synchronized citations in Sections
 `4.2` and `4.3`. Phase 2.7 independently audits that patch and closes only the
 bibliography-expansion workstream with `PASS_CLOSED`. Brennan remains deferred,
 Section `5` remains unchanged, and `v0.6` remains open for separately governed
-workstreams. Controlled external review, publication, submission, and external
-circulation remain blocked.**
+workstreams. Phase 2.8 records a `CONDITIONAL` editorial-consistency result and
+a bounded correction plan without modifying the manuscript or bibliography.
+Controlled external review, publication, submission, and external circulation
+remain blocked.**
 
 ## Publication status
 
@@ -196,6 +198,31 @@ Decision: `PASS_CLOSED` for the bibliography-expansion workstream only. The
 editorial-consistency and external-readiness preparation workstreams remain
 separate. Phase 2.7 does not complete `v0.6` and does not authorize controlled
 external review, publication, submission, or external circulation.
+
+## Phase 2.8 v0.6 editorial consistency and synchronization audit status
+
+Phase 2.8 creates:
+
+- `v0.6-editorial-consistency-audit.md`; and
+- `v0.6-editorial-correction-plan.md`.
+
+The global audit confirms aligned title, abstract, headings, numbering,
+terminology, Section `5`, and a closed 14-key citation graph. It finds no
+duplicate passage and no bibliography-integrity defect.
+
+The audit records two major findings: the manuscript pair still identifies
+itself as the active `v0.5` draft despite the closed-v0.5/open-v0.6 control
+state, and Section `2.3` in `paper.tex` contains a malformed duplicated clause.
+Four minor findings cover bounded Section `2.1` wording drift, one extra
+LaTeX-only clause in the Section `4` architecture list, end-matter placement,
+and a stale verification-record path in the References note.
+
+Decision: `CONDITIONAL`. No manuscript, bibliography, source, citation, or
+claims-register change occurs in Phase 2.8. The editorial workstream remains
+open pending a separately authorized bounded correction patch. The
+bibliography workstream remains closed, `v0.6` is not complete, and controlled
+external review, publication, submission, and external circulation remain
+blocked.
 
 ## Phase 1.49 v0.5 closure-readiness-audit status
 

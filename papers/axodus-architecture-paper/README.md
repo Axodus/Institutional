@@ -7,6 +7,9 @@ open any external-use gate**
 Phase 2.7 status: the bibliography-expansion workstream is `PASS_CLOSED` after
 independent post-patch audit; `v0.6` remains open and all external-use gates
 remain blocked.
+Phase 2.8 status: the editorial consistency audit is `CONDITIONAL`; a bounded
+correction plan is open, the bibliography workstream remains closed, and no
+external-use gate is opened.
 
 Controlled external review, publication, submission, outreach, grant use,
 fundraising use, external distribution, and authority signaling remain
@@ -23,10 +26,12 @@ blocked.
 7. `v0.6-citation-fit-and-patch-plan.md`
 8. `v0.6-post-patch-bibliography-audit.md`
 9. `v0.6-bibliography-track-closure-record.md`
-10. `paper.md`
-11. `paper.tex`
-12. `references.bib`
-13. `author-decision-record-v0.5.md`
+10. `v0.6-editorial-consistency-audit.md`
+11. `v0.6-editorial-correction-plan.md`
+12. `paper.md`
+13. `paper.tex`
+14. `references.bib`
+15. `author-decision-record-v0.5.md`
 
 Use `history/` only when you need traceability. Use `.archive/` only when a
 current file points there or when the task is explicitly historical.
@@ -53,6 +58,10 @@ current file points there or when the task is explicitly historical.
   boundaries
 - `v0.6-bibliography-track-closure-record.md` — Phase 2.7 `PASS_CLOSED`
   decision for the bibliography-expansion workstream only
+- `v0.6-editorial-consistency-audit.md` — Phase 2.8 global front-matter,
+  structure, terminology, citation-parity, and synchronization audit
+- `v0.6-editorial-correction-plan.md` — bounded future correction plan for
+  the Phase 2.8 major and minor findings
 - `publication-readiness.md` — authoritative readiness status and blockers
 - `paper.md` — primary manuscript source
 - `paper.tex` — synchronized LaTeX manuscript source
