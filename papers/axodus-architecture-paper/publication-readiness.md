@@ -1,13 +1,14 @@
 # Publication Readiness — Axodus Architecture Paper
 
-Review date: 2026-07-08
+Review date: 2026-07-12
 Version reviewed: v0.5 closed internal baseline; v0.6 planning track
 Decision: **`v0.5` remains the closed internal baseline. Phase 2.0 opened
 `v0.6` as an academic/public-paper planning track, and Phase 2.1 adds a
 documentation-only roadmap and scope plan. Phase 2.2 adds a
-documentation-only bibliography candidate evaluation plan. Controlled
-external review, publication, submission, and external circulation remain
-blocked.**
+documentation-only bibliography candidate evaluation plan. Phase 2.3 adds a
+documentation-only bibliography metadata verification plan without completing
+verification or promoting any candidate. Controlled external review,
+publication, submission, and external circulation remain blocked.**
 
 ## Publication status
 
@@ -77,6 +78,30 @@ Phase 2.2 does not modify `paper.md`, `paper.tex`, or `references.bib`. It
 does not authorize controlled external review, publication, submission, or
 external circulation. It does not add citations, does not claim metadata
 verification, and does not promote any candidate citation for manuscript use.
+
+## Phase 2.3 v0.6 bibliography-metadata-verification-plan status
+
+Phase 2.3 defines the documentation-only plan for later authoritative
+bibliographic metadata and source-traceability verification for Ostrom,
+Baldwin & Clark, and Brennan.
+
+This phase creates:
+
+- `v0.6-bibliography-metadata-verification-plan.md`.
+
+This phase updates only:
+
+- `README.md`;
+- `publication-readiness.md`;
+- `v0.6-roadmap-and-scope-plan.md`; and
+- `v0.6-bibliography-candidate-evaluation-plan.md`.
+
+Phase 2.3 does not complete metadata verification, establish
+proposition-level fit, add citations, create BibTeX entries, or promote any
+candidate. It does not modify `paper.md`, `paper.tex`, or `references.bib`,
+and it does not authorize a manuscript or bibliography patch. Controlled
+external review, publication, submission, and external circulation remain
+blocked.
 
 ## Phase 1.49 v0.5 closure-readiness-audit status
 
