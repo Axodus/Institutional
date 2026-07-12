@@ -32,10 +32,12 @@ manuscript revision or external-readiness advancement. Phases 2.13 and 2.14
 record and implement the authorized scientific decisions. Phase 2.15 verifies
 the synchronized revision and records `SCIENTIFIC_REVIEW_PASS`, meaning only
 that a controlled human-review package may be prepared. Phase 2.16 prepares
-and verifies authoritative English and controlled pt-BR review copies and
-records `CONTROLLED_HUMAN_REVIEW_PACKAGE_CONDITIONAL` pending a human
-rights/licensing decision on the visible `CC BY 4.0` license and the proposed
-non-redistribution terms. Reviewer assignment,
+and verifies authoritative English and controlled pt-BR review copies. The
+author retains `CC BY 4.0`, limits mandatory confidentiality to the private
+review process, and treats pre-closure non-redistribution only as professional
+courtesy. After correction, rebuild, inspection, and rehashing, Phase 2.16
+records `CONTROLLED_HUMAN_REVIEW_PACKAGE_READY`. A responsible legal
+confirmation remains required before Phase 2.17 delivery. Reviewer assignment,
 outreach, delivery, Telegram transmission, publication, submission, public
 disclosure, and external circulation remain blocked pending separate Phase
 2.17 authorization.**
