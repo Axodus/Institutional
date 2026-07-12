@@ -1,0 +1,785 @@
+\documentclass[11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[margin=1in]{geometry}
+\usepackage{microtype}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{pdflscape}
+\usepackage[round,authoryear]{natbib}
+\usepackage[hidelinks]{hyperref}
+\renewcommand{\abstractname}{Resumo}
+\renewcommand{\refname}{Referências}
+
+\title{Axodus: Uma Arquitetura Conceitual em Estágio de Protótipo para Rastreabilidade e Responsabilização em Instituições Digitais Modulares Federadas}
+\author{Mauricio Z. Filho\\
+\small Pesquisador independente, Axodus\\
+\small Correspondência: mzfshark@gmail.com\\
+\small Discussão do projeto: Telegram @thinkincoin\\
+\small Perfil do autor: @mzfshark}
+\date{Rascunho v0.6}
+
+\begin{document}
+\hypersetup{
+  pdftitle={Artigo de Arquitetura Axodus v0.6 - Tradução Controlada pt-BR},
+  pdfauthor={Mauricio Z. Filho},
+  pdfsubject={Tradução controlada privada para revisão acadêmica; distribuição não autorizada},
+  pdfkeywords={arquitetura conceitual, revisão acadêmica controlada, tradução português-BR}
+}
+\maketitle
+
+\begin{center}
+\fbox{\parbox{0.88\linewidth}{\centering
+\textbf{Status:} Rascunho acadêmico interno v0.6 preparado como cópia privada para revisão humana controlada; a entrega a revisores não está autorizada, e a circulação externa e a publicação permanecem bloqueadas.\\
+\textbf{Tipo de documento:} Arquitetura conceitual em estágio de protótipo e artigo com agenda de pesquisa focalizada.\\
+\textbf{Licença:} CC BY 4.0.}}
+\end{center}
+
+\begin{center}
+\fbox{\parbox{0.92\linewidth}{\centering
+\textbf{CÓPIA DE REVISÃO CONTROLADA - TRADUÇÃO PORTUGUÊS-BR}\\
+Este documento é uma tradução controlada para o português brasileiro do
+manuscrito autoritativo em inglês, preparada para revisão acadêmica privada.
+Em caso de divergência interpretativa, prevalece a versão inglesa verificada.
+ID do pacote: \texttt{AXODUS-V0.6-CHR-PTBR-20260712}. Não autorizada para
+circulação pública, republicação, encaminhamento, publicação, submissão,
+apresentação a parceiros, captação de recursos, uso por investidores ou uso em
+treinamento. A entrega a revisores exige autorização nominal separada. A
+revisão controlada não implica endosso, validação, aceitação ou conclusão de
+revisão por pares.}}
+\end{center}
+
+\begin{abstract}
+Instituições digitais assistidas por humanos e IA tornam-se difíceis de
+governar quando restrições constitucionais, domínios delimitados de governança
+local, capacidades modulares e obrigações de revisão precisam ser coordenados
+no mesmo ambiente decisório. Literaturas adjacentes sobre sistemas
+sociotécnicos, governança descentralizada, proveniência, algoritmos
+responsabilizáveis, contestabilidade e interação humano--IA oferecem
+componentes com escopos distintos para examinar esse problema. Este artigo
+apresenta o Axodus como uma integração proposta desses componentes: uma
+arquitetura conceitual em estágio de protótipo para esse contexto. Sua
+contribuição central é um modelo de seis camadas orientado à governança que
+relaciona um centro constitucional, domínios delimitados de governança local,
+capacidades institucionais modulares, evidência e proveniência, assistência de
+IA delimitada e controles de risco ou contestabilidade. As seis camadas são
+apresentadas como uma decomposição conceitual defensável, não como estrutura
+necessária, mínima, unicamente correta ou universalmente suficiente.
+Rastreabilidade e reconstrutibilidade podem apoiar responsabilização
+(\emph{accountability}) e contestabilidade, mas não estabelecem nenhuma dessas
+propriedades de forma independente. O Axodus é descrito somente como um modelo
+conceitual em estágio de protótipo; o artigo não relata implantação, validação
+empírica, uso institucional observado ou prontidão operacional.
+\end{abstract}
+
+\noindent\textbf{Palavras-chave:} sistemas sociotécnicos; instituições
+digitais federadas; coordenação humano--IA; rastreabilidade;
+responsabilização; governança; contestabilidade
+
+\section{Introdução}
+
+Instituições digitais combinam cada vez mais autoridade distribuída,
+capacidades modulares, registros públicos e assistência automatizada. A
+governança torna-se mais difícil quando esses elementos precisam permanecer
+revisáveis entre um centro constitucional e domínios delimitados de governança
+local, em vez de permanecerem dentro de uma única cadeia de autoridade. Nesse
+contexto, o desafio institucional não é apenas saber se uma decisão pode ser
+documentada, mas se revisores posteriores conseguem reconstruir qual
+autoridade se aplicava, qual capacidade delimitada foi invocada, quais
+evidências foram consideradas, como a assistência de IA moldou o registro e
+como uma correção ou contestação poderia prosseguir. A pesquisa sobre sistemas
+sociotécnicos trata essas questões como simultaneamente organizacionais e
+técnicas, e não como redutíveis a um único domínio
+\citep{baxter2011sociotechnical}.
+
+Literaturas relevantes abordam partes desse problema com escopos distintos e
+parcialmente sobrepostos. A pesquisa sobre governança descentralizada mostra
+que regras autoexecutáveis não eliminam interpretação, emenda ou coordenação
+social \citep{hassan2021dao,hsieh2018bitcoin}. Diretrizes de interação
+humano--IA enfatizam revisão, correção e definição de expectativas, em vez de
+uma transferência indiferenciada de autoridade
+\citep{amershi2019guidelines}. Padrões de proveniência e credenciais ajudam a
+distinguir a linhagem da evidência e a verificação por máquina do julgamento
+institucional \citep{w3c2013provdm,w3c2025vcdm}. Este artigo não alega uma
+demonstração exaustiva de que não existem arquiteturas comparáveis. Ele
+desenvolve uma síntese integrativa delimitada para um problema institucional
+específico.
+
+Este artigo apresenta o Axodus como uma arquitetura conceitual em estágio de
+protótipo para instituições digitais assistidas por humanos e IA sob
+restrições delimitadas de governança. O projeto se origina de um esforço
+independente de pesquisa e design desenvolvido ao longo de vários anos; essa
+afirmação registra a proveniência contextual, e não evidência científica. A
+contribuição permanece conceitual: não relata uma plataforma em uso
+institucional real, um ambiente institucional em funcionamento, resultados de
+avaliação ou controles testados independentemente.
+
+A contribuição consiste em raciocínio de design no nível da arquitetura, e
+não em uma alegação de implementação. O artigo propõe um modelo em camadas
+para organizar um centro constitucional, domínios delimitados de governança
+local, capacidades institucionais modulares, pacotes de evidências,
+assistência de IA atribuível e caminhos de revisão em uma estrutura decisória
+inspecionável. A estrutura de seis camadas é uma decomposição conceitual
+defensável entre alternativas possíveis. A Prontidão de Participação permanece
+uma preocupação de apoio delimitada, enquanto as distinções entre
+documentação, desenvolvimento, produção e autoridade servem apenas como
+limite de escopo.
+
+Implementação, implantação, uso institucional e validação empírica estão fora
+do escopo do artigo. O manuscrito também exclui design de tokens, operações
+financeiras, mecânicas de distribuição educacional, garantias de segurança e
+conclusões jurídicas.
+
+\section{Fundamentação e Trabalhos Relacionados}
+
+\subsection{Sistemas sociotécnicos e instituições digitais federadas}
+
+Uma perspectiva sociotécnica pergunta como papéis, incentivos, práticas de
+trabalho, informação e componentes técnicos moldam resultados em conjunto.
+Baxter e Sommerville defendem a integração de preocupações organizacionais à
+engenharia de sistemas, em vez de tratá-las como um problema tardio de adoção
+\citep{baxter2011sociotechnical}. O Axodus adota essa perspectiva ao modelar
+governança, responsabilização e revisão como elementos arquiteturais, e não
+como políticas externas anexadas após a implementação.
+
+O termo \emph{instituição digital modular federada} é usado aqui para um
+sistema organizado no qual uma camada constitucional central define
+restrições compartilhadas, enquanto domínios delimitados de governança local
+podem configurar capacidades institucionais modulares. Esse uso é conceitual.
+Ele não implica uma federação implantada, status federal jurídico ou uma
+plataforma multi-inquilino em operação.
+
+\subsection{Governança descentralizada, acoplamento modular e revisão}
+
+Hassan e De Filippi descrevem uma DAO como um sistema baseado em blockchain no
+qual pessoas se coordenam por meio de governança descentralizada e regras
+autoexecutáveis \citep{hassan2021dao}. Hsieh et al.\ distinguem consenso de
+máquina do consenso social necessário para alterar protocolos e arranjos
+organizacionais \citep{hsieh2018bitcoin}. Essas distinções recomendam cautela
+contra equiparar distribuição técnica a governança responsabilizável.
+
+Mercados financeiros baseados em contratos inteligentes oferecem um exemplo
+específico de domínio no qual a composabilidade pode propagar dependências
+entre protocolos conectados \citep{schar2021defi}. A pesquisa de segurança
+baseada em teoria de sistemas oferece a afirmação mais ampla necessária aqui:
+falhas em sistemas sociotécnicos complexos podem surgir de interações,
+incompatibilidades de controle e acoplamentos mal governados, e não apenas de
+defeitos isolados em componentes \citep{leveson2012engineering}. Por isso, este
+artigo trata esse domínio somente como um exemplo motivador de propagação de
+dependências, não como seu centro institucional.
+
+\subsection{Supervisão humano--IA e apoio responsabilizável à decisão}
+
+Diretrizes de interação humano--IA enfatizam a comunicação das capacidades do
+sistema, o apoio à correção e o aprendizado a partir do comportamento ao longo
+do tempo \citep{amershi2019guidelines}. No nível organizacional, o NIST AI Risk
+Management Framework trata governança, mapeamento, medição e gestão como
+funções de risco conectadas \citep{tabassi2023airmf}. Essas fontes motivam uma
+arquitetura na qual saídas de IA permanecem como insumos atribuíveis e
+revisáveis para decisões humanas, e não como decisões soberanas em si mesmas.
+
+A IA Constitucional usa princípios escritos para orientar o comportamento do
+modelo por meio de aprendizado supervisionado e feedback de IA
+\citep{bai2022constitutional}. O Axodus usa \emph{constitucional} de modo
+diferente: o termo se refere a regras institucionais sobre autoridade,
+proibições, emendas, revisão e contestação. O modelo proposto não alega treinar
+ou alinhar um modelo de IA por meio da IA Constitucional.
+
+\subsection{Proveniência, credenciais e julgamento institucional}
+
+O Modelo de Dados PROV do W3C descreve proveniência por meio de entidades,
+atividades, agentes, derivações, atribuição e relações de responsabilidade
+\citep{w3c2013provdm}. Esse vocabulário é útil para distinguir artefatos de
+origem, transformações, assistência automatizada e papéis responsáveis em um
+registro decisório. Ele apoia a reconstrução de como uma saída foi produzida,
+mas não estabelece, por si só, que a decisão foi legítima, contestável ou
+responsabilizável.
+
+O Modelo de Dados de Credenciais Verificáveis do W3C separa a verificação
+criptográfica de uma credencial da validação de que suas afirmações são
+adequadas ao propósito de um verificador \citep{w3c2025vcdm}. Isso importa
+porque artefatos de elegibilidade verificáveis por máquina não estabeleceriam,
+por si só, avaliação justa, autorização legítima ou limites de participação
+responsabilizáveis.
+
+O trabalho sobre algoritmos responsabilizáveis também argumenta que processos
+decisórios automatizados precisam ser avaliáveis em relação a padrões
+jurídicos ou de política externos, e que transparência isolada é insuficiente
+\citep{kroll2017accountable}. A proveniência é, portanto, um insumo para a
+responsabilização, não seu substituto.
+
+\subsection{Contestabilidade e governança revisável}
+
+A literatura sobre contestabilidade por design identifica salvaguardas,
+revisão e intervenção humanas e escrutínio de terceiros como características
+de design para contestação e correção \citep{alfrink2023contestable}. Esse
+enquadramento é diretamente relevante para a governança modular federada,
+porque um registro rastreável permanece insuficiente se uma pessoa afetada por
+uma decisão não puder identificar a regra aplicável, contestar evidências ou
+alcançar um revisor adequadamente independente.
+
+\subsection{Síntese conceitual e derivação da arquitetura}
+
+A arquitetura é derivada por meio de uma síntese conceitual narrativa e não
+sistemática, e não por uma revisão sistemática, prova formal ou método de
+design empírico. A síntese trata as vertentes da literatura nas Seções
+2.1--2.5 como fundamentos conceituais, as cinco tensões na Seção 3 como
+problemas de design e os requisitos resultantes como razões para separar
+responsabilidades entre seis camadas. As fronteiras entre camadas são traçadas
+onde autoridade, interpretação local, capacidade delimitada, reconstrução de
+registros, análise consultiva e condições de contestação exigem
+responsabilidades diferentes ou poderes expressamente excluídos.
+
+Esse procedimento não estabelece que seis camadas sejam necessárias, mínimas,
+unicamente corretas ou universalmente suficientes. Ele apresenta uma
+decomposição conceitual defensável cujas fronteiras podem ser inspecionadas,
+comparadas com alternativas e revisadas ou rejeitadas. A matriz de derivação
+torna explícita a cadeia entre fundamentos e construtos de avaliação; ela não
+implica que a literatura citada valide o Axodus.
+
+\begin{landscape}
+\begin{center}
+\scriptsize
+\begin{tabularx}{\linewidth}{|X|X|X|X|X|X|}
+\hline
+\textbf{Fundamento} & \textbf{Tensão} & \textbf{Requisito} &
+\textbf{Camada(s)} & \textbf{Propriedade apoiada} &
+\textbf{Construto de avaliação} \\
+\hline
+Sistemas sociotécnicos e governança institucional & Restrições centrais versus
+autonomia local & Separar restrições de ordem superior da interpretação local
+delimitada & Governança constitucional; domínio delimitado de governança local
+& Condições inspecionáveis de autoridade e prestação de contas & Identificação
+de autoridade; detecção de conflitos e de escopo \\
+\hline
+Modularidade e acoplamento de sistemas & Capacidades modulares versus
+governabilidade & Declarar fronteiras de capacidade, dependências e restrições
+de design compartilhadas & Módulo funcional de serviço; governança
+constitucional & Coerência entre camadas e responsabilidade delimitada &
+Completude de dependências; detecção de transições sem suporte \\
+\hline
+Proveniência e apoio responsabilizável à decisão & Documentação versus
+realidade institucional & Atribuir evidências, transformações, papéis e
+disposições sem equiparar registros a legitimidade & Evidência e proveniência &
+Rastreabilidade, reconstrutibilidade e revisabilidade & Completude da
+reconstrução; visibilidade da proveniência; detecção de evidência ausente \\
+\hline
+Interação humano--IA e governança de risco de IA & Automação versus disposição
+responsabilizável & Manter as saídas de IA atribuíveis e consultivas, com
+disposição humana explícita & Assistência de IA; evidência e proveniência &
+Confiança delimitada e responsabilidade atribuível & Detecção de erros;
+comportamento de anulação; qualidade da justificativa \\
+\hline
+Contestabilidade por design & Disputas de autoridade ou evidência versus
+revisão efetiva & Preservar gatilhos de contestação, condições de independência
+e caminhos de revisão alcançáveis & Limite de risco e contestabilidade;
+governança constitucional & Condições de apoio à contestabilidade e à correção
+& Acessibilidade do caminho de contestação; discordância entre revisores;
+classificação da disposição \\
+\hline
+Fronteira de participação e prontidão & Participação versus prontidão
+delimitada & Tratar prontidão como insumo contestável e sujeito a adaptações,
+não como classificação ou autoridade universal & Domínio delimitado de
+governança local; limite de risco e contestabilidade & Condições revisáveis de
+participação & Análise de risco de exclusão; visibilidade de adaptações e
+contestação \\
+\hline
+\end{tabularx}
+\end{center}
+\end{landscape}
+
+\section{Enunciado do Problema}
+
+A arquitetura aborda um problema de design, e não um efeito empírico
+estabelecido:
+
+\begin{quote}
+Como uma instituição digital modular federada e constitucionalmente restrita
+pode apoiar rastreabilidade, reconstrutibilidade e as condições institucionais
+para responsabilização e contestabilidade quando domínios delimitados de
+governança local configuram capacidades institucionais modulares por meio de
+processos decisórios assistidos por humanos e IA?
+\end{quote}
+
+Cinco tensões estruturam o problema.
+
+\begin{enumerate}[leftmargin=*]
+\item \textbf{Restrições centrais versus autonomia local.} Uma camada
+constitucional pode preservar coerência, enquanto domínios delimitados de
+governança local ainda exigem discricionariedade significativa sobre decisões
+e configurações locais.
+\item \textbf{Capacidades modulares versus governabilidade.} A separação de
+serviços pode limitar o acoplamento direto, enquanto a seleção modular pode
+criar cadeias ocultas de dependência, autoridade ambígua e caminhos
+fragmentados de revisão.
+\item \textbf{Automação versus disposição responsabilizável.} A assistência
+de IA pode reduzir a carga analítica, mas a responsabilidade pode se tornar
+incerta quando suas saídas influenciam autorização, escalonamento ou revisão.
+\item \textbf{Participação versus prontidão delimitada.} A participação aberta
+pode apoiar legitimidade, enquanto ações de governança consequentes podem
+exigir preparação revisável, adaptações e contestação.
+\item \textbf{Documentação versus realidade institucional.} Uma especificação
+detalhada pode melhorar a inspeção e, ao mesmo tempo, criar uma impressão
+enganosa de completude de implementação ou autoridade legítima.
+\end{enumerate}
+
+O Axodus é proposto como uma decomposição conceitual defensável para tornar
+essas tensões inspecionáveis e revisáveis. Ele não é apresentado como solução
+completa, ótima, unicamente correta ou testada empiricamente.
+
+\section{Arquitetura Conceitual}
+
+O modelo compreende seis camadas lógicas selecionadas pela derivação da Seção
+2.6. Elas são superfícies conceituais de design para alocar autoridade,
+estruturar registros e preservar revisabilidade, não uma topologia de
+implementação. Sua separação expressa responsabilidades distintas e poderes
+excluídos; não afirma que toda instituição exija essa decomposição.
+
+A informação e o controle percorrem a arquitetura de modos diferentes. O
+controle começa com restrições constitucionais que definem quais decisões
+locais, seleções de capacidades e caminhos de escalonamento estão no escopo.
+Pacotes de evidências, registros de proveniência, análise consultiva,
+justificativa e registros de revisão tornam essas decisões reconstruíveis para
+revisão posterior. Limites de risco restringem transições de estado
+permitidas, enquanto caminhos de contestabilidade preservam condições de
+contestação, correção, escalonamento e revisão.
+
+\noindent\textbf{Cenário sintético ilustrativo - revisão de exceção de
+governança delimitada.} Um domínio simulado de governança local delimitada
+solicita uma exceção temporária que afeta uma capacidade institucional modular.
+A solicitação inclui a regra constitucional aplicável, a base de autoridade
+local, conflitos declarados e um pacote controlado de evidências. Uma revisão
+simulada por IA sinaliza um conflito, mas omite uma dependência entre a
+configuração solicitada e um requisito de revisão. O revisor humano designado
+retém a disposição, registra a omissão e escalona a questão porque um limite de
+risco foi acionado. Um papel de revisão independente pode então reconstruir
+qual restrição constitucional se aplicava, qual escolha local foi proposta, o
+que a revisão simulada por IA alterou e por que ocorreu o escalonamento. Esse
+cenário é uma ilustração analítica, não evidência de uma implementação ou de um
+processo institucional do Axodus.
+
+\begin{enumerate}[leftmargin=*]
+\item a governança constitucional define papéis, direitos de decisão,
+proibições, regras de emenda e condições de contestação aplicáveis;
+\item domínios delimitados de governança local interpretam esse escopo para um
+contexto decisório local e podem propor uma configuração ou exceção dentro dos
+limites constitucionais;
+\item capacidades institucionais modulares expressam o que está sendo
+selecionado, revisado ou alterado;
+\item a camada de evidência e proveniência conecta materiais de origem,
+declarações de autoridade, conflitos, transformações e papéis responsáveis;
+\item a assistência humano--IA pode analisar esse material, mas somente como
+insumo consultivo atribuível à disposição humana; e
+\item controles de limite de risco e contestabilidade mantêm disponíveis
+condições de contestação, correção, escalonamento e revisão.
+\end{enumerate}
+
+A tabela de interfaces entre camadas especifica responsabilidades e
+transferências conceituais. Seus insumos e saídas são categorias de registros,
+não APIs, componentes de software ou alegações sobre infraestrutura
+implementada.
+
+\begin{landscape}
+\begin{center}
+\scriptsize
+\begin{tabularx}{\linewidth}{|X|X|X|X|X|X|X|}
+\hline
+\textbf{Camada} & \textbf{Responsabilidade} & \textbf{Insumo} & \textbf{Saída} &
+\textbf{Dependência} & \textbf{Fronteira} & \textbf{Autoridade excluída} \\
+\hline
+Governança constitucional & Definir papéis, restrições, emendas,
+escalonamento e condições de contestação de ordem superior & Regras
+institucionais e base de emenda & Registro da restrição e da autoridade
+aplicáveis & Restringe domínios locais, módulos e condições de revisão &
+Restrições não delegáveis não podem ser ampliadas localmente; as regras
+permanecem inspecionáveis & Nenhuma alegação de força jurídica, implantação,
+infalibilidade ou execução automática \\
+\hline
+Domínio delimitado de governança local & Interpretar o escopo permitido para
+um contexto decisório local & Restrições constitucionais e proposta local &
+Decisão, configuração ou solicitação de escalonamento delimitada & Depende do
+escopo constitucional e das declarações do módulo & Não pode sobrepor
+restrições não delegáveis & Nenhuma autoridade soberana, ilimitada ou de
+produção \\
+\hline
+Módulo funcional de serviço & Expressar uma capacidade institucional delimitada
+e suas dependências & Escopo autorizado, tarefa, requisitos de evidência e
+declarações de dependência & Proposta, resultado ou registro de falha específico
+da capacidade & Restringido pela governança; inspecionado pelas camadas de
+evidência e risco & Deve expor propósito, dependências, necessidades de
+evidência, escalonamento e condições de falha & Não detém autoridade
+constitucional, proveniência, disposição de IA ou contestabilidade \\
+\hline
+Evidência e proveniência & Atribuir fontes, transformações, agentes,
+assistência e disposições & Artefatos de origem, declarações de autoridade,
+análises, conflitos e decisões & Registro conectado de decisão e evidência &
+Recebe registros de todas as camadas decisórias e apoia revisão posterior & A
+conexão de registros não estabelece verdade, integridade, legitimidade ou
+responsabilização & Nenhuma validação automática, julgamento ou garantia de
+integridade \\
+\hline
+Assistência de IA & Fornecer análise consultiva delimitada e atribuível &
+Tarefa declarada, material de origem e restrições & Saída de IA com
+proveniência e disposição humana & Depende de insumos de evidência e revisão
+humana; sujeita a limites de risco & Autoridade e responsabilidade humanas
+permanecem explícitas & Nenhuma decisão soberana, execução ou julgamento
+vinculante \\
+\hline
+Limite de risco e contestabilidade & Tornar visíveis gatilhos de revisão,
+condições de contestação, necessidades de independência e disposições possíveis
+& Ação proposta, limite aplicável, evidência contestada e conflitos & Registro
+de revisão, recusa, escalonamento, correção, reversão ou ausência de mudança &
+Depende do escopo constitucional e de evidência reconstruível & Um caminho de
+contestação deve ser identificável e separável da disposição original &
+Nenhuma alegação de procedimento permanente, reparação efetiva ou
+responsabilização garantida \\
+\hline
+\end{tabularx}
+\end{center}
+\end{landscape}
+
+\subsection{Camada de governança constitucional}
+
+A camada de governança constitucional é uma superfície conceitual de
+restrições que define regras de ordem superior: papéis, direitos de decisão,
+proibições, procedimentos de emenda, caminhos de escalonamento e condições de
+contestação. Seu propósito é tornar visíveis as restrições institucionais não
+delegáveis antes do início da configuração local e enquadrar como uma revisão
+posterior pode distinguir uma ação permitida de outra fora do escopo.
+
+Nesta proposta, a camada estrutura fronteiras de apoio à responsabilização, em
+vez de servir como constituição implantada, instrumento jurídico, autoridade
+ativa ou órgão de execução. Uma ação revisável depende, portanto, tanto de
+justificação institucional quanto de qualquer autorização técnica que uma
+implementação futura possa usar; nenhuma delas, isoladamente, estabeleceria
+legitimidade.
+
+Como as próprias restrições constitucionais podem ser incompletas, ambíguas ou
+excessivamente amplas, elas precisam permanecer como objetos de design
+inspecionáveis, com condições delimitadas de revisão, emenda e contestação. O
+modelo não trata a camada constitucional como infalível ou além de
+contestação.
+
+\subsection{Camada de domínio delimitado de governança local}
+
+Como referência conceitual, e não como equivalência de implementação, a
+governança policêntrica descreve múltiplos centros decisórios que podem ser
+formalmente distintos, porém interdependentes, e operar entre camadas de
+governança aninhadas \citep{ostrom2010beyond}.
+A camada de domínio delimitado de governança local representa um contexto
+decisório de escopo local que opera sob restrições constitucionais. Um domínio
+delimitado de governança local pode configurar processos locais, selecionar
+módulos funcionais de serviço e alocar tarefas decisórias apenas dentro do
+escopo permitido pela camada constitucional. A documentação institucional do
+Axodus pode usar o termo Tenant para esses domínios; este artigo usa a
+expressão de domínio de governança para evitar implicar tenancy SaaS
+implantada, entidades-clientes ativas, comunidades operantes ou infraestrutura
+de produção.
+
+Um domínio delimitado de governança local não pode ampliar ou sobrepor
+restrições constitucionais não delegáveis. Quando a interpretação local de uma
+ação proposta entra em conflito com uma fronteira constitucional, a
+arquitetura trata essa ambiguidade como condição de revisão que exige
+documentação e, quando necessário, escalonamento antes da disposição final.
+
+\subsection{Camada de módulo funcional de serviço}
+
+Como referência conceitual, e não como validação desta taxonomia, a literatura
+sobre modularidade descreve sistemas complexos construídos a partir de
+subsistemas menores que podem ser projetados separadamente e funcionar em
+conjunto sob regras de design compartilhadas \citep{baldwin2000design}.
+Módulos funcionais de serviço são capacidades institucionais abstratas e
+delimitadas pelas quais funções selecionadas podem ser configuradas, limitadas
+e governadas. O artigo não apresenta um catálogo de produtos. Em vez disso,
+trata um módulo funcional de serviço como unidade conceitual que deve declarar
+propósito, insumos, saídas, escopo autorizado e dependências decisórias,
+requisitos de evidência, dependências, condições de escalonamento e
+comportamento de falha.
+
+Um módulo funcional de serviço é, portanto, uma superfície delimitada de
+capacidade, não o detentor de autoridade constitucional, proveniência de
+evidência, assistência de IA ou contestabilidade. Essas responsabilidades
+permanecem em camadas transversais separadas que restringem, inspecionam e
+reconstroem decisões específicas de módulos.
+
+A documentação institucional do Axodus pode usar o termo núcleos de serviço em
+contextos institucionais mais amplos; este artigo usa módulos funcionais de
+serviço como abstração voltada à arquitetura para evitar implicar catálogo de
+produtos, inventário de implementação ou decomposição de sistema implantado.
+
+Uma taxonomia funcional mínima pode incluir registros de autoridade e papéis,
+registros de evidência, registros de justificativa decisória, registros de
+conflitos e divulgações, caminhos de revisão e contestação, controladores de
+limites de risco e apoio à prontidão de participação como tipos de componentes
+associados a capacidades governadas por módulos. São tipos de componentes, não
+alegações sobre um inventário definitivo de módulos do Axodus ou seu estado de
+implementação.
+
+\subsection{Camada de evidência e proveniência}
+
+A camada de evidência e proveniência conecta propostas, materiais de apoio,
+declarações de autoridade, conflitos declarados, análises geradas por IA,
+decisões e revisões subsequentes. Seu objetivo de design é a
+reconstrutibilidade: um revisor deve poder perguntar o que era conhecido, quem
+estava autorizado, qual configuração foi proposta, qual assistência foi usada
+e por que um resultado se seguiu.
+
+No nível conceitual, documentos de origem e saídas podem ser tratados como
+entidades, etapas de análise e revisão como atividades, e participantes
+humanos ou automatizados como agentes. Relações de derivação e atribuição
+podem então conectar uma saída a seus insumos e papéis responsáveis
+\citep{w3c2013provdm}. Esses conceitos especificam o que um registro revisável
+deve expressar para que um revisor posterior possa reconstruir o caminho do
+material de origem até a disposição. Eles não provam, por si só, que um
+registro seja verdadeiro, completo, resistente a adulteração ou
+responsabilizável no sentido normativo mais forte.
+
+Assim, a camada apoia inspeção posterior, e não validação automática. Ela não
+prescreve sistema de armazenamento, prova criptográfica, infraestrutura de
+evidência implementada ou garantia de integridade, e não transforma a conexão
+entre registros em julgamento completo sobre se a decisão foi
+substantivamente justificada.
+
+\subsection{Camada de assistência de IA}
+
+A assistência de IA permanece consultiva. Ela pode apoiar tarefas delimitadas,
+como comparação de documentos, resumo de propostas, detecção de
+inconsistências, apoio à análise constitucional, verificação adversarial e
+apoio à revisão orientada ao planejamento. Cada uso deve declarar tarefa,
+material de origem, saída, incerteza quando disponível, revisor humano e
+disposição, para que revisores posteriores possam inspecionar como a análise
+consultiva entrou no registro. Humanos retêm autoridade decisória e
+responsabilidade.
+
+Esta camada é intencionalmente abstrata quanto a papéis. O artigo não usa
+rótulos de agentes nomeados, não alega autoridade autônoma de execução e não
+afirma que a assistência de IA execute governança, emita julgamentos
+vinculantes ou substitua a revisão institucional humana.
+
+\subsection{Camada de limite de risco e contestabilidade}
+
+A camada de limite de risco e contestabilidade é uma superfície conceitual
+para tornar visível quando revisão adicional, recusa, documentação ou um
+caminho de contestação podem ser necessários. Nesse modelo, uma fronteira deve
+identificar o papel relevante, o gatilho de revisão, a evidência exigida para
+inspeção e a condição sob a qual uma ação proposta excede seu escopo permitido.
+Contestabilidade diz respeito, portanto, a uma decisão poder ser reconstruída,
+questionada e reexaminada em princípio, não a a arquitetura já operar um
+mecanismo permanente de contestação.
+
+Um registro minimamente contestável deve identificar a decisão ou o registro
+contestado, a regra ou fronteira aplicável, a evidência ou justificativa em
+disputa, a condição de independência esperada para o reexame e a categoria de
+disposição possível, como correção, condição de escalonamento, recusa,
+reversão ou ausência de mudança. Esses são campos conceituais para
+reconstrutibilidade e contestabilidade, não um procedimento permanente.
+
+Nesse enquadramento, a independência do revisor é uma preocupação de design,
+e não uma alegação sobre um órgão permanente ou papel nomeado. A arquitetura
+deve permitir distinguir o contexto da decisão original das condições
+posteriores de contestação ou reexame, incluindo conflitos divulgados e
+situações nas quais o mesmo ator não deve ser o único julgador de um registro
+contestado. A supervisão humana torna-se nominal quando o revisor carece de
+tempo, contexto de autoridade, acesso à evidência ou capacidade prática de
+alterar um resultado \citep{tabassi2023airmf,amershi2019guidelines}. A
+literatura sobre contestabilidade por design é relevante porque trata
+visibilidade da revisão, intervenção e escrutínio externo como requisitos de
+design para sistemas contestáveis, e não como garantias de prevenção de
+resultados prejudiciais \citep{alfrink2023contestable}.
+
+\subsection{Fronteira de apoio à Prontidão de Participação}
+
+A Prontidão de Participação é mantida apenas como preocupação de apoio
+delimitada para preparação, adaptação, revisão e contestação em contextos
+consequentes selecionados. Não é contribuição coequivalente, sistema geral de
+classificação social nem filtro universal de competência. Qualquer artefato de
+prontidão seria um insumo contestável e revisável, não fonte independente de
+legitimidade, justiça ou autoridade. Os critérios precisariam permanecer
+proporcionais, sujeitos a adaptações e abertos à contestação; exclusão,
+vigilância, captura interpretativa, manipulação de testes e risco de
+privacidade continuam sendo razões para restringir, redesenhar ou rejeitar o
+mecanismo. Sua validade é pesquisa futura, e não uma alegação avaliada neste
+artigo.
+
+\section{Status de Protótipo}
+
+O Axodus é apresentado neste artigo como um modelo conceitual em estágio de
+protótipo. O repositório público atualmente sustenta artefatos editoriais,
+registros de governança e documentação de pesquisa. Ele não fornece evidência
+de implementação integrada, plataforma federada em funcionamento, operação em
+produção, adoção por usuários, desempenho empírico ou controles efetivos.
+
+A ausência dessas alegações é substantiva. A consistência arquitetural pode
+ser revisada antes da implementação, mas não substitui comportamento observado.
+Versões futuras devem manter uma tabela de evidências por componente que
+distinga estados projetados, prototipados, testados, implantados e avaliados
+independentemente.
+
+Maturidade documental, maturidade de desenvolvimento, prontidão para produção
+e autoridade institucional são determinações separadas. Essa distinção serve
+apenas para evitar erro de categoria: documentação não estabelece
+implementação, implementação não estabelece autorização de produção e
+maturidade não estabelece autoridade legítima ou capacidade operacional. O
+artigo não mantém Nível-L ou Nível-D como construtos científicos independentes,
+não atribui níveis a componentes e não apresenta uma taxonomia de maturidade
+como instrumento validado.
+
+A redução de escopo permanece um requisito de design. Protótipos iniciais
+devem se concentrar em decisões para as quais reconstrução e contestação sejam
+materialmente importantes, usar um registro delimitado de decisão e evidência,
+separar saídas consultivas de IA de disposições humanas e remover elementos
+que não melhorem a inspecionabilidade.
+
+\section{Plano de Avaliação}
+
+O programa de avaliação é organizado em torno da arquitetura integrada,
+permanecendo controlado, conceitual, sintético e baseado em artefatos. Ele
+avalia se a decomposição proposta torna autoridade, dependências, registros,
+assistência consultiva e condições de contestação mais inspecionáveis. Não
+avalia uma instituição em operação nem estabelece legitimidade, justiça,
+responsabilização, efetividade da contestabilidade ou reparação.
+
+O estágio inicial do estudo usaria cenários sintéticos de governança local
+delimitada, pacotes controlados de evidências, registros simulados de
+assistência de IA, erros inseridos e uma interface de revisão de alta
+fidelidade em \emph{mock-up} ou \emph{wizard-of-oz}, em vez de um contexto
+institucional ativo. Um protocolo pré-registrado definiria tarefas dos
+revisores e critérios do estudo. Esses são desenhos propostos, não resultados
+relatados.
+
+\paragraph{RQ1: Rastreabilidade e reconstrução.} A estrutura em camadas de
+decisão e evidência proposta ajuda revisores independentes a reconstruir
+decisões de governança local delimitada que envolvem módulos funcionais de
+serviço com maior precisão e eficiência do que uma linha de base apenas
+documental? Critérios ilustrativos incluem precisão e completude da
+reconstrução, visibilidade da proveniência, detecção de conflitos de
+autoridade, detecção de evidência ausente, tempo para reconstruir a
+justificativa e discordância entre revisores.
+
+\paragraph{RQ2: Coerência entre camadas e condições de revisão.} Revisores
+independentes conseguem usar a representação de seis camadas para identificar
+autoridade ausente ou conflitante, dependências não declaradas, transições
+entre camadas sem suporte e se foram especificados um caminho de contestação
+acessível e uma condição de independência de revisão? Critérios ilustrativos
+incluem consistência entre camadas, completude das dependências, detecção de
+transições sem suporte, acessibilidade do caminho de contestação e
+classificação correta das categorias possíveis de disposição. Essas medidas
+testam inspecionabilidade e condições de apoio à responsabilização ou à
+contestabilidade; não demonstram prestação de contas institucional,
+contestação efetiva, correção, reversão ou reparação.
+
+\paragraph{RQ3: Confiança humano--IA na revisão consultiva.} Para tarefas
+delimitadas de análise de propostas, como a proveniência e a disposição humana
+obrigatória afetam detecção de erros, confiança calibrada, comportamento de
+anulação, qualidade da justificativa e qualidade da revisão? Registros
+simulados de IA incluiriam erros inseridos, casos ambíguos e recomendações
+contestadas. Critérios ilustrativos incluem detecção de erros inseridos e de
+saídas sem suporte, comportamento de anulação ou aceitação por condição,
+qualidade da justificativa, discordância entre revisores e correção após a
+exibição de informações de proveniência.
+
+Para este artigo, uma linha de base apenas documental usa políticas e registros
+estáticos sem a arquitetura de revisão em camadas proposta, estrutura explícita
+de proveniência ou enquadramento delimitado do caminho de contestação.
+Resultados negativos importam tanto quanto resultados positivos: a
+representação pode não melhorar a reconstrução, pode aumentar a carga de
+trabalho sem melhorar a detecção de erros, pode deixar inconsistências entre
+camadas sem detecção, pode produzir discordância sobre condições de
+contestação ou pode não melhorar a confiança calibrada.
+
+\paragraph{Avaliação futura em estágios.} A avaliação deve avançar da inspeção
+controlada de artefatos para estudos delimitados com revisores usando cenários
+sintéticos e, depois, para avaliação controlada de protótipo sob protocolo
+aprovado separadamente. Qualquer estudo posterior situado institucionalmente
+exigiria gates adicionais de governança, ética, direito, privacidade e
+evidência. A validade da Prontidão de Participação e a responsabilização
+institucional mais ampla permanecem tópicos posteriores de pesquisa.
+
+\section{Limitações e Ameaças à Validade}
+
+Este artigo é conceitual e ainda mais amplo do que seria ideal para um artigo
+externo maduro. A arquitetura pode parecer coerente porque ainda não encontrou
+restrições de implementação, conflito institucional, pressão de carga de
+trabalho ou condições de campo que testariam se seus caminhos propostos de
+revisão são viáveis entre decisões constitucionais e decisões em domínios
+delimitados de governança local.
+
+A base pública de evidências para o Axodus está atualmente limitada à
+documentação de design. Não há resultados para avaliar viabilidade,
+usabilidade, legitimidade da governança, confiança calibrada, caminhos
+contestáveis ou impacto social. O artigo não relata validação de campo,
+validação situada institucionalmente, uso em produção, alegações de design ou
+distribuição de tokens, alegações sobre operação financeira, garantias de
+segurança ou conclusão jurídica ou regulatória.
+
+A supervisão humana pode se tornar nominal quando revisores carecem de tempo,
+autoridade, acesso à evidência ou poder prático para alterar o resultado. A
+assistência de IA pode ser não confiável, difícil de calibrar ou difícil de
+auditar sob carga de trabalho e pressão de tempo realistas. Contestabilidade
+fraca ou caminhos de contestação mal projetados podem tornar a rastreabilidade
+visível sem produzir prestação de contas, capacidade corretiva, reparação
+efetiva ou responsabilização institucional significativa.
+
+Mecanismos de Prontidão de Participação apresentam riscos particulares de
+exclusão, vigilância, captura curricular e falsa confiança. A separação
+modular também pode ocultar acoplamento sistêmico, enquanto restrições
+constitucionais podem ser excessivamente rígidas ou ambíguas para governança
+local efetiva. A arquitetura proposta pode ser complexa demais para ser
+governada na prática sem redução substancial de escopo.
+
+O cenário sintético é explicativo, e não empírico. O vocabulário de
+proveniência não estabelece integridade de registros ou responsabilização, e
+as medidas propostas avaliam reconstrutibilidade, inspecionabilidade entre
+camadas, condições de revisão e confiança delimitada, em vez de legitimidade,
+justiça, contestabilidade efetiva, reparação ou responsabilização
+institucional plena. Decomposições alternativas podem se mostrar mais claras
+ou úteis do que o modelo de seis camadas. A avaliação situada
+institucionalmente também pode expor conflitos, incentivos e efeitos de carga
+de trabalho que um artefato controlado não consegue reproduzir.
+
+O artigo não fornece aconselhamento financeiro, de segurança, de investimento
+ou jurídico. Sua terminologia pode não se mapear de forma uniforme em todas as
+jurisdições ou comunidades de pesquisa.
+
+\section{Agenda de Pesquisa}
+
+O trabalho de curto prazo deve priorizar os artefatos de derivação e interface,
+cenários sintéticos que envolvam domínios delimitados de governança local e
+tarefas de revisão adequadas a estudos de reconstrução, coerência entre
+camadas, condições de contestação e confiança delimitada. O aprofundamento
+posterior da literatura sobre qualidade da governança, independência do
+revisor, caminhos empíricos de contestação institucional e validade da
+Prontidão de Participação permanece requisito futuro antes que qualquer
+revisão externa mais ampla seja considerada.
+
+\section{Conclusão}
+
+O Axodus é proposto como uma arquitetura conceitual em estágio de protótipo
+para examinar como a governança assistida por humanos e IA pode se tornar mais
+rastreável, reconstruível, revisável e favorável à responsabilização e à
+contestabilidade em instituições digitais modulares federadas. Sua
+contribuição não é um catálogo de produtos, uma alegação de estado de
+implementação ou a afirmação de uma decomposição unicamente correta, mas um
+arranjo inspecionável de seis camadas que conecta restrições constitucionais,
+domínios delimitados de governança local, módulos funcionais de serviço,
+evidência e proveniência, assistência consultiva de IA e caminhos de revisão.
+
+O próximo passo de pesquisa é instanciar a representação conceitual em um
+ambiente experimental controlado e testar se revisores independentes conseguem
+reconstruir decisões, identificar inconsistências entre camadas, inspecionar
+condições de contestação e avaliar a confiança delimitada em IA. Esses
+resultados testariam as condições de apoio propostas pela arquitetura; não
+estabeleceriam, de forma independente, legitimidade, reparação efetiva ou
+responsabilização institucional.
+
+\renewcommand{\bibpreamble}{%
+\noindent As referências são mantidas em \texttt{references.bib}. Registros de
+verificação de todas as entradas citadas são mantidos nos controles
+bibliográficos do repositório; a rechecagem final dos metadados é necessária
+antes de qualquer submissão, divulgação pública ou circulação externa.\par\medskip}
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\end{document}

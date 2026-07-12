@@ -28,13 +28,26 @@ authorization boundaries with `PREPARATION_INCOMPLETE`; it authorizes no
 external action. Phase 2.12 registers second-round scientific reviews and
 sets the consolidated scientific status to `SCIENTIFIC_REVIEW_CONDITIONAL`,
 with required author decisions and a bounded revision plan before any
-manuscript revision or external-readiness advancement. Controlled external
-review, publication, submission, and external circulation remain blocked.**
+manuscript revision or external-readiness advancement. Phases 2.13 and 2.14
+record and implement the authorized scientific decisions. Phase 2.15 verifies
+the synchronized revision and records `SCIENTIFIC_REVIEW_PASS`, meaning only
+that a controlled human-review package may be prepared. Phase 2.16 prepares
+and verifies authoritative English and controlled pt-BR review copies and
+records `CONTROLLED_HUMAN_REVIEW_PACKAGE_CONDITIONAL` pending a human
+rights/licensing decision on the visible `CC BY 4.0` license and the proposed
+non-redistribution terms. Reviewer assignment,
+outreach, delivery, Telegram transmission, publication, submission, public
+disclosure, and external circulation remain blocked pending separate Phase
+2.17 authorization.**
 
 ## Publication status
 
-Ready for internal human review: yes  
-Ready for controlled external review: no  
+Ready for internal human review: yes
+
+Controlled human-review package prepared: yes
+
+Reviewer delivery or controlled external review authorized: no
+
 Ready for public publication: no
 
 Current working version location for the closed `v0.5` internal baseline and
