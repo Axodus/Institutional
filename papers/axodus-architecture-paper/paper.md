@@ -17,21 +17,21 @@ document_type: "Prototype-stage conceptual architecture and focused research-age
 Human-AI-assisted digital institutions become difficult to govern when
 constitutional constraints, bounded local governance domains, modular
 capabilities, and review obligations must be coordinated within the same
-decision environment. Existing literatures on socio-technical systems,
+decision environment. Adjacent literatures on socio-technical systems,
 decentralized governance, provenance, accountable algorithms, contestability,
-and human-AI interaction clarify parts of this problem, but they do not by
-themselves provide a compact conceptual architecture for traceability,
-accountability, contestability, and reconstructability across
-constitutionally constrained modular institutions. This paper presents Axodus
-as a prototype-stage conceptual architecture for that setting. Its central
-contribution is a six-layer governance-oriented model relating a
+and human-AI interaction provide differently scoped components for examining
+this problem. This paper presents Axodus as one proposed integration of those
+components: a prototype-stage conceptual architecture for that setting. Its
+central contribution is a six-layer governance-oriented model relating a
 constitutional center, bounded local governance domains, modular
 institutional capabilities, evidence and provenance, bounded AI assistance,
-and risk or contestability controls. Participation readiness and internal
-maturity distinctions are treated as supporting mechanisms rather than
-co-equal contributions. Axodus is described only as a conceptual,
-prototype-stage model; the paper reports no deployment, empirical validation,
-observed institutional use, or operational readiness.
+and risk or contestability controls. The six layers are presented as one
+defensible conceptual decomposition, not as a necessary, minimal, uniquely
+correct, or universally sufficient structure. Traceability and
+reconstructability may support accountability and contestability, but do not
+establish either property independently. Axodus is described only as a
+conceptual, prototype-stage model; the paper reports no deployment, empirical
+validation, observed institutional use, or operational readiness.
 
 **Keywords:** socio-technical systems; federated digital institutions;
 human-AI coordination; traceability; accountability; governance;
@@ -51,35 +51,35 @@ correction or challenge could proceed. Socio-technical systems
 research treats those questions as jointly organizational and technical rather
 than reducible to one domain alone [@baxter2011sociotechnical].
 
-Relevant literatures address parts of this problem without yet yielding a
-single architecture for accountable governance across constitutionally
-constrained modular ecosystems. Research on decentralized governance shows
+Relevant literatures address differently scoped and partially overlapping
+parts of this problem. Research on decentralized governance shows
 that self-executing rules do not remove interpretation, amendment, or social
 coordination [@hassan2021dao; @hsieh2018bitcoin]. Human-AI interaction
 guidance emphasizes review, correction, and expectation setting rather than an
 undifferentiated transfer of authority [@amershi2019guidelines]. Provenance
 and credentialing standards help distinguish evidence lineage and machine
-verification from institutional judgment [@w3c2013provdm; @w3c2025vcdm]. Yet
-those literatures do not by themselves provide a compact architecture for
-traceability, accountability, contestability, and reconstructability in
-constitutionally constrained, modular, human-AI-assisted institutions.
+verification from institutional judgment [@w3c2013provdm; @w3c2025vcdm]. This
+paper does not claim an exhaustive demonstration that no comparable
+architecture exists. It develops a bounded integrative synthesis for a
+specific institutional problem.
 
-This paper addresses that gap by introducing Axodus as a prototype-stage
-conceptual architecture for human-AI-assisted digital institutions under
-bounded governance constraints. The project originates from a multi-year
-independent research and design effort. The present contribution remains
-conceptual: it does not report a platform in real institutional use, a
-functioning institutional environment, evaluation results, or independently
-tested controls.
+This paper introduces Axodus as a prototype-stage conceptual architecture for
+human-AI-assisted digital institutions under bounded governance constraints.
+The project originates from a multi-year independent research and design
+effort; that statement records background provenance rather than scientific
+evidence. The present contribution remains conceptual: it does not report a
+platform in real institutional use, a functioning institutional environment,
+evaluation results, or independently tested controls.
 
 The contribution is architecture-level design reasoning rather than an
 implementation claim. The paper proposes a layered model for how a
 constitutional center, bounded local governance domains, modular
 institutional capabilities, evidence packages, attributable AI assistance,
-and review paths may be arranged into one inspectable decision structure.
-Participation readiness, internal maturity distinctions, and risk boundaries
-remain supporting components that frame how this structure might later be
-evaluated, narrowed, or rejected.
+and review paths may be arranged into one inspectable decision structure. The
+six-layer structure is one defensible conceptual decomposition among possible
+alternatives. Participation readiness remains a bounded supporting concern,
+while distinctions among documentation, development, production, and
+authority serve only as a scope boundary.
 
 Implementation, deployment, institutional use, and empirical validation are
 outside the paper's scope. The manuscript also excludes token design,
@@ -168,15 +168,43 @@ federated modular governance because a traceable record remains insufficient
 if a person affected by a decision cannot identify the applicable rule,
 challenge evidence, or reach an appropriately independent reviewer.
 
+## 2.6 Conceptual synthesis and architecture derivation
+
+The architecture is derived through a narrative, non-systematic conceptual
+synthesis rather than a systematic review, formal proof, or empirical design
+method. The synthesis treats the literature strands in Sections 2.1--2.5 as
+conceptual foundations, the five tensions in Section 3 as design problems, and
+the resulting requirements as reasons for separating responsibilities across
+six layers. Layer boundaries are drawn where authority, local interpretation,
+bounded capability, record reconstruction, advisory analysis, and challenge
+conditions require different responsibilities or expressly excluded powers.
+
+This procedure does not establish that six layers are necessary, minimal,
+uniquely correct, or universally sufficient. It presents one defensible
+conceptual decomposition whose boundaries can be inspected, compared with
+alternatives, and revised or rejected. The derivation matrix makes the chain
+from foundations to evaluation constructs explicit; it does not imply that
+the cited literature validates Axodus.
+
+| Literature or conceptual foundation | Identified tension | Derived design requirement | Architectural layer or layers | Institutional property supported | Related evaluation construct |
+| --- | --- | --- | --- | --- | --- |
+| Socio-technical systems and institutional governance | Central constraints versus local autonomy | Separate higher-order constraints from bounded local interpretation | Constitutional governance; bounded local governance domain | Inspectable authority and answerability conditions | Authority identification; conflict and scope detection |
+| Modularity and systems coupling | Modular capabilities versus governability | Declare capability boundaries, dependencies, and shared design constraints | Functional service module; constitutional governance | Cross-layer coherence and bounded responsibility | Dependency completeness; unsupported-transition detection |
+| Provenance and accountable decision support | Documentation versus institutional reality | Attribute evidence, transformations, roles, and dispositions without equating records with legitimacy | Evidence and provenance | Traceability, reconstructability, and reviewability | Reconstruction completeness; provenance visibility; missing-evidence detection |
+| Human-AI interaction and AI risk governance | Automation versus accountable disposition | Keep AI outputs attributable and advisory, with explicit human disposition | AI assistance; evidence and provenance | Bounded reliance and attributable responsibility | Error detection; override behavior; rationale quality |
+| Contestability-by-design | Authority or evidence disputes versus effective review | Preserve challenge triggers, independence conditions, and reachable review paths | Risk boundary and contestability; constitutional governance | Contestability-supporting and corrective conditions | Challenge-path accessibility; reviewer disagreement; disposition classification |
+| Participation and readiness boundary | Participation versus bounded readiness | Treat readiness as a contestable, accommodated input rather than universal rank or authority | Bounded local governance domain; risk boundary and contestability | Reviewable participation conditions | Exclusion-risk analysis; accommodation and challenge visibility |
+
 # 3. Problem Statement
 
 The architecture addresses a design problem rather than an established
 empirical effect:
 
 > How can a constitutionally constrained federated modular digital institution
-> preserve traceability, accountability, contestability, and
-> reconstructability when bounded local governance domains configure modular
-> institutional capabilities through human-AI-assisted decision processes?
+> support traceability, reconstructability, and the institutional conditions
+> for accountability and contestability when bounded local governance domains
+> configure modular institutional capabilities through human-AI-assisted
+> decision processes?
 
 Five tensions structure the problem.
 
@@ -196,15 +224,17 @@ Five tensions structure the problem.
    can improve inspection while also creating a misleading impression of
    implementation completeness or legitimate authority.
 
-Axodus is proposed as one architecture for making these tensions inspectable
-and reviewable. It is not presented as a complete or empirically tested
-solution.
+Axodus is proposed as one defensible conceptual decomposition for making these
+tensions inspectable and reviewable. It is not presented as a complete,
+optimal, uniquely correct, or empirically tested solution.
 
 # 4. Conceptual Architecture
 
-The model comprises six logical layers. They are presented as conceptual
-design surfaces for allocating authority, structuring records, and preserving
-reviewability, not as an implementation topology.
+The model comprises six logical layers selected through the derivation in
+Section 2.6. They are conceptual design surfaces for allocating authority,
+structuring records, and preserving reviewability, not an implementation
+topology. Their separation expresses distinct responsibilities and excluded
+powers; it does not assert that every institution requires this decomposition.
 
 Information and control move through the architecture in different ways.
 Control begins with constitutional constraints that define what local
@@ -242,6 +272,19 @@ process.
 6. risk-boundary and contestability controls keep challenge, correction,
    escalation, and review conditions available.
 
+The layer-interface table specifies conceptual responsibilities and handoffs.
+Its inputs and outputs are record categories, not APIs, software components,
+or claims about implemented infrastructure.
+
+| Layer | Conceptual responsibility | Principal input | Principal output or record | Cross-layer dependency | Boundary or invariant | Authority expressly excluded |
+| --- | --- | --- | --- | --- | --- | --- |
+| Constitutional governance | Define higher-order roles, constraints, amendment, escalation, and challenge conditions | Institutional rules and amendment basis | Applicable constraint and authority record | Constrains local domains, modules, and review conditions | Non-delegable constraints cannot be expanded locally; rules remain inspectable | No claim of legal force, deployment, infallibility, or automatic enforcement |
+| Bounded local governance domain | Interpret permitted scope for a local decision context | Constitutional constraints and local proposal | Scoped decision, configuration, or escalation request | Depends on constitutional scope and module declarations | Cannot override non-delegable constraints | No sovereign, unlimited, or production authority |
+| Functional service module | Express a bounded institutional capability and its dependencies | Authorized scope, task, evidence requirements, and dependency declarations | Capability-specific proposal, result, or failure record | Constrained by governance; inspected through evidence and risk layers | Must expose purpose, dependencies, evidence needs, escalation, and failure conditions | Does not own constitutional authority, provenance, AI disposition, or contestability |
+| Evidence and provenance | Attribute sources, transformations, agents, assistance, and dispositions | Source artifacts, authority statements, analyses, conflicts, and decisions | Linked decision-and-evidence record | Receives records from all decision layers and supports later review | Record linkage does not establish truth, integrity, legitimacy, or accountability | No automatic validation, judgment, or integrity guarantee |
+| AI assistance | Provide bounded, attributable advisory analysis | Declared task, source material, and constraints | AI output with provenance and human disposition | Depends on evidence inputs and human review; subject to risk boundaries | Human authority and responsibility remain explicit | No sovereign decision, enforcement, or binding judgment |
+| Risk boundary and contestability | Surface review triggers, challenge conditions, independence needs, and possible dispositions | Proposed action, applicable boundary, disputed evidence, and conflicts | Review, refusal, escalation, correction, reversal, or no-change record | Depends on constitutional scope and reconstructable evidence | A challenge path must be identifiable and separable from the original disposition | No claim of standing procedure, effective remedy, or guaranteed accountability |
+
 ## 4.1 Constitutional governance layer
 
 The constitutional governance layer is a conceptual constraint surface that
@@ -251,7 +294,7 @@ non-delegable institutional constraints visible before local configuration
 begins and to frame how later review can distinguish a permitted action from
 an out-of-scope one.
 
-In this proposal, the layer structures accountability boundaries rather than
+In this proposal, the layer structures accountability-supporting boundaries rather than
 serving as a deployed constitution, legal instrument, active authority, or
 enforcement body. A reviewable action therefore depends on both institutional
 justification and whatever technical authorization a future implementation
@@ -382,52 +425,20 @@ intervention, and external scrutiny as design requirements for challengeable
 systems rather than as guarantees that harmful outcomes are prevented
 [@alfrink2023contestable].
 
-# 5. Participation Readiness as a Supporting Mechanism
+## 4.7 Supporting participation-readiness boundary
 
-A participation-readiness mechanism is proposed only as a supporting
-institutional interface for bounded preparation, assessment, accommodations,
-and challenge conditions in selected consequential contexts. It is not the
-paper's central contribution and must not be treated as a standalone
-educational product or a general social ranking system.
+Participation readiness is retained only as a bounded supporting concern for
+preparation, accommodation, review, and challenge in selected consequential
+contexts. It is not a co-equal contribution, a general social ranking system,
+or a universal competence filter. Any readiness artifact would be a
+contestable and reviewable input, not an independent source of legitimacy,
+fairness, or authority. Criteria would need to remain proportionate,
+accommodated, and open to challenge; exclusion, surveillance, interpretive
+capture, test gaming, and privacy risk remain reasons to narrow, redesign, or
+reject the mechanism. Its validity is future research rather than a claim
+evaluated in this paper.
 
-In this proposal, any readiness artifact functions only as a reviewable input
-to a broader decision context. It does not by itself establish legitimacy,
-fairness, or authority. The governance problem therefore includes who defines
-the criteria, how accommodations are provided, whether the requirement is
-proportionate to the decision context, and how a participant can challenge an
-outcome.
-
-The working hypothesis is that bounded preparation may improve participation
-quality in selected high-consequence contexts. Competing hypotheses remain
-equally important: the mechanism may exclude participants, centralize
-interpretive power, encourage test gaming, or create privacy risks. It should
-be narrowed, redesigned, or rejected if those harms cannot be controlled.
-
-# 6. Internal Maturity Distinction and Scope Reduction
-
-The Axodus internal governance process distinguishes two orthogonal maturity
-dimensions. **L-Level** refers to organizational, documentation, governance,
-and authority maturity. **D-Level** refers to development, implementation,
-technical validation, and operational maturity. L-Level does not measure code,
-and D-Level does not measure governance. Neither dimension authorizes
-production or sensitive action; production status and action authority require
-separate gates.
-
-The taxonomy is relevant here only as a guard against category error. It helps
-prevent documentation from being mistaken for implementation, local
-implementation from being mistaken for production, or maturity from being
-mistaken for authority. The paper does not assign maturity levels to
-components and does not present the taxonomy as a validated measurement
-instrument.
-
-Scope reduction is therefore a design requirement rather than a late-stage
-optimization. Initial prototypes should start with decisions for which
-reconstruction and challenge are materially important, use a minimum
-sufficient decision-and-evidence record, separate advisory AI outputs from
-authoritative human dispositions, and remove components that do not improve
-reconstructability or contestability.
-
-# 7. Prototype Status
+# 5. Prototype Status
 
 Axodus is presented in this paper as a conceptual, prototype-stage model. The
 public repository presently supports editorial artifacts, governance records,
@@ -441,59 +452,80 @@ behavior. Future versions should maintain a component-by-component evidence
 table distinguishing designed, prototyped, tested, deployed, and independently
 evaluated states.
 
-# 8. Evaluation Plan
+Documentation maturity, development maturity, production readiness, and
+institutional authority are separate determinations. This distinction is used
+only to prevent category error: documentation does not establish
+implementation, implementation does not establish production authorization,
+and maturity does not establish legitimate authority or operational
+capability. The paper does not retain L-Level or D-Level as standalone
+scientific constructs, assign levels to components, or present a maturity
+taxonomy as a validated instrument.
 
-The evaluation program is intentionally prioritized rather than broad.
+Scope reduction remains a design requirement. Initial prototypes should focus
+on decisions for which reconstruction and challenge are materially important,
+use a bounded decision-and-evidence record, separate advisory AI outputs from
+human dispositions, and remove elements that do not improve inspectability.
 
-Before either initial study, the first study stage would require a controlled
-environment rather than any active institutional setting. That environment
-could combine synthetic bounded-local-governance scenarios, controlled
-evidence packages, simulated AI-assistance records, planted errors, and a
-high-fidelity mock-up or wizard-of-oz review interface. A preregistered
-protocol would define reviewer tasks and illustrative study criteria. These
-criteria are proposed study designs, not reported results.
+# 6. Evaluation Plan
 
-**Primary initial study — RQ1: Traceability and reconstruction.** Does the
-proposed evidence model help independent reviewers reconstruct bounded local
-governance decisions involving functional service modules more accurately and
-efficiently than a document-only baseline? The controlled environment would
-support matched governance scenarios and blinded review. Illustrative study
-criteria could include reconstruction completeness, authority-conflict
-detection, missing-evidence detection, time to reconstruct rationale,
-provenance error detection, reviewer disagreement, and correct classification
-of whether a challenge path can proceed. This is the paper's primary
-evaluation priority because it most directly tests the central claim about
-traceability and accountability in federated modular governance.
+The evaluation program is organized around the integrated architecture while
+remaining controlled, conceptual, synthetic, and artifact-based. It evaluates
+whether the proposed decomposition makes authority, dependencies, records,
+advisory assistance, and challenge conditions more inspectable. It does not
+evaluate an operating institution or establish legitimacy, fairness,
+accountability, contestability effectiveness, or remedy.
 
-For this paper, a document-only baseline means a comparison condition using
-static policy and record documentation without the proposed layered review
-architecture, explicit provenance structure, or bounded challenge-path
-framing. Negative findings would matter as much as positive ones: reviewers
-may fail to reconstruct decisions better than the baseline, provenance may
-increase workload without improving error detection, challenge paths may be
-inconsistently classified, or simulated AI records may not improve calibrated
-reliance.
+The initial study stage would use synthetic bounded-local-governance
+scenarios, controlled evidence packages, simulated AI-assistance records,
+planted errors, and a high-fidelity mock-up or wizard-of-oz review interface
+rather than an active institutional setting. A preregistered protocol would
+define reviewer tasks and study criteria. These are proposed designs, not
+reported results.
 
-**Secondary initial study — RQ3: Human-AI reliance in advisory review.** For
-bounded proposal-analysis tasks, how do provenance and mandatory human
-disposition affect error detection, calibrated reliance, override behavior,
-and review quality? The simulated AI records would include planted errors,
-ambiguous cases, and contested recommendations. Illustrative study criteria
-could include planted-error detection, unsupported-output detection, override
-or acceptance behavior by condition, rationale quality, reviewer
-disagreement, and correction after provenance information is shown. This is a
-secondary priority because the architecture depends on bounded AI assistance
-being reviewable rather than merely available.
+**RQ1: Traceability and reconstruction.** Does the proposed layered
+decision-and-evidence structure help independent reviewers reconstruct bounded
+local governance decisions involving functional service modules more
+accurately and efficiently than a document-only baseline? Illustrative
+criteria include reconstruction accuracy and completeness, provenance
+visibility, authority-conflict detection, missing-evidence detection, time to
+reconstruct rationale, and reviewer disagreement.
+
+**RQ2: Cross-layer coherence and review conditions.** Can independent
+reviewers use the six-layer representation to identify missing or conflicting
+authority, undeclared dependencies, unsupported transitions between layers,
+and whether an accessible challenge path and review-independence condition are
+specified? Illustrative criteria include cross-layer consistency, dependency
+completeness, unsupported-transition detection, challenge-path accessibility,
+and correct classification of possible disposition categories. These measures
+test inspectability and accountability- or contestability-supporting
+conditions; they do not demonstrate institutional answerability, effective
+challenge, correction, reversal, or remedy.
+
+**RQ3: Human-AI reliance in advisory review.** For bounded proposal-analysis
+tasks, how do provenance and mandatory human disposition affect error
+detection, calibrated reliance, override behavior, rationale quality, and
+review quality? Simulated AI records would include planted errors, ambiguous
+cases, and contested recommendations. Illustrative criteria include
+planted-error and unsupported-output detection, override or acceptance
+behavior by condition, rationale quality, reviewer disagreement, and
+correction after provenance information is shown.
+
+For this paper, a document-only baseline uses static policy and record
+documentation without the proposed layered review architecture, explicit
+provenance structure, or bounded challenge-path framing. Negative findings
+matter as much as positive ones: the representation may fail to improve
+reconstruction, may increase workload without improving error detection, may
+leave cross-layer inconsistencies undetected, may produce disagreement about
+challenge conditions, or may not improve calibrated reliance.
 
 **Staged future evaluation.** Evaluation should progress from controlled
 artifact inspection to bounded reviewer studies using synthetic scenarios,
 then to controlled prototype evaluation under a separately approved protocol.
 Any later institutionally situated study would require additional governance,
-ethics, legal, privacy, and evidence gates. Participation readiness,
-maturity reliability, and broader institutional-governance questions remain
-later research topics.
+ethics, legal, privacy, and evidence gates. Participation-readiness validity
+and broader institutional accountability remain later research topics.
 
-# 9. Limitations and Threats to Validity
+# 7. Limitations and Threats to Validity
 
 This paper is conceptual and still broader than a mature external article
 would ideally be. The architecture can appear coherent because it has not yet
@@ -514,8 +546,9 @@ Human oversight can become nominal when reviewers lack time, authority,
 evidence access, or practical power to change the outcome. AI assistance may
 be unreliable, difficult to calibrate, or difficult to audit under realistic
 workload and time pressure. Weak contestability or poorly designed challenge
-paths could make traceability visible without making accountability
-meaningful.
+paths could make traceability visible without producing answerability,
+corrective capacity, effective remedy, or meaningful institutional
+accountability.
 
 Participation-readiness mechanisms present particular risks of exclusion,
 surveillance, curriculum capture, and false confidence. Modular separation can
@@ -526,38 +559,46 @@ scope reduction.
 
 The synthetic scenario is explanatory rather than empirical. Provenance
 vocabulary does not establish record integrity or accountability, and the
-proposed measures do not demonstrate performance. Institutionally situated
-evaluation may also expose conflicts, incentives, and workload effects that a
-controlled artifact cannot reproduce.
+proposed measures assess reconstructability, cross-layer inspectability,
+review conditions, and bounded reliance rather than legitimacy, fairness,
+effective contestability, remedy, or full institutional accountability.
+Alternative decompositions may prove clearer or more useful than the six-layer
+model. Institutionally situated evaluation may also expose conflicts,
+incentives, and workload effects that a controlled artifact cannot reproduce.
 
 The paper does not provide financial, security, investment, or legal advice.
 Its terminology may not map cleanly onto every jurisdiction or research
 community.
 
-# 10. Research Agenda
+# 8. Research Agenda
 
-Near-term work should prioritize a minimal decision-and-evidence model,
-synthetic scenarios involving bounded local governance domains, and bounded
-AI-assistance tasks suitable for initial traceability and reliance studies.
+Near-term work should prioritize the derivation and interface artifacts,
+synthetic scenarios involving bounded local governance domains, and review
+tasks suitable for reconstruction, cross-layer coherence, challenge-condition,
+and bounded-reliance studies.
 Additional literature hardening around governance quality, reviewer
 independence, empirical institutional challenge paths, and participation-
 readiness validity remains a later requirement before any broader external
 review is considered.
 
-# 11. Conclusion
+# 9. Conclusion
 
-Axodus is proposed as a prototype-stage conceptual architecture for making
-human-AI-assisted governance more traceable and accountable in federated
-modular digital institutions. Its contribution is not a product catalog or
-implementation-status claim, but an inspectable arrangement linking
+Axodus is proposed as a prototype-stage conceptual architecture for examining
+how human-AI-assisted governance might become more traceable,
+reconstructable, reviewable, and supportive of accountability and
+contestability in federated modular digital institutions. Its contribution is
+not a product catalog, implementation-status claim, or assertion of a uniquely
+correct decomposition, but an inspectable six-layer arrangement linking
 constitutional constraints, bounded local governance domains, functional
 service modules, evidence and provenance, advisory AI assistance, and review
 paths.
 
-The next research step is to instantiate the minimum decision-and-evidence
-model in a controlled experimental environment and test whether independent
-reviewers can reconstruct and challenge decisions within bounded local
-governance domains under the proposed record structure.
+The next research step is to instantiate the conceptual representation in a
+controlled experimental environment and test whether independent reviewers can
+reconstruct decisions, identify cross-layer inconsistencies, inspect challenge
+conditions, and evaluate bounded AI reliance. Those results would test the
+architecture's proposed support conditions; they would not independently
+establish legitimacy, effective remedy, or institutional accountability.
 
 # References
 
