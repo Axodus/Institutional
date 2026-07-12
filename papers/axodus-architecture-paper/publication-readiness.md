@@ -9,8 +9,11 @@ documentation-only bibliography candidate evaluation plan. Phase 2.3 adds a
 documentation-only bibliography metadata verification plan without completing
 verification or promoting any candidate. Phase 2.4 executes metadata
 verification for the three candidates without approving proposition-level
-fit, bibliography inclusion, or manuscript use. Controlled external review,
-publication, submission, and external circulation remain blocked.**
+fit, bibliography inclusion, or manuscript use. Phase 2.5 accepts bounded
+future citation-fit uses for Ostrom and Baldwin and Clark and prepares a
+coordinated patch plan, but it does not authorize or apply that patch. Brennan
+remains deferred. Controlled external review, publication, submission, and
+external circulation remain blocked.**
 
 ## Publication status
 
@@ -127,6 +130,23 @@ Phase 2.4 does not establish proposition-level fit, add citations, create
 BibTeX entries, or authorize bibliography inclusion. It does not modify
 `paper.md`, `paper.tex`, or `references.bib`. Controlled external review,
 publication, submission, and external circulation remain blocked.
+
+## Phase 2.5 v0.6 citation-fit-and-patch-plan status
+
+Phase 2.5 evaluates proposition-level citation fit for Ostrom and Baldwin and
+Clark and creates:
+
+- `v0.6-citation-fit-and-patch-plan.md`.
+
+The plan accepts one bounded future citation location for Ostrom in Section
+`4.2` and one for Baldwin and Clark in Section `4.3`. It preserves the
+distinct role of Leveson in Section `2.2`, excludes Brennan and Section `5`,
+and defines an atomic Markdown/LaTeX and bibliography patch for a later phase.
+
+Phase 2.5 does not modify `paper.md`, `paper.tex`, or `references.bib`. It
+does not add citations or BibTeX entries and does not authorize the future
+patch. Controlled external review, publication, submission, and external
+circulation remain blocked.
 
 ## Phase 1.49 v0.5 closure-readiness-audit status
 

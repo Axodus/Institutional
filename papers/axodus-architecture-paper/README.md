@@ -17,10 +17,11 @@ blocked.
 4. `v0.6-bibliography-candidate-evaluation-plan.md`
 5. `v0.6-bibliography-metadata-verification-plan.md`
 6. `v0.6-bibliography-metadata-verification-record.md`
-7. `paper.md`
-8. `paper.tex`
-9. `references.bib`
-10. `author-decision-record-v0.5.md`
+7. `v0.6-citation-fit-and-patch-plan.md`
+8. `paper.md`
+9. `paper.tex`
+10. `references.bib`
+11. `author-decision-record-v0.5.md`
 
 Use `history/` only when you need traceability. Use `.archive/` only when a
 current file points there or when the task is explicitly historical.
@@ -39,6 +40,9 @@ current file points there or when the task is explicitly historical.
 - `v0.6-bibliography-metadata-verification-record.md` — current Phase 2.4
   bibliography metadata-verification execution record for the open `v0.6`
   track
+- `v0.6-citation-fit-and-patch-plan.md` — current Phase 2.5 proposition-level
+  citation-fit assessment and future patch-planning record for the open
+  `v0.6` track
 - `publication-readiness.md` — authoritative readiness status and blockers
 - `paper.md` — primary manuscript source
 - `paper.tex` — synchronized LaTeX manuscript source
