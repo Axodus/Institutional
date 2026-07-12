@@ -1,6 +1,7 @@
 # Axodus Architecture Paper
 
-Current manuscript baseline: `v0.5` closed internal baseline
+Closed prior manuscript baseline: `v0.5`
+Active internal manuscript: `v0.6`
 Open planning track: `v0.6` academic/public-paper planning only
 Readiness: **`v0.5` remains closed for internal use only; `v0.6` does not
 open any external-use gate**
@@ -16,6 +17,10 @@ gates remain blocked.
 Phase 2.10 status: the bounded closure audit is `PASS_CLOSED`; the editorial
 consistency workstream and bibliography workstream are closed, `v0.6` remains
 active and incomplete, and all external-use gates remain blocked.
+Phase 2.11 status: external-readiness gates, blocker criteria, package
+inventory, and a controlled-review protocol draft are defined with
+`PREPARATION_INCOMPLETE`; no reviewer, package, outreach, distribution, or
+external-use action is authorized.
 
 Controlled external review, publication, submission, outreach, grant use,
 fundraising use, external distribution, and authority signaling remain
@@ -36,10 +41,14 @@ blocked.
 11. `v0.6-editorial-correction-plan.md`
 12. `v0.6-editorial-closure-audit.md`
 13. `v0.6-editorial-workstream-closure-record.md`
-14. `paper.md`
-15. `paper.tex`
-16. `references.bib`
-17. `author-decision-record-v0.5.md`
+14. `v0.6-external-readiness-preparation-plan.md`
+15. `v0.6-external-readiness-gate-matrix.md`
+16. `v0.6-reviewer-package-inventory.md`
+17. `v0.6-controlled-review-protocol-draft.md`
+18. `paper.md`
+19. `paper.tex`
+20. `references.bib`
+21. `author-decision-record-v0.5.md`
 
 Use `history/` only when you need traceability. Use `.archive/` only when a
 current file points there or when the task is explicitly historical.
@@ -74,6 +83,15 @@ current file points there or when the task is explicitly historical.
   Phase 2.9 correction patch and `PASS_CLOSED` editorial decision
 - `v0.6-editorial-workstream-closure-record.md` — Phase 2.10 closure record
   for the editorial-consistency workstream only
+- `v0.6-external-readiness-preparation-plan.md` — Phase 2.11 controlling plan
+  for external-readiness gates, blockers, reviewer governance, and human
+  authorization boundaries
+- `v0.6-external-readiness-gate-matrix.md` — 49-criterion Phase 2.11 gate
+  matrix with `PREPARATION_INCOMPLETE` planning status
+- `v0.6-reviewer-package-inventory.md` — candidate, internal, blocked, and
+  excluded artifact classifications; no distribution approval
+- `v0.6-controlled-review-protocol-draft.md` — internal protocol draft marked
+  not authorized for external use
 - `publication-readiness.md` — authoritative readiness status and blockers
 - `paper.md` — primary manuscript source
 - `paper.tex` — synchronized LaTeX manuscript source

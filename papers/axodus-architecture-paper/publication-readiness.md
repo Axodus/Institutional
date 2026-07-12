@@ -1,7 +1,8 @@
 # Publication Readiness — Axodus Architecture Paper
 
 Review date: 2026-07-12
-Version reviewed: v0.5 closed internal baseline; v0.6 planning track
+Version reviewed: v0.5 closed prior baseline; v0.6 active internal academic
+manuscript and planning track
 Decision: **`v0.5` remains the closed internal baseline. Phase 2.0 opened
 `v0.6` as an academic/public-paper planning track, and Phase 2.1 adds a
 documentation-only roadmap and scope plan. Phase 2.2 adds a
@@ -21,12 +22,16 @@ a bounded correction plan without modifying the manuscript or bibliography.
 Phase 2.9 applies only correction units C-01 through C-05 and leaves the
 editorial workstream open pending closure audit. Phase 2.10 verifies those
 corrections, resolves EC-01 through EC-06, and closes only the editorial-
-consistency workstream with `PASS_CLOSED`. Controlled external review,
-publication, submission, and external circulation remain blocked.**
+consistency workstream with `PASS_CLOSED`. Phase 2.11 defines external-
+readiness gates, blockers, reviewer governance, package controls, and human
+authorization boundaries with `PREPARATION_INCOMPLETE`; it authorizes no
+external action. Controlled external review, publication, submission, and
+external circulation remain blocked.**
 
 ## Publication status
 
-Ready for human review: yes  
+Ready for internal human review: yes  
+Ready for controlled external review: no  
 Ready for public publication: no
 
 Current working version location for the closed `v0.5` internal baseline and
@@ -267,6 +272,32 @@ bibliography workstream remains closed. `v0.6` remains active and incomplete,
 with external-readiness preparation separately governed. Phase 2.10 does not
 authorize controlled external review, publication, submission, or external
 circulation.
+
+## Phase 2.11 v0.6 external-readiness preparation status
+
+Phase 2.11 creates:
+
+- `v0.6-external-readiness-preparation-plan.md`;
+- `v0.6-external-readiness-gate-matrix.md`;
+- `v0.6-reviewer-package-inventory.md`; and
+- `v0.6-controlled-review-protocol-draft.md`.
+
+The phase defines controlled external review narrowly, establishes ER-1
+through ER-8, classifies 49 criteria, records 15 blockers, inventories package
+artifacts, and creates an internal protocol draft. The current planning
+conclusion is `PREPARATION_INCOMPLETE`: 17 criteria are `PASS`, 7 are
+`PENDING`, 10 are `BLOCKED`, and 15 require `HUMAN_DECISION`.
+
+Internal academic integrity is supported by the closed bibliography and
+editorial workstreams, but metadata, disclosure, legal, reviewer-governance,
+package, security, and final human-authorization gates remain unresolved. No
+artifact is approved for distribution and no reviewer is identified, selected,
+or contacted.
+
+Phase 2.11 does not modify the manuscript, bibliography, citations, Section
+`5`, or claims register. It does not reopen a closed workstream, complete
+`v0.6`, or authorize controlled external review, publication, submission, or
+external circulation.
 
 ## Phase 1.49 v0.5 closure-readiness-audit status
 
