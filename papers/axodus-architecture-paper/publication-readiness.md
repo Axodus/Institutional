@@ -7,7 +7,9 @@ Decision: **`v0.5` remains the closed internal baseline. Phase 2.0 opened
 documentation-only roadmap and scope plan. Phase 2.2 adds a
 documentation-only bibliography candidate evaluation plan. Phase 2.3 adds a
 documentation-only bibliography metadata verification plan without completing
-verification or promoting any candidate. Controlled external review,
+verification or promoting any candidate. Phase 2.4 executes metadata
+verification for the three candidates without approving proposition-level
+fit, bibliography inclusion, or manuscript use. Controlled external review,
 publication, submission, and external circulation remain blocked.**
 
 ## Publication status
@@ -102,6 +104,29 @@ candidate. It does not modify `paper.md`, `paper.tex`, or `references.bib`,
 and it does not authorize a manuscript or bibliography patch. Controlled
 external review, publication, submission, and external circulation remain
 blocked.
+
+## Phase 2.4 v0.6 bibliography-metadata-verification execution status
+
+Phase 2.4 executes authoritative metadata and source-identity verification
+for Ostrom, Baldwin and Clark, and Brennan.
+
+This phase creates:
+
+- `v0.6-bibliography-metadata-verification-record.md`.
+
+This phase may update only the five current `v0.6` control and status records
+authorized in the Phase 2.4 request.
+
+The execution assigns high metadata confidence to the intended Ostrom
+article, the Baldwin and Clark 2000 first volume, and the Brennan 2016 edition.
+Ostrom and Baldwin and Clark may proceed only to a later proposition-level
+fit assessment. Brennan remains deferred from manuscript-facing use pending a
+separately authorized high-risk assessment.
+
+Phase 2.4 does not establish proposition-level fit, add citations, create
+BibTeX entries, or authorize bibliography inclusion. It does not modify
+`paper.md`, `paper.tex`, or `references.bib`. Controlled external review,
+publication, submission, and external circulation remain blocked.
 
 ## Phase 1.49 v0.5 closure-readiness-audit status
 
