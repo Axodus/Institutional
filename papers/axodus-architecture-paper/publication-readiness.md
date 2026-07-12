@@ -11,9 +11,11 @@ verification or promoting any candidate. Phase 2.4 executes metadata
 verification for the three candidates without approving proposition-level
 fit, bibliography inclusion, or manuscript use. Phase 2.5 accepts bounded
 future citation-fit uses for Ostrom and Baldwin and Clark and prepares a
-coordinated patch plan, but it does not authorize or apply that patch. Brennan
-remains deferred. Controlled external review, publication, submission, and
-external circulation remain blocked.**
+coordinated patch plan. Under separate human approval, Phase 2.6 applies only
+those two bibliography entries and their synchronized citations in Sections
+`4.2` and `4.3`. Brennan remains deferred, Section `5` remains unchanged, and
+an independent post-patch audit is still required. Controlled external
+review, publication, submission, and external circulation remain blocked.**
 
 ## Publication status
 
@@ -147,6 +149,26 @@ Phase 2.5 does not modify `paper.md`, `paper.tex`, or `references.bib`. It
 does not add citations or BibTeX entries and does not authorize the future
 patch. Controlled external review, publication, submission, and external
 circulation remain blocked.
+
+## Phase 2.6 v0.6 bibliography-and-manuscript-patch status
+
+Under separate human authorization, Phase 2.6 applies the atomic patch defined
+by `v0.6-citation-fit-and-patch-plan.md`:
+
+- the verified Ostrom entry and one bounded citation in Section `4.2`;
+- the verified Baldwin and Clark entry and one bounded citation in Section
+  `4.3`; and
+- equivalent wording and citation placement in `paper.md` and `paper.tex`.
+
+The patch changes only the approved manuscript paragraphs and bibliography
+entries. It moves the synchronized scholarly citation graph from 12 to 14
+keys, creates no new substantive Axodus claim, and requires no
+`research/claims-register.md` update. Brennan remains deferred and excluded,
+and Section `5` remains unchanged.
+
+Phase 2.6 does not close the bibliography workstream or complete `v0.6`.
+Independent post-patch audit remains required. Controlled external review,
+publication, submission, and external circulation remain blocked.
 
 ## Phase 1.49 v0.5 closure-readiness-audit status
 

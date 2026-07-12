@@ -264,6 +264,10 @@ constitutional layer as infallible or beyond contestation.
 
 ## 4.2 Bounded local governance domain layer
 
+As a conceptual reference rather than an implementation equivalence,
+polycentric governance describes multiple decision centers that may be
+formally distinct yet interdependent and may operate across nested governance
+layers [@ostrom2010beyond].
 The bounded local governance domain layer represents a locally scoped decision
 context operating under constitutional constraints. A bounded local
 governance domain may configure local processes, select functional service
@@ -281,6 +285,10 @@ escalation before final disposition.
 
 ## 4.3 Functional service module layer
 
+As a conceptual reference rather than validation of this taxonomy, modularity
+literature describes complex systems built from smaller subsystems that can be
+designed separately while functioning together under shared design rules
+[@baldwin2000design].
 Functional service modules are abstract bounded institutional capabilities
 through which selected functions can be configured, limited, and governed.
 The paper does not present a product catalog. Instead, it treats a functional

@@ -4,6 +4,8 @@ Current manuscript baseline: `v0.5` closed internal baseline
 Open planning track: `v0.6` academic/public-paper planning only
 Readiness: **`v0.5` remains closed for internal use only; `v0.6` does not
 open any external-use gate**
+Phase 2.6 status: the approved Ostrom and Baldwin and Clark bibliography and
+manuscript patch is applied; independent post-patch audit remains required.
 
 Controlled external review, publication, submission, outreach, grant use,
 fundraising use, external distribution, and authority signaling remain
@@ -41,14 +43,14 @@ current file points there or when the task is explicitly historical.
   bibliography metadata-verification execution record for the open `v0.6`
   track
 - `v0.6-citation-fit-and-patch-plan.md` — current Phase 2.5 proposition-level
-  citation-fit assessment and future patch-planning record for the open
-  `v0.6` track
+  citation-fit assessment and patch-planning record, with the Phase 2.6
+  implementation follow-on status, for the open `v0.6` track
 - `publication-readiness.md` — authoritative readiness status and blockers
 - `paper.md` — primary manuscript source
 - `paper.tex` — synchronized LaTeX manuscript source
 - `pt.md` — Portuguese companion text
-- `references.bib` — cited and internally verified bibliography for the
-  closed `v0.5` baseline
+- `references.bib` — cited and internally verified bibliography, including
+  the two Phase 2.6 additions pending independent post-patch audit
 - `author-decision-record-v0.5.md` — current author-side baseline authority
 - `v0.5-closure-readiness-audit.md` — closure audit for the current baseline
 - `v0.5-baseline-closure-record.md` — baseline-closure decision record
