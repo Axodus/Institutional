@@ -13,9 +13,11 @@ fit, bibliography inclusion, or manuscript use. Phase 2.5 accepts bounded
 future citation-fit uses for Ostrom and Baldwin and Clark and prepares a
 coordinated patch plan. Under separate human approval, Phase 2.6 applies only
 those two bibliography entries and their synchronized citations in Sections
-`4.2` and `4.3`. Brennan remains deferred, Section `5` remains unchanged, and
-an independent post-patch audit is still required. Controlled external
-review, publication, submission, and external circulation remain blocked.**
+`4.2` and `4.3`. Phase 2.7 independently audits that patch and closes only the
+bibliography-expansion workstream with `PASS_CLOSED`. Brennan remains deferred,
+Section `5` remains unchanged, and `v0.6` remains open for separately governed
+workstreams. Controlled external review, publication, submission, and external
+circulation remain blocked.**
 
 ## Publication status
 
@@ -166,9 +168,34 @@ keys, creates no new substantive Axodus claim, and requires no
 `research/claims-register.md` update. Brennan remains deferred and excluded,
 and Section `5` remains unchanged.
 
-Phase 2.6 does not close the bibliography workstream or complete `v0.6`.
-Independent post-patch audit remains required. Controlled external review,
-publication, submission, and external circulation remain blocked.
+Phase 2.6 did not itself close the bibliography workstream or complete `v0.6`.
+Its required independent post-patch audit and closure decision are recorded in
+Phase 2.7 below. Controlled external review, publication, submission, and
+external circulation remain blocked.
+
+## Phase 2.7 v0.6 post-patch bibliography audit and closure status
+
+Phase 2.7 creates:
+
+- `v0.6-post-patch-bibliography-audit.md`; and
+- `v0.6-bibliography-track-closure-record.md`.
+
+The independent audit confirms metadata fidelity and bounded proposition fit
+for Ostrom in Section `4.2` and Baldwin and Clark in Section `4.3`. It confirms
+the canonical Baldwin and Clark publisher page remains coherent with the
+original 2000 hardcover ISBN because the page identifies all manifestations of
+the same Volume 1 work.
+
+The audit also confirms exact 14-key parity across `references.bib`, `paper.md`,
+and `paper.tex`; no orphan, undefined, or duplicate key; synchronized
+Markdown/LaTeX wording; unchanged Section `5`; Brennan exclusion; no new
+substantive Axodus claim; and no boundary drift. No manuscript or bibliography
+audit correction was required.
+
+Decision: `PASS_CLOSED` for the bibliography-expansion workstream only. The
+editorial-consistency and external-readiness preparation workstreams remain
+separate. Phase 2.7 does not complete `v0.6` and does not authorize controlled
+external review, publication, submission, or external circulation.
 
 ## Phase 1.49 v0.5 closure-readiness-audit status
 

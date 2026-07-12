@@ -4,8 +4,9 @@ Current manuscript baseline: `v0.5` closed internal baseline
 Open planning track: `v0.6` academic/public-paper planning only
 Readiness: **`v0.5` remains closed for internal use only; `v0.6` does not
 open any external-use gate**
-Phase 2.6 status: the approved Ostrom and Baldwin and Clark bibliography and
-manuscript patch is applied; independent post-patch audit remains required.
+Phase 2.7 status: the bibliography-expansion workstream is `PASS_CLOSED` after
+independent post-patch audit; `v0.6` remains open and all external-use gates
+remain blocked.
 
 Controlled external review, publication, submission, outreach, grant use,
 fundraising use, external distribution, and authority signaling remain
@@ -20,10 +21,12 @@ blocked.
 5. `v0.6-bibliography-metadata-verification-plan.md`
 6. `v0.6-bibliography-metadata-verification-record.md`
 7. `v0.6-citation-fit-and-patch-plan.md`
-8. `paper.md`
-9. `paper.tex`
-10. `references.bib`
-11. `author-decision-record-v0.5.md`
+8. `v0.6-post-patch-bibliography-audit.md`
+9. `v0.6-bibliography-track-closure-record.md`
+10. `paper.md`
+11. `paper.tex`
+12. `references.bib`
+13. `author-decision-record-v0.5.md`
 
 Use `history/` only when you need traceability. Use `.archive/` only when a
 current file points there or when the task is explicitly historical.
@@ -43,14 +46,19 @@ current file points there or when the task is explicitly historical.
   bibliography metadata-verification execution record for the open `v0.6`
   track
 - `v0.6-citation-fit-and-patch-plan.md` — current Phase 2.5 proposition-level
-  citation-fit assessment and patch-planning record, with the Phase 2.6
-  implementation follow-on status, for the open `v0.6` track
+  citation-fit assessment and patch-planning record, with Phase 2.6
+  implementation and Phase 2.7 audit follow-on status
+- `v0.6-post-patch-bibliography-audit.md` — Phase 2.7 independent audit of
+  metadata, proposition fit, synchronization, citation integrity, and
+  boundaries
+- `v0.6-bibliography-track-closure-record.md` — Phase 2.7 `PASS_CLOSED`
+  decision for the bibliography-expansion workstream only
 - `publication-readiness.md` — authoritative readiness status and blockers
 - `paper.md` — primary manuscript source
 - `paper.tex` — synchronized LaTeX manuscript source
 - `pt.md` — Portuguese companion text
 - `references.bib` — cited and internally verified bibliography, including
-  the two Phase 2.6 additions pending independent post-patch audit
+  the two Phase 2.6 additions accepted by the Phase 2.7 audit
 - `author-decision-record-v0.5.md` — current author-side baseline authority
 - `v0.5-closure-readiness-audit.md` — closure audit for the current baseline
 - `v0.5-baseline-closure-record.md` — baseline-closure decision record
