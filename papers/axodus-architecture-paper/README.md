@@ -10,6 +10,12 @@ remain blocked.
 Phase 2.8 status: the editorial consistency audit is `CONDITIONAL`; a bounded
 correction plan is open, the bibliography workstream remains closed, and no
 external-use gate is opened.
+Phase 2.9 status: correction units C-01 through C-05 are applied; the editorial
+workstream remains open pending a short closure audit and all external-use
+gates remain blocked.
+Phase 2.10 status: the bounded closure audit is `PASS_CLOSED`; the editorial
+consistency workstream and bibliography workstream are closed, `v0.6` remains
+active and incomplete, and all external-use gates remain blocked.
 
 Controlled external review, publication, submission, outreach, grant use,
 fundraising use, external distribution, and authority signaling remain
@@ -28,10 +34,12 @@ blocked.
 9. `v0.6-bibliography-track-closure-record.md`
 10. `v0.6-editorial-consistency-audit.md`
 11. `v0.6-editorial-correction-plan.md`
-12. `paper.md`
-13. `paper.tex`
-14. `references.bib`
-15. `author-decision-record-v0.5.md`
+12. `v0.6-editorial-closure-audit.md`
+13. `v0.6-editorial-workstream-closure-record.md`
+14. `paper.md`
+15. `paper.tex`
+16. `references.bib`
+17. `author-decision-record-v0.5.md`
 
 Use `history/` only when you need traceability. Use `.archive/` only when a
 current file points there or when the task is explicitly historical.
@@ -61,7 +69,11 @@ current file points there or when the task is explicitly historical.
 - `v0.6-editorial-consistency-audit.md` — Phase 2.8 global front-matter,
   structure, terminology, citation-parity, and synchronization audit
 - `v0.6-editorial-correction-plan.md` — bounded future correction plan for
-  the Phase 2.8 major and minor findings
+  the Phase 2.8 major and minor findings, with Phase 2.9 implementation status
+- `v0.6-editorial-closure-audit.md` — Phase 2.10 bounded verification of the
+  Phase 2.9 correction patch and `PASS_CLOSED` editorial decision
+- `v0.6-editorial-workstream-closure-record.md` — Phase 2.10 closure record
+  for the editorial-consistency workstream only
 - `publication-readiness.md` — authoritative readiness status and blockers
 - `paper.md` — primary manuscript source
 - `paper.tex` — synchronized LaTeX manuscript source

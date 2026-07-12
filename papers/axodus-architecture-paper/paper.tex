@@ -15,14 +15,14 @@
 \small Correspondence: mzfshark@gmail.com\\
 \small Project discussion: Telegram @thinkincoin\\
 \small Author handle: @mzfshark}
-\date{Draft v0.5}
+\date{Draft v0.6}
 
 \begin{document}
 \maketitle
 
 \begin{center}
 \fbox{\parbox{0.88\linewidth}{\centering
-\textbf{Status:} Internal v0.5 draft after confidential internal review; not ready for controlled external review, external circulation, or publication.\\
+\textbf{Status:} Internal v0.6 academic draft based on the closed v0.5 internal baseline; not ready for controlled external review, external circulation, or publication.\\
 \textbf{Document type:} Prototype-stage conceptual architecture and focused research-agenda paper.\\
 \textbf{License:} CC BY 4.0.}}
 \end{center}
@@ -107,12 +107,12 @@ guarantees, and legal conclusions.
 \subsection{Socio-technical systems and federated digital institutions}
 
 A socio-technical perspective asks how roles, incentives, work practices,
-information, and technology jointly shape outcomes. Baxter and Sommerville
-argue for integrating organizational concerns with systems engineering rather
-than treating them as a late adoption problem
+information, and technical components jointly shape outcomes. Baxter and
+Sommerville argue for integrating organizational concerns with systems
+engineering rather than treating them as a late adoption problem
 \citep{baxter2011sociotechnical}. Axodus adopts this perspective by modeling
-governance and accountability as architectural elements, not external policy
-documents attached after implementation.
+governance, accountability, and review as architectural elements rather than
+external policies attached after implementation.
 
 The term \emph{federated modular digital institution} is used here for an
 organized system in which a central constitutional layer defines shared
@@ -147,9 +147,8 @@ capabilities, supporting correction, and learning from behavior over time
 \citep{amershi2019guidelines}. At the organizational level, the NIST AI Risk
 Management Framework treats governance, mapping, measurement, and management
 as connected risk functions \citep{tabassi2023airmf}. These sources motivate
-an architecture in which AI outputs are attributable inputs to decisions
-remain attributable, reviewable inputs to human decisions rather than
-sovereign decisions in themselves.
+an architecture in which AI outputs remain attributable, reviewable inputs to
+human decisions rather than sovereign decisions in themselves.
 
 Constitutional AI uses written principles to guide model behavior through
 supervised learning and AI feedback \citep{bai2022constitutional}. Axodus uses
@@ -265,8 +264,8 @@ reviewed, or changed;
 statements, conflicts, transformations, and responsible roles;
 \item human-AI assistance may analyze that material, but only as attributable
 advisory input to human disposition; and
-\item risk-boundary and contestability controls constrain state transitions
-and keep challenge, correction, escalation, and review conditions available.
+\item risk-boundary and contestability controls keep challenge, correction,
+escalation, and review conditions available.
 \end{enumerate}
 
 \subsection{Constitutional governance layer}
@@ -588,11 +587,11 @@ model in a controlled experimental environment and test whether independent
 reviewers can reconstruct and challenge decisions within bounded local
 governance domains under the proposed record structure.
 
-\noindent References are maintained in \texttt{references.bib}. All entries
-cited in this draft have corresponding internal verification records in
-\texttt{../../research/bibliography-verified.md}; final metadata rechecking is
-required before any submission, public release, or external circulation.
-
+\renewcommand{\bibpreamble}{%
+\noindent References are maintained in \texttt{references.bib}. Verification
+records for all cited entries are maintained in the repository's bibliography
+control records; final metadata rechecking is required before any submission,
+public release, or external circulation.\par\medskip}
 \bibliographystyle{plainnat}
 \bibliography{references}
 

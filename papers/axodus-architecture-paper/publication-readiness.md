@@ -18,8 +18,11 @@ bibliography-expansion workstream with `PASS_CLOSED`. Brennan remains deferred,
 Section `5` remains unchanged, and `v0.6` remains open for separately governed
 workstreams. Phase 2.8 records a `CONDITIONAL` editorial-consistency result and
 a bounded correction plan without modifying the manuscript or bibliography.
-Controlled external review, publication, submission, and external circulation
-remain blocked.**
+Phase 2.9 applies only correction units C-01 through C-05 and leaves the
+editorial workstream open pending closure audit. Phase 2.10 verifies those
+corrections, resolves EC-01 through EC-06, and closes only the editorial-
+consistency workstream with `PASS_CLOSED`. Controlled external review,
+publication, submission, and external circulation remain blocked.**
 
 ## Publication status
 
@@ -223,6 +226,47 @@ open pending a separately authorized bounded correction patch. The
 bibliography workstream remains closed, `v0.6` is not complete, and controlled
 external review, publication, submission, and external circulation remain
 blocked.
+
+## Phase 2.9 v0.6 editorial correction patch status
+
+Phase 2.9 applies correction units C-01 through C-05 from
+`v0.6-editorial-correction-plan.md`:
+
+- aligns both front matters to the active internal `v0.6` manuscript state
+  while preserving `v0.5` as the closed prior baseline;
+- repairs the malformed Section `2.3` LaTeX sentence;
+- synchronizes the bounded Section `2.1` wording;
+- removes the extra LaTeX-only clause from Section `4` list item 6; and
+- aligns and corrects the References verification note in both formats.
+
+EC-01 through EC-06 are resolved by implementation and remain subject to the
+short Phase 2.10 closure audit. The manuscript is modified; `references.bib`
+is not modified; no source, citation, or claim is added or removed; the
+citation graph remains at 14 keys; and Section `5` remains unchanged.
+
+The bibliography workstream remains closed. The editorial workstream remains
+open pending closure audit. Phase 2.9 does not complete `v0.6` and does not
+authorize controlled external review, publication, submission, or external
+circulation.
+
+## Phase 2.10 v0.6 editorial closure audit status
+
+Phase 2.10 creates:
+
+- `v0.6-editorial-closure-audit.md`; and
+- `v0.6-editorial-workstream-closure-record.md`.
+
+The bounded audit verifies C-01 through C-05 directly and confirms EC-01
+through EC-06 are resolved. Front matter consistently identifies `Draft
+v0.6`; the corrected Markdown and LaTeX surfaces are semantically aligned;
+the citation graph remains 14/14/14; `references.bib`, Section `5`, and the
+claims register remain unchanged; and compilation and validation pass.
+
+Decision: `PASS_CLOSED` for the editorial-consistency workstream only. The
+bibliography workstream remains closed. `v0.6` remains active and incomplete,
+with external-readiness preparation separately governed. Phase 2.10 does not
+authorize controlled external review, publication, submission, or external
+circulation.
 
 ## Phase 1.49 v0.5 closure-readiness-audit status
 

@@ -6,8 +6,8 @@ affiliation: "Independent Researcher, Axodus"
 correspondence: "mzfshark@gmail.com"
 project_discussion_forum: "Telegram @thinkincoin"
 author_social_handle: "@mzfshark"
-version: "Draft v0.5"
-status: "Internal v0.5 draft after confidential internal review; not ready for controlled external review, external circulation, or publication"
+version: "Draft v0.6"
+status: "Internal v0.6 academic draft based on the closed v0.5 internal baseline; not ready for controlled external review, external circulation, or publication"
 license: "CC BY 4.0"
 document_type: "Prototype-stage conceptual architecture and focused research-agenda paper"
 ---
@@ -561,7 +561,7 @@ governance domains under the proposed record structure.
 
 # References
 
-References are maintained in `references.bib`. All entries cited in this draft
-have corresponding internal verification records in
-`../../research/bibliography-verified.md`; final metadata rechecking is
-required before any submission, public release, or external circulation.
+References are maintained in `references.bib`. Verification records for all
+cited entries are maintained in the repository's bibliography control
+records; final metadata rechecking is required before any submission, public
+release, or external circulation.
