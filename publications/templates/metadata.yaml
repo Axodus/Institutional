@@ -1,0 +1,22 @@
+publication_id: PUB-EXAMPLE-001
+document_id: EXAMPLE-001
+version_id: EXAMPLE-001-v0.1-draft
+series: example-series
+title: "Publication title"
+slug: publication-slug
+summary: "A bounded, non-promotional summary of the publication."
+version: "Draft v0.1"
+status: Draft
+lifecycle_state: draft
+release_status: not_authorized
+category: Publication category
+tags:
+  - topic
+authors:
+  - "Author name"
+contributors: []
+publication_date: "YYYY-MM-DD"
+license: "CC BY 4.0"
+canonical_path: "/publications/example-series/example-001/"
+cover: "assets/example-001-cover.svg"
+source_of_truth: true

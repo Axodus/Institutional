@@ -15,6 +15,13 @@ repository.
 3. [governance/public-disclosure-boundary.md](governance/public-disclosure-boundary.md)
 4. [README.md](README.md)
 
+### If you will work on publication infrastructure
+
+1. [publications/README.md](publications/README.md)
+2. [publications/publication-lifecycle.md](publications/publication-lifecycle.md)
+3. [publications/schema/publication-metadata.schema.json](publications/schema/publication-metadata.schema.json)
+4. The target publication series index and versioned source
+
 ## Task-Based Reading Paths
 
 ### If you will edit public text
@@ -53,6 +60,8 @@ repository.
   boundaries, maturity taxonomy, and review checklist
 - `research/` — claims, terminology, gaps, related work, and bibliography
 - `papers/` — manuscript baselines, readiness records, and historical tracks
+- `publications/` — reusable publication lifecycle, metadata, review, release,
+  and website contracts
 - `whitepaper/`, `articles/`, `outreach/` — deferred-phase indexes only
 
 ## Source-of-Truth Rules

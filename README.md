@@ -31,9 +31,11 @@ Current work includes:
 - a claims register;
 - related-work and bibliography records;
 - Markdown and LaTeX sources for the first paper.
+- a reusable publication infrastructure with ADS-001 as an initial conceptual
+  Architecture Specification.
 
 Whitepapers, derived articles, outreach, grant applications, and submissions
-are deferred.
+remain deferred unless their own publication tracks are explicitly opened.
 
 ## Repository map
 
@@ -43,6 +45,8 @@ are deferred.
 - `research/`: claims, terminology, gaps, related work, and bibliography
   records.
 - `papers/`: draft manuscripts and publication-readiness reports.
+- `publications/`: reusable publication-series infrastructure and versioned
+  conceptual publication packages.
 - `whitepaper/`, `articles/`, and `outreach/`: deferred-phase indexes only.
 
 ## Evidence policy

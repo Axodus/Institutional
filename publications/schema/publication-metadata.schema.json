@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "publication-metadata.schema.json",
+  "title": "Axodus Publication Metadata",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "publication_id",
+    "document_id",
+    "version_id",
+    "series",
+    "title",
+    "slug",
+    "summary",
+    "version",
+    "status",
+    "lifecycle_state",
+    "release_status",
+    "category",
+    "tags",
+    "authors",
+    "contributors",
+    "publication_date",
+    "license",
+    "canonical_path",
+    "cover"
+  ],
+  "properties": {
+    "publication_id": {"type": "string", "pattern": "^PUB-[A-Z0-9-]+$"},
+    "document_id": {"type": "string", "pattern": "^[A-Z0-9-]+$"},
+    "version_id": {"type": "string", "pattern": "^[A-Z0-9-]+-v[0-9]+\\.[0-9]+(-draft)?$"},
+    "series": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+    "title": {"type": "string", "minLength": 1},
+    "slug": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+    "summary": {"type": "string", "minLength": 1},
+    "version": {"type": "string", "pattern": "^Draft v[0-9]+\\.[0-9]+$"},
+    "status": {"type": "string", "enum": ["Draft", "Approved", "Released", "Archived"]},
+    "lifecycle_state": {
+      "type": "string",
+      "enum": ["draft", "internal_review", "editorial_review", "approved", "released", "archived"]
+    },
+    "release_status": {"type": "string", "enum": ["not_authorized", "authorized", "released", "withdrawn"]},
+    "category": {"type": "string", "minLength": 1},
+    "tags": {"type": "array", "items": {"type": "string"}, "minItems": 1, "uniqueItems": true},
+    "authors": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    "contributors": {"type": "array", "items": {"type": "string"}},
+    "publication_date": {"type": "string", "format": "date"},
+    "license": {"type": "string", "minLength": 1},
+    "canonical_path": {"type": "string", "pattern": "^/publications/[a-z0-9-]+/[a-z0-9-]+/$"},
+    "cover": {"type": "string", "pattern": "^assets/[a-z0-9-]+\\.svg$"},
+    "source_of_truth": {"type": "boolean"}
+  }
+}

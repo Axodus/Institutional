@@ -1,0 +1,27 @@
+publication_id: PUB-ADS-001
+document_id: ADS-001
+version_id: ADS-001-v0.6-draft
+series: architecture-specifications
+title: "Architectural Design Specification: Axodus Federated Human-AI Governance Infrastructure"
+slug: ads-001
+summary: "A conceptual reference design for federated, layered human-AI governance infrastructure with inspectable accountability assumptions."
+version: "Draft v0.6"
+status: Draft
+lifecycle_state: draft
+release_status: not_authorized
+category: Architecture Specification
+tags:
+  - federated governance
+  - human-AI coordination
+  - accountability
+  - evidence and provenance
+  - contestability
+  - socio-technical systems
+authors:
+  - "Mauricio Z. Filho"
+contributors: []
+publication_date: "2026-07-17"
+license: "CC BY 4.0"
+canonical_path: "/publications/architecture-specifications/ads-001/"
+cover: "assets/ads-001-cover.svg"
+source_of_truth: true

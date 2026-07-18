@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Institutional publication cover template</title>
+  <desc id="desc">Reusable abstract cover template for a technical publication.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#102033"/>
+      <stop offset="1" stop-color="#2b4b50"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#background)"/>
+  <path d="M80 700C360 520 510 760 790 570S1210 240 1530 390" fill="none" stroke="#d7e4d1" stroke-opacity=".75" stroke-width="4"/>
+  <path d="M80 770C360 590 510 830 790 640S1210 310 1530 460" fill="none" stroke="#d7e4d1" stroke-opacity=".25" stroke-width="2"/>
+  <circle cx="790" cy="570" r="18" fill="#d7e4d1"/>
+</svg>
