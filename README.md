@@ -3,9 +3,15 @@
 For canonical navigation and reading order, start with [index.md](index.md).
 
 This repository contains public-facing research and institutional documentation
-for Axodus, a prototype-stage conceptual infrastructure model for accountable
-human--AI coordination, educational participation, governance, and modular
-digital institutions.
+for Axodus. Axodus is presented here as a research-driven initiative developing
+a proposed ecosystem of interoperable, AI-native organizational platforms for
+governed knowledge, institutional workflows, and digital services. The work
+remains a conceptual, prototype-stage model; this description does not claim
+an implemented platform, operating institution, or validated system.
+
+The current institutional description supersedes earlier financial-product
+positioning. Historical terminology may occur in traceability records or cited
+research context, but it is not the current definition of Axodus.
 
 The repository is intentionally public and documentation-only. It may describe
 private product nuclei at a controlled institutional, conceptual,
@@ -40,6 +46,9 @@ remain deferred unless their own publication tracks are explicitly opened.
 ## Repository map
 
 - `index.md`: canonical navigation map for agents and humans.
+- `what-is-axodus.md`: concise public explanation of the Axodus identity.
+- `governance/entity-seo-technical-plan.md`: controlled technical plan for
+  entity data, metadata, links, and indexing.
 - `governance/`: citation, disclosure, evidence, intellectual-property, and
   review controls.
 - `research/`: claims, terminology, gaps, related work, and bibliography
@@ -59,6 +68,22 @@ enter a public manuscript without evidence or explicit human approval. See
 The module inventory is permitted as controlled Institutional disclosure, but
 the academic architecture paper should abstract that inventory and remain
 focused on the federated modular governance model.
+
+## Canonical institutional description
+
+Use the following short description when identifying Axodus across repository
+materials:
+
+> Axodus is a research-driven initiative developing a proposed ecosystem of
+> interoperable, AI-native organizational platforms for governed knowledge,
+> institutional workflows, and digital services.
+
+The description is an author-approved design framing, not evidence of
+implementation, adoption, operational readiness, performance, or commercial
+activity. See [governance/institutional-identity.md](governance/institutional-identity.md)
+for the controlled terminology and audit record. See
+[governance/institutional-taxonomy.md](governance/institutional-taxonomy.md) for
+the canonical category and relationship map.
 
 ## Publication status
 

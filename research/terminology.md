@@ -4,11 +4,13 @@ Status: Phase 1 controlled vocabulary
 
 ## Axodus
 
-A proposed federated modular socio-technical ecosystem governed through a
-central constitutional layer, bounded Tenant-level authority, and optional
-product or service nuclei. It remains a conceptual, prototype-stage model; the
-term does not imply an implemented platform, operating institution, or
-validated system.
+A research-driven initiative developing a proposed ecosystem of interoperable,
+AI-native organizational platforms for governed knowledge, institutional
+workflows, and digital services. Axodus is framed as a proposed federated
+modular socio-technical ecosystem governed through a central constitutional
+layer, bounded Tenant-level authority, and optional product or service nuclei.
+It remains a conceptual, prototype-stage model; the term does not imply an
+implemented platform, operating institution, or validated system.
 
 ## Accountability
 

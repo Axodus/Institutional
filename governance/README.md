@@ -9,6 +9,7 @@ controls that govern public-facing repository work.
 2. [public-disclosure-boundary.md](public-disclosure-boundary.md)
 3. [citation-policy.md](citation-policy.md)
 4. [publication-review-checklist.md](publication-review-checklist.md)
+5. [institutional-identity.md](institutional-identity.md)
 
 Read the remaining files only when the task needs them:
 
@@ -29,6 +30,8 @@ Read the remaining files only when the task needs them:
 - `maturity-taxonomy.md` — internal taxonomy guardrails
 - `governance-mechanics-v0.1.md` — controlled public conceptual governance
   stub, not an operating manual
+- `institutional-identity.md` — canonical identity, superseded terminology,
+  and the current narrative audit record
 
 ## Agent use rules
 

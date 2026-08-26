@@ -14,6 +14,10 @@ repository.
 2. [governance/evidence-boundaries.md](governance/evidence-boundaries.md)
 3. [governance/public-disclosure-boundary.md](governance/public-disclosure-boundary.md)
 4. [README.md](README.md)
+5. [governance/institutional-identity.md](governance/institutional-identity.md)
+6. [governance/institutional-taxonomy.md](governance/institutional-taxonomy.md)
+7. [what-is-axodus.md](what-is-axodus.md)
+8. [governance/entity-seo-technical-plan.md](governance/entity-seo-technical-plan.md)
 
 ### If you will work on publication infrastructure
 
