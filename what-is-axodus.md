@@ -49,6 +49,10 @@ superseded terminology. Claims about implementation, adoption, partnerships,
 performance, security, financial activity, or regulatory status require
 separate evidence and review.
 
+Official publisher channels used for entity cross-linking are listed in the
+[institutional identity record](governance/institutional-identity.md). Their
+listing does not guarantee that every external page is current or reviewed.
+
 The project originates from a multi-year independent research and design
 effort. No more precise duration, maturity, adoption, or operational claim is
 made here.

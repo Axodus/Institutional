@@ -49,6 +49,8 @@ remain deferred unless their own publication tracks are explicitly opened.
 - `what-is-axodus.md`: concise public explanation of the Axodus identity.
 - `governance/entity-seo-technical-plan.md`: controlled technical plan for
   entity data, metadata, links, and indexing.
+- `governance/website-refactor-execution-plan.md`: staged execution plan for
+  refactoring `axodus.country`.
 - `governance/`: citation, disclosure, evidence, intellectual-property, and
   review controls.
 - `research/`: claims, terminology, gaps, related work, and bibliography

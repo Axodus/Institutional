@@ -39,7 +39,12 @@ for verification must not be invented by the renderer.
       "url": "https://axodus.country/",
       "description": "Axodus is a research-driven initiative developing a proposed ecosystem of interoperable, AI-native organizational platforms for governed knowledge, institutional workflows, and digital services.",
       "sameAs": [
-        "https://github.com/Axodus/Institutional"
+        "https://github.com/axodus/",
+        "https://github.com/Axodus/Institutional",
+        "https://docs.axodus.country/",
+        "https://axodus.medium.com/",
+        "https://axodus.substack.com/",
+        "https://axodus.notion.site/Axodus-39355b1b6c9880f884ade5ce28b4dc6d"
       ]
     },
     {
@@ -64,7 +69,19 @@ for verification must not be invented by the renderer.
 The `ResearchOrganization` type describes the intended institutional framing;
 it does not establish legal incorporation, accreditation, research funding,
 or external recognition. `sameAs` is an identity assertion and must contain
-only URLs that the maintainer has verified as official.
+only URLs that the maintainer has verified as official. The current proposed
+official-channel set is:
+
+- GitHub organization: <https://github.com/axodus/>
+- Institutional repository: <https://github.com/Axodus/Institutional>
+- Documentation: <https://docs.axodus.country/>
+- Medium: <https://axodus.medium.com/>
+- Substack: <https://axodus.substack.com/>
+- Notion: <https://axodus.notion.site/Axodus-39355b1b6c9880f884ade5ce28b4dc6d>
+
+These links identify related publisher channels; they do not make their
+contents equivalent to the controlled Institutional repository or guarantee
+that every page is current, reviewed, or indexable.
 
 ## 3. Page metadata
 
@@ -95,8 +112,9 @@ Minimum relationship set:
 ```text
 Axodus homepage → What is Axodus?
 Axodus homepage → Institutional repository
+Axodus homepage → Documentation
 What is Axodus? → institutional identity and taxonomy
-Institutional repository → approved canonical website
+Institutional repository → approved canonical website and documentation
 Product page → Axodus identity and its own status boundary
 ```
 
@@ -122,7 +140,7 @@ implementation, adoption, partnership, or production readiness.
 
 - [ ] Canonical description matches the identity record exactly.
 - [ ] `@id`, canonical URL, sitemap URL, and Open Graph URL agree.
-- [ ] `sameAs` URLs are verified official channels.
+- [ ] `sameAs` URLs are verified official channels and resolve correctly.
 - [ ] No financial, adoption, partner, performance, or readiness claims were
   added.
 - [ ] Draft pages are `noindex` and excluded from the sitemap.

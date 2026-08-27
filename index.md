@@ -18,6 +18,7 @@ repository.
 6. [governance/institutional-taxonomy.md](governance/institutional-taxonomy.md)
 7. [what-is-axodus.md](what-is-axodus.md)
 8. [governance/entity-seo-technical-plan.md](governance/entity-seo-technical-plan.md)
+9. [governance/website-refactor-execution-plan.md](governance/website-refactor-execution-plan.md)
 
 ### If you will work on publication infrastructure
 

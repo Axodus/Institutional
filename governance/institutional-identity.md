@@ -51,6 +51,22 @@ financial services, investment products, returns, or regulated activity.
 - Do not infer that a domain name, module name, or public repository implies
   deployment, adoption, validation, or affiliation.
 
+## Canonical publisher channels
+
+The following channels are proposed official references for entity linking and
+cross-navigation, subject to maintainer verification and ongoing review:
+
+- GitHub organization: <https://github.com/axodus/>
+- Institutional repository: <https://github.com/Axodus/Institutional>
+- Documentation: <https://docs.axodus.country/>
+- Medium: <https://axodus.medium.com/>
+- Substack: <https://axodus.substack.com/>
+- Notion: <https://axodus.notion.site/Axodus-39355b1b6c9880f884ade5ce28b4dc6d>
+
+Being listed here identifies a publisher channel only. It does not establish
+that content on the channel is reviewed, current, adopted, or equivalent to
+the Institutional repository.
+
 ## Audit record
 
 The 2026-08-26 repository audit searched current Markdown and LaTeX sources
