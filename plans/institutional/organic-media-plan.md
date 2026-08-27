@@ -174,7 +174,10 @@ Antes de publicar cada peça:
 - revisar título, description e Open Graph;
 - registrar a URL publicada e a data.
 
-O diretório `outreach/` está atualmente marcado como deferred. A execução desta estratégia deve ser registrada como abertura explícita de uma frente editorial orgânica, sem autorizar contato dirigido, imprensa ou divulgação comercial.
+O planejamento editorial orgânico está ativo nesta fase. Publicação externa,
+submissão a terceiros, contato dirigido, imprensa, divulgação comercial e
+qualquer ação paga continuam sujeitos a revisão humana e autorização
+específica para o canal correspondente.
 
 ## Métricas observáveis
 

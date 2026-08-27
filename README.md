@@ -40,8 +40,10 @@ Current work includes:
 - a reusable publication infrastructure with ADS-001 as an initial conceptual
   Architecture Specification.
 
-Whitepapers, derived articles, outreach, grant applications, and submissions
-remain deferred unless their own publication tracks are explicitly opened.
+Whitepapers, grant applications, submissions, and directed outreach remain
+deferred unless their own publication tracks are explicitly opened. The
+controlled organic-media planning track is maintained in
+`plans/institutional/organic-media-plan.md`.
 
 ## Repository map
 
@@ -51,6 +53,8 @@ remain deferred unless their own publication tracks are explicitly opened.
   entity data, metadata, links, and indexing.
 - `governance/website-refactor-execution-plan.md`: staged execution plan for
   refactoring `axodus.country`.
+- `plans/institutional/organic-media-plan.md`: controlled 12-week plan for
+  organic articles, threads, channel distribution, and measurement.
 - `governance/`: citation, disclosure, evidence, intellectual-property, and
   review controls.
 - `research/`: claims, terminology, gaps, related work, and bibliography
@@ -58,7 +62,9 @@ remain deferred unless their own publication tracks are explicitly opened.
 - `papers/`: draft manuscripts and publication-readiness reports.
 - `publications/`: reusable publication-series infrastructure and versioned
   conceptual publication packages.
-- `whitepaper/`, `articles/`, and `outreach/`: deferred-phase indexes only.
+- `whitepaper/` and `articles/`: deferred-phase indexes only.
+- `outreach/`: controlled organic-media planning and draft materials; external
+  publication and directed outreach remain gated.
 
 ## Evidence policy
 
