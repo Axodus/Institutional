@@ -1,101 +1,145 @@
 # What is Axodus?
 
-Status: Draft — not approved for canonical or external publication
+By Mauricio ZF — CEO and author
 
-Inventory ID: ART-01
-Canonical path: /articles/what-is-axodus/
-Pillar: Identity
-Author/editor: [TBD]
-Date: [YYYY-MM-DD]
-
-## Abstract
+## What is Axodus?
 
 Axodus is a research-driven initiative developing a proposed ecosystem of
 interoperable, AI-native organizational platforms for governed knowledge,
-institutional workflows, and digital services. This article explains the
-identity and scope used in the Institutional repository. It describes a
-conceptual, prototype-stage model rather than a deployed product or service.
+institutional workflows, and digital services.
 
-## Main text
+That description is an institutional framing for a body of research and
+design work. It explains the direction of the project without presenting a
+finished product catalogue or a claim that a particular service is already in
+operation. Axodus is concerned with how institutional capabilities might be
+described, related, reviewed, and developed within a common conceptual model.
 
-### A bounded institutional description
+The word “ecosystem” is important in this context. Axodus is not framed as one
+all-purpose application. It is a proposed set of relationships among shared
+concepts, bounded capability domains, and institutional records. The intended
+relationship between those parts is modular: a concept or capability can be
+considered in relation to others without assuming that every part is present
+or deployed together.
 
-Axodus is presented as a research-driven initiative. Its current institutional
-materials develop a proposed ecosystem of interoperable, AI-native
-organizational platforms. The emphasis is on how organizations might structure
-governed knowledge, institutional workflows, and digital services through
-modular architectural concepts.
+## The problem space
 
-The description is intentionally bounded. It does not establish that a
-platform, service, organization, or product nucleus is operating in
-production. It also does not claim users, partners, adoption, revenue,
-performance, security, regulatory status, or commercial availability.
+The problem space explored by Axodus concerns the relationship between
+knowledge, decisions, institutional responsibilities, and digital services.
+When these subjects are considered separately, it can be difficult to explain
+how a decision relates to its supporting material, who is responsible for a
+particular judgment, or which boundaries should guide a proposed capability.
 
-### What the model explores
+Axodus approaches these questions as matters of institutional design. Its
+scope includes governed knowledge: knowledge considered alongside provenance,
+review, accountability, and explicit limits on how it may be used. It also
+includes institutional workflows, understood as possible paths through which
+people, documentation, proposals, and decisions can be connected. Neither
+term implies that Axodus currently operates a workflow system or maintains a
+complete body of verified records. They identify areas for research and design.
 
-The Institutional repository treats Axodus as a conceptual, prototype-stage
-model for federated modularity, constitutional constraints, bounded local
-governance, human oversight, and interoperable institutional capabilities.
-These are design objectives and research topics. They are not presented as
-validated outcomes.
+Digital services appear in the model as bounded capabilities rather than as a
+promise of a single technology stack. The question is not simply what a
+service can do, but how a proposed service could remain legible within wider
+governance, evidence, and human-responsibility boundaries. This perspective
+also leaves room for uncertainty: the effects of particular designs, including
+their usability, resilience, or social consequences, remain matters for future
+evaluation rather than established outcomes.
 
-The taxonomy separates broad capability layers, actors and roles, and digital
-assets or artifacts. It also distinguishes a foundation, shared platforms, and
-proposed nuclei. This vocabulary helps keep a design proposal separate from an
-implementation claim. Named nuclei may therefore appear in documentation as
-controlled institutional context without implying that they are available to
-use.
+## What the proposed ecosystem explores
 
-### Research and documentation status
+The Axodus model explores a federated and modular ecosystem. In this proposed
+arrangement, shared constitutional constraints provide a common frame while
+bounded local governance domains may consider and govern particular
+institutional capabilities. The model uses this relationship to explore how
+local context and broader rules might coexist without treating either as an
+automatic substitute for human judgment.
 
-The project originates from a multi-year independent research and design
-effort. The present repository records concepts, terminology, architectural
-relationships, review controls, and future research questions. Some pages may
-describe planned or prototype-stage work using author-reported status; such
-labels are not independent maturity assessments.
+Several themes run through this work. Governance concerns explicit principles,
+boundaries, review, escalation, and accountability. Knowledge concerns how
+material might be documented, contextualized, and revisited. Workflows concern
+possible handoffs among people, decisions, and records. Modularity concerns
+the separation and composition of capabilities. AI concerns bounded assistance
+for analytical or documentation tasks under human oversight.
 
-The canonical documentation is maintained in the Institutional repository and
-the public documentation channel. The project’s publisher channels are listed
-in the identity record and remain subject to maintainer verification. Readers
-should use the canonical page and its linked records when checking a statement
-or status.
+These are design themes, not statements that a system already enforces them.
+For example, human oversight does not mean that an AI system has independent
+authority; modularity does not prove interoperability in practice; and a
+reference to evidence or provenance does not by itself establish security,
+integrity, or accountability. The value of the model is therefore in making
+these questions explicit enough to be discussed, challenged, and evaluated.
 
-### What Axodus is not
+## Concepts and platform relationships
 
-Axodus is not currently defined here as an ETF, investment product, financial
-service, or return-generating scheme. Earlier DAAS/ETF wording is historical
-traceability, not current identity. Financial and regulated-domain terms can
-appear in bounded research context, but they do not establish an offering.
+The institutional taxonomy groups the Axodus ecosystem into several related
+areas: institutional identity, foundation concepts, intended platform and
+service nuclei, proposed role labels, lifecycle ideas, and institutional
+records. This taxonomy is a map for reading the project. It does not measure
+maturity, describe a deployed architecture, or establish that a named
+component is available for use.
 
-Axodus is also not presented as a finished enterprise software suite, an
-operating institution, a certified system, or a production-ready deployment.
-The repository does not use a module name, domain name, or public link as proof
-of implementation, adoption, affiliation, or performance.
+Foundation concepts include constitutional constraints, bounded local
+governance domains, human oversight, accountability, evidence, provenance,
+traceability, review, appeal, modular service selection, and bounded AI
+assistance. Together, these concepts describe the kinds of relationships the
+model is intended to examine.
 
-### How to read future publications
+The taxonomy also names proposed platform and service nuclei such as ACS,
+Business, Marketplace, Academy, BBA-Agency, and Governance. These names are
+controlled institutional context for possible capability domains. Their
+presence does not establish implementation, integration, customers, adoption,
+revenue, security, certification, or operational readiness. Some domains,
+particularly financial or regulated ones, require narrower treatment and are
+not defined by this introductory article.
 
-Each publication should identify whether a statement is an externally
-supported fact, an internal claim, a design proposal, a hypothesis, or future
-work. Limitations are part of the content, not an appendix to be inferred.
-Readers should expect open questions about governance, evidence, human
-oversight, interoperability, and implementation boundaries.
+The relationship among the concepts is directional rather than operational.
+Research can inform architecture; architecture can inform documentation; and
+documentation can clarify what a later prototype would need to examine. The
+model does not claim that this sequence has been completed for any particular
+nucleus. It is a way to describe future work while keeping proposals distinct
+from evidence.
 
-For the current taxonomy and supporting records, consult the [institutional
-identity](../../../governance/institutional-identity.md), [institutional
-taxonomy](../../../governance/institutional-taxonomy.md), [evidence
-boundaries](../../../governance/evidence-boundaries.md), and [claims
-register](../../../research/claims-register.md).
+## Current stage
 
-## Limitations and status
+Axodus is currently presented as a conceptual, prototype-stage model. This
+means its institutional materials describe proposed relationships, design
+objectives, terminology, and research questions. It does not mean that a
+platform, service nucleus, governance arrangement, or AI capability has been
+validated in operation.
 
-This is an institutional overview and conceptual description. It is not
-evidence of implementation, adoption, users, partners, revenue, performance,
-security, legal or regulatory status, or production readiness. External
-channels and search systems may describe the project differently; this page
-does not promise indexing or classification outcomes.
+The proposed lifecycle—research, architecture, documentation, prototype,
+reference platform, external review, independent deployment, and
+federation—should be read as an organizing model for possible future work. It
+is not evidence that any named part of Axodus has reached a stage in that
+sequence. Likewise, labels such as “conceptual” or “prototype-stage” are not
+production, certification, authority, or maturity assessments.
 
-## Canonical references
+This qualification is central to reading Axodus clearly. The project may
+describe goals and possible directions, but it does not claim users, partners,
+measured impact, performance, security, reliability, legal status, commercial
+activity, or operational readiness.
 
+## What Axodus is not
+
+The current institutional identity does not define Axodus as an ETF, an
+investment product, a financial service, or a return-generating scheme. DAAS
+and ETF wording may be retained in historical material to explain the
+evolution of project terminology, but it is not the current identity and does
+not describe a financial offering.
+
+Axodus is also not presented as a finished enterprise software suite, a
+certified system, or a production-ready deployment. A module name, repository
+page, diagram, domain reference, or conceptual description should not be read
+as evidence of implementation, adoption, affiliation, or service availability.
+The project makes no comparative, superiority, or reputational claim about
+other initiatives.
+
+## Relevant canonical links
+
+- [Axodus website](https://axodus.country)
 - [Institutional identity](../../../governance/institutional-identity.md)
 - [Institutional taxonomy](../../../governance/institutional-taxonomy.md)
-- [Claims register](../../../research/claims-register.md)
+- [Axodus documentation](https://docs.axodus.country)
+- [Axodus Institutional repository](https://github.com/Axodus/Institutional)
+
+These sources provide the current institutional description and the broader
+conceptual context for Axodus.

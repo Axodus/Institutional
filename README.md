@@ -61,6 +61,10 @@ controlled organic-media planning track is maintained in
   E0–E7, each with sprint/task detail, acceptance criteria, and blockers.
 - `plans/institutional/organic-media-image-prompts.md`: image-request briefs
   for the twelve canonical articles, with status and rights-review controls.
+- `plans/institutional/editorial-annotation-directives.md`: normative
+  translation of the twelve annotated topics into bounded drafting language.
+- `plans/institutional/editorial-annotations/`: one source Markdown file per
+  annotated article, preserved separately from approved copy.
 - `governance/`: citation, disclosure, evidence, intellectual-property, and
   review controls.
 - `research/`: claims, terminology, gaps, related work, and bibliography

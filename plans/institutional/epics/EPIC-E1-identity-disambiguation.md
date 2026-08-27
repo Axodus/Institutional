@@ -12,6 +12,7 @@ negative search labels into repeated SEO terms.
 - `what-is-axodus.md`
 - `governance/institutional-identity.md`
 - `governance/institutional-taxonomy.md`
+- `plans/institutional/editorial-annotation-directives.md`
 - `plans/institutional/organic-media-aees.md`
 
 ## Scope and non-goals
@@ -29,6 +30,7 @@ or a promise to change search results.
   taxonomy, stage, official links, limitations, and date.
 - Output: website draft with stable target path and metadata.
 - Validate: matches the identity record; every material statement is classified.
+- Required control: apply the ART-01 directive before drafting final copy.
 
 ### E1-S1-T2 — Draft “What Axodus is not”
 

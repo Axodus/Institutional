@@ -27,6 +27,11 @@ Image briefs for the twelve canonical articles are maintained in
 creative requests only and require the same evidence, disclosure, rights, and
 human-review gates as the associated article.
 
+The original editorial inputs are preserved as one file per article in
+[editorial-annotations/](editorial-annotations/). These files are controlled
+source material and must be rewritten through the annotation directives before
+entering a canonical draft.
+
 ## Production rules
 
 - Primary language: English.

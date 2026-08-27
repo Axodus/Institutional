@@ -1,11 +1,12 @@
 # Channel readiness and authorization record
 
-Status: E0 baseline — verification and authorization are pending human action
+Status: ownership confirmed by project owner; publication authorization remains pending
 
 The identity source for all bios is
 [`governance/institutional-identity.md`](../../governance/institutional-identity.md).
-Listing a URL is not proof of ownership, access, review, or publication
-authority.
+Listing a URL alone does not establish ownership, access, review, or
+publication authority. Ownership confirmations recorded below are separate from
+channel-specific publication authorization.
 
 ## Bounded bio set (drafts for review)
 
@@ -39,13 +40,13 @@ changed on an external service under E0.
 
 | Channel / surface | Proposed official URL | URL check (resolves/pending) | Ownership verifier (human) | Verification date | Evidence or note |
 |---|---|---|---|---|---|
-| Website | `https://axodus.country/` | Pending |  |  | Human verification required |
-| Documentation | `https://docs.axodus.country/` | Pending |  |  | Human verification required |
-| GitHub organization | `https://github.com/axodus/` | Pending |  |  | Link alone does not establish ownership |
-| Institutional repository | `https://github.com/Axodus/Institutional` | Pending |  |  | Repository path in local workspace; external ownership pending |
-| Medium | `https://axodus.medium.com/` | Pending |  |  | Human verification required |
-| Substack | `https://axodus.substack.com/` | Pending |  |  | Human verification required |
-| Notion | `https://axodus.notion.site/Axodus-39355b1b6c9880f884ade5ce28b4dc6d` | Pending |  |  | Human verification required |
+| Website | `https://axodus.country/` | Confirmed | Mauricio ZF | 2026-08-27 | Ownership confirmed by project owner |
+| Documentation | `https://docs.axodus.country/` | Confirmed | Mauricio ZF | 2026-08-27 | Ownership confirmed by project owner |
+| GitHub organization | `https://github.com/axodus/` | Confirmed | Mauricio ZF | 2026-08-27 | Ownership confirmed by project owner |
+| Institutional repository | `https://github.com/Axodus/Institutional` | Confirmed | Mauricio ZF | 2026-08-27 | Ownership confirmed by project owner |
+| Medium | `https://axodus.medium.com/` | Confirmed | Mauricio ZF | 2026-08-27 | Ownership confirmed by project owner |
+| Substack | `https://axodus.substack.com/` | Confirmed | Mauricio ZF | 2026-08-27 | Ownership confirmed by project owner |
+| Notion | `https://axodus.notion.site/Axodus-39355b1b6c9880f884ade5ce28b4dc6d` | Confirmed | Mauricio ZF | 2026-08-27 | Ownership confirmed by project owner |
 
 ## Publication authorization matrix
 

@@ -22,7 +22,7 @@ canonical article has passed human review and has an approved canonical URL.
 
 | ID | Target week | Topic | Owner | Status | Intended canonical path | Planned adaptations | External authorization |
 |---|---:|---|---|---|---|---|---|
-| ART-01 | 1 | What is Axodus? | Institutional editorial owner (TBD) | Planned | `/articles/what-is-axodus/` | Medium summary; Substack note; THR-01A/B | Pending |
+| ART-01 | 1 | What is Axodus? | Mauricio ZF — CEO and Author | Evidence review | `/articles/what-is-axodus/` | Medium summary; Substack note; THR-01A/B | Pending |
 | ART-02 | 2 | Why governed knowledge matters | Institutional editorial owner (TBD) | Planned | `/articles/why-governed-knowledge-matters/` | Medium summary; Substack note; THR-02A/B | Pending |
 | ART-03 | 3 | The Axodus platform ecosystem | Institutional editorial owner (TBD) | Planned | `/articles/axodus-platform-ecosystem/` | Medium summary; Substack note; THR-03A/B | Pending |
 | ART-04 | 4 | Constitutional governance, explained | Institutional editorial owner (TBD) | Planned | `/articles/constitutional-governance-explained/` | Medium summary; Substack note; THR-04A/B | Pending |
