@@ -1,6 +1,10 @@
 # [Article title]
 
-Status: Draft — not approved for external publication
+Status: Draft — not approved for canonical or external publication
+
+Inventory ID: [ART-##]
+Canonical approval gate: [Pending — required before any adaptation]
+External authorization: [Pending — channel/batch-specific human approval]
 
 Canonical URL: [to be assigned]
 Author/editor: [name]
@@ -30,7 +34,9 @@ applicable.]
 
 ## Review record
 
+- Claims worksheet: [link to `plans/institutional/claims-review-worksheet.md`]
 - Evidence review: [pending]
 - Editorial review: [pending]
+- Canonical human approval (exact version/date): [pending]
 - Human approval: [pending]
 - External publication: [not authorized]

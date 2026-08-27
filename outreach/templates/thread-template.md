@@ -2,7 +2,12 @@
 
 Status: Draft — not approved for external publication
 
+Inventory ID: [THR-##A/B]
+Canonical approval gate: [Pending — linked article must be approved first]
+External authorization: [Pending — channel/batch-specific human approval]
+
 Canonical article: [URL]
+Canonical article approval record: [link/version/date]
 Author/editor: [name]
 Date: [YYYY-MM-DD]
 
@@ -19,4 +24,5 @@ Review checklist:
   security, or production claim.
 - [ ] No promotional superlative or defensive “scam” repetition.
 - [ ] Canonical article link resolves.
+- [ ] Linked canonical article is human-approved at the exact version used.
 - [ ] Human approval recorded before publication.

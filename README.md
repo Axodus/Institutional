@@ -55,6 +55,12 @@ controlled organic-media planning track is maintained in
   refactoring `axodus.country`.
 - `plans/institutional/organic-media-plan.md`: controlled 12-week plan for
   organic articles, threads, channel distribution, and measurement.
+- `plans/institutional/organic-media-aees.md`: AEES production backlog with
+  ordered EPICs, SPRINTs, TASKs, dependencies, and validation gates.
+- `plans/institutional/epics/`: separate implementation requests for EPICs
+  E0–E7, each with sprint/task detail, acceptance criteria, and blockers.
+- `plans/institutional/organic-media-image-prompts.md`: image-request briefs
+  for the twelve canonical articles, with status and rights-review controls.
 - `governance/`: citation, disclosure, evidence, intellectual-property, and
   review controls.
 - `research/`: claims, terminology, gaps, related work, and bibliography

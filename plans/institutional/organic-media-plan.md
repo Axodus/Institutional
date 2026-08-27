@@ -149,6 +149,20 @@ Medição e registro
 
 A ordem deve ser sempre: site primeiro, canais externos depois. Medium e Substack não devem se tornar fontes divergentes da identidade oficial.
 
+## Artefatos de controle E0
+
+O pacote de produção controlada está versionado em:
+
+- [inventário editorial](editorial-inventory.md), com 12 artigos e 24 threads;
+- [worksheet de claims](claims-review-worksheet.md), vinculado ao registro de
+  claims;
+- [fluxo de adaptação canônica](editorial-adaptation-flow.md) e templates;
+- [log mensal de observações](observation-log.md);
+- [prontidão e autorização de canais](channel-readiness.md).
+
+Esses registros são planejamento e revisão; não autorizam publicação,
+outreach, edição de perfis ou qualquer ação em serviço externo.
+
 ## Regras de distribuição
 
 - Não publicar o mesmo artigo integral em vários locais sem estratégia de canonicalização ou indicação clara da fonte original.
