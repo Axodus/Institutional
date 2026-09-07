@@ -59,3 +59,21 @@ At minimum, check citation/BibTeX consistency, unsupported claims,
 promotional language, maturity ambiguity, sensitive disclosures, and
 correspondence metadata. A draft is not ready for publication merely because
 these checks pass.
+
+## AXODUS_WORKSPACE_COORDINATION
+
+This workspace is part of the federated Axodus portfolio. Read the root
+[`AGENTS.md`](../AGENTS.md) and the
+[Agent Coordination Protocol](../.instructions/AGENT_COORDINATION_PROTOCOL.md) before starting work.
+
+Keep this file's local rules authoritative for this repository. For every
+completed or materially blocked task, provide the required **Global Coordination
+Handoff**: workspace, scope, local status, validation, local records changed,
+dependencies, blockers or risks, priority impact, requested portfolio action,
+and preserved boundaries.
+
+Update this repository's existing local status, roadmap, task, validation,
+blocker, or report records when the authorized task requires it. Do not edit
+root portfolio records directly; the root Axodus orchestrator consolidates
+validated handoffs into global status, priorities, blockers, dependencies, and
+reports.
