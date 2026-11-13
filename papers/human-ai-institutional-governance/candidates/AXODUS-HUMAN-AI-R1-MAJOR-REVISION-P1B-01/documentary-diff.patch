@@ -1,0 +1,421 @@
+--- historical-candidate/paper.md
++++ P1B-working-copy/paper.md
+@@ -4,8 +4,9 @@
+   - "Mauricio Z. Filho"
+ affiliation: "Axodus Founder"
+ correspondence: "mzfshark@gmail.com"
+-candidate_identifier: "AXODUS-HUMAN-AI-R1-EDITORIAL-CANDIDATE-01"
+-candidate_status: "Uncommitted local documentary candidate; non-public; not authorized for external circulation or publication"
++candidate_identifier: "AXODUS-HUMAN-AI-R1-MAJOR-REVISION-P1B-01"
++candidate_status: "Uncommitted P1-B working copy; non-public; CRO and final author review pending"
++source_candidate: "AXODUS-HUMAN-AI-R1-EDITORIAL-CANDIDATE-01 at 71d7adbd5381b9282407664682fe5b0f1fa8d0f9"
+ author_metadata_status: "RES-01 — AUTHOR_IDENTITY_CONFIRMED; FINAL_MANUSCRIPT_APPROVAL_PENDING"
+ document_type: "Normative-conceptual research framework"
+ source_manuscript_preparation_date: "2026-11-10"
+@@ -19,7 +20,7 @@
+ 
+ This paper proposes an integrative conceptual framework for examining AI-assisted governance in human institutions. Its normative premise is that institutional authority must be constituted through legitimate human institutional arrangements; technical capability or operational performance does not independently establish such authority. The framework distinguishes four substantive dimensions—human legitimacy, institutional intelligence, agentic delegation, and federated institutional autonomy—from three analytical levels: institutional principles and authority, governance processes and human–AI interaction, and technical implementation mechanisms.
+ 
+-Institutional intelligence is treated as a set of organizational functions rather than as a claim that intelligence is generated exclusively by artificial agents. AI assistance may be persistent, episodic, specialized, or distributed across institutions. The paper examines proposal composition, deliberative analysis, contestation, and institutional memory, together with the risks of agenda influence, cognitive dependence, shared bias, and false interpretive authority.
++Institutional intelligence is treated as a set of organizational functions rather than as a claim that intelligence is generated exclusively by artificial agents. AI assistance may be persistent, episodic, specialized, or distributed across institutions; the capacity, its mobilization in a process, and the resulting outcomes are distinct. The paper examines proposal composition, deliberative analysis, contestation, and institutional memory, together with the risks of agenda influence, cognitive dependence, shared bias, and false interpretive authority.
+ 
+ As a cross-cutting analytical device, the paper develops an *Institutional Decision Episode* that distinguishes the validity of an institutional mandate, the conformity of a delegated action, and the practical capacity to contest or correct an outcome. A hypothetical procurement episode illustrates how these categories can support different lines of inquiry. The example does not demonstrate improved governance or operational effectiveness. The framework is a normative and conceptual synthesis; its usefulness, effectiveness, and applicability across institutional forms remain to be evaluated.
+ 
+@@ -48,7 +49,7 @@
+ 
+ These dimensions identify subjects of investigation. They are complemented by three analytical levels that distinguish **institutional authority**, **governance processes**, and **technical mechanisms**. The two structures are not interchangeable: one identifies substantive concerns, while the other separates types of institutional analysis.
+ 
+-The paper also uses an *Institutional Decision Episode* as a cross-cutting device. It connects cognitive work before a decision to the mandate under which action occurs, the action itself, the evidence available, and the possibility of review or correction. This device integrates established concerns about authority, delegation, accountability, and contestability; it is not presented as the discovery of those concerns.
++The paper also uses an *Institutional Decision Episode* as a cross-cutting device. It connects cognitive work before a decision to mandate validity, action conformity, the evidence available, and the possibility of review or correction, without treating these assessments as interchangeable. This device integrates established concerns about authority, delegation, accountability, and contestability; it is not presented as the discovery of those concerns.
+ 
+ The framework is intended for conceptual examination across different organizational forms. Its portability is a research proposition, not an established result. Blockchain, smart contracts, tokenization, or any other specific implementation technology are optional possibilities rather than premises of the analysis.
+ 
+@@ -80,37 +81,27 @@
+ 
+ ## 2.4 Related work and the status of the contribution
+ 
+-The proposed framework draws together ideas already present in scholarship on institutional authority, AI governance, meaningful human control, reviewability, and contestability. It should be understood as an **integrative conceptual synthesis**, not as a claim to have invented these fields.
+-
+-The institutional decision episode is intended to make relationships among mandate validity, delegated-action conformity, and contestability explicit within a common analytical unit. These distinctions overlap with prior work, including the sources above. The available R1 Foundations record also identified Kang’s (2026) *Institutional Judgment Governance* as a potentially close comparator. Because the full text was not established as accessible in the prior assessment, no claim is made here that Kang’s work lacks the distinctions developed in this paper. Further comparison would be required before advancing a stronger claim of distinctiveness.
++This article offers a bounded integrative synthesis. HAIG examines the distribution of decision authority, process autonomy, and accountability in human–AI arrangements (Engin, 2026). Reviewable automated decision-making situates records and accountability across the sociotechnical process (Cobbe et al., 2021), while contestable AI by design specifies features and practices supporting intervention and challenge (Alfrink et al., 2023). Sebastian et al. (2026) address organizational decision rights in relation to ambiguity and risk. Kang’s (2026) abstract indicates substantial overlap in institutional judgment, reliance, delegated authority, and accountability; its full text was not available for comparison.
++
++The Institutional Decision Episode (IDE) makes selected distinctions explicit in a common record for one decision or action, or for linked episodes. Its potential incremental utility is clearest where an analyst must distinguish a change of institutional competence from a change in operational permissions, or deliberative approval from subsequent execution. The B4 reconstruction illustrates how the scheme can preserve these distinctions. It does not show that other approaches cannot represent them or that the scheme improves analysis in practice. Where an existing framework answers the question at the required resolution, the IDE may add no value.
+ 
+ ## 2.5 Conceptual method
+ 
+-The paper uses **normative-conceptual analysis and a bounded integrative synthesis**. It does not report a systematic literature review, empirical experiment, formal proof, or implementation study.
+-
+-The method has three components.
+-
+-First, it separates concepts that are often conflated in discussions of AI governance: institutional authority, cognitive assistance, factual agency, technical permission, institutional authorization, responsibility, and contestability.
+-
+-Second, it organizes these concerns through four substantive dimensions and three analytical levels. The proposed structure is intended to make relationships and possible tensions inspectable. It is not claimed to be necessary, minimal, uniquely correct, or universally sufficient.
+-
+-Third, it uses a hypothetical decision episode to examine whether several kinds of institutional failure can be distinguished without assuming that each failure has the same cause or remedy. The episode is an illustration of conceptual analysis. It cannot establish how frequently such failures occur or whether the framework improves real institutional outcomes.
++This article combines an integrative conceptual synthesis, a structured comparison with selected scholarly accounts, and analytical reconstruction of hypothetical episodes. It asks how AI-assisted cognitive and operational work can be distinguished from institutional authority, and under what conditions an episode representation might clarify that distinction. Sources were selected for their relevance to organizational cognition, authority, delegation, reviewability, or contestability. Targeted bibliographic checks on 13 November 2026 used title, author, identifier, and topic searches across public scholarly sources. No complete historical search or screening log is available. Coverage is purposive, and access ranges from reviewed passages in full texts to abstracts and metadata.
++
++Comparisons distinguish unit of analysis, analytical purpose, explicitly represented relationships, evidence requirements, and cases of redundancy. The procurement illustration separates three diagnostic concerns. Scenario A illustrates the boundary between bounded authorization and external execution; Scenario B illustrates linked local and federative decisions. The reconstruction of B4 uses the same stipulated record and reports missing evidence rather than supplying it. These materials demonstrate initial applicability only. No empirical validation or independent inter-analyst replication was performed. Source selection, uneven access, and the use of a constructed example limit inference. Future assessments require fixed records, explicit comparators, independent coding, and transparent treatment of null results and disagreements.
++
++This is not a systematic review, meta-analysis, controlled experiment, or formal proof. Proposed evaluation designs in Section 9 require appropriate access, institutional approval, and ethical review before any future execution.
+ 
+ # 3. Legitimate Authority and Institutional Decision Rights
+ 
+ ## 3.1 Human-centered authority as a normative premise
+ 
+-The framework proceeds from the normative position that institutional authority should be constituted through legitimate human institutional arrangements. Depending on the institution, those arrangements may involve individuals, representative bodies, boards, associations, public authorities, or collective decision procedures.
+-
+-This premise has two implications for the argument. First, an AI system’s ability to analyze, persuade, coordinate, or execute does not **by itself** establish that it holds independent institutional authority. Second, a human institution cannot establish the legitimacy of its authority merely by describing a technical mechanism that carries out its decisions. The relevant institutional basis must itself be identified and may be subject to contestation.
+-
+-The framework does **not** purport to settle universal questions about whether an AI system could receive legal personhood, rights, or institutional standing under a particular legal regime. Those questions vary by jurisdiction and remain outside the conclusions of this paper. Likewise, what constitutes a legitimate principal in a particular organization requires reference to its applicable rules and, where relevant, legal context.
+-
+-A working analytical definition is therefore deliberately limited:
+-
+-> A **recognized institutional principal or body** is an actor or collective body treated, under the applicable institutional arrangements being examined, as holding or exercising a specified decision right.
+-
+-Recognition under a stated rule is an object of analysis; it does not automatically settle the deeper legitimacy of that rule. The relationship between human legitimacy, collective institutions, and legally recognized entities remains an open normative and domain question.
++“Intelligence may be distributed; authority must be constituted” is a premise of the institutional model examined here, not a universal theory of moral or political legitimacy. An actor’s technical capability or epistemic contribution does not by itself confer a right to decide.
++
++Formal constitution and recognition identify who is treated as holding authority. Internal institutional validity asks whether that actor had competence and followed applicable rules. Legal validity, where relevant, is a separate question under the applicable jurisdiction. Social acceptance concerns actual beliefs or acquiescence; normative legitimacy concerns whether the exercise of power is justified to those affected. These assessments can diverge. A formally authorized decision can remain normatively contestable, including when affected parties lack representation, meaningful participation, rights protection, or a practical opportunity to challenge it. Stone and Mittelstadt (2026) distinguish descriptive acceptance from the normative question of who may permissibly exercise power.
++
++A recognized institutional principal or body is an actor or collective body treated, under the arrangements being examined, as holding or exercising a specified decision right. Recognition does not settle whether the underlying rule or distribution of power is legitimate. The IDE records the asserted basis of authority and the evidence and avenues for its challenge; it supplies no universal test of legitimacy. The framework does not decide universal questions of AI legal personhood, rights, or standing, which remain open and context dependent.
+ 
+ ## 3.2 Capability, permission, factual agency, and authority
+ 
+@@ -119,9 +110,11 @@
+ | Concept | Working meaning | What it does not establish by itself |
+ |---|---|---|
+ | **Technical capability** | What a system can materially compute, generate, access, or execute in an environment. | That any action is permitted or legitimate. |
+-| **Technical permission** | What a configured mechanism allows a system or credential to invoke. | That the configuration reflects a valid institutional mandate. |
++| **Configured enablement** | An identifiable technical or procedural mechanism that enables an actor to invoke an operation or register an act. | That the mechanism exists merely because a rule, mandate, or completed vote exists; or that it reflects a valid institutional mandate. |
+ | **Operational agency** | The factual capacity to act or influence events, including by initiating tool calls or shaping available information. | That the action was authorized or that the actor holds legitimate institutional authority. |
+ | **Institutional authority** | A decision right or competence constituted or recognized under the institutional arrangements being examined. | That the right is technically enforceable or uncontested in every relevant context. |
++
++In the IDE, enablement is recorded as technical (T_tech) or procedural (T_proc) only when a distinct mechanism is evidenced. Where relevant but not shown in examined records it is NOT_EVIDENCED; where applicability is unclear it is UNKNOWN. NOT_APPLICABLE concerns a specified type or stage of act, not proof that a mechanism does not exist elsewhere.
+ 
+ Operational agency is a **factual** concept in this model. A system may act outside its mandate, use an overly broad technical permission, or perform an action without any valid institutional authorization. It may also influence a decision through agenda selection or presentation of information without possessing an explicit execution permission.
+ 
+@@ -153,18 +146,11 @@
+ 
+ ## 4.1 Institutional intelligence as a governance function
+ 
+-*Institutional intelligence* refers here to the capabilities through which an institution gathers, preserves, interprets, questions, and uses information in governing itself. These capabilities arise from people, practices, records, and technical systems. AI may augment them, but institutional intelligence should not be equated with AI-generated output.
+-
+-The proposed model distinguishes four functions:
+-
+-- **Composition:** turning an institutional intention or concern into a proposal that others can understand and deliberate on.
+-- **Analysis:** examining assumptions, alternatives, consequences, and relevant institutional context.
+-- **Contestation:** generating or supporting challenges to proposals, interpretations, evidence, and decisions.
+-- **Memory:** making prior records, commitments, and decisions available for current institutional work.
+-
+-An institution could organize these functions in many ways. AI assistance might be continuous, occasional, specialized, centrally provided, or distributed among participants. A permanent AI layer is therefore a possible arrangement, not a condition of the framework.
+-
+-The value of these functions is a question for evaluation. AI may expand the analytical resources available to participants, but it may also introduce errors, dependency, or uneven influence. The analysis below treats benefits as possibilities and design objectives, not observed results.
++Institutional intelligence denotes a governance arrangement’s capacity to formulate issues, examine alternatives and evidence, receive and respond to challenges, and retrieve and correct records relevant to institutional judgment. The unit of analysis is a bounded governance arrangement, identified by its decision domain, participants, routines, and period of observation. Individuals, groups, records, and technical artifacts can sustain that capacity; their outputs are not measures of it by themselves. Work on bounded rationality, organizational information processing, and distributed cognition motivates examining these arrangements rather than attributing the capacity to a single actor (Simon, 1978; Galbraith, 1974; Hollan et al., 2000).
++
++Composition, analysis, contestation, and memory are four overlapping governance functions, not an exhaustive taxonomy of cognition. Attention shapes what each function makes visible; coordination connects participants and tasks; deliberation brings reasons and objections into collective consideration; learning concerns changes in routines over time. Retrieving a record does not establish that the institution has learned from it (Walsh & Ungson, 1991; Levitt & March, 1988).
++
++AI assistance can redistribute cognitive work, but its effects depend on the task, sources, opportunities for correction, and division of responsibilities. Combining more outputs does not establish complementary judgment or independent scrutiny (Gonzalez et al., 2026; Vaccaro et al., 2024). A useful contribution to judgment does not confer authority over the resulting decision. Assistance may be continuous, occasional, specialized, centralized, or distributed. Benefits are possibilities and hypotheses, not established outcomes.
+ 
+ ## 4.2 Proposal composition and institutional participation
+ 
+@@ -287,36 +273,23 @@
+ 
+ ## 6.1 The institutional decision episode
+ 
+-An *Institutional Decision Episode* is a bounded analytical representation of a decision or delegated action. It connects the institutional basis for an action to the cognitive and operational processes around it, available evidence, and possible review.
+-
+-For purposes of analysis, an episode may be represented as:
++An Institutional Decision Episode is a bounded analytical representation of a decision or delegated action. The canonical representation remains:
+ 
+ \[
+ \mathcal{E}=\langle P,R,M,C,T,A,E,Q,D\rangle
+ \]
+ 
+-where:
+-
+-- \(P\): the asserted institutional principal or body;
+-- \(R\): applicable institutional rules and decision procedures;
+-- \(M\): the mandate or claimed authorization;
+-- \(C\): the relevant technical or operational capabilities;
+-- \(T\): the configured technical permissions;
+-- \(A\): the action, proposed action, or observed event;
+-- \(E\): the evidence available about the episode;
+-- \(Q\): the practical conditions for challenge or review; and
+-- \(D\): the actual or possible institutional disposition.
+-
+-**Mandate conformity** is represented explicitly as a derived assessment:
+-
+-\[
+-MC(A,M,R)=\text{assessment of whether action }A\text{ conforms to mandate }M
+-\text{ under the applicable rules }R.
+-\]
+-
+-This is an analytical relation, not a claim that conformity is always mechanically decidable. Where the mandate is invalid, ambiguous, missing, or contested, the assessment should record that limitation. An action may conform to the **nominal text** of a purported mandate while the authority to issue that mandate remains in question.
+-
+-The representation is a conceptual aid, not a required software protocol, a complete account of institutional legitimacy, or evidence that any Axodus system implements the model.
++Here P is an asserted principal or body; R the applicable rules and procedures; M the mandate or claimed authorization; C relevant factual capabilities; T evidenced configured technical or procedural enablement; A the focal action, proposed action, or observed event; E the available evidence; Q conditions for challenge or review; and D the actual or possible institutional disposition.
++
++A focal act enters the relevant procedure and ends with its immediate disposition or the observation cutoff. Where principal, competence, mandate, or action stage changes, separately attributable episodes may be linked rather than merged. Joint principals and contested authority should be recorded as such. Distinguish proposal, approval, operational authorization, submission, external acceptance, and execution when relevant; do not infer a later event from an earlier one.
++
++Mandate Validity Assessment (MVA) asks whether the asserted mandate was constituted or attributed by a competent body under applicable rules. Report VALID, DEFECTIVE, CONTESTED, or UNDETERMINED. Independently, mandate conformity concerns whether action A fits the scope and conditions of mandate M under applicable rules R. We denote this substantive relation as MC(A,M,R). Any reported conformity classification is an evidence-supported assessment: the analyst must identify the records E, applicable assumptions, and unresolved interpretations on which the classification depends. For MC report CONFORMING, NONCONFORMING, CONTESTED, or UNDETERMINED. Thus, the rules determine the relevant normative standard, while the evidence supports or limits the analyst’s conclusion. An action can fit the nominal text of an invalid or contested mandate; a valid mandate does not establish action conformity. Neither a conforming classification nor a valid mandate establishes legal effect or normative legitimacy.
++
++For each element, an analyst identifies the following and records unknown or contested interpretations: P, the asserted principal, including any joint or competing principals; R, constitutive, procedural, substantive, and where applicable legal rules; M, its issuing body, scope, conditions, and authority; C, factual cognitive and operational capabilities; T, a separately evidenced enablement mechanism and its technical or procedural type; A, one focal act and its stage; E, the sources supporting or contradicting the entry; Q, standing, access, time, cost, independence, and review capacity; and D, the immediate disposition and any pending later action. A record of the episode should identify missing sources rather than completing fields from assumptions.
++
++For each material assertion identify the record, scope, and whether it was examined. Distinguish NOT_EVIDENCED, EVIDENCED_ABSENT, NOT_APPLICABLE, UNKNOWN, and CONTESTED. An absence claim requires evidence appropriate to that claim; a prohibition does not prove an event did not occur. T_proc requires an identifiable procedural enablement distinct from R and M; a recorded vote alone does not establish it. Distinguish formal avenues of challenge from the practical ability to use them, and actual dispositions from pending or prospective ones.
++
++The representation is a conceptual aid, not a required software protocol, a complete account of institutional legitimacy, or evidence that any Axodus system implements the model. Initial application to stipulated material does not validate inter-analyst reproducibility.
+ 
+ ## 6.2 Three diagnostic categories
+ 
+@@ -534,13 +507,13 @@
+ 
+ # 9. Research Propositions and Future Evaluation
+ 
+-The propositions below identify possible directions for future research. They are not reported findings or authorization to conduct studies. Any later protocol would require an appropriate design, access to evidence, and relevant institutional, privacy, legal, and research-ethics review.
+-
+-For each proposition, a null result or an adverse result would be informative. Measures should not be selected solely to confirm the framework.
++The propositions below identify possible directions for future research, not reported findings or authorization to conduct studies. Before evaluation, specify the comparator, primary outcome, smallest relevant effect, and results that would count against the hypothesis. Null, adverse, and inconclusive findings must be distinguished. Any later protocol requires appropriate access, institutional approval, and relevant privacy, legal, and research-ethics review.
++
++For each proposition, a null or adverse result would be informative. Comparator conditions should receive equivalent evidence and time unless access is itself the intervention; independent rubrics should also capture false positives, omissions, uncertainty, and cases that do not fit the scheme.
+ 
+ ## 9.1 Proposal composition
+ 
+-**Hypothesis.** AI-assisted composition may change participants’ ability to prepare proposals that satisfy specified procedural requirements.
++**Hypothesis.** Compared with a standard template, source-linked AI assistance will improve procedural completeness without increasing material errors beyond a prespecified margin.
+ 
+ **Candidate observable outcomes.** Correct identification of required information, omission of relevant alternatives, participant drafting time, and errors introduced by the assistance.
+ 
+@@ -550,9 +523,11 @@
+ 
+ **Evidence required.** A defined protocol, independent assessment criteria, records of omissions and introduced errors, and reporting of positive, null, and negative effects.
+ 
++**Potential contrary result.** A null or adverse result, such as equal completeness with materially more errors, would count against the hypothesis.
++
+ ## 9.2 Cognitive access, understanding, and political influence
+ 
+-**Hypothesis.** Providing shared institutional intelligence may affect participants’ understanding and their ability to identify relevant alternatives, but may also introduce common framing effects.
++**Hypothesis.** Source-linked assistance will improve comprehension without reducing detection of erroneous recommendations. Influence over agenda selection remains a separate research question.
+ 
+ **Candidate observable outcomes.** Comprehension of source material, recognition of omitted alternatives, confidence calibration, and differences in participants’ opportunity to influence an agenda.
+ 
+@@ -562,9 +537,11 @@
+ 
+ **Evidence required.** Transparent measures, independent review of framing, analysis across participant groups where appropriate, and documentation of null or adverse effects.
+ 
++**Potential contrary result.** A rise in confidence without corresponding comprehension, or worse detection of incorrect advice, would count against the hypothesis.
++
+ ## 9.3 Adversarial contestation
+ 
+-**Hypothesis.** Structured adversarial assistance may alter the identification of conflicts, omissions, or unsupported claims during deliberation.
++**Hypothesis.** Assisted critique will identify a greater proportion of independently defined material issues without a material increase in false objections.
+ 
+ **Candidate observable outcomes.** Relevant issues identified, false objections, missed objections, participant workload, and participants’ willingness to challenge the adversarial analysis itself.
+ 
+@@ -574,9 +551,11 @@
+ 
+ **Evidence required.** Independently defined issue criteria, assessment of false positives and omissions, and examination of whether challenges lead to meaningful institutional consideration.
+ 
++**Potential contrary result.** An increase in objection volume without better identification of material issues, or with materially worse precision, would count against the hypothesis.
++
+ ## 9.4 Institutional memory
+ 
+-**Hypothesis.** AI-assisted retrieval and presentation of institutional records may affect participants’ ability to locate and correctly interpret relevant prior decisions.
++**Hypothesis.** Provenance-linked retrieval will improve identification of operative records without increasing access or disclosure errors.
+ 
+ **Candidate observable outcomes.** Retrieval precision, identification of superseded records, accuracy of source interpretation, time to locate relevant material, and disclosure or access errors.
+ 
+@@ -586,9 +565,11 @@
+ 
+ **Evidence required.** A documented source set, independently verified status of records, error analysis, and privacy and access controls appropriate to the material.
+ 
++**Potential contrary result.** More obsolete-record selection or access errors despite faster retrieval would count against the hypothesis.
++
+ ## 9.5 Decision-episode reconstruction and failure detection
+ 
+-**Hypothesis.** A representation based on the Institutional Decision Episode may affect reviewers’ ability to reconstruct an action and distinguish mandate, conformity, and contestability concerns.
++**Hypothesis.** Relative to an evidence-matched case form, IDE-based reconstruction will reduce unsupported inferences about episode boundaries, MVA, MC, and execution.
+ 
+ The representation to be evaluated would use the accepted Stage 1 notation:
+ 
+@@ -603,11 +584,13 @@
+ 
+ **Confounders and limitations.** Reviewer training, familiarity with the notation, case complexity, quality of the underlying evidence, and the risk that the structured format directs reviewers toward predetermined categories.
+ 
+-**Evidence required.** Independently prepared cases and scoring criteria, reporting of disagreements and unclassifiable cases, and comparison of workload as well as accuracy. A faster or more consistent classification would not by itself demonstrate institutional legitimacy or effective remedy.
++**Evidence required.** Independently prepared cases and scoring criteria, reporting of disagreements and unclassifiable cases, and comparison of workload as well as accuracy. A faster or more consistent classification would not by itself demonstrate institutional legitimacy or effective remedy. In a separately authorized assessment, two independent analysts should code the same fixed records without conferring, compare episode boundaries and all nine fields, and separately compare MVA and MC. A reviewer should document the basis of any adjudication and preserve disagreements that the records cannot resolve. No such independent test was conducted here.
++
++**Potential contrary result.** An independently repeated result of no reduction, or an increase in unsupported inferences, would count against the hypothesis under the specified comparison.
+ 
+ ## 9.6 Delegation and practical intervention
+ 
+-**Hypothesis.** Explicit representation of a mandate, its operational boundaries, and available review conditions may affect whether reviewers can identify a mismatch between institutional authorization and observed action.
++**Hypothesis.** Explicitly distinguishing rules, mandate, capability, enablement, and contestability will reduce false inferences about authorization and practical intervention.
+ 
+ **Candidate observable outcomes.** Detection of mandate-scope discrepancies, recognition of unavailable intervention, correct distinction among suspension, revocation, reversal, and remedy, and uncertainty reported by reviewers.
+ 
+@@ -617,9 +600,11 @@
+ 
+ **Evidence required.** Clearly stated assumptions, cases with overlapping or uncertain failures, independent review of the classifications, and documentation of situations in which the framework adds no useful distinction.
+ 
++**Potential contrary result.** Persisting confusion between technical enablement and authority or between approval and external execution would count against the hypothesis.
++
+ ## 9.7 Cross-institutional applicability
+ 
+-**Hypothesis.** The three analytical levels and four foundational dimensions may help organize comparable questions across more than one institutional form, while requiring adaptation to local rules and practices.
++**Research question.** Which distinctions remain informative across selected institutional forms, and which require adaptation or omit important local features? No universal portability hypothesis is assumed.
+ 
+ **Candidate observable outcomes.** Whether analysts can identify authority, process, technical mechanisms, cognitive functions, and relevant review conditions without omitting important institution-specific features.
+ 
+@@ -629,9 +614,11 @@
+ 
+ **Evidence required.** Explicit case-selection criteria, access and confidentiality arrangements, attention to counterexamples and residual categories, and a clear boundary between conceptual comparison and generalizable empirical claims.
+ 
++**Potential contrary result.** Recurring loss of institution-specific features or adaptations that prevent comparison would limit the applicability claim.
++
+ # 10. Conclusion
+ 
+-This paper proposes an integrative conceptual framework for examining how human institutions may incorporate AI into governance while preserving legitimately constituted authority, meaningful participation, accountability, and institutional autonomy.
++This paper proposes a bounded integrative conceptual framework for examining how human institutions may incorporate AI into governance while preserving legitimately constituted authority, meaningful participation, accountability, and institutional autonomy. Constitution alone does not establish normative legitimacy.
+ 
+ The framework distinguishes four substantive dimensions. **Human legitimacy** concerns the institutional basis of decision rights and authority. **Institutional intelligence** concerns the cognitive work through which proposals are composed, evidence is considered, claims are contested, and institutional memory is made available. **Agentic delegation** concerns the relationship among mandates, operational capability, technical permission, action, and responsibility. **Federated institutional autonomy** concerns how distinct institutions may organize their own capabilities while observing applicable shared commitments; federation remains an application context rather than a universal requirement.
+ 
+@@ -639,7 +626,7 @@
+ 
+ The framework also faces substantial counterarguments. AI assistance may shape agendas, encourage dependence, reproduce shared errors, or present generated interpretations as institutional authority. Formal human approval, source records, or a named adversarial function do not independently resolve those risks. Conversely, extensive review can impose burdens that require proportionate institutional judgment.
+ 
+-The paper therefore advances a conceptual and normative research direction. Its practical usefulness, empirical effects, and applicability across institutional forms remain open to evaluation. Its contribution is framed as a synthesis of established concerns rather than as a claim of distinctive originality.
++The paper advances a conceptual and normative research direction with potentially incremental diagnostic utility at institutional boundaries. Its practical usefulness, empirical effects, inter-analyst reproducibility, and applicability across institutional forms remain open to evaluation. Its contribution is a synthesis of established concerns rather than a claim of distinctive originality or demonstrated superiority.
+ 
+ > **Intelligence may be distributed; authority must be constituted.**
+ 
+@@ -679,21 +666,35 @@
+ 
+ Engin, Z. (2026). Human-AI governance (HAIG): A trust-utility approach. *Journal of Responsible Technology*, *26*, Article 100167. <https://doi.org/10.1016/j.jrt.2026.100167>
+ 
++Galbraith, J. R. (1974). Organization Design: An Information Processing View. *Interfaces*, *4*(3), 28–36. https://doi.org/10.1287/inte.4.3.28
++
++Gonzalez, C., Donahue, K., Goldstein, D. G., Heidari, H., Jalali, M. S., Schelble, B., Singh, A., & Woolley, A. W. (2026). Toward a science of human–AI teaming for decision making: A complementarity framework. *PNAS Nexus*, *5*(3), pgag030. https://doi.org/10.1093/pnasnexus/pgag030
++
+ Green, B. (2022). The Flaws of Policies Requiring Human Oversight of Government Algorithms. *Computer Law & Security Review*, *45*, 105681. <https://doi.org/10.1016/j.clsr.2022.105681>
+ 
++Hollan, J., Hutchins, E., & Kirsh, D. (2000). Distributed cognition: toward a new foundation for human-computer interaction research. *ACM Transactions on Computer-Human Interaction*, *7*(2), 174–196. https://doi.org/10.1145/353485.353487
++
+ Kang, T. (2026). *Institutional Judgment Governance: Toward a Theory of Reliance, Authority, and Accountability in Human-AI Decision Systems* [SSRN preprint]. <https://doi.org/10.2139/ssrn.7339378>
+ 
+ Kroll, J. A., Huey, J., Barocas, S., Felten, E. W., Reidenberg, J. R., Robinson, D. G., & Yu, H. (2017). Accountable Algorithms. *University of Pennsylvania Law Review*, *165*(3), 633–705. <https://pennlawreview.com/2017/02/23/accountable-algorithms/>
+ 
+ Leveson, N. G. (2012). *Engineering a Safer World: Systems Thinking Applied to Safety*. The MIT Press. ISBN 9780262016629. <https://mitpress.mit.edu/9780262016629/engineering-a-safer-world/>
+ 
++Levitt, B. & March, J. G. (1988). Organizational Learning. *Annual Review of Sociology*, *14*(1), 319–338. https://doi.org/10.1146/annurev.so.14.080188.001535
++
+ Ostrom, E. (2010). Beyond Markets and States: Polycentric Governance of Complex Economic Systems. *American Economic Review*, *100*(3), 641–672. <https://doi.org/10.1257/aer.100.3.641>
+ 
+ Santoni de Sio, F. & van den Hoven, J. (2018). Meaningful Human Control over Autonomous Systems: A Philosophical Account. *Frontiers in Robotics and AI*, *5*, 15. <https://doi.org/10.3389/frobt.2018.00015>
+ 
+ Sebastian, I. M., Weill, P., Haskamp, T., & vom Brocke, J. (2026). Designing Decision Rights for AI. *MIT CISR Research Briefing*, *XXVI*(6). <https://dspace.mit.edu/handle/1721.1/175016>
+ 
++Simon, H. A. (1978). Rational Decision-Making in Business Organizations. Nobel Prize lecture, 8 December 1978. Nobel Prize organization. https://www.nobelprize.org/prizes/economic-sciences/1978/simon/lecture/
++
+ Stone, J. I. & Mittelstadt, B. (2026). Legitimate Power, Illegitimate Automation: The Problem of Ignoring Legitimacy in Automated Decision Systems. *ACM Journal on Responsible Computing*, *3*(1), Article 2 (19 pp.). <https://doi.org/10.1145/3725858>
++
++Vaccaro, M., Almaatouq, A., & Malone, T. (2024). When combinations of humans and AI are useful: A systematic review and meta-analysis. *Nature Human Behaviour*, *8*(12), 2293–2303. https://doi.org/10.1038/s41562-024-02024-1
++
++Walsh, J. P. & Ungson, G. R. (1991). Organizational Memory. *The Academy of Management Review*, *16*(1). https://doi.org/10.5465/amr.1991.4278992
+ 
+ World Wide Web Consortium (2013). *PROV-DM: The PROV Data Model*. W3C Recommendation (eds. Moreau, L. & Missier, P.). <https://www.w3.org/TR/2013/REC-prov-dm-20130430/>
+ 
+@@ -734,9 +735,11 @@
+ 
+ | Episode | Principal, Rules, and Mandate (\(P,R,M\)) | Capability, Permission, and Action (\(C,T,A\)) | Evidence, Contestability, and Disposition (\(E,Q,D\)) |
+ |---|---|---|---|
+-| **IDE-B1 — Local Decision** | \(P\): Alpha voting members. \(R\): Alpha bylaws and accepted compact obligations. \(M\): local competence to approve treasury proposals. | \(C\): AI drafting/critique and voting system. \(T\): member voting and recording permissions. \(A\): adoption of ALPHA-42 (230 units). | \(E\): proposal drafts, audit warning, vote tally. \(Q\): local procedural challenge. \(D\): conditional local approval; \(MC\) is locally conforming, while F-17 coverage remains contested. |
+-| **IDE-B2 — Federative Detection & Provisional Action** | \(P\): federative administration. \(R\): compact notice and provisional-hold rules. \(M\): bounded authority over shared-facility access. | \(C\): cross-facility screening. \(T\): route-specific hold permission. \(A\): incompatibility notice and temporary facility hold. | \(E\): F-17 revision, 1,000-unit snapshot, calculation (380/1,000), notice timestamp. \(Q\): expedited challenge and expiry review. \(D\): temporary route hold; \(MC\) depends on trigger, scope, and duration compliance. |
+-| **IDE-B3 — Federative Adjudication** | \(P\): constituted adjudication panel. \(R\): compact dispute-resolution rules. \(M\): authority to interpret F-17 and rule on facility eligibility. | \(C\): documentary analysis, evidentiary evaluation and reasoned adjudication. \(T\): permission to register an eligibility ruling within the constituted adjudicative procedure (no direct permission to operate the shared facility or modify Alpha’s local allocation; administrative actors implement facility restrictions or clearances). \(A\): adjudication of F-17 coverage and determination of the original 230-unit request’s eligibility to use the shared federative facility. | \(E\): party briefs, contract terms, hearing record. \(Q\): challenge to panel competence or impartiality under compact rules. \(D\): 230-unit request ruled ineligible for the shared facility; no local budget substitution. |
+-| **IDE-B4 — Local Response** | \(P\): Alpha’s competent local voting body. \(R\): local reconsideration rules and applicable common obligations. \(M\): local competence to approve the revised allocation. | \(C\): proposal preparation, deliberation and voting capabilities. \(T\): locally constituted voting and decision-recording permissions. \(A\): adoption of the revised 130-unit proposal. | \(E\): revised proposal, deliberation record, stipulated valuation assumptions and local voting record. \(Q\): local notice, challenge and reconsideration procedures. \(D\): revised local approval; no external execution established. Facility clearance, submission attempts, venue acknowledgements and execution records belong to a subsequent operational action. |
++| **IDE-B1 — Local Decision** | \(P\): Alpha voting members. \(R\): Alpha bylaws and accepted compact obligations. \(M\): local competence to approve treasury proposals. | \(C\): AI drafting/critique and voting system. \(T\): a distinct voting or recording enablement mechanism is not evidenced in the examined narrative. \(A\): adoption of ALPHA-42 (230 units). | \(E\): proposal drafts, audit warning, vote tally. \(Q\): local procedural challenge. \(D\): conditional local approval; \(MC\) is locally conforming, while F-17 coverage remains contested. |
++| **IDE-B2 — Federative Detection & Provisional Action** | \(P\): federative administration. \(R\): compact notice and provisional-hold rules. \(M\): bounded authority over shared-facility access. | \(C\): cross-facility screening. \(T\): the stipulated route hold was applied; a distinct configured enablement mechanism is not evidenced in the examined narrative. \(A\): incompatibility notice and temporary facility hold. | \(E\): F-17 revision, 1,000-unit snapshot, calculation (380/1,000), notice timestamp. \(Q\): expedited challenge and expiry review. \(D\): temporary route hold; \(MC\) depends on trigger, scope, and duration compliance. |
++| **IDE-B3 — Federative Adjudication** | \(P\): constituted adjudication panel. \(R\): compact dispute-resolution rules. \(M\): authority to interpret F-17 and rule on facility eligibility. | \(C\): documentary analysis, evidentiary evaluation and reasoned adjudication. \(T\): a distinct configured ruling-registration mechanism is not evidenced; adjudicative competence does not itself establish such enablement. The panel has no stipulated competence to operate the shared facility or modify Alpha’s allocation; administrative actors implement restrictions or clearances. \(A\): adjudication of F-17 coverage and determination of the original 230-unit request’s eligibility to use the shared federative facility. | \(E\): party briefs, contract terms, hearing record. \(Q\): challenge to panel competence or impartiality under compact rules. \(D\): 230-unit request ruled ineligible for the shared facility; no local budget substitution. |
++| **IDE-B4 — Local Response** | \(P\): Alpha’s competent local voting body. \(R\): local reconsideration rules and applicable common obligations. \(M\): local competence to approve the revised allocation. | \(C\): proposal preparation, deliberation and voting capabilities. \(T\): a distinct voting or recording enablement mechanism is not evidenced in the examined narrative. External-transfer enablement is not applicable to this local approval; any such enablement for a later operation is not evidenced here. \(A\): adoption of the revised 130-unit proposal. | \(E\): revised proposal, deliberation record, stipulated valuation assumptions and local voting record. \(Q\): local notice, challenge and reconsideration procedures. \(D\): revised local approval; no facility clearance, submission, acceptance, or external execution is established by the examined B4 record. These would belong to a subsequent operational action. |
++
++For B4, the local body’s competence to reconsider is stipulated by the fictional compact and local arrangements. MVA may be treated as valid for that competence under those assumptions; the full procedural regularity of the vote remains undetermined from the stated record. The revised local approval is compatible with the described deliberative scope under the stipulated interpretation, while overall institutional conformity remains conditional on evidence not supplied. The calculation of 280/1,000 = 28% demonstrates only arithmetic compatibility with the stipulated 30% cap at that snapshot; it does not establish mandate validity, procedural regularity, future clearance, or execution. No distinct procedural enablement mechanism follows solely from the vote.
+ 
+ Across these episodes, all three failure classes remain possible: federative overreach beyond enumerated powers (AUTHORITY_VALIDITY_FAILURE), unexamined policy leakage from a reused module (DELEGATED_ACTION_CONFORMITY_FAILURE), or prohibitive filing costs, delays, and biased review that render appeal nominal (CONTESTABILITY_CAPACITY_FAILURE). The illustration shows how shared intelligence and common commitments can be analyzed across linked jurisdictions without implying empirical effectiveness, frictionless coordination, or an implemented cross-domain software stack.
+--- historical-candidate/references.bib
++++ P1B-working-copy/references.bib
+@@ -149,3 +149,76 @@
+   url     = {https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7339378},
+   howpublished = {SSRN preprint}
+ }
++
++@misc{simon1978rational,
++  author = {Simon, Herbert A.},
++  title = {Rational Decision-Making in Business Organizations},
++  year = {1978},
++  howpublished = {Nobel Prize lecture, 8 December 1978},
++  url = {https://www.nobelprize.org/prizes/economic-sciences/1978/simon/lecture/}
++}
++
++@article{galbraith1974organization,
++  author = {Galbraith, Jay R.},
++  title = {Organization Design: An Information Processing View},
++  journal = {Interfaces},
++  year = {1974},
++  volume = {4},
++  number = {3},
++  pages = {28--36},
++  doi = {10.1287/inte.4.3.28}
++}
++
++@article{hollan2000distributed,
++  author = {Hollan, James and Hutchins, Edwin and Kirsh, David},
++  title = {Distributed cognition: toward a new foundation for human-computer interaction research},
++  journal = {ACM Transactions on Computer-Human Interaction},
++  year = {2000},
++  volume = {7},
++  number = {2},
++  pages = {174--196},
++  doi = {10.1145/353485.353487}
++}
++
++@article{walsh1991memory,
++  author = {Walsh, James P. and Ungson, Gerardo Rivera},
++  title = {Organizational Memory},
++  journal = {The Academy of Management Review},
++  year = {1991},
++  volume = {16},
++  number = {1},
++  doi = {10.5465/amr.1991.4278992}
++}
++
++@article{levitt1988learning,
++  author = {Levitt, Barbara and March, James G.},
++  title = {Organizational Learning},
++  journal = {Annual Review of Sociology},
++  year = {1988},
++  volume = {14},
++  number = {1},
++  pages = {319--338},
++  doi = {10.1146/annurev.so.14.080188.001535}
++}
++
++@article{gonzalez2026teaming,
++  author = {Gonzalez, Cleotilde and Donahue, Kate and Goldstein, Daniel G. and Heidari, Hoda and Jalali, Mohammad S. and Schelble, Beau and Singh, Aarti and Woolley, Anita Williams},
++  title = {Toward a science of human--AI teaming for decision making: A complementarity framework},
++  journal = {PNAS Nexus},
++  year = {2026},
++  volume = {5},
++  number = {3},
++  articleno = {pgag030},
++  doi = {10.1093/pnasnexus/pgag030}
++}
++
++@article{vaccaro2024combinations,
++  author = {Vaccaro, Michelle and Almaatouq, Abdullah and Malone, Thomas},
++  title = {When combinations of humans and {AI} are useful: A systematic review and meta-analysis},
++  journal = {Nature Human Behaviour},
++  year = {2024},
++  volume = {8},
++  number = {12},
++  pages = {2293--2303},
++  doi = {10.1038/s41562-024-02024-1}
++}
