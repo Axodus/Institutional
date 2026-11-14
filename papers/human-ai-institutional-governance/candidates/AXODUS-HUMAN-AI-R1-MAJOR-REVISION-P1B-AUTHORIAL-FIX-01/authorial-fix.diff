@@ -1,0 +1,45 @@
+--- historical/paper.md
++++ authorial-fix/paper.md
+@@ -81,13 +81,13 @@
+ 
+ ## 2.4 Related work and the status of the contribution
+ 
+-This article offers a bounded integrative synthesis. HAIG examines the distribution of decision authority, process autonomy, and accountability in human–AI arrangements (Engin, 2026). Reviewable automated decision-making situates records and accountability across the sociotechnical process (Cobbe et al., 2021), while contestable AI by design specifies features and practices supporting intervention and challenge (Alfrink et al., 2023). Sebastian et al. (2026) address organizational decision rights in relation to ambiguity and risk. Kang’s (2026) abstract indicates substantial overlap in institutional judgment, reliance, delegated authority, and accountability; its full text was not available for comparison.
++This article offers a bounded integrative synthesis. HAIG examines the distribution of decision authority, process autonomy, and accountability in human–AI arrangements (Engin, 2026). Reviewable automated decision-making situates records and accountability across the sociotechnical process (Cobbe et al., 2021), while contestable AI by design specifies features and practices supporting intervention and challenge (Alfrink et al., 2023). Sebastian et al. (2026) address organizational decision rights in relation to ambiguity and risk.
+ 
+ The Institutional Decision Episode (IDE) makes selected distinctions explicit in a common record for one decision or action, or for linked episodes. Its potential incremental utility is clearest where an analyst must distinguish a change of institutional competence from a change in operational permissions, or deliberative approval from subsequent execution. The B4 reconstruction illustrates how the scheme can preserve these distinctions. It does not show that other approaches cannot represent them or that the scheme improves analysis in practice. Where an existing framework answers the question at the required resolution, the IDE may add no value.
+ 
+ ## 2.5 Conceptual method
+ 
+-This article combines an integrative conceptual synthesis, a structured comparison with selected scholarly accounts, and analytical reconstruction of hypothetical episodes. It asks how AI-assisted cognitive and operational work can be distinguished from institutional authority, and under what conditions an episode representation might clarify that distinction. Sources were selected for their relevance to organizational cognition, authority, delegation, reviewability, or contestability. Targeted bibliographic checks on 13 November 2026 used title, author, identifier, and topic searches across public scholarly sources. No complete historical search or screening log is available. Coverage is purposive, and access ranges from reviewed passages in full texts to abstracts and metadata.
++This article combines an integrative conceptual synthesis, a structured comparison with selected scholarly accounts, and analytical reconstruction of hypothetical episodes. It asks how AI-assisted cognitive and operational work can be distinguished from institutional authority, and under what conditions an episode representation might clarify that distinction. Sources were selected for their relevance to organizational cognition, authority, delegation, reviewability, or contestability. Targeted bibliographic checks used title, author, identifier, and topic searches across public scholarly sources. No complete historical search or screening log is available. Coverage is purposive, and access ranges from reviewed passages in full texts to abstracts and metadata.
+ 
+ Comparisons distinguish unit of analysis, analytical purpose, explicitly represented relationships, evidence requirements, and cases of redundancy. The procurement illustration separates three diagnostic concerns. Scenario A illustrates the boundary between bounded authorization and external execution; Scenario B illustrates linked local and federative decisions. The reconstruction of B4 uses the same stipulated record and reports missing evidence rather than supplying it. These materials demonstrate initial applicability only. No empirical validation or independent inter-analyst replication was performed. Source selection, uneven access, and the use of a constructed example limit inference. Future assessments require fixed records, explicit comparators, independent coding, and transparent treatment of null results and disagreements.
+ 
+@@ -674,8 +674,6 @@
+ 
+ Hollan, J., Hutchins, E., & Kirsh, D. (2000). Distributed cognition: toward a new foundation for human-computer interaction research. *ACM Transactions on Computer-Human Interaction*, *7*(2), 174–196. https://doi.org/10.1145/353485.353487
+ 
+-Kang, T. (2026). *Institutional Judgment Governance: Toward a Theory of Reliance, Authority, and Accountability in Human-AI Decision Systems* [SSRN preprint]. <https://doi.org/10.2139/ssrn.7339378>
+-
+ Kroll, J. A., Huey, J., Barocas, S., Felten, E. W., Reidenberg, J. R., Robinson, D. G., & Yu, H. (2017). Accountable Algorithms. *University of Pennsylvania Law Review*, *165*(3), 633–705. <https://pennlawreview.com/2017/02/23/accountable-algorithms/>
+ 
+ Leveson, N. G. (2012). *Engineering a Safer World: Systems Thinking Applied to Safety*. The MIT Press. ISBN 9780262016629. <https://mitpress.mit.edu/9780262016629/engineering-a-safer-world/>
+--- historical/references.bib
++++ authorial-fix/references.bib
+@@ -141,15 +141,6 @@
+   url       = {https://doi.org/10.1145/3290605.3300233}
+ }
+ 
+-@misc{kang2026institutional,
+-  author  = {Kang, Timothy},
+-  title   = {Institutional Judgment Governance: Toward a Theory of Reliance, Authority, and Accountability in {Human-AI} Decision Systems},
+-  year    = {2026},
+-  doi     = {10.2139/ssrn.7339378},
+-  url     = {https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7339378},
+-  howpublished = {SSRN preprint}
+-}
+-
+ @misc{simon1978rational,
+   author = {Simon, Herbert A.},
+   title = {Rational Decision-Making in Business Organizations},
