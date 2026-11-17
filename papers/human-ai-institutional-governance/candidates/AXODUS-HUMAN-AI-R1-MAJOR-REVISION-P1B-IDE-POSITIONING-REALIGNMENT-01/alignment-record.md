@@ -1,6 +1,6 @@
 # Intellectual alignment and targeted changes
 
-Mandate: AXODUS-CRO-REQ-HUMAN-AI-IDE-POSITIONING-REALIGNMENT-01. Candidate provisional, CRO and human author review pending. Source is the uncommitted TARGETED-AUTHORIAL-REVISION-01 candidate, not a commit or approved replacement baseline. Historical upstream authorial fix: 92bd0b900bb4342a0006872271b367f594ef6fc5.
+Mandate: AXODUS-CRO-REQ-HUMAN-AI-IDE-POSITIONING-REALIGNMENT-01. Candidate provisional, CRO and human author review pending. Source is TARGETED-AUTHORIAL-REVISION-01, which was untracked at initial preflight. During this execution, external concurrent commit e968251f457124990bfbb49edd1bbd716db0fa7f recorded both the source and the incomplete derivative. This executor did not stage or commit them. The derivative is not an approved replacement baseline. Historical upstream authorial fix: 92bd0b900bb4342a0006872271b367f594ef6fc5.
 
 Full manuscript inspected. Only passages requiring change are registered below; no new general evaluation is implied.
 
