@@ -1,0 +1,10 @@
+# Limited documentary genealogy of IDE
+
+Scope: accessible relevant local manuscript versions, Git history and existing pre-review/integrity records; no general bibliographic search or claim about the world's literature.
+
+- FIRST DOCUMENTED OCCURRENCE LOCATED: protected v0.7 paper.md, line 21, contains *Institutional Decision Episode*. The manuscript's front matter gives 2026-11-10 as its document date; the earliest reachable local Git commit found introducing this name is `1ef3d9237a880cf494d61ec3d53dbebb178c9b1d`, authored 2026-11-11 07:54:41 -03:00, subject `docs(research): preserve human-ai v0.7 internal conceptual baseline`. Those dates have different meanings.
+- FIRST FORMAL REPRESENTATION LOCATED: the same v0.7 manuscript, §6.1, lines 287–292, has `\mathcal{E}=\langle P,R,M,C,T,A,E,Q,D\rangle`. This is earliest located in the inspected historical sources, not proof of the first formulation.
+- HUMAN/AI PARTICIPATION: v0.7.1/pre-review-record.md lines 138–160 reports human intellectual responsibility and AI-assisted research, and identifies unresolved tool/model details for earlier phases. Current authorial declarations also distinguish human responsibility and AI assistance. None attributes the naming or tuple specifically to a person or model.
+- DERIVATION: the manuscript situates its concerns in existing work on authority, delegation, accountability and contestability; no inspected record explicitly attributes the specific name or tuple to an external source or establishes an exclusive invention. Absence of a located attribution is not proof of no derivation.
+- ACTUAL INTELLECTUAL ORIGIN / AUTHORIAL ATTRIBUTION: unresolved. `IDE_ORIGIN = INTERNAL_RESEARCH_PROCESS / PRECISE_AUTHORSHIP_UNRESOLVED` is the bounded documentary classification, not proof of who first conceived it.
+- SCIENTIFIC ORIGINALITY: not determined by this genealogy. The accepted comparative assessment qualified incremental value and did not establish an exclusive diagnosis. No exact-term literature search was necessary to document the limited local lineage; external nominal precedence remains unexamined.

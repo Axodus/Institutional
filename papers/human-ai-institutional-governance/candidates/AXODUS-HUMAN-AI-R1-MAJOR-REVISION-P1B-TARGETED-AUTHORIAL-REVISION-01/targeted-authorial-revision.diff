@@ -1,0 +1,115 @@
+--- a/paper.md
++++ b/paper.md
+@@ -4,14 +4,14 @@
+   - "Mauricio Z. Filho"
+ affiliation: "Axodus Founder"
+ correspondence: "mzfshark@gmail.com"
+-candidate_identifier: "AXODUS-HUMAN-AI-R1-MAJOR-REVISION-P1B-01"
+-candidate_status: "Uncommitted P1-B working copy; non-public; CRO and final author review pending"
+-source_candidate: "AXODUS-HUMAN-AI-R1-EDITORIAL-CANDIDATE-01 at 71d7adbd5381b9282407664682fe5b0f1fa8d0f9"
++candidate_identifier: "AXODUS-HUMAN-AI-R1-MAJOR-REVISION-P1B-TARGETED-AUTHORIAL-REVISION-01"
++candidate_status: "Provisional targeted authorial revision; CRO validation and final author approval pending"
++source_candidate: "AXODUS-HUMAN-AI-R1-MAJOR-REVISION-P1B-AUTHORIAL-FIX-01 at 92bd0b900bb4342a0006872271b367f594ef6fc5"
+ author_metadata_status: "RES-01 — AUTHOR_IDENTITY_CONFIRMED; FINAL_MANUSCRIPT_APPROVAL_PENDING"
+ document_type: "Normative-conceptual research framework"
+ source_manuscript_preparation_date: "2026-11-10"
+ pre_review_preparation_date: "2026-11-11"
+-candidate_preparation_date: "2026-11-13"
++candidate_preparation_date: "2026-11-17"
+ ---
+ 
+ # Abstract
+@@ -22,7 +22,7 @@
+ 
+ Institutional intelligence is treated as a set of organizational functions rather than as a claim that intelligence is generated exclusively by artificial agents. AI assistance may be persistent, episodic, specialized, or distributed across institutions; the capacity, its mobilization in a process, and the resulting outcomes are distinct. The paper examines proposal composition, deliberative analysis, contestation, and institutional memory, together with the risks of agenda influence, cognitive dependence, shared bias, and false interpretive authority.
+ 
+-As a cross-cutting analytical device, the paper develops an *Institutional Decision Episode* that distinguishes the validity of an institutional mandate, the conformity of a delegated action, and the practical capacity to contest or correct an outcome. A hypothetical procurement episode illustrates how these categories can support different lines of inquiry. The example does not demonstrate improved governance or operational effectiveness. The framework is a normative and conceptual synthesis; its usefulness, effectiveness, and applicability across institutional forms remain to be evaluated.
++The *Institutional Decision Episode* (IDE) is a bounded integrative representation that relates institutional authority, mandate validity, delegated-action conformity, evidence, contestability, and disposition within and across episodes. A subsequent internal comparison using the same records for three hypothetical cases supported the coherence of this representation but did not isolate a diagnosis exclusive to the IDE. Linked decisions in federated governance suggest a possible context-specific interpretive benefit. Improved reconstruction, inter-analyst reproducibility, and institutional effectiveness remain unestablished.
+ 
+ **Keywords:** institutional governance; human authority; institutional intelligence; AI delegation; accountability; contestability; socio-technical systems
+ 
+@@ -49,7 +49,7 @@
+ 
+ These dimensions identify subjects of investigation. They are complemented by three analytical levels that distinguish **institutional authority**, **governance processes**, and **technical mechanisms**. The two structures are not interchangeable: one identifies substantive concerns, while the other separates types of institutional analysis.
+ 
+-The paper also uses an *Institutional Decision Episode* as a cross-cutting device. It connects cognitive work before a decision to mandate validity, action conformity, the evidence available, and the possibility of review or correction, without treating these assessments as interchangeable. This device integrates established concerns about authority, delegation, accountability, and contestability; it is not presented as the discovery of those concerns.
++The paper uses the *Institutional Decision Episode* (IDE) to put established concerns about authority, delegation, accountability, and contestability into a common analytical record. It distinguishes mandate validity from action conformity, and capability and configured enablement from institutional authority. Identifiable preparatory acts can be examined where records support them; the representation does not by itself recover influences that left no trace.
+ 
+ The framework is intended for conceptual examination across different organizational forms. Its portability is a research proposition, not an established result. Blockchain, smart contracts, tokenization, or any other specific implementation technology are optional possibilities rather than premises of the analysis.
+ 
+@@ -81,9 +81,9 @@
+ 
+ ## 2.4 Related work and the status of the contribution
+ 
+-This article offers a bounded integrative synthesis. HAIG examines the distribution of decision authority, process autonomy, and accountability in human–AI arrangements (Engin, 2026). Reviewable automated decision-making situates records and accountability across the sociotechnical process (Cobbe et al., 2021), while contestable AI by design specifies features and practices supporting intervention and challenge (Alfrink et al., 2023). Sebastian et al. (2026) address organizational decision rights in relation to ambiguity and risk.
+-
+-The Institutional Decision Episode (IDE) makes selected distinctions explicit in a common record for one decision or action, or for linked episodes. Its potential incremental utility is clearest where an analyst must distinguish a change of institutional competence from a change in operational permissions, or deliberative approval from subsequent execution. The B4 reconstruction illustrates how the scheme can preserve these distinctions. It does not show that other approaches cannot represent them or that the scheme improves analysis in practice. Where an existing framework answers the question at the required resolution, the IDE may add no value.
++This article offers a bounded integrative synthesis. HAIG examines configurations of decision authority, process autonomy, and accountability in human–AI arrangements (Engin, 2026). Reviewable automated decision-making examines decisions through records and points of review and intervention across the sociotechnical process (Cobbe et al., 2021). Contestable AI by design addresses features and practices that make intervention and challenge possible throughout the system lifecycle (Alfrink et al., 2023). Sebastian et al. (2026) address organizational decision rights in relation to ambiguity and risk.
++
++These approaches overlap in substance with the IDE, although their units and aims differ: a governance configuration, a reviewable process, or conditions for contestation in system design, as distinct from a bounded institutional episode. The IDE brings authority, mandate, capability, enablement, action, evidence, contestability, and disposition into one record and links records when the relevant actor, competence, or action changes. The contribution is this explicit integration. Where another approach reaches the same diagnosis at the required resolution, additional detail in the IDE record does not establish additional analytical value (Section 8).
+ 
+ ## 2.5 Conceptual method
+ 
+@@ -431,6 +431,10 @@
+ 
+ The framework’s normative premise and conceptual distinctions do not ensure that an institution will preserve meaningful human governance. The following counterarguments identify conditions under which the proposed arrangement may fail or produce effects contrary to its objectives.
+ 
++After the original conceptual synthesis and illustrative reconstructions described in Section 2.5, a separate internal assessment compared the IDE with HAIG, reviewability, and contestable AI by design using a common dossier for the three hypothetical cases (Engin, 2026; Cobbe et al., 2021; Alfrink et al., 2023). The protocol and dossier were fixed before the applications, but the exercise was documentary and interpretive: one informed analyst applied the frameworks without blinding or independent coding, and the dossier included the manuscript’s own IDE classifications and interpretations. The comparison is not peer review, independent validation, or a test of empirical performance.
++
++Diagnostic convergence predominated in procurement (Section 6.3): the comparators could distinguish the defects illustrated by the three variants using the same record. In high-cadence delegation (Section 6.4), contextual applications could also distinguish the standing mandate, authorization, operational action, and external effects. In the federated case (Appendix A.4), linking distinct episodes made the change in competence, the objects of challenge, and their dispositions explicit. Reviewability and contestable AI by design could reach equivalent distinctions on that same dossier. The comparison therefore supports the coherence of the IDE’s representation; it did not isolate an exclusive diagnosis. Potential interpretive value is most apparent where an analyst might otherwise conflate acts or dispositions at an institutional boundary.
++
+ ## 8.1 Cognitive dependence and ceremonial authority
+ 
+ AI-assisted analysis may make information easier to access, but it may also lead participants to defer to generated outputs. Dependence could arise where reviewers lack time, expertise, access to underlying evidence, or practical authority to reject a recommendation.
+@@ -445,7 +449,7 @@
+ 
+ This influence may be concentrated in model providers, administrators, source curators, institutional officers, or participants with better access to private tools. Formal equality of voting rights may therefore coexist with unequal capacity to shape deliberation.
+ 
+-The proposition is not that all AI assistance produces capture. It is that a framework concerned only with formal decision rights could overlook the institutional power exercised through agenda formation, information selection, and control over cognitive resources.
++The proposition is not that all AI assistance produces capture. The broader framework makes agenda formation, information and source selection, problem framing, and cognitive dependence objects of inquiry. An IDE can represent an identifiable preparatory act when the evidence supports it, or link such an act to a subsequent decision. A record of an otherwise regular decision cannot establish whether an alternative was suppressed without leaving a trace.
+ 
+ ## 8.3 Epistemic monoculture and correlated errors
+ 
+@@ -481,7 +485,7 @@
+ 
+ Evidence, review, and contestation can impose costs. If a framework requires the same depth of documentation and review for every action, participants may experience delay or workload disproportionate to the consequences of the decision.
+ 
+-One possible institutional response is to bypass formal procedures; another is that routine work simply becomes slower. These are risks and testable possibilities, not established outcomes of the proposed model.
++One possible institutional response is to bypass formal procedures; another is that routine work simply becomes slower. These are risks and testable possibilities, not established outcomes of the proposed model. Finer decomposition can add work in documenting and classifying acts and maintaining links between episodes. These costs were not measured in the internal comparison, and greater granularity does not by itself show greater accuracy, efficiency, or scientific value.
+ 
+ Proportionality is consequently part of the framework’s design objective. The appropriate level of evidence and review requires institutional judgment and may vary with consequence, reversibility, affected parties, and available capacity. Existing work on reviewability informs the need to make processes reviewable; it does not by itself demonstrate that a particular review regime causes paralysis (Cobbe et al., 2021).
+ 
+@@ -503,7 +507,7 @@
+ 
+ The framework is a normative-conceptual account, not a universal legal theory. Institutional authority, legal personhood, agency, standing, contract effects, and liability may vary across jurisdictions.
+ 
+-An internal finding that an action exceeded a mandate does not automatically determine the action’s legal effect on third parties. Likewise, a procedure may be institutionally recognized while the legitimacy of the institution or procedure remains contested. Specific legal consequences require the applicable legal context and competent review.
++An internal finding that an action exceeded a mandate does not automatically determine the action’s legal effect on third parties. Likewise, a formally valid chain of authority does not establish moral, democratic, or political legitimacy. The IDE can record the authority asserted, the applicable rules, and the available grounds for challenge without resolving the normative justification of the arrangement. Specific legal consequences require the applicable legal context and competent review.
+ 
+ # 9. Research Propositions and Future Evaluation
+ 
+@@ -580,7 +584,7 @@
+ 
+ **Candidate observable outcomes.** Reconstruction accuracy, correct identification of missing evidence, classification of the three concerns, reviewer disagreement, time, and cases that do not fit the categories.
+ 
+-**Possible comparison.** Independent reviewers could examine equivalent synthetic records presented as conventional case files and as episode-structured materials.
++**Possible comparison.** Independent analysts could apply alternative approaches to the same fixed records, with evidence presentation that does not presuppose IDE classifications. The comparison should retain cases in which the IDE adds no diagnostic value and distinguish the effect of the record format from the effect of the analytical approach.
+ 
+ **Confounders and limitations.** Reviewer training, familiarity with the notation, case complexity, quality of the underlying evidence, and the risk that the structured format directs reviewers toward predetermined categories.
+ 
+@@ -626,7 +630,7 @@
+ 
+ The framework also faces substantial counterarguments. AI assistance may shape agendas, encourage dependence, reproduce shared errors, or present generated interpretations as institutional authority. Formal human approval, source records, or a named adversarial function do not independently resolve those risks. Conversely, extensive review can impose burdens that require proportionate institutional judgment.
+ 
+-The paper advances a conceptual and normative research direction with potentially incremental diagnostic utility at institutional boundaries. Its practical usefulness, empirical effects, inter-analyst reproducibility, and applicability across institutional forms remain open to evaluation. Its contribution is a synthesis of established concerns rather than a claim of distinctive originality or demonstrated superiority.
++The contribution is a bounded integrative representation of institutional decisions and delegated actions. The internal comparison showed diagnostic convergence in procurement and high-cadence delegation. The linked federated episodes suggest a possible contextual benefit for interpretation and traceability, but no diagnosis exclusive to the IDE was established. Its practical usefulness, institutional effectiveness, inter-analyst reproducibility, and incremental value across contexts remain open. The contribution does not depend on claiming empirical superiority.
+ 
+ > **Intelligence may be distributed; authority must be constituted.**
+ 
+@@ -740,4 +744,6 @@
+ 
+ For B4, the local body’s competence to reconsider is stipulated by the fictional compact and local arrangements. MVA may be treated as valid for that competence under those assumptions; the full procedural regularity of the vote remains undetermined from the stated record. The revised local approval is compatible with the described deliberative scope under the stipulated interpretation, while overall institutional conformity remains conditional on evidence not supplied. The calculation of 280/1,000 = 28% demonstrates only arithmetic compatibility with the stipulated 30% cap at that snapshot; it does not establish mandate validity, procedural regularity, future clearance, or execution. No distinct procedural enablement mechanism follows solely from the vote.
+ 
++The linked representation distinguishes provisional intervention by the federative administration (IDE-B2), adjudication of facility eligibility (IDE-B3), and reconsideration by Alpha’s local authority (IDE-B4). The ruling on eligibility does not document a separate disposition on Alpha’s challenge to the provisional hold, its termination, or any remedy. The common dossier supports the same distinctions in contextual applications of reviewability and contestable AI by design (Cobbe et al., 2021; Alfrink et al., 2023). The demonstrated contribution here is one of structuring and traceability, with possible contextual interpretive utility; it does not establish a diagnosis unavailable to the comparators.
++
+ Across these episodes, all three failure classes remain possible: federative overreach beyond enumerated powers (AUTHORITY_VALIDITY_FAILURE), unexamined policy leakage from a reused module (DELEGATED_ACTION_CONFORMITY_FAILURE), or prohibitive filing costs, delays, and biased review that render appeal nominal (CONTESTABILITY_CAPACITY_FAILURE). The illustration shows how shared intelligence and common commitments can be analyzed across linked jurisdictions without implying empirical effectiveness, frictionless coordination, or an implemented cross-domain software stack.
